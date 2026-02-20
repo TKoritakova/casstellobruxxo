@@ -1,35 +1,43 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Routes, Route, Link } from 'react-router-dom'
+
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Home from './pages/Home'
 
+
+
+const Postavy = () => <div><h2>Studenti a profesoři</h2><p>Seznam všech obyvatel hradu...</p></div>
+const Lore = () => <div><h2>Historie a legendy</h2><p>Příběhy o Caipoře a zlatém chrámu...</p></div>
+
+function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="app-container">
+      {/* 1. NADPIS */}
+      <header>
+        <h1>Castelobruxo</h1>
+        <p>Studium pod korunami pralesa</p>
+    
+      </header>
+
+      {/* 2. MENU */}
+      <nav className="main-nav">
+        <Link to="/">Nástěnka</Link>
+        <Link to="/postavy">Postavy</Link>
+        <Link to="/lore">Lore</Link>
+      </nav>
+
+      {/* 3. OBSAH (Zde se budou střídat stránky) */}
+      <main className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/postavy" element={<Postavy />} />
+          <Route path="/lore" element={<Lore />} />
+        </Routes>
+      </main>
+    </div>
   )
 }
 
 export default App
+
