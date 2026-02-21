@@ -13,15 +13,18 @@ const Pawanunga = () => (
 
     <div className="main-header"><h1>Pawanunga</h1></div>
 
-    <h2>Úvod</h2>
+    <p>Do kmene Pawanunga patří studenti, kterým plod ze stromu Umamiri chutná slaně. Sdružuje studenty prakticky založené, kteří si cení efektivity, disciplíny a silné vůle. Jsou to budoucí obránci magického světa — výborní v obranné magii, tvorbě ochranných artefaktů nebo práci se složitými rituály. Bývají přímí, často přísní, ale vždy loajální.</p>
 
     <h2>Uniformy</h2>
+    <hr />
 
     <h2>Ubytování</h2>
+    <hr />
 
     <p>Kmen Pawanunga obývá spodní patra hlavní budovy, nedaleko výcvikových pavilonů. Jejich síně působí stroze a účelně, na podlahách jsou vyznačeny rituální kruhy a lůžka tvoří kovové postele rozdělené podle ročníků. Kmen má vlastní dvůr určený k tréninku obranné a útočné magie, jehož zdi pokrývají štíty a ochranné totemy. Atmosféra je disciplinovaná a vojensky laděná.</p>
 
     <h2>Studenti</h2>
+    <hr />
 
     <p>
         <i>(Pro školní rok 2007/2008.)</i><br />

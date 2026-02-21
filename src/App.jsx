@@ -5,14 +5,16 @@ import './App.css'
 
 import Home from './pages/Home'
 import Tribes from './pages/Tribes'
+import Subjects from './pages/Subjects'
+
+
 import Arashar from './pages/Arashar'
 import Kuaraori from './pages/Kuaraori'
 import Nomphyrian from './pages/Nomphyrian'
 import Pawanunga from './pages/Pawanunga'
 
 
-const Postavy = () => <div><h2>Studenti a profesoři</h2><p>Seznam všech obyvatel hradu...</p></div>
-const Lore = () => <div><h2>Historie a legendy</h2><p>Příběhy o Caipoře a zlatém chrámu...</p></div>
+
 
 function App() {
   return (
@@ -28,8 +30,8 @@ function App() {
       <nav className="main-nav">
         <Link to="/casstellobruxxo/">Úvod</Link>
         <Link to="/casstellobruxxo/tribes">Školní kmeny</Link>
-        <Link to="/casstellobruxxo/postavy">Postavy</Link>
-        <Link to="/casstellobruxxo/lore">Lore</Link>
+        <Link to="/casstellobruxxo/subjects">Předměty</Link>
+  
       </nav>
 
       {/* 3. OBSAH (Zde se budou střídat stránky) */}
@@ -37,8 +39,8 @@ function App() {
         <Routes>
           <Route path="/casstellobruxxo/" element={<Home />} />
           <Route path="/casstellobruxxo/tribes" element={<Tribes />} />
-          <Route path="/casstellobruxxo/postavy" element={<Postavy />} />
-          <Route path="/casstellobruxxo/lore" element={<Lore />} />
+          <Route path="/casstellobruxxo/subjects" element={<Subjects />} />
+    
 
           <Route path="/casstellobruxxo/arashar" element={<Arashar />} />
           <Route path="/casstellobruxxo/kuaraori" element={<Kuaraori />} />

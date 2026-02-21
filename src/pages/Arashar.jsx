@@ -12,15 +12,18 @@ const Arashar = () => (
 
     <div className="main-header"><h1>Arashar</h1></div>
 
-    <h2>Úvod</h2>
+    <p>Do kmene Arashar patří studenti, kterým plod ze stromu Umamiri chutná sladce. Tito studenti bývají zvídaví, učenliví a zaměření na hlubší pochopení magie samotné. Často se věnují oborům jako jsou magická historie, teorie kouzel nebo alchymie. Jejich myšlení je strukturované, milují poznání a experimentování. V komunitě jsou považováni za přirozené vizionáře.</p>
 
     <h2>Uniformy</h2>
+    <hr />
 
     <h2>Ubytování</h2>
+    <hr />
 
     <p>Kmen Arashar sídlí ve vyšších patrech hlavní budovy. Jejich prostory zdobí reliéfy hvězd a historických symbolů a světlo sem proniká přes barevná sklíčka, která vrhají duhové obrazce. Studenti spí v menších oddělených zónách a mají k dispozici alchymistickou laboratoř i observatoř, jejíž strop se otevírá k hvězdám. Prostředí je tiché a studijní, ideální pro teoretiky a experimentátory.</p>
 
     <h2>Studenti</h2>
+    <hr />
 
     <p>
         <i>(Pro školní rok 2007/2008.)</i><br />
