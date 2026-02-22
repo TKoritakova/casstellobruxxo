@@ -31,6 +31,8 @@ import PisneIkaros from './pages/amazonie/PisneIkaros'
 import FaunaAFlora from './pages/amazonie/FaunaAFlora'
 import TradiceASvatky from './pages/amazonie/TradiceASvatky'
 import Stravovani from './pages/amazonie/Stravovani'
+import HudbaATance from './pages/amazonie/HudbaATance'
+import Oblekani from './pages/amazonie/Oblekani'
 
 
 function ScrollToTop() {
@@ -108,6 +110,9 @@ function App() {
           <Route path="/casstellobruxxo/fauna-a-flora" element={<FaunaAFlora />} />
           <Route path="/casstellobruxxo/tradice-a-svatky" element={<TradiceASvatky />} />
           <Route path="/casstellobruxxo/jidlo" element={<Stravovani />} />
+          <Route path="/casstellobruxxo/hudba-a-tanec" element={<HudbaATance />} />
+          <Route path="/casstellobruxxo/oblekani" element={<Oblekani />} />
+
         </Routes>
       </main>
     </div>
