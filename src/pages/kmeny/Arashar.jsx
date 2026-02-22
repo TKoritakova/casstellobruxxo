@@ -11,10 +11,10 @@ import Catriel from '../../img/postavy/catriel_ulises_condori.png';
 const Arashar = () => (
   <div>
      <nav className="second-nav">
-        <Link to="/casstellobruxxo/arashar">Arashar</Link>
-        <Link to="/casstellobruxxo/kuaraori">Kuaraori</Link>
-        <Link to="/casstellobruxxo/nomphyrian">Nomphyrian</Link>
-        <Link to="/casstellobruxxo/pawanunga">Pawanunga</Link>
+        <Link to="/arashar">Arashar</Link>
+        <Link to="/kuaraori">Kuaraori</Link>
+        <Link to="/nomphyrian">Nomphyrian</Link>
+        <Link to="/pawanunga">Pawanunga</Link>
     </nav>
 
     <div className="main-header"><h1>Arashar</h1></div>

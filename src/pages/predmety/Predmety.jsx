@@ -4,10 +4,10 @@ import { Routes, Route, Link } from 'react-router-dom'
 const Subjects = () => (
   <div>
     <nav className="second-nav">
-        <Link to="/casstellobruxxo/hlavni">Hlavní oborové předměty</Link>
-        <Link to="/casstellobruxxo/vedlejsi">Vedlejší oborové předměty</Link>
-        <Link to="/casstellobruxxo/volitelne">Volitelné předměty</Link>
-        <Link to="/casstellobruxxo/vycvik">Terénní výcvik</Link>
+        <Link to="/hlavni">Hlavní oborové předměty</Link>
+        <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
+        <Link to="/volitelne">Volitelné předměty</Link>
+        <Link to="/vycvik">Terénní výcvik</Link>
     </nav>
    
     

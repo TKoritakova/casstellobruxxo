@@ -11,10 +11,10 @@ import ritualni_magie from '../../img/predmety/uvod/ritualni_magie.png';
 const Vedlejsi = () => (
   <div>
      <nav className="second-nav">
-             <Link to="/casstellobruxxo/hlavni">Hlavní oborové předměty</Link>
-             <Link to="/casstellobruxxo/vedlejsi">Vedlejší oborové předměty</Link>
-             <Link to="/casstellobruxxo/volitelne">Volitelné předměty</Link>
-             <Link to="/casstellobruxxo/vycvik">Terénní výcvik</Link>
+             <Link to="/hlavni">Hlavní oborové předměty</Link>
+             <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
+             <Link to="/volitelne">Volitelné předměty</Link>
+             <Link to="/vycvik">Terénní výcvik</Link>
          </nav>
 
     <div className="main-header"><h1>Vedlejší oborové předměty</h1></div>
@@ -52,7 +52,7 @@ const Vedlejsi = () => (
     <span className='text-highlighter'>Musí splnit:</span> Ukončení druhého ročníku obecné magizoologie alespoň na uspokojivou.<br />
     <span className='text-highlighter'>Náplň předmětu:</span> Rozšiřující studium poskytující komplexnější vědění o tom, co je podstatné při <span className='text-highlighter'>starání se</span> o kouzelné tvory. Nenabízejí se zde detailní rozbory jednotlivých druhů (od toho jsou tu předměty zaměřující se přímo na tvory), ale spíše rozšiřují znalosti <span className='text-highlighter'>etiky</span> starosti o magické tvory, právní normy platné v rámci Jižní Ameriky i celosvětového systému a různé know-how.</p>
 
-    <Link to="/casstellobruxxo/komunikace">Číst více o komunikaci s tvory</Link>   
+    <Link to="/komunikace">Číst více o komunikaci s tvory</Link>   
 
     <h3>Přírodní magie</h3>
     <img src={prirodni_magie} className='img-in-text img-in-text-right' />
