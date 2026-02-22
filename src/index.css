@@ -290,25 +290,35 @@ p:has(.text-underline) {
 }
 
 .game-archive-button {
-  margin:25px;
+  display: block;
+  margin:25px auto;
+  padding: 10px;
   border: solid 2px #2e8b57;
+  border-radius: 5px;
   background-color: #2e8b5654;
+  background-clip: padding-box;
   cursor: pointer;
   text-decoration: none;
   color: #e8ede4;
   max-width: 400px;
-  
-}
 
-.game-archive-button a {
-  text-decoration: none;
-  color: #e8ede4;
-  padding:0px;
-
-}
-
-.game-archive-button p {
   text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.game-archive-button:hover {
+  background-color: #2e8b57;
+  border-color: #2e8b5654;
+  color: #ffffff;
+}
+
+.game-archive-button.with-arrow::after {
+  content: " >>";
+  margin-left: 5px;
 }
 
 li {

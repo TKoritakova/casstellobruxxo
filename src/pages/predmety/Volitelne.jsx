@@ -61,6 +61,7 @@ const Volitelne = () => (
 
     
     <Link to="/archeologie">Číst více o archeologii</Link>   
+    <Link className='game-archive-button with-arrow' to="/casstellobruxxo/archeologie" target="_blank" rel="noopener noreferrer">Číst více o archeologii </Link>
          
 
 
