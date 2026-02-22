@@ -10,10 +10,12 @@ const Amazonie = () => (
             <Link to="/casstellobruxxo/fauna-a-flora">Fauna a flóra</Link>
             <Link to="/casstellobruxxo/tradice-a-svatky">Tradice a svátky</Link>
             <Link to="/casstellobruxxo/jidlo">Jídlo</Link>
+            <Link to="/casstellobruxxo/hudba-a-tanec">Hudba a tanec</Link>
+            <Link to="/casstellobruxxo/oblekani">Oblékání</Link>
     </nav>
     
 
-    <div className="main-header"><h1>Amazonie</h1></div>
+    <div className="main-header"><h1>Oblast Amazonie</h1></div>
 
     
     
