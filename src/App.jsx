@@ -6,6 +6,7 @@ import './App.css'
 import Home from './pages/Home'
 import Tribes from './pages/kmeny/Kmeny'
 import Subjects from './pages/predmety/Predmety'
+import Skola from './pages/skola/SkolaUvod'
 
 
 import Arashar from './pages/kmeny/Arashar'
@@ -20,6 +21,8 @@ import Vycvik from './pages/predmety/Vycvik'
 
 import Komunikace from './pages/predmety/Komunikace'
 import Archeologie from './pages/predmety/Archeologie'
+
+import Historie from './pages/skola/Historie'
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -58,6 +61,7 @@ function App() {
       {/* 2. MENU */}
       <nav className="main-nav">
         <Link to="/casstellobruxxo/">Úvod</Link>
+        <Link to="/casstellobruxxo/skola">O škole</Link>
         <Link to="/casstellobruxxo/kmeny">Školní kmeny</Link>
         <Link to="/casstellobruxxo/predmety">Předměty</Link>
   
@@ -69,6 +73,7 @@ function App() {
           <Route path="/casstellobruxxo/" element={<Home />} />
           <Route path="/casstellobruxxo/kmeny" element={<Tribes />} />
           <Route path="/casstellobruxxo/predmety" element={<Subjects />} />
+          <Route path="/casstellobruxxo/skola" element={<Skola />} />
     
 
           <Route path="/casstellobruxxo/arashar" element={<Arashar />} />
@@ -83,6 +88,8 @@ function App() {
 
           <Route path="/casstellobruxxo/archeologie" element={<Archeologie />} />
           <Route path="/casstellobruxxo/komunikace" element={<Komunikace />} />
+
+          <Route path="/casstellobruxxo/historie-skoly" element={<Historie />} />
         </Routes>
       </main>
     </div>
