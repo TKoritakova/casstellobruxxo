@@ -4,15 +4,20 @@ import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 
 import Home from './pages/Home'
-import Tribes from './pages/Tribes'
-import Arashar from './pages/Arashar'
-import Kuaraori from './pages/Kuaraori'
-import Nomphyrian from './pages/Nomphyrian'
-import Pawanunga from './pages/Pawanunga'
+import Tribes from './pages/kmeny/Kmeny'
+import Subjects from './pages/predmety/Predmety'
 
 
-const Postavy = () => <div><h2>Studenti a profesoři</h2><p>Seznam všech obyvatel hradu...</p></div>
-const Lore = () => <div><h2>Historie a legendy</h2><p>Příběhy o Caipoře a zlatém chrámu...</p></div>
+import Arashar from './pages/kmeny/Arashar'
+import Kuaraori from './pages/kmeny/Kuaraori'
+import Nomphyrian from './pages/kmeny/Nomphyrian'
+import Pawanunga from './pages/kmeny/Pawanunga'
+
+import Hlavni from './pages/predmety/Hlavni'
+import Vedlejsi from './pages/predmety/Vedlejsi'
+import Volitelne from './pages/predmety/Volitelne'
+import Vycvik from './pages/predmety/Vycvik'
+
 
 function App() {
   return (
@@ -28,8 +33,8 @@ function App() {
       <nav className="main-nav">
         <Link to="/casstellobruxxo/">Úvod</Link>
         <Link to="/casstellobruxxo/tribes">Školní kmeny</Link>
-        <Link to="/casstellobruxxo/postavy">Postavy</Link>
-        <Link to="/casstellobruxxo/lore">Lore</Link>
+        <Link to="/casstellobruxxo/subjects">Předměty</Link>
+  
       </nav>
 
       {/* 3. OBSAH (Zde se budou střídat stránky) */}
@@ -37,13 +42,18 @@ function App() {
         <Routes>
           <Route path="/casstellobruxxo/" element={<Home />} />
           <Route path="/casstellobruxxo/tribes" element={<Tribes />} />
-          <Route path="/casstellobruxxo/postavy" element={<Postavy />} />
-          <Route path="/casstellobruxxo/lore" element={<Lore />} />
+          <Route path="/casstellobruxxo/subjects" element={<Subjects />} />
+    
 
           <Route path="/casstellobruxxo/arashar" element={<Arashar />} />
           <Route path="/casstellobruxxo/kuaraori" element={<Kuaraori />} />
           <Route path="/casstellobruxxo/nomphyrian" element={<Nomphyrian />} />
           <Route path="/casstellobruxxo/pawanunga" element={<Pawanunga />} />
+
+          <Route path="/casstellobruxxo/hlavni" element={<Hlavni />} />
+          <Route path="/casstellobruxxo/vedlejsi" element={<Vedlejsi />} />
+          <Route path="/casstellobruxxo/volitelne" element={<Volitelne />} />
+          <Route path="/casstellobruxxo/vycvik" element={<Vycvik />} />
         </Routes>
       </main>
     </div>

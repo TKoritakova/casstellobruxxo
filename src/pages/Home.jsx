@@ -46,19 +46,7 @@ const Home = () => (
     <img src="https://i.postimg.cc/C54HXYyZ/N-vrh-bez-n-zvu-5.png" className='img-30 img-margin-right-20' />
     <img src="https://i.postimg.cc/9FZj4ndx/N-vrh-bez-n-zvu-4.png" className='img-30 img-margin-left-20' />
 
-    <h2>Kmeny</h2>
-    <hr />
     
-    <p>Místo tradičních kolejí jsou v Castelobruxu zavedeny čtyři kmeny, do kterých jsou studenti rozřazeni pomocí <span className='text-highlighter'>stromu Umamiri</span>. Po okusení jeho <span className='text-highlighter'>plodu určuje chuť</span>, do kterého kmenu bude daný student patřit.
-
-        <ul>
-            <li><span className='text-highlighter'>Arashar (sladký)</span> — tito studenti bývají zvídaví, učenliví a zaměření na hlubší pochopení magie samotné. Často se věnují oborům jako jsou magická historie, teorie kouzel nebo alchymie. Jejich myšlení je strukturované, milují poznání a experimentování. V komunitě jsou považováni za přirozené vizionáře.</li>
-            <li><span className='text-highlighter'>Pawanunga (slaný)</span> — sdružuje studenty prakticky založené, kteří si cení efektivity, disciplíny a silné vůle. Jsou to budoucí obránci magického světa — výborní v obranné magii, tvorbě ochranných artefaktů nebo práci se složitými rituály. Bývají přímí, často přísní, ale vždy loajální.</li>
-            <li><span className='text-highlighter'>Kuaraori (hořký)</span> — tito studenti mají silně vyvinutý smysl pro introspekci a vnitřní svět. Jsou to samotáři, kteří čerpají sílu ze sebekázně, ticha a pozorování. Jejich magie bývá hluboká, emocionálně náročná a často směřuje k oblastem, jako jsou stará zaklínadla, rituální magie nebo práce se sny a podvědomím.</li>
-            <li><span className='text-highlighter'>Nomphyrian (kyselý)</span> — přitahuje osobnosti plné emocí a vášně. Studenti tohoto kmene bývají empatičtí, přátelští, ale také hrdí a tvrdohlaví. Rychle si získávají oblibu, umí se vžít do ostatních a snadno navazují přátelství. Jejich magie se pojí s léčitelstvím, přírodními silami a mezilidskými vztahy.</li>
-        </ul>
-
-    </p>
 
 
 
