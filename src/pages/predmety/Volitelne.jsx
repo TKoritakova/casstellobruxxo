@@ -60,8 +60,8 @@ const Volitelne = () => (
     <span className='text-highlighter'>Náplň předmětu:</span> Předmět poskytuje studentům novou sadu kouzel, znalostí a postupů ideálně se hodících pro <span className='text-highlighter'>odhalování a nakládání s magickými vykopávkami</span>. Výuka zahrnuje nejen bezpečné způsoby průzkumu pralesních ruin a chodeb vedoucích pod hradem, ale také <span className='text-highlighter'>studium magických symbolů a nápisů</span> – tzv. „run džungle“. Studenti se učí tyto znaky rozpoznávat, překládat a chápat jejich účel, ať už jde o ochranná kouzla nebo starobylá varování.</p>
 
     
-    <Link to="/archeologie">Číst více o archeologii</Link>   
-    <Link className='game-archive-button with-arrow' to="/casstellobruxxo/archeologie" target="_blank" rel="noopener noreferrer">Číst více o archeologii </Link>
+     
+    <Link className='game-archive-button with-arrow' to="/archeologie" target="_blank" rel="noopener noreferrer">Číst více o archeologii </Link>
          
 
 
