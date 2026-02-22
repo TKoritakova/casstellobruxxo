@@ -17,6 +17,7 @@ import Hlavni from './pages/predmety/Hlavni'
 import Vedlejsi from './pages/predmety/Vedlejsi'
 import Volitelne from './pages/predmety/Volitelne'
 import Vycvik from './pages/predmety/Vycvik'
+import Archeologie from './pages/predmety/Archeologie'
 
 
 function App() {
@@ -54,6 +55,8 @@ function App() {
           <Route path="/casstellobruxxo/vedlejsi" element={<Vedlejsi />} />
           <Route path="/casstellobruxxo/volitelne" element={<Volitelne />} />
           <Route path="/casstellobruxxo/vycvik" element={<Vycvik />} />
+
+          <Route path="/casstellobruxxo/archeologie" element={<Archeologie />} />
         </Routes>
       </main>
     </div>
