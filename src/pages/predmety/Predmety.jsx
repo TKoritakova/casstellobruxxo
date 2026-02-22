@@ -15,7 +15,7 @@ const Subjects = () => (
 
     <p>Učební plány školy jsou rozděleny do čtyř hlavních bloků: hlavní oborové, vedlejší oborové, vedlejší volitelné předměty a povinný terénní výcvik. Toto členění studentům poskytuje vyvážené rozložení studia a zároveň je podrobuje náročnému procesu, jehož cílem je co nejkomplexnější připravenost na život v kouzelnické komunitě.</p>
 
-    <p><span className='text-highlighter'>Stupnice známkování:</span>
+    <p><span className='text-highlighter'>Stupnice známkování:</span></p>
     <ul>
       <li>Dechberoucí</li>
       <li>Uspokojivé</li>
@@ -25,7 +25,6 @@ const Subjects = () => (
       <li>Katastrofické</li>
     </ul>
     
-    </p>
 
     <p>V případě, že student na konci roku získá z hlavních oborových předmětů známku Příšerná a Katastrofická, musí daný předmět opravit. V případě, že se mu to nepodaří, není jiné možnosti než ho vyloučit. Hlavní oborové předměty jsou povinné a trvají sedm let.</p>
 

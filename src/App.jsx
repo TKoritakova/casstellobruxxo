@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+import { useState, useEffect } from 'react' 
+import { Routes, Route, Link, useLocation } from 'react-router-dom' 
 
 import './App.css'
 
@@ -17,12 +17,37 @@ import Hlavni from './pages/predmety/Hlavni'
 import Vedlejsi from './pages/predmety/Vedlejsi'
 import Volitelne from './pages/predmety/Volitelne'
 import Vycvik from './pages/predmety/Vycvik'
+
+import Komunikace from './pages/predmety/Komunikace'
 import Archeologie from './pages/predmety/Archeologie'
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    // 1. Reset pro celé okno
+    window.scrollTo(0, 0);
+
+    //console.log("Cesta se změnila na:", pathname);
+     
+    // 2. Reset pro tvůj hlavní kontejner (zkusíme oba způsoby)
+    const contentElement = document.querySelector('.app-container');
+    if (contentElement) {
+      contentElement.scrollTo(0, 0);
+    }
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
+  
+
   return (
     <div className="app-container">
+
+      <ScrollToTop />
+
       {/* 1. NADPIS */}
       <header>
         <h1>Castelobruxo</h1>
@@ -33,8 +58,8 @@ function App() {
       {/* 2. MENU */}
       <nav className="main-nav">
         <Link to="/casstellobruxxo/">Úvod</Link>
-        <Link to="/casstellobruxxo/tribes">Školní kmeny</Link>
-        <Link to="/casstellobruxxo/subjects">Předměty</Link>
+        <Link to="/casstellobruxxo/kmeny">Školní kmeny</Link>
+        <Link to="/casstellobruxxo/predmety">Předměty</Link>
   
       </nav>
 
@@ -42,8 +67,8 @@ function App() {
       <main className="content">
         <Routes>
           <Route path="/casstellobruxxo/" element={<Home />} />
-          <Route path="/casstellobruxxo/tribes" element={<Tribes />} />
-          <Route path="/casstellobruxxo/subjects" element={<Subjects />} />
+          <Route path="/casstellobruxxo/kmeny" element={<Tribes />} />
+          <Route path="/casstellobruxxo/predmety" element={<Subjects />} />
     
 
           <Route path="/casstellobruxxo/arashar" element={<Arashar />} />
@@ -57,6 +82,7 @@ function App() {
           <Route path="/casstellobruxxo/vycvik" element={<Vycvik />} />
 
           <Route path="/casstellobruxxo/archeologie" element={<Archeologie />} />
+          <Route path="/casstellobruxxo/komunikace" element={<Komunikace />} />
         </Routes>
       </main>
     </div>

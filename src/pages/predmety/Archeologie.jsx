@@ -135,7 +135,7 @@ const Archeologie = () => (
         <h2>Typické jevy v Amazonii</h2>
         <hr />
         
-        <p>V každé části světa se mohou archeologové setkat s typickými jevy, které po sobě kultury minulosti zanechaly – a v Amazonii tomu není jinak.
+        <p>V každé části světa se mohou archeologové setkat s typickými jevy, které po sobě kultury minulosti zanechaly – a v Amazonii tomu není jinak. </p>
 
             <ul>
                 <li><span className='text-highlighter'>Živé architektury</span> – chrám, který se sám pohybuje, mění tvar nebo reaguje na své okolí.</li>
@@ -144,7 +144,7 @@ const Archeologie = () => (
                 <li><span className='text-highlighter'>Ochranné vrstvy a pasti</span> – od iluzorních chodeb a měnících se půdorysů ruin přes kořenové pasti až po časové uzly, které znehybňují narušitele, a ochranné runy, jež se aktivují dotykem. Vždy je v ruinách něco, na co si musí kouzelník dát pozor.</li>
                 <li><span className='text-highlighter'>Magizoologické stráže</span> – Caipory, Curupiry nebo jiná stvoření mohou být stále aktivní součástí lokality a chránit ji.</li>
             </ul>
-        </p>
+       
 
         <img src={img12} className='img-in-text' />
         <img src={img13} className='img-in-text' />

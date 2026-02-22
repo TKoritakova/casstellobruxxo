@@ -14,7 +14,7 @@ const Tribes = () => (
     <div className="main-header"><h1>Kmeny</h1></div>
 
     
-    <p>Místo tradičních kolejí jsou v Castelobruxu zavedeny čtyři kmeny, do kterých jsou studenti rozřazeni pomocí <span className='text-highlighter'>stromu Umamiri</span>. Na začátku svého studia okusí jeho <span className='text-highlighter'>plody</span> a <span className='text-highlighter'>chuť</span>, kterou na jazyku ucítí, určí, do kterého kmene bude daný student patřit.
+    <p>Místo tradičních kolejí jsou v Castelobruxu zavedeny čtyři kmeny, do kterých jsou studenti rozřazeni pomocí <span className='text-highlighter'>stromu Umamiri</span>. Na začátku svého studia okusí jeho <span className='text-highlighter'>plody</span> a <span className='text-highlighter'>chuť</span>, kterou na jazyku ucítí, určí, do kterého kmene bude daný student patřit.</p>
 
         <ul>
             <li>Sladká chuť → <span className='text-highlighter'>Arashar </span></li>
@@ -23,7 +23,7 @@ const Tribes = () => (
             <li>Kyselá chuť → <span className='text-highlighter'>Nomphyrian</span></li>
         </ul>
 
-    </p>
+    
 
 
     <h2>Kmenové vedení</h2>
