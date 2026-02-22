@@ -160,30 +160,34 @@ header p {
   margin-right:20px;
 }
 
-.img-char {
-  width: 27%; 
+.img-character {
+  width: 90%;
   border: solid 2px #2e8b57; 
   margin:0px;
+
 }
 
 .img-in-text {
    width:30%;
    border: solid 2px #2e8b57;
-   margin-bottom:0px;
+   margin: 5px;
 }
 
 .img-in-text-left {
   float:left; 
   margin-right:15px; 
-  margin-left:5px;
+
 }
 
 .img-in-text-right {
   float:right; 
-  margin-right:5px; 
   margin-left:15px;
 }
 
+.img-clothes {
+  width: 60%;
+  margin: 0px;
+}
 
 .content {
   width:500px;
@@ -231,4 +235,28 @@ header p {
 .main-nav a:hover {
   text-shadow: 1px 1px 4px #2e8b57;
   transform: scale(1.05);
+}
+
+.face-cards-wrapper {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.student-face-card {
+  width: 27%;
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+}
+
+.student-face-card p {
+  text-align: center;
+  margin:5px 0px;
+}
+
+p.text-align-center {
+  text-align: center;
 }

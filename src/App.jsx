@@ -4,16 +4,19 @@ import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 
 import Home from './pages/Home'
-import Tribes from './pages/Tribes'
-import Subjects from './pages/Subjects'
+import Tribes from './pages/kmeny/Kmeny'
+import Subjects from './pages/predmety/Predmety'
 
 
-import Arashar from './pages/Arashar'
-import Kuaraori from './pages/Kuaraori'
-import Nomphyrian from './pages/Nomphyrian'
-import Pawanunga from './pages/Pawanunga'
+import Arashar from './pages/kmeny/Arashar'
+import Kuaraori from './pages/kmeny/Kuaraori'
+import Nomphyrian from './pages/kmeny/Nomphyrian'
+import Pawanunga from './pages/kmeny/Pawanunga'
 
-
+import Hlavni from './pages/predmety/Hlavni'
+import Vedlejsi from './pages/predmety/Vedlejsi'
+import Volitelne from './pages/predmety/Volitelne'
+import Vycvik from './pages/predmety/Vycvik'
 
 
 function App() {
@@ -46,6 +49,11 @@ function App() {
           <Route path="/casstellobruxxo/kuaraori" element={<Kuaraori />} />
           <Route path="/casstellobruxxo/nomphyrian" element={<Nomphyrian />} />
           <Route path="/casstellobruxxo/pawanunga" element={<Pawanunga />} />
+
+          <Route path="/casstellobruxxo/hlavni" element={<Hlavni />} />
+          <Route path="/casstellobruxxo/vedlejsi" element={<Vedlejsi />} />
+          <Route path="/casstellobruxxo/volitelne" element={<Volitelne />} />
+          <Route path="/casstellobruxxo/vycvik" element={<Vycvik />} />
         </Routes>
       </main>
     </div>
