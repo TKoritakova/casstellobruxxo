@@ -189,6 +189,16 @@ header p {
   margin: 0px;
 }
 
+.img-spell {
+  float:right; 
+  margin-right:5px; 
+  margin-left:15px; 
+  width:27%;
+  border: solid 2px #2e8b57;
+  margin-bottom:0px;
+  margin-top:10px
+}
+
 .content {
   width:500px;
 }
@@ -258,5 +268,41 @@ header p {
 }
 
 p.text-align-center {
+  text-align: center;
+}
+
+.green-box {
+  margin:5px;
+  padding:10px;
+  border: solid 2px #2e8b57;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+p:has(.text-underline) {
+  margin-bottom: -14px;
+}
+
+.game-archive-button {
+  margin:25px;
+  border: solid 2px #2e8b57;
+  background-color: #2e8b5654;
+  cursor: pointer;
+  text-decoration: none;
+  color: #e8ede4;
+  max-width: 400px;
+  
+}
+
+.game-archive-button a {
+  text-decoration: none;
+  color: #e8ede4;
+  padding:0px;
+
+}
+
+.game-archive-button p {
   text-align: center;
 }
