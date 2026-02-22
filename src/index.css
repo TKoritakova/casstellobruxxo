@@ -306,3 +306,7 @@ p:has(.text-underline) {
 .game-archive-button p {
   text-align: center;
 }
+
+li {
+  text-align: justify;
+}
