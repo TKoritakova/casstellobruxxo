@@ -102,7 +102,7 @@ const Komunikace = () => (
 
         
 
-    <div className='game-archive-button'><a href="/casstellobruxxo/Komunikace.html" target="_blank" rel="noopener noreferrer"><p>Otevřít archiv hodiny (NonRPG 26.10.2025)</p></a></div>
+    <a className='game-archive-button' href="/casstellobruxxo/Komunikace.html" target="_blank" rel="noopener noreferrer">Otevřít archiv hodiny (NonRPG 26. 10. 2025)</a>
 
   </div>
 )
