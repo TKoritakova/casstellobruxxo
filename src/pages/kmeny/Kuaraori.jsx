@@ -7,8 +7,8 @@ import prostory from '../../img/kmeny/kuaraori/prostory.png';
 import uniforma from '../../img/zivot_na_skole/uniformy/kuaraori.png';
 import Luana from '../../img/postavy/luana_mariana_almeida_soares.jpg';
 import Ines from '../../img/postavy/ines_soraya_caro.jpg';
-import Sofia from '../../img/zivot_na_skole/uniformy/kuaraori.png';
-import Mikkel from '../../img/zivot_na_skole/uniformy/kuaraori.png';
+import Sofia from '../../img/postavy/sofia_amarilis_perez.png';
+import Mikkel from '../../img/postavy/mikel_ancco_de_leon.png';
 
 
 const Kuaraori = () => (

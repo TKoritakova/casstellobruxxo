@@ -5,8 +5,8 @@ import aktivita from '../../img/kmeny/arashar/aktivita.png';
 import postava from '../../img/kmeny/arashar/postava.png';
 import prostory from '../../img/kmeny/arashar/prostory.png';
 import uniforma from '../../img/zivot_na_skole/uniformy/arashar.png';
-import Luan from '../../img/zivot_na_skole/uniformy/arashar.png';
-import Catriel from '../../img/zivot_na_skole/uniformy/arashar.png';
+import Luan from '../../img/postavy/luan_caetanno.png';
+import Catriel from '../../img/postavy/catriel_ulises_condori.png';
 
 const Arashar = () => (
   <div>

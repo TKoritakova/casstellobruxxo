@@ -7,15 +7,15 @@ import postava from '../../img/kmeny/nomphyrian/postava.png';
 import prostory from '../../img/kmeny/nomphyrian/prostory.png';
 import uniforma from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
 
-import AlejandroS from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
-import Kira from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
-import Melissa from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
-import Cesar from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
+import AlejandroS from '../../img/postavy/alejandro_sanchez.png';
+import Kira from '../../img/postavy/kira_soraia_rogrigues.png';
+import Melissa from '../../img/postavy/melissa_nayra_de_leon.png';
+import Cesar from '../../img/postavy/cesar_jesus_gimenez_castillero.png';
 import Juan from '../../img/postavy/juan_miguel_santos_ramirez.jpg';
-import Mateo from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
-import Yara from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
+import Mateo from '../../img/postavy/mateo_benitez.png';
+import Yara from '../../img/postavy/yara_monteiro.png';
 import Chiara from '../../img/postavy/chiara_antonia_jose.jpg';
-import AlejandroN from '../../img/zivot_na_skole/uniformy/nomphyrian.png';
+import AlejandroN from '../../img/postavy/alejandro_navarro.png';
 
 
 const Nomphyrian = () => (
