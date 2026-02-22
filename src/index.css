@@ -271,6 +271,10 @@ p.text-align-center {
   text-align: center;
 }
 
+p.no-margin-top {
+  margin-top: 0px;
+}
+
 .green-box {
   margin:5px;
   padding:10px;
@@ -310,3 +314,36 @@ p:has(.text-underline) {
 li {
   text-align: justify;
 }
+
+h2.profesori {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+table.post-tabulka {
+  border-collapse: collapse;
+  font-family: 'Ancizar Serif', serif;
+  font-optical-sizing: auto;
+  font-size:14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-tabulka td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #2e8b57; 
+  
+}
+
+.post-tabulka tr:first-child {
+  color: #2e8b57;
+  text-shadow: 1px 1px 5px #000000;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.post-tabulka td:first-child { border-left: none; }
+.post-tabulka td:last-child { border-right: none; }
+.post-tabulka tr:first-child td { border-top: none; }
+.post-tabulka tr:last-child td { border-bottom: none; }

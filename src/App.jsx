@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Tribes from './pages/kmeny/Kmeny'
 import Subjects from './pages/predmety/Predmety'
 import Skola from './pages/skola/SkolaUvod'
+import Amazonie from './pages/amazonie/Amazonie'
 
 
 import Arashar from './pages/kmeny/Arashar'
@@ -23,6 +24,14 @@ import Komunikace from './pages/predmety/Komunikace'
 import Archeologie from './pages/predmety/Archeologie'
 
 import Historie from './pages/skola/Historie'
+import Profesori from './pages/skola/Profesori'
+
+import Mytolgoie from './pages/amazonie/Mytologie'
+import PisneIkaros from './pages/amazonie/PisneIkaros'
+import FaunaAFlora from './pages/amazonie/FaunaAFlora'
+import TradiceASvatky from './pages/amazonie/TradiceASvatky'
+import Stravovani from './pages/amazonie/Stravovani'
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -64,6 +73,7 @@ function App() {
         <Link to="/casstellobruxxo/skola">O škole</Link>
         <Link to="/casstellobruxxo/kmeny">Školní kmeny</Link>
         <Link to="/casstellobruxxo/predmety">Předměty</Link>
+        <Link to="/casstellobruxxo/amazonie">Amazonie a okolí</Link>
   
       </nav>
 
@@ -74,6 +84,7 @@ function App() {
           <Route path="/casstellobruxxo/kmeny" element={<Tribes />} />
           <Route path="/casstellobruxxo/predmety" element={<Subjects />} />
           <Route path="/casstellobruxxo/skola" element={<Skola />} />
+          <Route path="/casstellobruxxo/amazonie" element={<Amazonie />} />
     
 
           <Route path="/casstellobruxxo/arashar" element={<Arashar />} />
@@ -90,6 +101,13 @@ function App() {
           <Route path="/casstellobruxxo/komunikace" element={<Komunikace />} />
 
           <Route path="/casstellobruxxo/historie-skoly" element={<Historie />} />
+          <Route path="/casstellobruxxo/profesori" element={<Profesori />} />
+
+          <Route path="/casstellobruxxo/mytologie" element={<Mytolgoie />} />
+          <Route path="/casstellobruxxo/pisne-ikaros" element={<PisneIkaros />} />
+          <Route path="/casstellobruxxo/fauna-a-flora" element={<FaunaAFlora />} />
+          <Route path="/casstellobruxxo/tradice-a-svatky" element={<TradiceASvatky />} />
+          <Route path="/casstellobruxxo/jidlo" element={<Stravovani />} />
         </Routes>
       </main>
     </div>
