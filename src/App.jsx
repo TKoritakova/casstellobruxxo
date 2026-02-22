@@ -71,47 +71,47 @@ function App() {
 
       {/* 2. MENU */}
       <nav className="main-nav">
-        <Link to="/casstellobruxxo/">Úvod</Link>
-        <Link to="/casstellobruxxo/skola">O škole</Link>
-        <Link to="/casstellobruxxo/kmeny">Školní kmeny</Link>
-        <Link to="/casstellobruxxo/predmety">Předměty</Link>
-        <Link to="/casstellobruxxo/amazonie">Amazonie a okolí</Link>
+        <Link to="/">Úvod</Link>
+        <Link to="/skola">O škole</Link>
+        <Link to="/kmeny">Školní kmeny</Link>
+        <Link to="/predmety">Předměty</Link>
+        <Link to="/amazonie">Amazonie a okolí</Link>
   
       </nav>
 
       {/* 3. OBSAH (Zde se budou střídat stránky) */}
       <main className="content">
         <Routes>
-          <Route path="/casstellobruxxo/" element={<Home />} />
-          <Route path="/casstellobruxxo/kmeny" element={<Tribes />} />
-          <Route path="/casstellobruxxo/predmety" element={<Subjects />} />
-          <Route path="/casstellobruxxo/skola" element={<Skola />} />
-          <Route path="/casstellobruxxo/amazonie" element={<Amazonie />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/kmeny" element={<Tribes />} />
+          <Route path="/predmety" element={<Subjects />} />
+          <Route path="/skola" element={<Skola />} />
+          <Route path="/amazonie" element={<Amazonie />} />
     
 
-          <Route path="/casstellobruxxo/arashar" element={<Arashar />} />
-          <Route path="/casstellobruxxo/kuaraori" element={<Kuaraori />} />
-          <Route path="/casstellobruxxo/nomphyrian" element={<Nomphyrian />} />
-          <Route path="/casstellobruxxo/pawanunga" element={<Pawanunga />} />
+          <Route path="/arashar" element={<Arashar />} />
+          <Route path="/kuaraori" element={<Kuaraori />} />
+          <Route path="/nomphyrian" element={<Nomphyrian />} />
+          <Route path="/pawanunga" element={<Pawanunga />} />
 
-          <Route path="/casstellobruxxo/hlavni" element={<Hlavni />} />
-          <Route path="/casstellobruxxo/vedlejsi" element={<Vedlejsi />} />
-          <Route path="/casstellobruxxo/volitelne" element={<Volitelne />} />
-          <Route path="/casstellobruxxo/vycvik" element={<Vycvik />} />
+          <Route path="/hlavni" element={<Hlavni />} />
+          <Route path="/vedlejsi" element={<Vedlejsi />} />
+          <Route path="/volitelne" element={<Volitelne />} />
+          <Route path="/vycvik" element={<Vycvik />} />
 
-          <Route path="/casstellobruxxo/archeologie" element={<Archeologie />} />
-          <Route path="/casstellobruxxo/komunikace" element={<Komunikace />} />
+          <Route path="/archeologie" element={<Archeologie />} />
+          <Route path="/komunikace" element={<Komunikace />} />
 
-          <Route path="/casstellobruxxo/historie-skoly" element={<Historie />} />
-          <Route path="/casstellobruxxo/profesori" element={<Profesori />} />
+          <Route path="/historie-skoly" element={<Historie />} />
+          <Route path="/profesori" element={<Profesori />} />
 
-          <Route path="/casstellobruxxo/mytologie" element={<Mytolgoie />} />
-          <Route path="/casstellobruxxo/pisne-ikaros" element={<PisneIkaros />} />
-          <Route path="/casstellobruxxo/fauna-a-flora" element={<FaunaAFlora />} />
-          <Route path="/casstellobruxxo/tradice-a-svatky" element={<TradiceASvatky />} />
-          <Route path="/casstellobruxxo/jidlo" element={<Stravovani />} />
-          <Route path="/casstellobruxxo/hudba-a-tanec" element={<HudbaATance />} />
-          <Route path="/casstellobruxxo/oblekani" element={<Oblekani />} />
+          <Route path="/mytologie" element={<Mytolgoie />} />
+          <Route path="/pisne-ikaros" element={<PisneIkaros />} />
+          <Route path="/fauna-a-flora" element={<FaunaAFlora />} />
+          <Route path="/tradice-a-svatky" element={<TradiceASvatky />} />
+          <Route path="/jidlo" element={<Stravovani />} />
+          <Route path="/hudba-a-tanec" element={<HudbaATance />} />
+          <Route path="/oblekani" element={<Oblekani />} />
 
         </Routes>
       </main>

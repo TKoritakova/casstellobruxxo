@@ -5,13 +5,13 @@ const Amazonie = () => (
   <div>
     
     <nav className="second-nav">
-            <Link to="/casstellobruxxo/mytologie">Mytologie</Link>
-            <Link to="/casstellobruxxo/pisne-ikaros">Písně Ikaros</Link>
-            <Link to="/casstellobruxxo/fauna-a-flora">Fauna a flóra</Link>
-            <Link to="/casstellobruxxo/tradice-a-svatky">Tradice a svátky</Link>
-            <Link to="/casstellobruxxo/jidlo">Jídlo</Link>
-            <Link to="/casstellobruxxo/hudba-a-tanec">Hudba a tanec</Link>
-            <Link to="/casstellobruxxo/oblekani">Oblékání</Link>
+            <Link to="/mytologie">Mytologie</Link>
+            <Link to="/pisne-ikaros">Písně Ikaros</Link>
+            <Link to="/fauna-a-flora">Fauna a flóra</Link>
+            <Link to="/tradice-a-svatky">Tradice a svátky</Link>
+            <Link to="/jidlo">Jídlo</Link>
+            <Link to="/hudba-a-tanec">Hudba a tanec</Link>
+            <Link to="/oblekani">Oblékání</Link>
     </nav>
     
 

@@ -11,10 +11,10 @@ import obecna_magizoologie from '../../img/predmety/uvod/obecna_magizoologie.png
 const Hlavni = () => (
   <div>
      <nav className="second-nav">
-        <Link to="/casstellobruxxo/hlavni">Hlavní oborové předměty</Link>
-        <Link to="/casstellobruxxo/vedlejsi">Vedlejší oborové předměty</Link>
-        <Link to="/casstellobruxxo/volitelne">Volitelné předměty</Link>
-        <Link to="/casstellobruxxo/vycvik">Terénní výcvik</Link>
+        <Link to="/hlavni">Hlavní oborové předměty</Link>
+        <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
+        <Link to="/volitelne">Volitelné předměty</Link>
+        <Link to="/vycvik">Terénní výcvik</Link>
     </nav>
 
     <div className="main-header"><h1>Hlavní oborové předměty</h1></div>
