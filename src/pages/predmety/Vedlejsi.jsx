@@ -52,7 +52,7 @@ const Vedlejsi = () => (
     <span className='text-highlighter'>Musí splnit:</span> Ukončení druhého ročníku obecné magizoologie alespoň na uspokojivou.<br />
     <span className='text-highlighter'>Náplň předmětu:</span> Rozšiřující studium poskytující komplexnější vědění o tom, co je podstatné při <span className='text-highlighter'>starání se</span> o kouzelné tvory. Nenabízejí se zde detailní rozbory jednotlivých druhů (od toho jsou tu předměty zaměřující se přímo na tvory), ale spíše rozšiřují znalosti <span className='text-highlighter'>etiky</span> starosti o magické tvory, právní normy platné v rámci Jižní Ameriky i celosvětového systému a různé know-how.</p>
 
-    <Link to="/casstellobruxxo/komunikace">Číst více o komunikaci s tvory</Link>   
+    <a className='game-archive-button with-arrow' href="/casstellobruxxo/komunikace" target="_blank" rel="noopener noreferrer">Číst více o komunikaci s tvory</a>  
 
     <h3>Přírodní magie</h3>
     <img src={prirodni_magie} className='img-in-text img-in-text-right' />
