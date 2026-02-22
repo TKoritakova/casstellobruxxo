@@ -5,9 +5,9 @@ import aktivita from '../../img/kmeny/pawanunga/aktivita.png';
 import postava from '../../img/kmeny/pawanunga/postava.png';
 import prostory from '../../img/kmeny/pawanunga/prostory.png';
 import uniforma from '../../img/zivot_na_skole/uniformy/pawanunga.png';
-import Lucia from '../../img/zivot_na_skole/uniformy/pawanunga.png';
-import Sofia from '../../img/zivot_na_skole/uniformy/pawanunga.png';
-import Yara from '../../img/zivot_na_skole/uniformy/pawanunga.png';
+import Lucia from '../../img/postavy/lucia_juliana_navarro.png';
+import Sofia from '../../img/postavy/sofia_sanchez.png';
+import Yara from '../../img/postavy/yara_quetzal_do_sol.png';
 import Gabriel from '../../img/postavy/gabriel_sebastian_almeida_soares.jpg';
 
 const Pawanunga = () => (
