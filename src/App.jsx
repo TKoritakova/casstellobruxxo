@@ -36,6 +36,11 @@ import Oblekani from './pages/amazonie/Oblekani'
 import Hulky from './pages/amazonie/Hulky'
 import SkolniRok from './pages/skola/SkolniRok'
 import SkolniDen from './pages/skola/SkolniDen'
+import Zajimavosti from './pages/skola/Zajimavosti'
+import Mazlicci from './pages/skola/Mazlicci'
+import Uniformy from './pages/skola/Uniformy'
+import JidloVeSkole from './pages/skola/JidloVeSkole'
+import Prostory from './pages/skola/Prostory'
 
 
 function ScrollToTop() {
@@ -109,6 +114,11 @@ function App() {
           <Route path="/profesori" element={<Profesori />} />
           <Route path="/organizace-roku" element={<SkolniRok />} />
           <Route path="/skolni-dny" element={<SkolniDen />} />
+          <Route path="/zajimavosti" element={<Zajimavosti />} />
+          <Route path="/domaci-mazlicci" element={<Mazlicci />} />
+          <Route path="/skolni-uniformy" element={<Uniformy />} />
+          <Route path="/stravovani-ve-skole" element={<JidloVeSkole />} />
+          <Route path="/prostory-skoly" element={<Prostory />} />
 
           <Route path="/mytologie" element={<Mytolgoie />} />
           <Route path="/pisne-ikaros" element={<PisneIkaros />} />
