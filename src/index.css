@@ -340,8 +340,7 @@ table.post-tabulka {
   font-family: 'Ancizar Serif', serif;
   font-optical-sizing: auto;
   font-size:14px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 .post-tabulka td {

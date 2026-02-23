@@ -293,6 +293,9 @@ const Zveromagie = () => (
 
 
 
+    
+    <a className='game-archive-button' href="/casstellobruxxo/Zveromagie.html" target="_blank" rel="noopener noreferrer">Otevřít archiv hodiny (NonRPG 26. 11. 2025)</a>
+
    
 
 
