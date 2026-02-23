@@ -362,3 +362,52 @@ table.post-tabulka {
 .post-tabulka td:last-child { border-right: none; }
 .post-tabulka tr:first-child td { border-top: none; }
 .post-tabulka tr:last-child td { border-bottom: none; }
+
+
+
+.animagus-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.animagus-card {
+  position: relative;
+  width: 27%;
+  min-height: 170px;
+}
+
+.animagus-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 1.3s ease;
+}
+
+.animagus-layer img {
+  width: 100%;
+  border: solid 2px #2e8b57;
+  display: block;
+}
+
+.animagus-layer p {
+  font-family: 'Ancizar Serif', serif;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.animagus-layer b {
+  color: #2e8b57;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.layer-human { opacity: 1; z-index: 1; }
+.layer-animal { opacity: 0; z-index: 2; }
+
+.animagus-card:hover .layer-human { opacity: 0; }
+.animagus-card:hover .layer-animal { opacity: 1; }

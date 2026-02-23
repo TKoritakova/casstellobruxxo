@@ -8,7 +8,7 @@ const Magie = () => (
     <MagieNav />
     
 
-    <div className="main-header"><h1>Castelobruxská magie</h1></div>
+    <div className="main-header"><h1>Castelobrušská magie</h1></div>
 
     <p>Výuka kouzel <span className='text-highlighter'>ve většině světových škol</span> běžně probíhá tím způsobem, že se každý student musí <span className='text-highlighter'>nazpaměť naučit přesný pohyb hůlkou a přesně vyslovovat formuli</span> – aby usměrnil svou magii a kouzlo úspěšně seslal. <span className='text-highlighter'>Castelobruxo má ale k celé výuce magie přístup lehce jiný</span>, více praktický.</p>
 
