@@ -1,13 +1,11 @@
 import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
+import SkolaNav from './SkolaNav'
 
 const Historie = () => (
   <div>
     
-    <nav className="second-nav">
-        <Link to="/historie-skoly">Historie školy</Link>
-        <Link to="/profesori">Profesoři</Link>
-    </nav>
+    <SkolaNav />
     
 
     <div className="main-header"><h1>Historie školy</h1></div>

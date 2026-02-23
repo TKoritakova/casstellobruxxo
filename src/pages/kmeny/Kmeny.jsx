@@ -1,15 +1,11 @@
 import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
+import KmenyNav from './KmenyNav'
 
 const Tribes = () => (
   <div>
     
-    <nav className="second-nav">
-        <Link to="/arashar">Arashar</Link>
-        <Link to="/kuaraori">Kuaraori</Link>
-        <Link to="/nomphyrian">Nomphyrian</Link>
-        <Link to="/pawanunga">Pawanunga</Link>
-    </nav>
+    <KmenyNav />
 
     <div className="main-header"><h1>Kmeny</h1></div>
 

@@ -7,15 +7,11 @@ import historie_amazonske_magie from '../../img/predmety/uvod/historie_amazonske
 import hudba_a_magie from '../../img/predmety/uvod/hudba_a_magie.png';
 import jazyk_a_kultura_kmenu from '../../img/predmety/uvod/jazyk_a_kultura_kmenu.png';
 import magicka_archeologie from '../../img/predmety/uvod/magicka_archeologie.png';
+import PredmetyNav from './PredmetyNav';
 
 const Volitelne = () => (
   <div>
-    <nav className="second-nav">
-        <Link to="/hlavni">Hlavní oborové předměty</Link>
-        <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
-        <Link to="/volitelne">Volitelné předměty</Link>
-        <Link to="/vycvik">Terénní výcvik</Link>
-    </nav>
+    <PredmetyNav />
 
     <div className="main-header"><h1>Vedlejší volitelné předměty</h1></div>
     

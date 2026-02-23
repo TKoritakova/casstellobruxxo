@@ -7,15 +7,11 @@ import cernomagicti_tvorove from '../../img/predmety/uvod/cernomagicti_tvorove.p
 import chov_a_ochrana_magickych_tvoru from '../../img/predmety/uvod/chov_a_ochrana_magickych_tvoru.png';
 import prirodni_magie from '../../img/predmety/uvod/prirodni_magie.png';
 import ritualni_magie from '../../img/predmety/uvod/ritualni_magie.png';
+import PredmetyNav from './PredmetyNav';
 
 const Vedlejsi = () => (
   <div>
-     <nav className="second-nav">
-             <Link to="/hlavni">Hlavní oborové předměty</Link>
-             <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
-             <Link to="/volitelne">Volitelné předměty</Link>
-             <Link to="/vycvik">Terénní výcvik</Link>
-         </nav>
+    <PredmetyNav />
 
     <div className="main-header"><h1>Vedlejší oborové předměty</h1></div>
 

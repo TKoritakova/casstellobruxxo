@@ -6,20 +6,13 @@ import hudba from '../../img/kultura/tance_a_hudba/hudba.png';
 import tanec_01 from '../../img/kultura/tance_a_hudba/tanec_01.png';
 import tanec_02 from '../../img/kultura/tance_a_hudba/tanec_02.png';
 import tanec_03 from '../../img/kultura/tance_a_hudba/tanec_03.png';
+import AmazonieNav from './AmazonieNav';
 
 
 
 const HudbaATance = () => (
   <div>
-    <nav className="second-nav">
-                <Link to="/mytologie">Mytologie</Link>
-                <Link to="/pisne-ikaros">Písně Ikaros</Link>
-                <Link to="/fauna-a-flora">Fauna a flóra</Link>
-                <Link to="/tradice-a-svatky">Tradice a svátky</Link>
-                <Link to="/jidlo">Jídlo</Link>
-                <Link to="/hudba-a-tanec">Hudba a tanec</Link>
-                <Link to="/oblekani">Oblékání</Link>
-        </nav>
+    <AmazonieNav />
      
 
     <div className="main-header"><h1>Hudba a tance</h1></div>
