@@ -13,6 +13,27 @@ import registrace from '../../img/predmety/zveromagie/registrace.png';
 import rizika from '../../img/predmety/zveromagie/rizika.png';
 import uvod from '../../img/predmety/zveromagie/uvod.png';
 
+import caetano_zvire from '../../img/predmety/zveromagie/zvireci_podoba/caetano_murhala.png';
+import chiara_zvire from '../../img/predmety/zveromagie/zvireci_podoba/chiara_antonia_jose.png';
+import gabriel_zvire from '../../img/predmety/zveromagie/zvireci_podoba/gabriel_sebastian_almeida_soares.png';
+import ines_zvire from '../../img/predmety/zveromagie/zvireci_podoba/ines_soraya_caro.png';
+
+import jared_zvire from '../../img/predmety/zveromagie/zvireci_podoba/jared_ilai_moreno.png';
+import juan_zvire from '../../img/predmety/zveromagie/zvireci_podoba/juan_miguel_santos_ramirez.png';
+import luana_zvire from '../../img/predmety/zveromagie/zvireci_podoba/luana_mariana_almeida_soares.png';
+import tristan_zvire from '../../img/predmety/zveromagie/zvireci_podoba/tristan_yarey_moreno.png';
+
+import caetano from '../../img/postavy/caetano_murhala_02.png';
+import chiara from '../../img/postavy/chiara_antonia_jose.jpg';
+import gabriel from '../../img/postavy/gabriel_sebastian_almeida_soares.jpg';
+import ines from '../../img/postavy/ines_soraya_caro.jpg';
+
+import jared from '../../img/postavy/jared_ilai_moreno.png';
+import juan from '../../img/postavy/juan_miguel_santos_ramirez.jpg';
+import luana from '../../img/postavy/luana_mariana_almeida_soares.jpg';
+import tristan from '../../img/postavy/tristan_yeray_moreno_02.jpg';
+
+
 const Zveromagie = () => (
   <div>
     
@@ -81,65 +102,196 @@ const Zveromagie = () => (
     
     <p>Zvěromág, který se izoluje a tráví ve své zvířecí podobě příliš mnoho času, může <span className='text-highlighter'>přestat rozlišovat mezi svým lidským a zvířecím já</span>. V lidské podobě se pak mohou začít probouzet zvířecí instinkty – impulzivnější jednání nebo ztráta sociálních schopností. Stejně tak si mysl zvykne na lidské tělo a může pro ni být těžší si zpět zvyknout na to lidské. Pokud zvěromág zemře v podobě zvířete, pak v ní zůstává, jelikož nedošlo ke zpětné přeměně.</p>
 
-{/*
+    <p><span className='text-highlighter'>Proměna je vnímána jako dar ducha džungle</span>, ne osobní výkon. <span className='text-highlighter'>Každé zvíře nese poselství</span> – jaguár sílu a trpělivost, tukan zřetelnost řeči, kapybara společenství, mravenečník soustředění. Někteří zvěromágové dokonce tvrdí, že slyší hlasy svých zvířecích druhů i v lidské podobě – to je známka úplného souladu.</p>
 
-<span className='text-highlighter'>Proměna je vnímána jako dar ducha džungle</span>, ne osobní výkon. <span className='text-highlighter'>Každé zvíře nese poselství</span> – jaguár sílu a trpělivost, tukan zřetelnost řeči, kapybara společenství, mravenečník soustředění. Někteří zvěromágové dokonce tvrdí, že slyší hlasy svých zvířecích druhů i v lidské podobě – to je známka úplného souladu.</p>
+    <h2>Etika a registrace</h2>
+    <hr />
+    
+    <img src={registrace} className='img-in-text img-in-text-right' />
+    
+    <p><span className='text-highlighter'>Ministerské úřady</span> po celém světě <span className='text-highlighter'>požadují registraci zvěromágů</span>. V případě, že se odhalí, že někdo ovládá schopnost zvěromagie, ale není registrovaný, může být potrestán například pobytem v Azkabanu. V Jižní Americe jsou tresty nižší – za to se více klade důraz na <span className='text-highlighter'>odpovědnost vůči přírodě</span>. Zneužití zvířecí podoby k podvodu, špionáži či lovu je těžkým proviněním, neboť tím čaroděj uráží ducha svého zvířete.</p>
 
-<center><h2>Etika a registrace</h2><hr /></center><img src="https://i.postimg.cc/L6989XXp/registrace.png" style="float:left; margin-left:5px; margin-right:15px; width:27%;border: solid 2px #2e8b57;margin-bottom:0px;"><p><span className='text-highlighter'>Ministerské úřady</span> po celém světě <span className='text-highlighter'>požadují registraci zvěromágů</span>. V případě, že se odhalí, že někdo ovládá schopnost zvěromagie, ale není registrovaný, může být potrestán například pobytem v Azkabanu. V Jižní Americe jsou tresty nižší – za to se více klade důraz na <span className='text-highlighter'>odpovědnost vůči přírodě</span>. Zneužití zvířecí podoby k podvodu, špionáži či lovu je těžkým proviněním, neboť tím čaroděj uráží ducha svého zvířete.</p>
-<img src="https://i.postimg.cc/J4rzrnn8/etika.png" style="float:right; margin-right:5px; margin-left:15px; width:27%;border: solid 2px #2e8b57;margin-bottom:0px;margin-top:0px"><p>Zvěromagie není cesta pro všechny. Vyžaduje trpělivost, pokoru a odvahu čelit vlastnímu nitru. Úspěšná přeměna není koncem, ale začátkem – od této chvíle nese kouzelník odpovědnost nejen za sebe, ale i za druhého tvora, který s ním sdílí jedno tělo.</p>
-<center><p><span className='text-highlighter'>„Neučíme se stát zvířaty. Učíme se znovu být součástí džungle.“</span></p></center>
+    <img src={etika} className='img-in-text img-in-text-right' />
+    
+    <p>Zvěromagie není cesta pro všechny. Vyžaduje trpělivost, pokoru a odvahu čelit vlastnímu nitru. Úspěšná přeměna není koncem, ale začátkem – od této chvíle nese kouzelník odpovědnost nejen za sebe, ale i za druhého tvora, který s ním sdílí jedno tělo.</p>
 
-<center><h2>Přeměna samotná</h2><hr /></center><p>Stát se zvěromágem je pouze začátek. Skutečné umění spočívá v <span className='text-highlighter'>ovládnutí samotné proměny</span> – tedy v umění měnit tělo i ducha v naprosté harmonii. Nejde o pouhý fyzický přechod, ale o <span className='text-highlighter'>přeladění bytí</span> z lidské vibrace na zvířecí a zpět.
+    <p className='text-highlighter text-align-center'>„Neučíme se stát zvířaty. Učíme se znovu být součástí džungle.“</p>
 
-Stejně jako při kouzlení, i zde je rozhodujícím faktorem <span className='text-highlighter'>stav mysli</span>. Zvěromág musí dosáhnout <span className='text-highlighter'>emoční rovnováhy</span> – klidné mysli, v níž se lidské a zvířecí aspekty duše propojí.
+    <h2>Přeměna samotná</h2>
+    <hr />
+    
+    <p>Stát se zvěromágem je pouze začátek. Skutečné umění spočívá v <span className='text-highlighter'>ovládnutí samotné proměny</span> – tedy v umění měnit tělo i ducha v naprosté harmonii. Nejde o pouhý fyzický přechod, ale o <span className='text-highlighter'>přeladění bytí</span> z lidské vibrace na zvířecí a zpět.</p>
 
-Fáze přeměny:</p>
-<div style="margin:5px;padding:10px;border: solid 2px #2e8b57;"><img src="https://i.postimg.cc/65tfBdnJ/naladeni.png" className='img-in-text img-in-text-right' /><p><span className='text-highlighter'>1. Naladění</span>
-Před samotnou přeměnou se zklidníme a připravíme se na ni. Ke zklidnění můžeme zavřít oči, vyrovnat a zpomalit dech a upozadit nepotřebné myšlenky. Soustředíme se na vlastní tělo, pulz srdce a života kolem sebe. Stejně tak na duši zvířete, která v nás dřímá. Ne jako na cíl, ale jako na přítele, kterého zveme domů.
-
-<span className='text-highlighter'>2. Přijetí</span>
-Přeladíme vlastní rezonanci na tu námi chtěnou. K tomu nám může pomoci představa, jak se naše duše rozpíná a <span className='text-highlighter'>splývá s duší zvířete</span>. <span className='text-highlighter'>Často se využívá</span> krátká <span className='text-highlighter'>imaginace prostředí</span>, kde by se zvíře cítilo přirozeně.
-
-<span className='text-highlighter'>3. Proměna</span>
-Během samotné proměny se tkáně i vnitřní magie přeuspořádávají podle obrazu zvířete. Proces bývá doprovázen teplem, tlakem na srdci nebo ztrátou rovnováhy. Při správném a trénovaném provedení je proměna plynulá a téměř bezbolestná. Při prvních proměnách trvá proces déle.
-
-<span className='text-highlighter'>4. Stabilizace</span>
-Po dosažení zvířecí podoby je nutné zůstat relativně v klidu. Zvěromág vnímá svět novými smysly, na které si musí zvyknout, zároveň si ale musí uchovat vědomí lidského já. Příliš silné emoce – strach, euforie, agrese – mohou způsobit <span className='text-highlighter'>přetržení spojení</span> a (nedokonalý) návrat do lidské formy dříve, než je žádoucí.</p></div>
-<p>Během přeměny je třeba mít emoce pod kontrolou. V závislosti na tom, jaká emoce kouzelníka ovládá, proběhne samotná proměna:</p><div style="padding:0px 15px;margin-bottom:-15px;font-family: 'Ancizar Serif', serif;font-optical-sizing: auto;font-size:14px;">• <span className='text-highlighter'>strach</span> → rozpad přeměny, částečná deformace těla
-• <span className='text-highlighter'>vztek</span> → násilné a neúplné proměny, ztráta jemné motoriky
-• <span className='text-highlighter'>klid</span> → plynulý přechod mezi podobami</div>
-
-<center><h2>Přeměna zpět</h2><hr /></center><img src="https://i.postimg.cc/KzbRt5Z8/premenazpet.png" style="float:left; margin-left:5px; margin-right:15px; width:27%;border: solid 2px #2e8b57;margin-bottom:0px;"><p>Před přeměnou zpět provede kouzelník tzv. <span className='text-highlighter'>akt zkrocení</span> – uklidní v sobě duši zvířete, poděkuje jí a pozve zpět do středu svou lidskou podobu. K tomuto aktu může pomoci mantra: <span className='text-highlighter'>„Eu sou o mesmo, em todas as formas.“</span> <i>(Jsem týž, ve všech podobách.)</i></p>
+    <p>Stejně jako při kouzlení, i zde je rozhodujícím faktorem <span className='text-highlighter'>stav mysli</span>. Zvěromág musí dosáhnout <span className='text-highlighter'>emoční rovnováhy</span> – klidné mysli, v níž se lidské a zvířecí aspekty duše propojí.</p>
 
 
+    <p>Fáze přeměny:</p>
+
+    <div className='green-box'>
+        <img src={naladeni} className='img-in-text img-in-text-right' />
+        
+        <p><span className='text-highlighter text-underline'>1. Naladění</span></p>
+        <p>Před samotnou přeměnou se zklidníme a připravíme se na ni. Ke zklidnění můžeme zavřít oči, vyrovnat a zpomalit dech a upozadit nepotřebné myšlenky. Soustředíme se na vlastní tělo, pulz srdce a života kolem sebe. Stejně tak na duši zvířete, která v nás dřímá. Ne jako na cíl, ale jako na přítele, kterého zveme domů.</p>
+
+        <p><span className='text-highlighter text-underline'>2. Přijetí</span></p>
+        <p>Přeladíme vlastní rezonanci na tu námi chtěnou. K tomu nám může pomoci představa, jak se naše duše rozpíná a <span className='text-highlighter'>splývá s duší zvířete</span>. <span className='text-highlighter'>Často se využívá</span> krátká <span className='text-highlighter'>imaginace prostředí</span>, kde by se zvíře cítilo přirozeně.</p>
+
+        <p><span className='text-highlighter text-underline'>3. Proměna</span></p>
+        <p>Během samotné proměny se tkáně i vnitřní magie přeuspořádávají podle obrazu zvířete. Proces bývá doprovázen teplem, tlakem na srdci nebo ztrátou rovnováhy. Při správném a trénovaném provedení je proměna plynulá a téměř bezbolestná. Při prvních proměnách trvá proces déle.</p>
+
+        <p><span className='text-highlighter text-underline'>4. Stabilizace</span></p>
+        <p>Po dosažení zvířecí podoby je nutné zůstat relativně v klidu. Zvěromág vnímá svět novými smysly, na které si musí zvyknout, zároveň si ale musí uchovat vědomí lidského já. Příliš silné emoce – strach, euforie, agrese – mohou způsobit <span className='text-highlighter'>přetržení spojení</span> a (nedokonalý) návrat do lidské formy dříve, než je žádoucí.</p>
+    </div>
+        
+    <p>Během přeměny je třeba mít emoce pod kontrolou. V závislosti na tom, jaká emoce kouzelníka ovládá, proběhne samotná proměna:</p>
+
+    <ul>
+        <li><span className='text-highlighter'>strach</span> → rozpad přeměny, částečná deformace těla</li>
+        <li><span className='text-highlighter'>vztek</span> → násilné a neúplné proměny, ztráta jemné motoriky</li>
+        <li><span className='text-highlighter'>klid</span> → plynulý přechod mezi podobami</li>
+    </ul>
+    
+
+    <h2>Přeměna zpět</h2>
+    <hr />
+    
+    <img src={premena_zpet}  className='img-in-text img-in-text-left' />
+    
+    <p>Před přeměnou zpět provede kouzelník tzv. <span className='text-highlighter'>akt zkrocení</span> – uklidní v sobě duši zvířete, poděkuje jí a pozve zpět do středu svou lidskou podobu. K tomuto aktu může pomoci mantra: <span className='text-highlighter'>„Eu sou o mesmo, em todas as formas.“</span> <i>(Jsem týž, ve všech podobách.)</i></p>
+
+    <br/>
+    <br/>
+    
+
+    <h2>Bytí ve zvířecí podobě</h2>
+    <hr />
+
+    <p>Proměnou získává zvěromág <span className='text-highlighter'>všechny vlastnosti a schopnosti</span> typické pro daný zvířecí druh (např. jedovatost, ektotermie, síla, schopnost regenerace, dýchání pod vodou). To vše vzniká díky <span className='text-highlighter'>přeměně tkání</span>, některé vlastnosti (jako např. ptačí zpěv nebo let, echolokace) lze však nabýt a zdokonalit až učením. Po zpětné přeměně zvířecí vlastnosti ztrácí, tvor sice dřímá v jeho nitru, je ale třeba ho probudit.</p>
+
+    <p>Zvíře, do kterého se přeměníme, může nést <span className='text-highlighter'>drobné znamení</span> odpovídající lidskému vzhledu (např. jizvy, brýle, barva vlasů). Mimo to může mít i znamení oblečení, ve kterém se přoměnil. To se po zpětné přeměně vrátí.</p>
+
+    <p>Magická podstata zvěromága zajišťuje, že v podobě zvířete <span className='text-highlighter'>stárne tempem odpovídajícím lidskému životu</span>, nikoliv krátkému věku daného zvířete.</p>
+
+    <h2>Neúplné přeměny a jejich léčba</h2>
+    <hr />
+    
+    <p>Dříve se neúplná proměna – tzv. <span className='text-highlighter'>polomorfie</span> – považovala za trvalý stav. Současné výzkumy v oblasti přeměňovací magie však přinesly nové postupy, jak tyto stavy <span className='text-highlighter'>zvrátit nebo stabilizovat</span>. Fungují při přeměně tam i zpět.</p>
+
+    <p>Typy neúplných přeměn:</p>
+
+    
+    <div className='green-box'>
+        <p><span className='text-highlighter text-underline'>1. Fyziologická neúplnost</span></p>
+        <p><span className='text-highlighter'>Část těla zůstane lidská či zvířecí</span> (záleží na směru přeměny) – obvykle v důsledku šoku, paniky nebo přerušení koncentrace. Dá se léčit pomocí lektvaru tělesné rovnováhy, který se vaří z listů marapuamy a sporýše lékařského.</p>
+
+        <img src={dusevni_neuplnost} className='img-in-text img-in-text-right' />
+        
+        <p><span className='text-highlighter text-underline'>2. Duševní neúplnost</span></p>
+        <p>Tělo se promění zcela, ale <span className='text-highlighter'>mysl zůstane roztříštěná</span> – kouzelník cítí zvířecí instinkty silněji než lidské. Dá se léčit působením kouzla <span className='text-highlighter'>Reanimare Animum</span>, vedeným zkušeným mistrem, který pomůže znovu sjednotit vědomí.</p> 
+
+        <p><span className='text-highlighter text-underline'>3. Trvalé rozštěpení</span></p>
+        <p>Nejvzácnější, ale nejnebezpečnější z forem. Kouzelník zůstane v <span className='text-highlighter'>pololidském-polozvířecím těle</span> a vnímá obě formy současně – jak v hladině psychické, tak fyzické. K léčbě se využívá kombinace runové stabilizace, elixíru „Esência da Lua Cheia“ a sjednocující rituál <i>Chamado do Outro Eu</i>.</p>
+    </div>
+
+    <h2>Naši zvěromágové</h2>
+    <hr />
+
+    <div className="animagus-container">
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={caetano} alt="Caetano Murhala" />
+            <p><b><i>Caetano Murhala</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={caetano_zvire} alt="Harpyje" />
+            <p><b><i>Harpyje</i></b></p>
+            </div>
+        </div>
+
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={jared} alt="Jared Ilai Moreno" />
+            <p><b><i>Jared Ilai Moreno</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={jared_zvire} alt="Margay" />
+            <p><b><i>Margay</i></b></p>
+            </div>
+        </div>
+
+        
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={tristan} alt="Tristán Yeray Moreno" />
+            <p><b><i>Tristán Yeray Moreno</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={tristan_zvire} alt="Tukan žlutohrdlý" />
+            <p><b><i>Tukan žlutohrdlý</i></b></p>
+            </div>
+        </div>
+    </div>
+
+    <div className="animagus-container">
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={chiara} alt="Chiara Antonia José" />
+            <p><b><i>Chiara Antonia José</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={chiara_zvire} alt="Rajka červená" />
+            <p><b><i>Rajka červená</i></b></p>
+            </div>
+        </div>
+
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={gabriel} alt="Gabriel Sebastian Almeida Soares" />
+            <p><b><i>Gabriel Sebastian Almeida Soares</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={gabriel_zvire} alt="Korálovec" />
+            <p><b><i>Korálovec</i></b></p>
+            </div>
+        </div>
+
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={luana} alt="Luana Mariana Almeida Soares" />
+            <p><b><i>Luana Mariana Almeida Soares</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={luana_zvire} alt="Ocelot" />
+            <p><b><i>Ocelot</i></b></p>
+            </div>
+        </div>
+    </div>
+
+    <div className="animagus-container">
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={ines} alt="Inés Soraya Caro" />
+            <p><b><i>Inés Soraya Caro</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={ines_zvire} alt="Jaguarundi" />
+            <p><b><i>Jaguarundi</i></b></p>
+            </div>
+        </div>
+
+        <div className="animagus-card">
+            <div className="animagus-layer layer-human">
+            <img src={juan} alt="Juan Miguel Santos Ramírez" />
+            <p><b><i>Juan Miguel Santos Ramírez</i></b></p>
+            </div>
+            <div className="animagus-layer layer-animal">
+            <img src={juan_zvire} alt="Vakoveverka létavá" />
+            <p><b><i>Vakoveverka létavá</i></b></p>
+            </div>
+        </div>
+    </div>
 
 
-<center><h2>Bytí ve zvířecí podobě</h2><hr /></center><p>Proměnou získává zvěromág <span className='text-highlighter'>všechny vlastnosti a schopnosti</span> typické pro daný zvířecí druh (např. jedovatost, ektotermie, síla, schopnost regenerace, dýchání pod vodou). To vše vzniká díky <span className='text-highlighter'>přeměně tkání</span>, některé vlastnosti (jako např. ptačí zpěv nebo let, echolokace) lze však nabýt a zdokonalit až učením. Po zpětné přeměně zvířecí vlastnosti ztrácí, tvor sice dřímá v jeho nitru, je ale třeba ho probudit.
-
-Zvíře, do kterého se přeměníme, může nést <span className='text-highlighter'>drobné znamení</span> odpovídající lidskému vzhledu (např. jizvy, brýle, barva vlasů). Mimo to může mít i znamení oblečení, ve kterém se přoměnil. To se po zpětné přeměně vrátí.
-
-Magická podstata zvěromága zajišťuje, že v podobě zvířete <span className='text-highlighter'>stárne tempem odpovídajícím lidskému životu</span>, nikoliv krátkému věku daného zvířete.</p>
-
-<center><h2>Neúplné přeměny a jejich léčba</h2><hr /></center><p>Dříve se neúplná proměna – tzv. <span className='text-highlighter'>polomorfie</span> – považovala za trvalý stav. Současné výzkumy v oblasti přeměňovací magie však přinesly nové postupy, jak tyto stavy <span className='text-highlighter'>zvrátit nebo stabilizovat</span>. Fungují při přeměně tam i zpět.
-
-Typy neúplných přeměn:</p>
-<div style="margin:5px;padding:10px;border: solid 2px #2e8b57;"><p><span className='text-highlighter'>1. Fyziologická neúplnost</span>
-<span className='text-highlighter'>Část těla zůstane lidská či zvířecí</span> (záleží na směru přeměny) – obvykle v důsledku šoku, paniky nebo přerušení koncentrace. Dá se léčit pomocí lektvaru tělesné rovnováhy, který se vaří z listů marapuamy a sporýše lékařského.</p>
-
-<img src="https://i.postimg.cc/vmgN5W0r/dusevnineuplnost.png" className='img-in-text img-in-text-right' /><p><span className='text-highlighter'>2. Duševní neúplnost</span>
-Tělo se promění zcela, ale <span className='text-highlighter'>mysl zůstane roztříštěná</span> – kouzelník cítí zvířecí instinkty silněji než lidské. Dá se léčit působením kouzla <span className='text-highlighter'>Reanimare Animum</span>, vedeným zkušeným mistrem, který pomůže znovu sjednotit vědomí  
-
-<span className='text-highlighter'>3. Trvalé rozštěpení</span>
-Nejvzácnější, ale nejnebezpečnější z forem. Kouzelník zůstane v <span className='text-highlighter'>pololidském-polozvířecím těle</span> a vnímá obě formy současně – jak v hladině psychické, tak fyzické. K léčbě se využívá kombinace runové stabilizace, elixíru „Esência da Lua Cheia“ a sjednocující rituál <i>Chamado do Outro Eu</i>.</p></div>
-
-<center><h2>Naši zvěromágové</h2><hr /></center>
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;"><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('murhala-clovek').style.opacity='0'; document.getElementById('murhala-zvire').style.opacity='1';" onmouseout="document.getElementById('murhala-clovek').style.opacity='1'; document.getElementById('murhala-zvire').style.opacity='0';"><div id="murhala-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/CMnJ2YDZ/murhala.png" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Caetano Murhala</span></p></center></div><div id="murhala-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/xdhY0ndv/murhala-zvire.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Harpyje</span></p></center></div></div><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('jared-clovek').style.opacity='0'; document.getElementById('jared-zvire').style.opacity='1';" onmouseout="document.getElementById('jared-clovek').style.opacity='1'; document.getElementById('jared-zvire').style.opacity='0';"><div id="jared-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/yxRP3XBr/jared.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Jared Ilai Moreno</span></p></center></div><div id="jared-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/QC7bKks0/jared-zvire.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Margay</span></p></center></div></div><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('tristan-clovek').style.opacity='0'; document.getElementById('tristan-zvire').style.opacity='1';" onmouseout="document.getElementById('tristan-clovek').style.opacity='1'; document.getElementById('tristan-zvire').style.opacity='0';"><div id="tristan-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/0y2jHk3D/tristan.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Tristán Yeray Moreno</span></p></center></div><div id="tristan-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/P5rJFXc1/tristan-zvire.png" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Tukan žlutohrdlý</span></p></center></div></div></div>
-
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;"><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('chiara-clovek').style.opacity='0'; document.getElementById('chiara-zvire').style.opacity='1';" onmouseout="document.getElementById('chiara-clovek').style.opacity='1'; document.getElementById('chiara-zvire').style.opacity='0';"><div id="chiara-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/nV9TWZ7V/chiara.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Chiara Antonia José</span></p></center></div><div id="chiara-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/hvmrQbgZ/chiara-zvire.png" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Rajka červená</span></p></center></div></div><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('gabriel-clovek').style.opacity='0'; document.getElementById('gabriel-zvire').style.opacity='1';" onmouseout="document.getElementById('gabriel-clovek').style.opacity='1'; document.getElementById('gabriel-zvire').style.opacity='0';"><div id="gabriel-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/sfGKLySG/gabriel.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Gabriel Sebastian Almeida Soares</span></p></center></div><div id="gabriel-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/d3CBZmvf/gabriel-zvire.png" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Korálovec</span></p></center></div></div><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('luana-clovek').style.opacity='0'; document.getElementById('luana-zvire').style.opacity='1';" onmouseout="document.getElementById('luana-clovek').style.opacity='1'; document.getElementById('luana-zvire').style.opacity='0';"><div id="luana-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/jqnv1KNL/luana.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Luana Mariana Almeida Soares</span></p></center></div><div id="luana-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/mk9w1NRX/luana-zvire.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Ocelot</span></p></center></div></div></div>
-
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;"><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('ines-clovek').style.opacity='0'; document.getElementById('ines-zvire').style.opacity='1';" onmouseout="document.getElementById('ines-clovek').style.opacity='1'; document.getElementById('ines-zvire').style.opacity='0';"><div id="ines-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/xjNgZYHX/ines.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Inés Soraya Caro</span></p></center></div><div id="ines-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/FzSZkgmG/ines-zvire.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Jaguarundi</span></p></center></div></div><div style="position: relative; width: 27%; min-height: 170px;" onmouseover="document.getElementById('juan-clovek').style.opacity='0'; document.getElementById('juan-zvire').style.opacity='1';" onmouseout="document.getElementById('juan-clovek').style.opacity='1'; document.getElementById('juan-zvire').style.opacity='0';"><div id="juan-clovek" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 1; z-index: 1;"><img src="https://i.postimg.cc/Kc3QWFLk/juan.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Juan Miguel Santos Ramírez</span></p></center></div><div id="juan-zvire" style="position: absolute; top: 0; left: 0; width: 100%; transition: opacity 1.3s ease; opacity: 0; z-index: 2;"><img src="https://i.postimg.cc/sfGKLySV/juan-zvire.jpg" style="width: 100%; border: solid 2px #2e8b57; display: block; margin:0px;"><center><p style="font-family: 'Ancizar Serif', serif; font-size: 14px; margin-top: 5px;"><b style="color:#2e8b57; text-shadow: 1px 1px 5px #000000;"><i>Vakoveverka létavá</span></p></center></div></div></div>
-
-   */}
 
    
 
