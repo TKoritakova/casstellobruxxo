@@ -362,3 +362,65 @@ table.post-tabulka {
 .post-tabulka td:last-child { border-right: none; }
 .post-tabulka tr:first-child td { border-top: none; }
 .post-tabulka tr:last-child td { border-bottom: none; }
+
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+
+  .main-header {
+    min-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-size: cover;
+  }
+
+
+  header h1 {
+    font-size: 45px;
+  }
+  header h1::first-letter {
+    font-size: 48px;
+  }
+  .main-header h1 {
+    font-size: 40px;
+  }
+  .main-header h1::first-letter {
+    font-size: 43px;
+  }
+
+
+  .main-nav {
+    width: 100%;
+  }
+  .main-nav a, .second-nav a {
+    margin: 8px 10px;
+    line-height: 1.8;
+  }
+
+  .face-cards-wrapper {
+    flex-wrap: wrap;
+  }
+  .student-face-card {
+    width: 35%;
+  }
+
+  .img-in-text {
+    width: 35%;
+  }
+  .img-spell {
+    width: 30%;
+  }
+
+  table.post-tabulka {
+    width: 100%;
+    font-size: 14px;
+  }
+}
