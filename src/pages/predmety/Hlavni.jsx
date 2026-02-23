@@ -6,16 +6,12 @@ import magie_bezneho_uziti from '../../img/predmety/uvod/magie_bezneho_uziti.png
 import magie_obrany_a_utoku from '../../img/predmety/uvod/magie_obrany_a_utoku.png';
 import obecna_magibotanika from '../../img/predmety/uvod/obecna_magibotanika.png';
 import obecna_magizoologie from '../../img/predmety/uvod/obecna_magizoologie.png';
+import PredmetyNav from './PredmetyNav';
 
 
 const Hlavni = () => (
   <div>
-     <nav className="second-nav">
-        <Link to="/hlavni">Hlavní oborové předměty</Link>
-        <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
-        <Link to="/volitelne">Volitelné předměty</Link>
-        <Link to="/vycvik">Terénní výcvik</Link>
-    </nav>
+    <PredmetyNav />
 
     <div className="main-header"><h1>Hlavní oborové předměty</h1></div>
   

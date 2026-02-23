@@ -2,16 +2,12 @@ import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 
 import vycvik from '../../img/predmety/uvod/povinny_terenni_vycvik.png';
+import PredmetyNav from './PredmetyNav';
 
 
 const Vycvik = () => (
   <div>
-    <nav className="second-nav">
-        <Link to="/hlavni">Hlavní oborové předměty</Link>
-        <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
-        <Link to="/volitelne">Volitelné předměty</Link>
-        <Link to="/vycvik">Terénní výcvik</Link>
-    </nav>
+    <PredmetyNav />
     
   
     <div className="main-header"><h1>Povinný terénní výcvik</h1></div>

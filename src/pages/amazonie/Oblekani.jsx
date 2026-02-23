@@ -5,20 +5,13 @@ import domorodci_01 from '../../img/kultura/obleceni/domorodci_01.png';
 import domorodci_02 from '../../img/kultura/obleceni/domorodci_02.png';
 import peru_01 from '../../img/kultura/obleceni/peru_01.png';
 import peru_02 from '../../img/kultura/obleceni/peru_02.png';
+import AmazonieNav from './AmazonieNav';
 
 
 const Oblekani = () => (
   <div>
     
-     <nav className="second-nav">
-                 <Link to="/mytologie">Mytologie</Link>
-                 <Link to="/pisne-ikaros">Písně Ikaros</Link>
-                 <Link to="/fauna-a-flora">Fauna a flóra</Link>
-                 <Link to="/tradice-a-svatky">Tradice a svátky</Link>
-                 <Link to="/jidlo">Jídlo</Link>
-                 <Link to="/hudba-a-tanec">Hudba a tanec</Link>
-                 <Link to="/oblekani">Oblékání</Link>
-         </nav>
+     <AmazonieNav />
 
     <div className="main-header"><h1>Styl oblékání</h1></div>
 

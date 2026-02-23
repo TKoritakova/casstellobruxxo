@@ -1,14 +1,10 @@
 import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
+import PredmetyNav from './PredmetyNav'
 
 const Subjects = () => (
   <div>
-    <nav className="second-nav">
-        <Link to="/hlavni">Hlavní oborové předměty</Link>
-        <Link to="/vedlejsi">Vedlejší oborové předměty</Link>
-        <Link to="/volitelne">Volitelné předměty</Link>
-        <Link to="/vycvik">Terénní výcvik</Link>
-    </nav>
+    <PredmetyNav />
    
     
     <div className="main-header"><h1>Výuka na Castelobruxu</h1></div>

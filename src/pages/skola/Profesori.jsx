@@ -7,14 +7,12 @@ import Carmila from '../../img/postavy/carmila_iris_jose.png';
 import Demetrio from '../../img/postavy/demetrio_agamez.png';
 import Jared from '../../img/postavy/jared_ilai_moreno.png';
 import Tristan from '../../img/postavy/tristan_yeray_moreno.png';
+import SkolaNav from './SkolaNav';
 
 const Historie = () => (
   <div>
     
-    <nav className="second-nav">
-        <Link to="/historie-skoly">Historie školy</Link>
-        <Link to="/profesori">Profesoři</Link>
-    </nav>
+    <SkolaNav />
 
     <div className="main-header"><h1>Profesorský sbor</h1></div>
 

@@ -33,6 +33,7 @@ import TradiceASvatky from './pages/amazonie/TradiceASvatky'
 import Stravovani from './pages/amazonie/Stravovani'
 import HudbaATance from './pages/amazonie/HudbaATance'
 import Oblekani from './pages/amazonie/Oblekani'
+import Hulky from './pages/amazonie/Hulky'
 
 
 function ScrollToTop() {
@@ -112,6 +113,7 @@ function App() {
           <Route path="/jidlo" element={<Stravovani />} />
           <Route path="/hudba-a-tanec" element={<HudbaATance />} />
           <Route path="/oblekani" element={<Oblekani />} />
+          <Route path="/hulky" element={<Hulky />} />
 
         </Routes>
       </main>

@@ -6,20 +6,13 @@ import asado from '../../img/kultura/jidlo/asado.png';
 import feijoada from '../../img/kultura/jidlo/feijoada.png';
 import mofongo from '../../img/kultura/jidlo/mofongo.png';
 import pachamanca from '../../img/kultura/jidlo/pachamanca.png';
+import AmazonieNav from './AmazonieNav';
 
 
 const Stravovani = () => (
   <div>
     
-    <nav className="second-nav">
-                <Link to="/mytologie">Mytologie</Link>
-                <Link to="/pisne-ikaros">Písně Ikaros</Link>
-                <Link to="/fauna-a-flora">Fauna a flóra</Link>
-                <Link to="/tradice-a-svatky">Tradice a svátky</Link>
-                <Link to="/jidlo">Jídlo</Link>
-                <Link to="/hudba-a-tanec">Hudba a tanec</Link>
-                <Link to="/oblekani">Oblékání</Link>
-        </nav>
+    <AmazonieNav />
     
 
     <div className="main-header"><h1>Stravování</h1></div>

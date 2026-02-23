@@ -9,16 +9,12 @@ import Lucia from '../../img/postavy/lucia_juliana_navarro.png';
 import Sofia from '../../img/postavy/sofia_sanchez.png';
 import Yara from '../../img/postavy/yara_quetzal_do_sol.png';
 import Gabriel from '../../img/postavy/gabriel_sebastian_almeida_soares.jpg';
+import KmenyNav from './KmenyNav';
 
 const Pawanunga = () => (
   <div>
     
-     <nav className="second-nav">
-        <Link to="/arashar">Arashar</Link>
-        <Link to="/kuaraori">Kuaraori</Link>
-        <Link to="/nomphyrian">Nomphyrian</Link>
-        <Link to="/pawanunga">Pawanunga</Link>
-    </nav>
+    <KmenyNav />
 
     <div className="main-header"><h1>Pawanunga</h1></div>
 

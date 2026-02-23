@@ -8,18 +8,11 @@ import Yakuruna from '../../img/mytologie/yakuruna.png';
 import Chullachaki from '../../img/mytologie/chulachaki.png';
 import Sirena from '../../img/mytologie/sirena.png';
 import Caipora from '../../img/mytologie/caipora.png';
+import AmazonieNav from './AmazonieNav';
 
 const Mytologie = () => (
   <div>
-    <nav className="second-nav">
-                <Link to="/mytologie">Mytologie</Link>
-                <Link to="/pisne-ikaros">Písně Ikaros</Link>
-                <Link to="/fauna-a-flora">Fauna a flóra</Link>
-                <Link to="/tradice-a-svatky">Tradice a svátky</Link>
-                <Link to="/jidlo">Jídlo</Link>
-                <Link to="/hudba-a-tanec">Hudba a tanec</Link>
-                <Link to="/oblekani">Oblékání</Link>
-        </nav>
+    <AmazonieNav />
     
     <div className="main-header"><h1>Mytologie Amazonie</h1></div>
 

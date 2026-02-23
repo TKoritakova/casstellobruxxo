@@ -7,15 +7,11 @@ import prostory from '../../img/kmeny/arashar/prostory.png';
 import uniforma from '../../img/zivot_na_skole/uniformy/arashar.png';
 import Luan from '../../img/postavy/luan_caetanno.png';
 import Catriel from '../../img/postavy/catriel_ulises_condori.png';
+import KmenyNav from './KmenyNav';
 
 const Arashar = () => (
   <div>
-     <nav className="second-nav">
-        <Link to="/arashar">Arashar</Link>
-        <Link to="/kuaraori">Kuaraori</Link>
-        <Link to="/nomphyrian">Nomphyrian</Link>
-        <Link to="/pawanunga">Pawanunga</Link>
-    </nav>
+    <KmenyNav />
 
     <div className="main-header"><h1>Arashar</h1></div>
 

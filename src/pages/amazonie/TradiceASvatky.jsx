@@ -15,18 +15,11 @@ import noc_jaguara from '../../img/kultura/slavnosti/noc_jaguara.png';
 import noc_predku from '../../img/kultura/slavnosti/noc_predku.png';
 import slavnost_ohnivych_hadu from '../../img/kultura/slavnosti/slavnost_ohnivych_hadu.png';
 import slavnosti_slunecnich_paprsku from '../../img/kultura/slavnosti/slavnosti_slunecnich_paprsku.png';
+import AmazonieNav from './AmazonieNav';
 
 const TradiceASvatky = () => (
   <div>
-    <nav className="second-nav">
-                <Link to="/mytologie">Mytologie</Link>
-                <Link to="/pisne-ikaros">Písně Ikaros</Link>
-                <Link to="/fauna-a-flora">Fauna a flóra</Link>
-                <Link to="/tradice-a-svatky">Tradice a svátky</Link>
-                <Link to="/jidlo">Jídlo</Link>
-                <Link to="/hudba-a-tanec">Hudba a tanec</Link>
-                <Link to="/oblekani">Oblékání</Link>
-        </nav>    
+    <AmazonieNav />   
 
     <div className="main-header"><h1>Tradice a svátky</h1></div>
 

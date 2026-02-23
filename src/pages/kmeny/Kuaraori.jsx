@@ -9,18 +9,13 @@ import Luana from '../../img/postavy/luana_mariana_almeida_soares.jpg';
 import Ines from '../../img/postavy/ines_soraya_caro.jpg';
 import Sofia from '../../img/postavy/sofia_amarilis_perez.png';
 import Mikkel from '../../img/postavy/mikel_ancco_de_leon.png';
+import KmenyNav from './KmenyNav';
 
 
 const Kuaraori = () => (
   <div>
     
-   
- <nav className="second-nav">
-        <Link to="/arashar">Arashar</Link>
-        <Link to="/kuaraori">Kuaraori</Link>
-        <Link to="/nomphyrian">Nomphyrian</Link>
-        <Link to="/pawanunga">Pawanunga</Link>
-    </nav>
+  <KmenyNav />
 
     <div className="main-header"><h1>Kuaraori</h1></div>
 
