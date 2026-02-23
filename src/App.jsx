@@ -41,6 +41,9 @@ import Mazlicci from './pages/skola/Mazlicci'
 import Uniformy from './pages/skola/Uniformy'
 import JidloVeSkole from './pages/skola/JidloVeSkole'
 import Prostory from './pages/skola/Prostory'
+import Magie from './pages/magie/Magie'
+import Kouzla from './pages/magie/Kouzla'
+import Zveromagie from './pages/magie/Zveromagie'
 
 
 function ScrollToTop() {
@@ -83,6 +86,7 @@ function App() {
         <Link to="/skola">O škole</Link>
         <Link to="/kmeny">Školní kmeny</Link>
         <Link to="/predmety">Předměty</Link>
+        <Link to="/magie">Magie</Link>
         <Link to="/amazonie">Amazonie a okolí</Link>
   
       </nav>
@@ -95,6 +99,7 @@ function App() {
           <Route path="/predmety" element={<Subjects />} />
           <Route path="/skola" element={<Skola />} />
           <Route path="/amazonie" element={<Amazonie />} />
+          <Route path="/magie" element={<Magie />} />
     
 
           <Route path="/arashar" element={<Arashar />} />
@@ -128,6 +133,9 @@ function App() {
           <Route path="/hudba-a-tanec" element={<HudbaATance />} />
           <Route path="/oblekani" element={<Oblekani />} />
           <Route path="/hulky" element={<Hulky />} />
+
+          <Route path="/kouzla" element={<Kouzla />} />
+          <Route path="/zveromagie" element={<Zveromagie />} />
 
         </Routes>
       </main>
