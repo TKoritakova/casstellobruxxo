@@ -34,6 +34,8 @@ import Stravovani from './pages/amazonie/Stravovani'
 import HudbaATance from './pages/amazonie/HudbaATance'
 import Oblekani from './pages/amazonie/Oblekani'
 import Hulky from './pages/amazonie/Hulky'
+import SkolniRok from './pages/skola/SkolniRok'
+import SkolniDen from './pages/skola/SkolniDen'
 
 
 function ScrollToTop() {
@@ -105,6 +107,8 @@ function App() {
 
           <Route path="/historie-skoly" element={<Historie />} />
           <Route path="/profesori" element={<Profesori />} />
+          <Route path="/organizace-roku" element={<SkolniRok />} />
+          <Route path="/skolni-dny" element={<SkolniDen />} />
 
           <Route path="/mytologie" element={<Mytolgoie />} />
           <Route path="/pisne-ikaros" element={<PisneIkaros />} />
