@@ -44,6 +44,9 @@ import Prostory from './pages/skola/Prostory'
 import Magie from './pages/magie/Magie'
 import Kouzla from './pages/magie/Kouzla'
 import Zveromagie from './pages/magie/Zveromagie'
+import MagieSmyslu from './pages/magie/MagieSmyslu'
+import Halucinace from './pages/magie/Halucinace'
+import Magikvarky from './pages/magie/Magikvarky'
 
 
 function ScrollToTop() {
@@ -136,6 +139,9 @@ function App() {
 
           <Route path="/kouzla" element={<Kouzla />} />
           <Route path="/zveromagie" element={<Zveromagie />} />
+          <Route path="/magie-smyslu" element={<MagieSmyslu />} />
+          <Route path="/halucinace-a-vnitrni-vize" element={<Halucinace />} />
+          <Route path="/magikvarky" element={<Magikvarky />} />
 
         </Routes>
       </main>
