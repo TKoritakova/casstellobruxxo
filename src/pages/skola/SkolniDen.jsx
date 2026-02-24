@@ -13,12 +13,7 @@ import hipogryfi_klub from '../../img/zivot_na_skole/hipogryfi_klub.png';
 import wayusa_obrad from '../../img/zivot_na_skole/wayusa_obrad.png';
 import dobrodruzna_vyprava from '../../img/zivot_na_skole/dobrodruzna_vyprava.png';
 
-import ranni_horizont from '../../img/zivot_na_skole/ranni_horizont.png';
-import hamaka from '../../img/zivot_na_skole/hamaka.png';
-import nocni_obloha from '../../img/zivot_na_skole/nocni_obloha.png';
-import random_typek from '../../img/zivot_na_skole/random_typek.png';
-import vyprava from '../../img/zivot_na_skole/vyprava.png';
-import wayusa_napoj from '../../img/zivot_na_skole/wayusa_napoj.png';
+
 
 const SkolniDen = () => (
   <div>
