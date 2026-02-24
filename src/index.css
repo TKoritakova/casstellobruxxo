@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
 
   font-family: 'Ancizar Serif', serif;
   font-optical-sizing: auto;
@@ -432,7 +432,12 @@ table.post-tabulka {
 
 .animagus-card:hover .layer-human { opacity: 0; }
 .animagus-card:hover .layer-animal { opacity: 1; }
+
 @media screen and (max-width: 600px) {
+  body {
+    background-attachment: scroll;
+  }
+
   .content {
     width: 100%;
     padding-left: 15px;
