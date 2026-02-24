@@ -25,6 +25,10 @@ const Volitelne = () => (
     <p><span className='text-highlighter'>Délka:</span> Dva roky<br />
     <span className='text-highlighter'>Náplň předmětu:</span> Informace o historii <span className='text-highlighter'>souhvězdí</span>, jejich významu pro amazonské předky, magické vlastnosti a případnou pomoc v otázkách <span className='text-highlighter'>věštění z čísel</span> či <span className='text-highlighter'>astrologickém působení hvězd</span> a znamení z nich vycházejících na lidskou psychiku a myšlení.<br /><br /></p>
 
+    <Link className='game-archive-button with-arrow' to="/astronomie" target="_blank" rel="noopener noreferrer">Číst více o astronomii </Link>
+         
+
+
 
     <h3>Herbální alchymie</h3>
     <img src={herbalni_alchymie} className='img-in-text img-in-text-right' />

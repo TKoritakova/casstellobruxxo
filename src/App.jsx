@@ -48,6 +48,8 @@ import MagieSmyslu from './pages/magie/MagieSmyslu'
 import Halucinace from './pages/magie/Halucinace'
 import Magikvarky from './pages/magie/Magikvarky'
 import Artefakty from './pages/predmety/Artefakty'
+import Kanoe from './pages/predmety/Kanoe'
+import Astronomie from './pages/predmety/Astronomie'
 
 
 function ScrollToTop() {
@@ -119,6 +121,8 @@ function App() {
           <Route path="/archeologie" element={<Archeologie />} />
           <Route path="/komunikace" element={<Komunikace />} />
           <Route path="/artefakty" element={<Artefakty />} />
+          <Route path="/kanoe" element={<Kanoe />} />
+          <Route path="/astronomie" element={<Astronomie />} />
 
           <Route path="/historie-skoly" element={<Historie />} />
           <Route path="/profesori" element={<Profesori />} />

@@ -237,9 +237,31 @@ header p {
   color: #e8ede4;
   margin-left: 10px;
   margin-right: 10px;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
   display: inline-block;
+
+}
+
+.second-nav a {
   
+  margin: 5px;
+  padding: 3px 6px;
+  
+  border-radius: 3px;
+  background-color: #2e8b5654;
+
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 100;
+  
+}
+
+.second-nav a:hover {
+  background-color: #256c4454;
+  font-weight: 600;
 
 }
 
