@@ -10,6 +10,10 @@ import pawanunga from '../../img/zivot_na_skole/uniformy/pawanunga.png';
 import plast from '../../img/zivot_na_skole/uniformy/plast.png';
 import taska from '../../img/zivot_na_skole/uniformy/taska.png';
 
+
+import uniforma from '../../img/uvod/uniforma.png';
+
+
 const Uniformy = () => (
   <div>
     
@@ -18,6 +22,24 @@ const Uniformy = () => (
 
     <div className="main-header"><h1>Školní uniformy</h1></div>
 
+    <br/>
+  
+
+    <img src={uniforma} className='img-in-text img-in-text-left' />
+
+  
+
+    <p>Uniformy na Castelobruxu jsou lazené do tmavě zelené a zlaté barvy. Tato kombinace připomíná sounáležitost s přírodou, ve které je jejich nositel také velmi dobře maskován. Jsou dokonce <span className='text-highlighter'>uzpůsobeny velmi vysokým i velmi nízkým teplotám</span>, takže se dají použít v parném dni stejně dobře jako v chladné noci.</p>
+
+
+    
+
+
+    <br/>
+    <br/>
+
+
+  <hr/>
   
   <img src={plast} className='img-clothes-2 img-in-text-right' />
   
