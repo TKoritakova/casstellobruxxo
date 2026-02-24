@@ -13,8 +13,6 @@ import hipogryfi_klub from '../../img/zivot_na_skole/hipogryfi_klub.png';
 import wayusa_obrad from '../../img/zivot_na_skole/wayusa_obrad.png';
 import dobrodruzna_vyprava from '../../img/zivot_na_skole/dobrodruzna_vyprava.png';
 
-
-
 const SkolniDen = () => (
   <div>
     
