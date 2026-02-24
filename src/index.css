@@ -34,7 +34,7 @@ body {
 
 
 
-h1, h2{
+h1, h2, h3 {
   color:#2e8b57;
   text-shadow: 1px 1px 2px #000000;
   font-family: 'Ms Madi', cursive;  
@@ -44,7 +44,7 @@ h1, h2{
   
 }
 
-h1::first-letter, h2::first-letter{
+h1::first-letter, h2::first-letter, h3::first-letter{
   font-family: 'Fleur De Leah', cursive;  
   font-weight: 400;  
   font-style: normal;
@@ -61,6 +61,16 @@ h2::first-letter{
   padding-right:3px;  
 }
 
+h3 {
+  font-size:30px;
+  
+}
+
+h3::first-letter {
+  font-size:34px;
+  padding-right:3px;
+}
+
 hr {
   border: 0;   
   height: 1px;  
@@ -70,6 +80,7 @@ hr {
 
 header {
   min-height:100px;
+  width: 100%;
 }
 
 header h1 {
@@ -87,7 +98,8 @@ header p {
   font-style: italic;
   padding: 0px;
   margin: 0px;
-  margin-top:-15px;
+  margin-top:-25px;
+  padding-left:7px;
 }
 
 
@@ -148,13 +160,49 @@ header p {
   margin-right:20px;
 }
 
-.img-char {
-  width: 27%; 
+.img-character {
+  width: 90%;
   border: solid 2px #2e8b57; 
   margin:0px;
+
 }
 
+.img-in-text {
+   width:30%;
+   border: solid 2px #2e8b57;
+   margin: 5px;
+}
 
+.img-in-text-left {
+  float:left; 
+  margin-right:15px; 
+
+}
+
+.img-in-text-right {
+  float:right; 
+  margin-left:15px;
+}
+
+.img-clothes {
+  width: 60%;
+  margin: 0px;
+}
+
+.img-clothes-2 {
+  width: 38%;
+  margin: 2px;
+}
+
+.img-spell {
+  float:right; 
+  margin-right:5px; 
+  margin-left:15px; 
+  width:27%;
+  border: solid 2px #2e8b57;
+  margin-bottom:0px;
+  margin-top:10px
+}
 
 .content {
   width:500px;
@@ -169,24 +217,256 @@ header p {
   border-top:solid 2px #2e8b5744;
   padding-top:5px;
   padding-bottom: 5px;
+  width: 80%;
 }
 
 .second-nav {
   border-bottom:solid 2px #2e8b5744;
   padding-top:5px;
   padding-bottom: 5px;
+  
 }
 
-.main-nav > a, .second-nav > a {
-  margin-left: 5px;
-  margin-right: 5px;
-}
+
 
 .main-nav a, .second-nav a {
   text-decoration: none;
   font-family: 'Ancizar Serif', serif;
   font-optical-sizing: auto;
-  font-size:14px;
+  font-size:16px;
   color: #e8ede4;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: transform 0.5s ease;
+  display: inline-block;
+  
 
+}
+
+.main-nav a {
+  text-transform: uppercase;
+}
+
+.main-nav a:hover {
+  text-shadow: 1px 1px 4px #2e8b57;
+  transform: scale(1.05);
+}
+
+.face-cards-wrapper {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.student-face-card {
+  width: 27%;
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+}
+
+.student-face-card p {
+  text-align: center;
+  margin:5px 0px;
+}
+
+p.text-align-center {
+  text-align: center;
+}
+
+p.no-margin-top {
+  margin-top: 0px;
+}
+
+.green-box {
+  margin:5px;
+  padding:10px;
+  border: solid 2px #2e8b57;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+p:has(.text-underline) {
+  margin-bottom: -14px;
+}
+
+.game-archive-button {
+  display: block;
+  margin:25px auto;
+  padding: 10px;
+  border: solid 2px #2e8b57;
+  border-radius: 5px;
+  background-color: #2e8b5654;
+  background-clip: padding-box;
+  cursor: pointer;
+  text-decoration: none;
+  color: #e8ede4;
+  max-width: 400px;
+
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.game-archive-button:hover {
+  background-color: #2e8b57;
+  border-color: #2e8b5654;
+  color: #ffffff;
+}
+
+.game-archive-button.with-arrow::after {
+  content: " >>";
+  margin-left: 5px;
+}
+
+li {
+  text-align: justify;
+}
+
+h2.profesori {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+table.post-tabulka {
+  border-collapse: collapse;
+  font-family: 'Ancizar Serif', serif;
+  font-optical-sizing: auto;
+  font-size:14px;
+  margin: 20px auto;
+}
+
+.post-tabulka td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #2e8b57; 
+  
+}
+
+.post-tabulka tr:first-child {
+  color: #2e8b57;
+  text-shadow: 1px 1px 5px #000000;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.post-tabulka td:first-child { border-left: none; }
+.post-tabulka td:last-child { border-right: none; }
+.post-tabulka tr:first-child td { border-top: none; }
+.post-tabulka tr:last-child td { border-bottom: none; }
+
+
+
+.animagus-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.animagus-card {
+  position: relative;
+  width: 27%;
+  min-height: 170px;
+}
+
+.animagus-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 1.3s ease;
+}
+
+.animagus-layer img {
+  width: 100%;
+  border: solid 2px #2e8b57;
+  display: block;
+}
+
+.animagus-layer p {
+  font-family: 'Ancizar Serif', serif;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.animagus-layer b {
+  color: #2e8b57;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.layer-human { opacity: 1; z-index: 1; }
+.layer-animal { opacity: 0; z-index: 2; }
+
+.animagus-card:hover .layer-human { opacity: 0; }
+.animagus-card:hover .layer-animal { opacity: 1; }
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+
+  .main-header {
+    min-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-size: cover;
+  }
+
+
+  header h1 {
+    font-size: 45px;
+  }
+  header h1::first-letter {
+    font-size: 48px;
+  }
+  .main-header h1 {
+    font-size: 40px;
+  }
+  .main-header h1::first-letter {
+    font-size: 43px;
+  }
+
+
+  .main-nav {
+    width: 100%;
+  }
+  .main-nav a, .second-nav a {
+    margin: 8px 10px;
+    line-height: 1.8;
+  }
+
+  .face-cards-wrapper {
+    flex-wrap: wrap;
+  }
+  .student-face-card {
+    width: 35%;
+  }
+
+  .img-in-text {
+    width: 35%;
+  }
+  .img-spell {
+    width: 30%;
+  }
+
+  table.post-tabulka {
+    width: 100%;
+    font-size: 14px;
+  }
 }
