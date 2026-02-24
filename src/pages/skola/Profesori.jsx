@@ -24,7 +24,7 @@ const Historie = () => (
 
     <p className='text-highlighter text-align-center'>ŘEDITEL<br />
     Černomagičtí tvorové<br />
-    53 let</p>
+    5. května 1955 (během turnaje 53/54 let)</p>
 
     <img src={Ernesto} className='img-in-text img-in-text-left' />
     
@@ -35,7 +35,7 @@ const Historie = () => (
     
     <p className='text-highlighter text-align-center'>ZÁSTUPCE ŘEDITELE<br />
     Magie běžného užití, obecná magizoologie<br />
-    54 let</p>
+    17. srpna 1954 (během turnaje 54 let)</p>
 
     <img src={Murhala} className='img-in-text img-in-text-right' />
     <p>Na první pohled klidný a i poměrně vážný muž. Nejčastěji ho můžete potkat na hodinách obecné magizoologie, černomagických tvorů nebo chovu a ochrany magických tvorů, občas ale učí i jiné předměty. Při učení je znát, že ho samotná látka i učení baví, rád zapojuje do hodin studenty různými otázkami nebo aktivitami, během čehož si stále udržuje profesionalitu. Pokud ho potkáváte i mimo hodiny, je však úplně jiný – se studenty se rád baví jako s rovnými, je přátelský a usměvavý. Často se zajímá o jejich názory a zkušenosti, ať už oblasti studia nebo čehokoliv jiného. Jeho zkušenosti z práce v Amazonii a Andách často využívá v hodinách, takže se studenti kromě teorie dozví i řadu zkušeností z praxe.</p>
@@ -45,7 +45,7 @@ const Historie = () => (
     <hr />
     
     <p className='text-highlighter text-align-center'>Lékouzelnictví, chov a ochrana magických tvorů<br />
-    45 let</p>
+     3. února 1963 (během turnaje 45/46 let)</p>
 
     <img src={Carmila} className='img-in-text img-in-text-left' />
     
@@ -55,7 +55,7 @@ const Historie = () => (
     <hr />
     
     <p className='text-highlighter text-align-center'>Magie obrany a útoku, povinný terénní výcvik<br />
-    49 let</p>
+    29. května 1959 (během turnaje 49/50 let)</p>
 
     <img src={Demetrio} className='img-in-text img-in-text-right' />
     
@@ -65,7 +65,7 @@ const Historie = () => (
     <hr />
     
     <p className='text-highlighter text-align-center'>Obecná magibotanika, přírodní magie<br />
-    45 let</p>
+    13. ledna 1963 (během turnaje 45/46 let)</p>
 
     <img src={Jared} className='img-in-text img-in-text-left' />
     
@@ -75,7 +75,7 @@ const Historie = () => (
     <hr />
     
     <p className='text-highlighter text-align-center'>Aplikovaná magibotanika, rituální magie<br />
-    43 let</p>
+    5. prosince 1964 (během turnaje 43/44 let)</p>
 
     <img src={Tristan} className='img-in-text img-in-text-right' />
     
