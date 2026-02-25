@@ -89,8 +89,9 @@ const RitualniMagie = () => (
     <h2>Živočisná magie</h2>
     <hr/>
 
-    <p>Kromě rostlinné říše využívá rituální magie i sílu pralesní fauny, což dokládá náročný obřad <span className='text-highlighter'>kambo</span>. Při něm se
-       <span className='text-highlighter'> sekret žáby</span> listovnice dvoubarvé <i>(Phyllomedusa bicolor)</i> <span
+    <p>Kromě rostlinné říše využívá rituální magie i sílu pralesní fauny, což dokládá náročný obřad <span
+      className='text-highlighter'>kambo</span>. Při něm se
+      <span className='text-highlighter'> sekret žáby</span> listovnice dvoubarvé <i>(Phyllomedusa bicolor)</i> <span
         className='text-highlighter'>vtírá do drobných ran na kůži</span>, předem
       vypálených doutnajícím dřívkem. To vyvolává intenzivní fyzickou reakci a následné <span
         className='text-highlighter'>posílení imunitního systému</span>.
