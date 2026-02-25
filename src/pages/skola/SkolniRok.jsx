@@ -46,6 +46,9 @@ const SkolniRok = () => (
     <img src={kanoe_01} className='img-in-text'/>
     <img src={kanoe_02} className='img-in-text'/>
 
+    <Link className='game-archive-button with-arrow' to="/kanoe" target="_blank" rel="noopener noreferrer">Číst
+      více o letech kanoí</Link>
+
 
   </div>
 )

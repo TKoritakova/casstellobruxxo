@@ -38,6 +38,7 @@ import img30 from '../../img/predmety/archeologie/30.png';
 
 import img31 from '../../img/predmety/archeologie/31.png';
 import img32 from '../../img/predmety/archeologie/32.png';
+import {Link} from "react-router-dom";
 
 
 const Archeologie = () => (
@@ -191,6 +192,9 @@ const Archeologie = () => (
         uklidnění, stejně jako komunikaci s ním. Obojí je opět nutné pro co nejmenší zásahy do ruin, které by případný
         souboj s rozezleným tvorem mohl způsobit, stejně jako pro bezpečnost badatele samotného.</p>
 
+      <Link className='game-archive-button with-arrow' to="/komunikace" target="_blank" rel="noopener noreferrer">Číst
+        více o komunikaci s tvory</Link>
+
       <img src={img11} className='img-in-text img-in-text-right'/>
 
       <p><span className='text-highlighter text-underline'>6. Týmová spolupráce</span></p>
@@ -227,6 +231,9 @@ const Archeologie = () => (
         být stále aktivní součástí lokality a chránit ji.
       </li>
     </ul>
+
+    <Link className='game-archive-button with-arrow' to="/mytologie" target="_blank" rel="noopener noreferrer">Číst
+      více o mytologii</Link>
 
 
     <img src={img12} className='img-in-text'/>

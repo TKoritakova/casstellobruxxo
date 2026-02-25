@@ -39,6 +39,9 @@ const SkolniDen = () => (
       dostatek času se dostat přes areál školy na další hodinu. <span className='text-highlighter'>Výuka probíhá po jednotlivých ročnících.</span>
     </p>
 
+    <Link className='game-archive-button with-arrow' to="/predmety" target="_blank" rel="noopener noreferrer">Číst
+      více o předmětech</Link>
+
     <img src={odpoledni_siesta} className='img-in-text img-in-text-left'/>
 
     <p>Oběd se podává opět v prostorách jednotlivých kmenů mezi dvanáctou a půl druhou. Po jídle mají studenti volný čas
@@ -54,16 +57,19 @@ const SkolniDen = () => (
       večer. Co se jídla týče, je to hlavní událost dne a studenti na ni míří do <span className='text-highlighter'>slavnostního sálu</span> v
       menší ze dvou hlavních budov, kde se všechny kmeny nají spolu.</p>
 
+    <img src={astronomie} className='img-in-text img-in-text-left'/>
+
     <p>Po večeři mají studenti volný čas, s jedinou výjimkou, kterou jsou hodiny astrologie a astronomie. Ty ze zjevných
       důvodů mají některé dny výuku ve večerních hodinách. <span className='text-highlighter'>Večerka nastává až v jednu hodinu ráno</span>,
       přesto je studentům po večeři spíše doporučováno trávit volný čas v budovách nebo na označených cestách, noční
       průzkum džungle může mít fatální následky.</p>
 
-    <img src={astronomie} className='img-in-text img-in-text-left'/>
-
     <p>Změna zažitého režimu nastává v sobotu, kdy je výuka soustředěna jen do dopoledních hodin. Po siestě tak mají
       studenti volné odpoledne, které mohou strávit, jak se jim zlíbí. <span className='text-highlighter'>Sobotní večery jsou věnovány společenským akcím</span>,
       ať už kmenovým nebo celoškolním. Často jsou také spojeny s oslavou nějakého svátku.</p>
+
+    <Link className='game-archive-button with-arrow' to="/tradice-a-svatky" target="_blank" rel="noopener noreferrer">Číst
+      více o tradicích a svátcích</Link>
 
     <p><span className='text-highlighter'>Neděle je dnem klidu.</span> Je to jediný den v týdnu, kdy studenti nemají
       výuku a mohou ho strávit zcela dle svého uvážení. Mají povolený pozdní budíček a jídla jsou podávána delší dobu,
@@ -104,6 +110,9 @@ const SkolniDen = () => (
       amuletů nebo šperků z místních materiálů. Malé dílny, kde je možné s takovou výrobou experimentovat, se nachází v
       pavilonu poblíž tomu hudebnímu.</p>
 
+    <Link className='game-archive-button with-arrow' to="/artefakty" target="_blank" rel="noopener noreferrer">Číst
+      více o výrobě artefaktů</Link>
+
     <p><span className='text-highlighter'>Společenské večery,</span> zejména o víkendech, jsou vyhrazeny tanci, hudbě a
       slavnostem, které často navazují na brazilské a latinskoamerické svátky.</p>
 
@@ -133,6 +142,9 @@ const SkolniDen = () => (
       obřad, inspirovaný praxí kmenu Kichwa a komunity Achuar v ekvádorské oblasti Napo, probíhá nad ránem a umožňuje
       studentům sdílet své sny, moudrost a poznatky. Nápoj podporuje „otevření hrdla“ – pomáhá studentům uvolnit zábrany
       a snadněji vyjádřit své myšlenky a pocity ostatním.</p>
+
+    <Link className='game-archive-button with-arrow' to="/ritualni-magie" target="_blank" rel="noopener noreferrer">Číst
+      více o rituální magii</Link>
 
     <p>Volný čas na Castelobruxu tedy není jen odpočinkem od výuky, ale tvoří důležitou součást života školy. Studenti
       mají možnost rozvíjet své zájmy, budovat přátelství a zapojit se do pestrého kulturního i společenského života,

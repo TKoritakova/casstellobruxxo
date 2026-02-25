@@ -135,6 +135,9 @@ const RitualniMagie = () => (
       přeladění vnímání umožňuje studentovi <span className='text-highlighter'>vidět v naprosté tmě</span>.
     </p>
 
+    <h2>Návštěvy kmenů</h2>
+    <hr />
+
     <p>Důležitým prvkem výuky rituální magie je <span className='text-highlighter'>kontakt s autentickými kouzelnickými kmeny</span> Amazonie.
       Mezi nejbližší
       spojence školy patří kmen <span className='text-highlighter'>Shipibo-Conibo</span>, mistři geometrických vzorů a

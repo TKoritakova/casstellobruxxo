@@ -74,6 +74,9 @@ const Volitelne = () => (
       Druhý rok rozšiřuje výuku o <span className='text-highlighter'>experimentální práci</span> – studenti propojují
       hudbu s vlastní magickou energií a zkoumají, jak tóny a pohyby posilují obranná i léčivá kouzla.</p>
 
+    <Link className='game-archive-button with-arrow' to="/hudba-a-tanec" target="_blank" rel="noopener noreferrer">Číst
+      více o hudbě a tanci</Link>
+
 
     <h3>Jazyk a kultura kmenů</h3>
     <img src={jazyk_a_kultura_kmenu} className='img-in-text img-in-text-right'/>
