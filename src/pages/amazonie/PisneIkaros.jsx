@@ -82,7 +82,7 @@ const PisneIkaros = () => (
       zákon hudební magie.</p>
 
 
-  </div> 
+  </div>
 )
 
 export default PisneIkaros
