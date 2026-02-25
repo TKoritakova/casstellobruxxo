@@ -60,8 +60,8 @@ function ScrollToTop() {
     window.scrollTo(0, 0);
 
     //console.log("Cesta se změnila na:", pathname);
-     
-    // 2. Reset pro tvůj hlavní kontejner (zkusíme oba způsoby)
+
+    // 2. Reset pro hlavní kontejner
     const contentElement = document.querySelector('.app-container');
     if (contentElement) {
       contentElement.scrollTo(0, 0);
