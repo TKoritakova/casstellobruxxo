@@ -41,6 +41,9 @@ const Amazonie = () => (
       okolní přírody a pracuje s ní. Samozřejmě se zde v poslední době hojně rozšířila i kouzla, která jsou běžně známá
       a používána v Evropě.</p>
 
+    <Link className='game-archive-button with-arrow' to="/magie" target="_blank" rel="noopener noreferrer">Číst
+      více o castelobrušské magii</Link>
+
     <img src={kouzla_castelo} className='img-in-text'/>
     <img src={kouzla_evropa} className='img-in-text'/>
 

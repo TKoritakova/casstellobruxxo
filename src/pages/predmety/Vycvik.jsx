@@ -23,7 +23,7 @@ const Vycvik = () => (
 
     <img src={vycvik} className='img-in-text img-in-text-right'/>
 
-    <p><span className='text-highlighter'>Během turnaje vyučuje:</span> Demetrio Agamez<br/>
+    <p><span className='text-highlighter'>Během turnaje vyučoval:</span> Demetrio Agamez<br/>
       <span className='text-highlighter'>Délka:</span> Nepravidelná výuka<br/>
       <span className='text-highlighter'>Náplň předmětu:</span> Alespoň desetkrát do roka se konají intenzivní terénní
       výpravy, které kombinují <span className='text-highlighter'>fyzickou zdatnost, orientační schopnosti a týmovou spolupráci</span>.

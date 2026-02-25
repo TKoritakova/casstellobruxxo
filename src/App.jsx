@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react' 
-import { Routes, Route, Link, useLocation } from 'react-router-dom' 
+import {useState, useEffect} from 'react'
+import {Routes, Route, Link, useLocation} from 'react-router-dom'
 
 import './App.css'
 
@@ -54,7 +54,7 @@ import RitualniMagie from "./pages/predmety/RitualniMagie.jsx";
 
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const {pathname} = useLocation();
 
   useEffect(() => {
     // 1. Reset pro celé okno
@@ -73,18 +73,18 @@ function ScrollToTop() {
 }
 
 function App() {
-  
+
 
   return (
     <div className="app-container">
 
-      <ScrollToTop />
+      <ScrollToTop/>
 
       {/* 1. NADPIS */}
       <header>
         <h1>Castelobruxo</h1>
         <p>Studium pod korunami pralesa</p>
-    
+
       </header>
 
       {/* 2. MENU */}
@@ -95,61 +95,61 @@ function App() {
         <Link to="/predmety">Předměty</Link>
         <Link to="/magie">Magie</Link>
         <Link to="/amazonie">Amazonie a okolí</Link>
-  
+
       </nav>
 
       {/* 3. OBSAH (Zde se budou střídat stránky) */}
       <main className="content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/kmeny" element={<Tribes />} />
-          <Route path="/predmety" element={<Subjects />} />
-          <Route path="/skola" element={<Skola />} />
-          <Route path="/amazonie" element={<Amazonie />} />
-          <Route path="/magie" element={<Magie />} />
-    
+          <Route path="/" element={<Home/>}/>
+          <Route path="/kmeny" element={<Tribes/>}/>
+          <Route path="/predmety" element={<Subjects/>}/>
+          <Route path="/skola" element={<Skola/>}/>
+          <Route path="/amazonie" element={<Amazonie/>}/>
+          <Route path="/magie" element={<Magie/>}/>
 
-          <Route path="/arashar" element={<Arashar />} />
-          <Route path="/kuaraori" element={<Kuaraori />} />
-          <Route path="/nomphyrian" element={<Nomphyrian />} />
-          <Route path="/pawanunga" element={<Pawanunga />} />
 
-          <Route path="/hlavni" element={<Hlavni />} />
-          <Route path="/vedlejsi" element={<Vedlejsi />} />
-          <Route path="/volitelne" element={<Volitelne />} />
-          <Route path="/vycvik" element={<Vycvik />} />
+          <Route path="/arashar" element={<Arashar/>}/>
+          <Route path="/kuaraori" element={<Kuaraori/>}/>
+          <Route path="/nomphyrian" element={<Nomphyrian/>}/>
+          <Route path="/pawanunga" element={<Pawanunga/>}/>
 
-          <Route path="/archeologie" element={<Archeologie />} />
-          <Route path="/komunikace" element={<Komunikace />} />
-          <Route path="/artefakty" element={<Artefakty />} />
-          <Route path="/kanoe" element={<Kanoe />} />
-          <Route path="/astronomie" element={<Astronomie />} />
-          <Route path="/ritualni-magie" element={<RitualniMagie />} />
+          <Route path="/hlavni" element={<Hlavni/>}/>
+          <Route path="/vedlejsi" element={<Vedlejsi/>}/>
+          <Route path="/volitelne" element={<Volitelne/>}/>
+          <Route path="/vycvik" element={<Vycvik/>}/>
 
-          <Route path="/historie-skoly" element={<Historie />} />
-          <Route path="/profesori" element={<Profesori />} />
-          <Route path="/organizace-roku" element={<SkolniRok />} />
-          <Route path="/skolni-dny" element={<SkolniDen />} />
-          <Route path="/zajimavosti" element={<Zajimavosti />} />
-          <Route path="/domaci-mazlicci" element={<Mazlicci />} />
-          <Route path="/skolni-uniformy" element={<Uniformy />} />
-          <Route path="/stravovani-ve-skole" element={<JidloVeSkole />} />
-          <Route path="/prostory-skoly" element={<Prostory />} />
+          <Route path="/archeologie" element={<Archeologie/>}/>
+          <Route path="/komunikace" element={<Komunikace/>}/>
+          <Route path="/artefakty" element={<Artefakty/>}/>
+          <Route path="/kanoe" element={<Kanoe/>}/>
+          <Route path="/astronomie" element={<Astronomie/>}/>
+          <Route path="/ritualni-magie" element={<RitualniMagie/>}/>
 
-          <Route path="/mytologie" element={<Mytolgoie />} />
-          <Route path="/pisne-ikaros" element={<PisneIkaros />} />
-          <Route path="/fauna-a-flora" element={<FaunaAFlora />} />
-          <Route path="/tradice-a-svatky" element={<TradiceASvatky />} />
-          <Route path="/jidlo" element={<Stravovani />} />
-          <Route path="/hudba-a-tanec" element={<HudbaATance />} />
-          <Route path="/oblekani" element={<Oblekani />} />
-          <Route path="/hulky" element={<Hulky />} />
+          <Route path="/historie-skoly" element={<Historie/>}/>
+          <Route path="/profesori" element={<Profesori/>}/>
+          <Route path="/organizace-roku" element={<SkolniRok/>}/>
+          <Route path="/skolni-dny" element={<SkolniDen/>}/>
+          <Route path="/zajimavosti" element={<Zajimavosti/>}/>
+          <Route path="/domaci-mazlicci" element={<Mazlicci/>}/>
+          <Route path="/skolni-uniformy" element={<Uniformy/>}/>
+          <Route path="/stravovani-ve-skole" element={<JidloVeSkole/>}/>
+          <Route path="/prostory-skoly" element={<Prostory/>}/>
 
-          <Route path="/kouzla" element={<Kouzla />} />
-          <Route path="/zveromagie" element={<Zveromagie />} />
-          <Route path="/magie-smyslu" element={<MagieSmyslu />} />
-          <Route path="/halucinace-a-vnitrni-vize" element={<Halucinace />} />
-          <Route path="/magikvarky" element={<Magikvarky />} />
+          <Route path="/mytologie" element={<Mytolgoie/>}/>
+          <Route path="/pisne-ikaros" element={<PisneIkaros/>}/>
+          <Route path="/fauna-a-flora" element={<FaunaAFlora/>}/>
+          <Route path="/tradice-a-svatky" element={<TradiceASvatky/>}/>
+          <Route path="/jidlo" element={<Stravovani/>}/>
+          <Route path="/hudba-a-tanec" element={<HudbaATance/>}/>
+          <Route path="/oblekani" element={<Oblekani/>}/>
+          <Route path="/hulky" element={<Hulky/>}/>
+
+          <Route path="/kouzla" element={<Kouzla/>}/>
+          <Route path="/zveromagie" element={<Zveromagie/>}/>
+          <Route path="/magie-smyslu" element={<MagieSmyslu/>}/>
+          <Route path="/halucinace-a-vnitrni-vize" element={<Halucinace/>}/>
+          <Route path="/magikvarky" element={<Magikvarky/>}/>
 
         </Routes>
       </main>

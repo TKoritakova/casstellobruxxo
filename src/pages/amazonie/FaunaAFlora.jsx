@@ -27,6 +27,9 @@ const FaunaAFlora = () => (
       kouzelníci, se začíná odhalovat skrytá vrstva pralesa. V blízkosti čarodějnických vesnic a škol, jako je
       Castelobruxo, se objevují tvorové a rostliny, o jejichž existenci nemá mudlovská věda ani tušení.</p>
 
+    <Link className='game-archive-button with-arrow' to="/mytologie" target="_blank" rel="noopener noreferrer">Číst
+      více o mytologii</Link>
+
     <img src={caipora} className='img-in-text img-in-text-left'/>
 
     <p>Školní pozemky střeží <span className='text-highlighter'>Caipory</span> – malí, chlupatí duchové džungle,
@@ -127,6 +130,9 @@ const FaunaAFlora = () => (
 
     <p>Z jejích usušených stonků se vyrábějí „šeptající flétny“, nástroje, které dokážou opakovat krátké melodie.
       Používají se v rituálech, zejména během zpěvů ikaros, při nichž doprovázejí šamany u volání duchů pralesa.</p>
+
+    <Link className='game-archive-button with-arrow' to="/artefakty" target="_blank" rel="noopener noreferrer">Číst
+      více o artefaktech</Link>
 
     <p>Šeptalka roste nejčastěji v polostínu mokřadů a podél stezek, kde se často pohybují lidé či zvířata. Čím živější
       je místo, tím bujněji prospívá; v hlubokém tichu však chřadne z „nudy“.</p>
