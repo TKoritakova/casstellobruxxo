@@ -49,6 +49,9 @@ const JidloVeSkole = () => (
       nedodržovat pitný režim. <span className='text-highlighter'>Stravování v Castelobruxu odráží pestrost brazilské a latino kultury a propojení školy s pralesem a jeho dary.</span> Jídlo
       je kvalitní, čerstvé a chutné.</p>
 
+    <Link className='game-archive-button with-arrow' to="/jidlo" target="_blank" rel="noopener noreferrer">Číst
+      více o jihoamerickém stravování</Link>
+
 
   </div>
 )

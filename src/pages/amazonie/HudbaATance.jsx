@@ -34,6 +34,9 @@ const HudbaATance = () => (
       od fyzična, podporuje jednotný rytmus mezi tanečníky a vytváří to ideální půdu pro <span
         className='text-highlighter'>komunikaci s entitami v přírodě</span>.</p>
 
+    <Link className='game-archive-button with-arrow' to="/ritualni-magie" target="_blank" rel="noopener noreferrer">Číst
+      více o rituální magii</Link>
+
     <p>Správně vedený pohyb těla a emocí se totiž může – podobně jako pohyb rukou s hůlkou – stát <span
       className='text-highlighter'>vodičem mezi kouzelníkovou vnitřní podstatou a magikvarkovou sítí</span>. Výsledkem
       pak může být nejen vyvolání magického účinku, ale i <span className='text-highlighter'>posílení kouzla</span>,
@@ -132,6 +135,9 @@ const HudbaATance = () => (
       rituály, neboť tam jsou rituály součástí každodenního života. Důsledkem toho jsou zpěvy u nich tedy zpravidla v
       jednoduchém kruhu, <span className='text-highlighter'>plné vyprávění o snech a přírodě</span> za doprovodu
       chrastítek, tleskání a jemných ženských vokálů.</p>
+
+    <Link className='game-archive-button with-arrow' to="/pisne-ikaros" target="_blank" rel="noopener noreferrer">Číst
+      více o písních ikaros</Link>
 
 
   </div>
