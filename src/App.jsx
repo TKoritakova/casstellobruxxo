@@ -50,6 +50,7 @@ import Magikvarky from './pages/magie/Magikvarky'
 import Artefakty from './pages/predmety/Artefakty'
 import Kanoe from './pages/predmety/Kanoe'
 import Astronomie from './pages/predmety/Astronomie'
+import RitualniMagie from "./pages/predmety/RitualniMagie.jsx";
 
 
 function ScrollToTop() {
@@ -123,6 +124,7 @@ function App() {
           <Route path="/artefakty" element={<Artefakty />} />
           <Route path="/kanoe" element={<Kanoe />} />
           <Route path="/astronomie" element={<Astronomie />} />
+          <Route path="/ritualni-magie" element={<RitualniMagie />} />
 
           <Route path="/historie-skoly" element={<Historie />} />
           <Route path="/profesori" element={<Profesori />} />
