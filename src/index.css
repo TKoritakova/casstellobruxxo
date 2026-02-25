@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Fleur+De+Leah&family=Ms+Madi&display=swap');
 
 :root {
-  
   line-height: 1.5;
   font-weight: 400;
-
- 
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,14 +19,13 @@ body {
 
   font-family: 'Ancizar Serif', serif;
   font-optical-sizing: auto;
-  font-size:14px;
+  font-size:16px;
   color: #e8ede4;
 
   background: #0a2405;
   background: linear-gradient(90deg,rgba(10, 36, 5, 1) 0%, rgba(10, 17, 2, 1) 50%, rgba(10, 36, 5, 1) 100%);
   background-attachment: fixed;
 }
-
 
 
 
@@ -52,7 +47,7 @@ h1::first-letter, h2::first-letter, h3::first-letter{
 }
 
 h2 {
-  transform: rotate(-1deg);
+  transform: rotate(-0.5deg);
   font-size:40px;
 }
 
@@ -106,8 +101,8 @@ header p {
 .main-header {
   padding-left: 10px;
   padding-right: 10px; 
-  margin-left:-10px;
-  transform: rotate(-1deg);
+  margin-left: -10px;
+  transform: rotate(-0.5deg);
   text-align: center;
   border-bottom:solid 2px #2e8b5744;
   border-top:solid 2px #2e8b5744;
@@ -116,6 +111,8 @@ header p {
   background-repeat: no-repeat;
   background-size: 100%;
   min-width: 500px;
+  width: 650px;
+
   height: 60px;
 
   display: flex;             
@@ -168,9 +165,9 @@ header p {
 }
 
 .img-in-text {
-   width:30%;
+   width:23%;
    border: solid 2px #2e8b57;
-   margin: 5px;
+   margin: 3px;
 }
 
 .img-in-text-left {
@@ -185,7 +182,7 @@ header p {
 }
 
 .img-clothes {
-  width: 60%;
+  width: 50%;
   margin: 0px;
 }
 
@@ -198,18 +195,34 @@ header p {
   float:right; 
   margin-right:5px; 
   margin-left:15px; 
-  width:27%;
+  width:23%;
   border: solid 2px #2e8b57;
   margin-bottom:0px;
   margin-top:10px
 }
 
+.main-header + img {
+  margin-top: 20px;
+}
+
 .content {
-  width:500px;
+  width: 75%;
+  max-width:650px;
+}
+
+.conter > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content p {
   text-align: justify;
+}
+
+h3 + img + p, h3 + p  {
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .main-nav {
@@ -233,7 +246,7 @@ header p {
   text-decoration: none;
   font-family: 'Ancizar Serif', serif;
   font-optical-sizing: auto;
-  font-size:16px;
+  font-size:17px;
   color: #e8ede4;
   margin-left: 10px;
   margin-right: 10px;
@@ -253,7 +266,7 @@ header p {
   cursor: pointer;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-size: 15px;
+  font-size: 16px;
   font-style: italic;
   font-weight: 100;
   
@@ -282,7 +295,7 @@ header p {
 }
 
 .student-face-card {
-  width: 27%;
+  width: 24%;
   display: flex;
   align-items: center;
   
@@ -397,7 +410,7 @@ table.post-tabulka {
 
 .animagus-card {
   position: relative;
-  width: 27%;
+  width: 20%;
   min-height: 170px;
 }
 
