@@ -24,6 +24,9 @@ const Magie = () => (
       částečně ovlivněn <span className='text-highlighter'>představivostí kouzelníka</span> a tuto skutečnost si osvojí.
     </p>
 
+    <Link className='game-archive-button with-arrow' to="/magikvarky" target="_blank" rel="noopener noreferrer">Číst
+      více o magikvarcích</Link>
+
     <h3>Ovlivnění emocemi</h3>
     <p>Během dalšího studia je jim ukázáno, jak mohou být kouzla a jejich účinky <span className='text-highlighter'>ovlivněny emocemi a propojením s přírodou</span>.
       Zjistí, že když jsou na přírodu a konkrétně dané kouzlo <span className='text-highlighter'>dobře emočně naladění, je jeho síla znatelně větší</span>,

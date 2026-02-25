@@ -43,6 +43,9 @@ const TradiceASvatky = () => (
       Samba v Brazílii, tango v Argentině, salsa na Kubě nebo merengue v Dominikánské republice – každý region má své
       rytmy a je běžné, že si lidé spontánně zatancují doma, na ulici nebo při setkáních.</p>
 
+    <Link className='game-archive-button with-arrow' to="/hudba-a-tanec" target="_blank" rel="noopener noreferrer">Číst
+      více o hudbě a tanci</Link>
+
     <p><span className='text-highlighter text-underline'>Rodinné a komunitní vazby</span></p>
     <p>Latinskoamerické rodiny jsou obvykle velmi soudržné. Tradicí je časté setkávání širší rodiny, silný respekt k
       rodičům a prarodičům a společné trávení času. Návštěvy nejsou formální, lidé často přicházejí „jen tak“ a společně
@@ -212,6 +215,9 @@ const TradiceASvatky = () => (
       studenty, hrají si s nimi a přijímají jejich dary. Jedná se o den, během nějž je <span
         className='text-highlighter'>bezpečné polevit v ostražitosti</span> a studenti se tak mohou bezstarostně
       oddávat <span className='text-highlighter'>žertíkům s caiporami</span>.</p>
+
+    <Link className='game-archive-button with-arrow' to="/mytologie" target="_blank" rel="noopener noreferrer">Číst
+      více o mytologii</Link>
 
 
     <h3>Slavnost ohnivých hadů</h3>

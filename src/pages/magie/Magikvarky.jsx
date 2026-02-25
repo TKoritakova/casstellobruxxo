@@ -292,6 +292,9 @@ const Magikvarky = () => (
       seslal, jaké v sobě měl <span className='text-highlighter'>emoce</span>, jaký je jeho <span
         className='text-highlighter'>záměr</span> apod.</p>
 
+    <Link className='game-archive-button with-arrow' to="/kouzla" target="_blank" rel="noopener noreferrer">Číst
+      více o vybraných kouzlech</Link>
+
     <h3>Aegis persona – ochrana a empatie</h3>
     <img src={aegis_persona} className='img-in-text img-in-text-right'/>
 

@@ -198,6 +198,9 @@ const Artefakty = () => (
       hlavně <span className='text-highlighter'>pro propojení s duchy pralesa</span>, jejichž poselství přichází z dálky
       a nese hlasy míst, která jsme ještě nenavštívili. </p>
 
+    <Link className='game-archive-button with-arrow' to="/fauna-a-flora" target="_blank" rel="noopener noreferrer">Číst
+      více o fauně a floře</Link>
+
     <p>Vzhledově se jedná o <span className='text-highlighter'>drobnou flétnu modrostříbrné barvy</span>, jejíž povrch
       při dopadu světla vytváří jemné kovové odlesky. Přestože připomíná kovový nástroj, je vyrobena z magické rostliny
       zvané <span className='text-highlighter'>šeptalka posměšná</span>, která roste na okrajích školních pozemků
@@ -284,6 +287,9 @@ const Artefakty = () => (
       druhy a typy magikvarků jsou reprezentovány <span className='text-highlighter'>různými barvami</span>, artefakt
       umožňuje vidět pohyby, hustotu i <span className='text-highlighter'>můstky</span> spojující magikvarky.</p>
 
+    <Link className='game-archive-button with-arrow' to="/magikvarky" target="_blank" rel="noopener noreferrer">Číst
+      více o magikvarcích</Link>
+
     <img src={olho_de_vidro_anurico_02} className='img-in-text img-in-text-left'/>
 
     <p>Užívání artefaktu je velmi <span className='text-highlighter'>náročné na lidskou mysl</span>. Vzhledem k tomu, že
@@ -344,6 +350,9 @@ const Artefakty = () => (
       minulosti, zatímco <span className='text-highlighter'>Tatá</span>, oheň, představuje sílu proměny, energie a
       samotného probuzení magie. Artefakt může být spojen s jednou silou, ale složitější předměty často pracují s <span
         className='text-highlighter'>kombinací více sil současně</span>.</p>
+
+    <Link className='game-archive-button with-arrow' to="/mytologie" target="_blank" rel="noopener noreferrer">Číst
+      více o mytologii</Link>
 
     <img src={vyroba_01} className='img-in-text img-in-text-left'/>
 
