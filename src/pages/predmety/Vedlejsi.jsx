@@ -109,6 +109,9 @@ const Vedlejsi = () => (
       obohacují jejich studium. V závěrečném ročníku realizují vlastní mise nebo pracují ve skupinách a výsledky shrnují
       do podrobného dokumentu, který slouží jako jejich závěrečná práce.</p>
 
+    <Link className='game-archive-button with-arrow' to="/ritualni-magie" target="_blank" rel="noopener noreferrer">Číst
+      více o rituální magii</Link>
+
 
   </div>
 )
