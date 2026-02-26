@@ -2,7 +2,7 @@ import React from 'react'
 import {Routes, Route, Link} from 'react-router-dom'
 import TurnajNav from './TurnajNav.jsx'
 
-const Vypracovani = () => (
+const Vypracovani1 = () => (
   <div>
     <TurnajNav/>
     <div className="main-header"><h1>Vypracování</h1></div>
@@ -27,4 +27,4 @@ const Vypracovani = () => (
   </div>
 )
 
-export default Vypracovani
+export default Vypracovani1
