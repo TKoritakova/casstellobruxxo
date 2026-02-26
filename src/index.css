@@ -374,7 +374,7 @@ table.post-tabulka {
     border-collapse: collapse;
     font-family: 'Ancizar Serif', serif;
     font-optical-sizing: auto;
-    font-size: 14px;
+    /*font-size: 14px;*/
     margin: 20px auto;
 }
 
@@ -406,6 +406,16 @@ table.post-tabulka {
 
 .post-tabulka tr:last-child td {
     border-bottom: none;
+}
+
+.post-tabulka a {
+color: #2e8b57;
+font-style: italic;
+font-weight: bold;
+}
+
+.post-tabulka a:visited {
+color: #2e8b57;
 }
 
 
