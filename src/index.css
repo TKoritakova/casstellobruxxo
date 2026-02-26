@@ -643,3 +643,56 @@ table.post-tabulka {
         margin-top: 7px;
     }
 }
+
+@media print {
+    body {
+        background: #ffffff !important;
+        color: #000000 !important;
+    }
+
+    h1, h2, h3, .text-highlighter, .animagus-layer b, .post-tabulka tr:first-child {
+        color: #000000 !important;
+        text-shadow: none !important;
+    }
+
+    .img-character, .img-in-text, .img-spell, .green-box, table.post-tabulka td, hr {
+        border-color: #333333 !important;
+    }
+
+    header,
+    .main-header,
+    .main-nav,
+    .second-nav,
+    .game-archive-button {
+        display: none !important;
+    }
+
+    .content {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .green-box,
+    .student-face-card,
+    .animagus-card,
+    img,
+    table.post-tabulka {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    .layer-animal {
+        display: none !important;
+    }
+
+    .layer-human {
+        opacity: 1 !important;
+    }
+}
