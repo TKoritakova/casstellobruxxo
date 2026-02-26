@@ -9,7 +9,13 @@ import Lucia from '../../img/postavy/lucia_juliana_navarro.png';
 import Sofia from '../../img/postavy/sofia_sanchez.png';
 import Yara from '../../img/postavy/yara_quetzal_do_sol.png';
 import Gabriel from '../../img/postavy/gabriel_sebastian_almeida_soares.jpg';
+import Josiah from '../../img/postavy/josiah_micheas_noguera.jpg';
+
+
 import KmenyNav from './KmenyNav';
+
+import GenGirl from '../../img/postavy/generic_girl.png';
+import GenBoy from '../../img/postavy/generic_boy.png';
 
 const Pawanunga = () => (
   <div>
@@ -47,7 +53,7 @@ const Pawanunga = () => (
     <h2>Studenti</h2>
     <hr/>
 
-    <p className='text-align-center'><i>(Pro školní rok 2007/2008.)</i></p>
+    <p className='text-align-center'><i>(Pro školní rok 2008/2009.)</i></p>
 
 
     <h3>Pátý ročník</h3>
@@ -78,9 +84,14 @@ const Pawanunga = () => (
         <img src={Gabriel} className='img-character'/>
         <p>Gabriel Sebastian Almeida Soares</p>
       </div>
-
+      <div className='student-face-card'>
+        <img src={Josiah} className='img-character'/>
+        <p>Josiah Micheas Noguera</p>
+      </div>
 
     </div>
+
+
 
 
   </div>
