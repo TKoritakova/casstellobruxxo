@@ -54,7 +54,7 @@ const Kuaraori = () => (
     <h2>Studenti</h2>
     <hr/>
 
-    <p className='text-align-center'><i>(Pro školní rok 2007/2008.)</i></p>
+    <p className='text-align-center'><i>(Pro školní rok 2008/2009.)</i></p>
 
 
     <h3>Šestý ročník</h3>
