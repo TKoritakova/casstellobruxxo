@@ -106,7 +106,7 @@ header p {
   text-align: center;
   border-bottom:solid 2px #2e8b5744;
   border-top:solid 2px #2e8b5744;
-  background: url('https://i.postimg.cc/kgLnnSDP/pozadi.png');
+  background-image: url('../src/img/pozadi.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
