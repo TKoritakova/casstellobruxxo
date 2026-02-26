@@ -43,6 +43,88 @@ const ZadaniAVypracovani = () => (
       cestu k vítězství, přičemž svou volbu museli pečlivě obhájit.
     </p>
 
+    <h2>Vypracování prvního úkolu</h2>
+    <hr/>
+    <table className="post-tabulka">
+      <tr>
+        <td>Jméno</td>
+        <td>Body</td>
+        <td>Vypracování</td>
+   
+      </tr>
+      <tr>
+        <td>Mateo Benítez</td>
+        <td>29</td>
+        <td><a href="/casstellobruxxo/ukoly/1/MateoBenitez1.pdf" target="_blank">Vypracování</a></td>
+       
+      </tr>
+
+
+      <tr>
+        <td>Catriel Ulises Condori</td>
+        <td>27.5</td>
+        <td><a href="/casstellobruxxo/ukoly/1/CatrielUlisesCondori1.png" target="_blank">Vypracování</a></td>
+        
+      </tr>
+
+      
+      <tr>
+        <td>Sofía Sánchez</td>
+        <td>27.5</td>
+        <td><a href="/casstellobruxxo/ukoly/1/SofiaSanchez1.pdf" target="_blank">Vypracování</a></td>
+        
+      </tr>
+
+       <tr>
+        <td>Sofia Amarilis Perez</td>
+        <td>27</td>
+        <td><a href="/casstellobruxxo/ukoly/1/SofiaAmarilisPerez1.pdf" target="_blank">Vypracování</a></td>
+        
+      </tr>
+
+      <tr>
+        <td>Juan Miguel Santos Ramírez</td>
+        <td>26.5</td>
+        <td><a href="/casstellobruxxo/ukoly/1/JuanMiguelSantosRamirez1.pdf" target="_blank">Vypracování</a></td>
+      
+      </tr>
+
+      <tr>
+        <td>Chiara Antonia José</td>
+        <td>25.5</td>
+        <td><a href="/casstellobruxxo/ukoly/1/ChiaraAntoniaJose1.pdf" target="_blank">Vypracování</a></td>
+    
+      </tr>
+
+      <tr>
+        <td>Lucia Juliana Navarro</td>
+        <td>25.5</td>
+        <td><a href="/casstellobruxxo/ukoly/1/LuciaJulianaNavarro1.pdf" target="_blank">Vypracování</a></td>
+        
+      </tr>
+
+      <tr>
+        <td>Luana Mariana Almeida Soares</td>
+        <td>24.5</td>
+        <td><a href="/casstellobruxxo/ukoly/1/LuanaMarianaAlmeidaSoares1.pdf" target="_blank">Vypracování</a></td>
+      
+      </tr>
+
+      <tr>
+        <td>Alejandro Navarro</td>
+        <td>18.5</td>
+        <td>-</td>
+        
+      </tr>
+    
+      
+
+      
+     
+      
+    </table>
+
+
     <br/>
     <div className="main-header"><h1>Sběr perel a tvorba vlastností</h1></div>
     <h2>Inrpg: Lov jezerních perel</h2>
@@ -73,6 +155,65 @@ const ZadaniAVypracovani = () => (
       ať už malovaný, focený či
       generovaný umělou inteligencí.</p>
 
+    <h2>Vypracování druhého úkolu</h2>
+    <hr />
+
+    <table className="post-tabulka">
+      <tr>
+        <td>Jméno</td>
+        <td>Body</td>
+        <td>Vypracování</td>
+    
+      </tr>
+      <tr>
+        <td>Sofia Amarilis Perez</td>
+        <td>34.5</td>
+        <td><a href="/casstellobruxxo/ukoly/2/SofiaAmarilisPerez2.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+
+      <tr>
+        <td>Mateo Benítez</td>
+        <td>30</td>
+        <td><a href="/casstellobruxxo/ukoly/2/MateoBenitez2.pdf" target="_blank">Vypracování</a></td>        
+      </tr>
+
+       <tr>
+        <td>Sofía Sánchez</td>
+        <td>29</td>
+        <td><a href="/casstellobruxxo/ukoly/2/SofiaSanchez2.pdf" target="_blank">Vypracování</a></td>
+       
+      </tr>
+
+      <tr>
+        <td>Chiara Antonia José</td>
+        <td>25.5</td>
+        <td><a href="/casstellobruxxo/ukoly/2/ChiaraAntoniaJose2.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+
+      <tr>
+        <td>Juan Miguel Santos Ramírez</td>
+        <td>25.5</td>
+        <td><a href="/casstellobruxxo/ukoly/2/JuanMiguelSantosRamirez2.pdf" target="_blank">Vypracování</a></td>
+        
+      </tr>
+   
+      <tr>
+        <td>Alejandro Sánchez</td>
+        <td>25</td>
+        <td><a href="/casstellobruxxo/ukoly/2/AlejandroSanchez2.pdf" target="_blank">Vypracování</a></td>     
+      </tr>
+ 
+      <tr>
+        <td>Lucia Juliana Navarro</td>
+        <td>20.5</td>
+        <td><a href="/casstellobruxxo/ukoly/2/LuciaJulianaNavarro2.pdf" target="_blank">Vypracování</a></td>
+        
+      </tr>
+      
+      
+      
+    </table>
+
     <br/>
     <div className="main-header"><h1>Ledová pevnost</h1></div>
 
@@ -95,6 +236,85 @@ const ZadaniAVypracovani = () => (
       srdce – a to pouze formou <span className='text-highlighter'>skutečné oběti</span>, například dočasným odevzdáním
       vlastní magie či zapomenutím cenné
       vzpomínky, jež se jim navrátila až po několika dnech.</p>
+
+
+      <h2>Vypracování třetího úkolu</h2>
+    <hr />
+
+      <table className="post-tabulka">
+      <tr>
+        <td>Jméno</td>
+        <td>Body</td>
+        <td>Vypracování</td>
+      </tr>
+
+      <tr>
+        <td>Sofia Amarilis Perez</td>
+     
+        <td>28</td>
+        <td><a href="/casstellobruxxo/ukoly/3/SofiaAmarilisPerez3.pdf" target="_blank">Vypracování</a></td>
+  
+      </tr>
+
+      <tr>
+        <td>Juan Miguel Santos Ramírez</td>
+     
+        <td>27</td>
+        <td><a href="/casstellobruxxo/ukoly/3/JuanMiguelSantosRamirez3.pdf" target="_blank">Vypracování</a></td>
+        
+      </tr>
+
+      <tr>
+        <td>Inés Soraya Caro</td>
+       
+        <td>26.5</td>
+        <td><a href="/casstellobruxxo/ukoly/3/InesSorayaCaro3.pdf" target="_blank">Vypracování</a></td>
+       
+      </tr>
+
+      <tr>
+        <td>Luana Mariana Almeida Soares</td>
+     
+        <td>25.5</td>
+        <td><a href="/casstellobruxxo/ukoly/3/LuanaMarianaAlmeidaSoares3.pdf" target="_blank">Vypracování</a></td>
+       
+      </tr>
+
+      <tr>
+        <td>Mateo Benítez</td>
+    
+
+        <td>25.5</td>
+        <td><a href="/casstellobruxxo/ukoly/3/MateoBenitez3.pdf" target="_blank">Vypracování</a></td>
+       
+      </tr>
+      
+      <tr>
+        <td>Chiara Antonia José</td>
+     
+        <td>25</td>
+        <td><a href="/casstellobruxxo/ukoly/3/ChiaraAntoniaJose3.pdf" target="_blank">Vypracování</a></td>
+       
+      </tr>
+      
+      <tr>
+        <td>Lucia Juliana Navarro</td>
+ 
+        <td>24.5</td>
+        <td><a href="/casstellobruxxo/ukoly/3/LuciaJulianaNavarro3.pdf" target="_blank">Vypracování</a></td>
+ 
+      </tr>
+      
+      
+      <tr>
+        <td>Sofía Sánchez</td>
+    
+        <td>20.5</td>
+        <td><a href="/casstellobruxxo/ukoly/3/SofiaSanchez3.pdf" target="_blank">Vypracování</a></td>
+   
+      </tr>
+      
+    </table>
 
     <br/>
     <div className="main-header"><h1>Lov zlatonek a tvorba soutěží</h1></div>
@@ -125,6 +345,71 @@ const ZadaniAVypracovani = () => (
         className='text-highlighter'>termínů</span> a argumentaci,
       proč by měl projekt o tuto konkrétní soutěž stát.
     </p>
+
+  <h2>Vypracování čtvrtého úkolu</h2>
+  <hr />
+
+  <table className="post-tabulka">
+      <tr>
+        <td>Jméno</td>
+        <td>Body</td>
+        <td>Vypracování</td>
+      </tr>
+
+      <tr>
+        <td>Sofia Amarilis Perez</td>
+        <td>32.5</td>
+        <td><a href="/casstellobruxxo/ukoly/4/SofiaAmarilisPerez4.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+     
+      <tr>
+        <td>Inés Soraya Caro</td>
+        <td>31.5</td>
+        <td><a href="/casstellobruxxo/ukoly/4/InesSorayaCaro4.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+      <tr>
+        <td>Juan Miguel Santos Ramírez</td>
+        <td>28.5</td>
+        <td><a href="/casstellobruxxo/ukoly/4/JuanMiguelSantosRamirez4.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+       <tr>
+        <td>Chiara Antonia José</td>    
+        <td>22.5</td>
+        <td><a href="/casstellobruxxo/ukoly/4/ChiaraAntoniaJose4.pdf" target="_blank">Vypracování</a></td>    
+      </tr>
+      <tr>
+        <td>Sofía Sánchez</td>
+        <td>22.5</td>
+        <td><a href="/casstellobruxxo/ukoly/4/SofiaSanchez4.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+
+      <tr>
+        <td>Mateo Benítez</td>
+        <td>21.5</td>
+        <td><a href="/casstellobruxxo/ukoly/4/MateoBenitez4.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+
+      <tr>
+        <td>Alejandro Sánchez</td>
+        <td>20</td>
+        <td><a href="/casstellobruxxo/ukoly/4/AlejandroSanchez4.pdf" target="_blank">Vypracování</a></td>
+  
+      </tr>
+
+      <tr>
+        <td>Lucia Juliana Navarro</td>
+        <td>19</td>
+        <td><a href="/casstellobruxxo/ukoly/4/LuciaJulianaNavarro4.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+
+      <tr>
+        <td>César Jesus Giménez Castillero</td>
+        <td>17</td>
+        <td><a href="/casstellobruxxo/ukoly/4/CesarJesusGimenezCastillero4.pdf" target="_blank">Vypracování</a></td>
+
+      </tr>
+      
+    </table>
 
     <br/>
     <div className="main-header"><h1>Rovnováha přírody</h1></div>
@@ -341,6 +626,60 @@ const ZadaniAVypracovani = () => (
         className='text-highlighter'>rovnováha živlů</span> pak stvrzuje samotné <span className='text-highlighter'>splnění úkolu</span>.
     </p>
 
+    <h2>Vypracování pátého úkolu</h2>
+  <hr />
+
+<table className="post-tabulka">
+      <tr>
+        <td>Jméno</td>
+        <td>Body</td>
+        <td>Vypracování</td>
+      </tr>
+      <tr>
+        <td>Sofia Amarilis Perez</td>
+        <td>34</td>
+        <td><a href="/casstellobruxxo/ukoly/5/SofiaAmarilisPerez5.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+    
+      
+      <tr>
+        <td>Inés Soraya Caro</td>
+        <td>31</td>
+        <td><a href="/casstellobruxxo/ukoly/5/InesSorayaCaro.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+
+      <tr>
+        <td>Sofía Sánchez</td>
+        <td>28</td>
+        <td><a href="/casstellobruxxo/ukoly/5/SofiaSanchez5.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+      <tr>
+        <td>Juan Miguel Santos Ramírez</td>
+        <td>26</td>
+        <td><a href="/casstellobruxxo/ukoly/5/JuanMiguelSantosRamirez5.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+     
+      
+      
+
+       <tr>
+        <td>Lucia Juliana Navarro</td>
+        <td>23</td>
+        <td><a href="/casstellobruxxo/ukoly/5/LuciaJulianaNavarro5.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+      <tr>
+        <td>Mateo Benítez</td>
+        <td>20</td>
+        <td><a href="/casstellobruxxo/ukoly/5/MateoBenitez5.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+
+      <tr>
+        <td>Chiara Antonia José</td>
+        <td>19</td>
+        <td><a href="/casstellobruxxo/ukoly/5/ChiaraAntoniaJose5.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+      
+    </table>
     <br/>
     <div className="main-header"><h1>Škola hrou</h1></div>
 
@@ -394,6 +733,46 @@ const ZadaniAVypracovani = () => (
       className='text-highlighter'>silovým kouzlem</span> ani <span className='text-highlighter'>násilím</span>. Reagují
       pouze na <span className='text-highlighter'>lidský dotek</span>, <span className='text-highlighter'>přirozený přístup</span> a <span
         className='text-highlighter'>nesilová kouzla</span>.</p>
+
+      <h2>Vypracování šestého úkolu</h2>
+  <hr />
+
+        <table className="post-tabulka">
+      <tr>
+        <td>Jméno</td>
+        <td>Body</td>
+        <td>Vypracování</td>
+      </tr>
+      <tr>
+        <td>Sofia Amarilis Perez</td>
+        <td>34</td>
+        <td><a href="/casstellobruxxo/ukoly/6/SofiaAmarilisPerez6.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+      
+      <tr>
+        <td>Inés Soraya Caro</td>
+        <td>33</td>
+        <td><a href="/casstellobruxxo/ukoly/6/InesSorayaCaro6.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+      <tr>
+        <td>Juan Miguel Santos Ramírez</td>
+        <td>32</td>
+        <td><a href="/casstellobruxxo/ukoly/6/JuanMiguelSantosRamirez6.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+      <tr>
+        <td>Chiara Antonia José</td>
+        <td>23</td>
+        <td><a href="/casstellobruxxo/ukoly/6/ChiaraAntoniaJose6.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+     
+      <tr>
+        <td>Mateo Benítez</td>
+        <td>19</td>
+        <td><a href="/casstellobruxxo/ukoly/6/MateoBenitez6.pdf" target="_blank">Vypracování</a></td>
+      </tr>
+    
+  
+    </table>
 
   </div>
 )

@@ -21,6 +21,16 @@ const Vysledky = () => (
         <td>Celkem</td>
       </tr>
       <tr>
+        <td>Alejandro Navarro</td>
+        <td>18.5</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>18.5</td>
+      </tr>
+      <tr>
         <td>Alejandro Sánchez</td>
         <td>-</td>
         <td>25</td>
