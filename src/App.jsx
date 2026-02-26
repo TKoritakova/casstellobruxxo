@@ -53,15 +53,9 @@ import Astronomie from './pages/predmety/Astronomie'
 import RitualniMagie from "./pages/predmety/RitualniMagie.jsx";
 
 import Turnaj from "./pages/turnaj/Turnaj.jsx";
-import Zadani from "./pages/turnaj/Zadani.jsx";
+import ZadaniAVypracovani from "./pages/turnaj/ZadaniAVypracovani.jsx";
 import PrubehTurnaje from "./pages/turnaj/PrubehTurnaje.jsx";
 import Vysledky from "./pages/turnaj/Vysledky.jsx";
-import Vypracovani1 from "./pages/turnaj/Vypracovani1.jsx";
-import Vypracovani2 from "./pages/turnaj/Vypracovani2.jsx";
-import Vypracovani3 from "./pages/turnaj/Vypracovani3.jsx";
-import Vypracovani4 from "./pages/turnaj/Vypracovani4.jsx";
-import Vypracovani5 from "./pages/turnaj/Vypracovani5.jsx";
-import Vypracovani6 from "./pages/turnaj/Vypracovani6.jsx";
 
 
 function ScrollToTop() {
@@ -164,13 +158,7 @@ function App() {
           <Route path="/magikvarky" element={<Magikvarky/>}/>
 
           <Route path="/turnaj" element={<Turnaj/>}/>
-          <Route path="/zadani" element={<Zadani/>}/>
-          <Route path="/vypracovani-1" element={<Vypracovani1/>}/>
-          <Route path="/vypracovani-2" element={<Vypracovani2/>}/>
-          <Route path="/vypracovani-3" element={<Vypracovani3/>}/>
-          <Route path="/vypracovani-4" element={<Vypracovani4/>}/>
-          <Route path="/vypracovani-5" element={<Vypracovani5/>}/>
-          <Route path="/vypracovani-6" element={<Vypracovani6/>}/>
+          <Route path="/zadani-a-vypracovani" element={<ZadaniAVypracovani/>}/>
           <Route path="/prubeh-turnaje" element={<PrubehTurnaje/>}/>
           <Route path="/vysledky" element={<Vysledky/>}/>
 
