@@ -21,6 +21,8 @@ const MagieSmyslu = () => (
       škálu <span className='text-highlighter'>magické flóry</span>, která dokáže <span className='text-highlighter'>lidské smysly vyostřit až na samotnou hranici možností.</span> Tato
       magie není postavena na slovech a gestech, ale na hlubokém spojení s dary země.</p>
 
+
+    <br />
     <h2>Rozšířené vnímání</h2>
     <hr/>
     <p>Využití magických rostlin – ať už v podobě lektvarů, pokrmů nebo rituálních vykuřovadel – umožňuje
