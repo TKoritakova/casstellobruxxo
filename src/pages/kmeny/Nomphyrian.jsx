@@ -17,7 +17,8 @@ import Yara from '../../img/postavy/yara_monteiro.png';
 import Chiara from '../../img/postavy/chiara_antonia_jose.jpg';
 import AlejandroN from '../../img/postavy/alejandro_navarro.png';
 import KmenyNav from './KmenyNav';
-
+import GenGirl from '../../img/postavy/generic_girl.png';
+import GenBoy from '../../img/postavy/generic_boy.png';
 
 const Nomphyrian = () => (
   <div>
@@ -57,6 +58,14 @@ const Nomphyrian = () => (
 
     <p className='text-align-center'><i>(Pro školní rok 2007/2008.)</i></p>
 
+    <h3>Druhý ročník</h3>
+    <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={GenGirl} className='img-character'/>
+        <p>Isabel Luz Santos Ramírez</p>
+      </div>
+
+    </div>
 
     <h3>Pátý ročník</h3>
     <div className='face-cards-wrapper'>
@@ -98,13 +107,18 @@ const Nomphyrian = () => (
     <h3>Sedmý ročník</h3>
     <div className='face-cards-wrapper'>
       <div className='student-face-card'>
+        <img src={AlejandroN} className='img-character'/>
+        <p>Alejandro Navarro</p>
+      </div>
+      <div className='student-face-card'>
         <img src={Chiara} className='img-character'/>
         <p>Chiara Antonia José</p>
       </div>
       <div className='student-face-card'>
-        <img src={AlejandroN} className='img-character'/>
-        <p>Alejandro Navarro</p>
+        <img src={GenGirl} className='img-character'/>
+        <p>María Condori</p>
       </div>
+      
 
     </div>
 

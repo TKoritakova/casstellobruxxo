@@ -9,7 +9,13 @@ import Luana from '../../img/postavy/luana_mariana_almeida_soares.jpg';
 import Ines from '../../img/postavy/ines_soraya_caro.jpg';
 import Sofia from '../../img/postavy/sofia_amarilis_perez.png';
 import Mikkel from '../../img/postavy/mikel_ancco_de_leon.png';
+import Quintin from '../../img/postavy/quintin_argimiro_merlo.jpg';
+
+
 import KmenyNav from './KmenyNav';
+
+import GenGirl from '../../img/postavy/generic_girl.png';
+import GenBoy from '../../img/postavy/generic_boy.png';
 
 
 const Kuaraori = () => (
@@ -62,8 +68,16 @@ const Kuaraori = () => (
         <p>Mikel Ancco de León</p>
       </div>
       <div className='student-face-card'>
+        <img src={GenBoy} className='img-character'/>
+        <p>Sebastian José</p>
+      </div>
+      <div className='student-face-card'>
         <img src={Sofia} className='img-character'/>
         <p>Sofia Amarilis Perez</p>
+      </div>
+      <div className='student-face-card'>
+        <img src={Quintin} className='img-character'/>
+        <p>Quintín Argimiro Merlo</p>
       </div>
 
     </div>
@@ -71,6 +85,10 @@ const Kuaraori = () => (
 
     <h3>Sedmý ročník</h3>
     <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={GenBoy} className='img-character'/>
+        <p>Christian José</p>
+      </div>
       <div className='student-face-card'>
         <img src={Luana} className='img-character'/>
         <p>Luana Mariana Almeida Soares</p>

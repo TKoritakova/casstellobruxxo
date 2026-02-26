@@ -9,6 +9,11 @@ import Luan from '../../img/postavy/luan_caetanno.png';
 import Catriel from '../../img/postavy/catriel_ulises_condori.png';
 import KmenyNav from './KmenyNav';
 
+import GenGirl from '../../img/postavy/generic_girl.png';
+import GenBoy from '../../img/postavy/generic_boy.png';
+
+import Rico from '../../img/postavy/rico_emillio_santos_ramirez.jpg';
+
 const Arashar = () => (
   <div>
     <KmenyNav/>
@@ -46,6 +51,15 @@ const Arashar = () => (
 
     <p className='text-align-center'><i>(Pro školní rok 2007/2008.)</i></p>
 
+    <h3>První ročník</h3>
+    <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={GenBoy} className='img-character'/>
+        <p>Marco Condori</p>
+      </div>
+
+    </div>
+
 
     <h3>Pátý ročník</h3>
     <div className='face-cards-wrapper'>
@@ -63,6 +77,20 @@ const Arashar = () => (
         <img src={Luan} className='img-character'/>
         <p>Luan Caetanno</p>
       </div>
+
+    </div>
+
+    <h3>Sedmý ročník</h3>
+    <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={GenGirl} className='img-character'/>
+        <p>Emily José</p>
+      </div>
+      <div className='student-face-card'>
+        <img src={Rico} className='img-character'/>
+        <p>Rico Emillio Santos Ramírez</p>
+      </div>
+
 
     </div>
 
