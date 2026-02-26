@@ -54,7 +54,7 @@ import RitualniMagie from "./pages/predmety/RitualniMagie.jsx";
 
 import Turnaj from "./pages/turnaj/Turnaj.jsx";
 import ZadaniAVypracovani from "./pages/turnaj/ZadaniAVypracovani.jsx";
-import PrubehTurnaje from "./pages/turnaj/PrubehTurnaje.jsx";
+import NominovaniStudenti from "./pages/turnaj/NominovaniStudenti.jsx";
 import Vysledky from "./pages/turnaj/Vysledky.jsx";
 
 
@@ -159,7 +159,7 @@ function App() {
 
           <Route path="/turnaj" element={<Turnaj/>}/>
           <Route path="/zadani-a-vypracovani" element={<ZadaniAVypracovani/>}/>
-          <Route path="/prubeh-turnaje" element={<PrubehTurnaje/>}/>
+          <Route path="/ucastnici" element={<NominovaniStudenti/>}/>
           <Route path="/vysledky" element={<Vysledky/>}/>
 
 
