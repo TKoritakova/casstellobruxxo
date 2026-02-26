@@ -52,6 +52,11 @@ import Kanoe from './pages/predmety/Kanoe'
 import Astronomie from './pages/predmety/Astronomie'
 import RitualniMagie from "./pages/predmety/RitualniMagie.jsx";
 
+import Turnaj from "./pages/turnaj/Turnaj.jsx";
+import ZadaniAVypracovani from "./pages/turnaj/ZadaniAVypracovani.jsx";
+import PrubehTurnaje from "./pages/turnaj/PrubehTurnaje.jsx";
+import Vysledky from "./pages/turnaj/Vysledky.jsx";
+
 
 function ScrollToTop() {
   const {pathname} = useLocation();
@@ -95,6 +100,7 @@ function App() {
         <Link to="/predmety">Předměty</Link>
         <Link to="/magie">Magie</Link>
         <Link to="/amazonie">Amazonie a okolí</Link>
+        <Link to="/turnaj">Turnaj</Link>
 
       </nav>
 
@@ -150,6 +156,12 @@ function App() {
           <Route path="/magie-smyslu" element={<MagieSmyslu/>}/>
           <Route path="/halucinace-a-vnitrni-vize" element={<Halucinace/>}/>
           <Route path="/magikvarky" element={<Magikvarky/>}/>
+
+          <Route path="/turnaj" element={<Turnaj/>}/>
+          <Route path="/zadani-a-vypracovani" element={<ZadaniAVypracovani/>}/>
+          <Route path="/prubeh-turnaje" element={<PrubehTurnaje/>}/>
+          <Route path="/vysledky" element={<Vysledky/>}/>
+
 
         </Routes>
       </main>
