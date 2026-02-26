@@ -537,3 +537,162 @@ table.post-tabulka {
         font-size: 14px;
     }
 }
+
+@media screen and (max-height: 600px) and (orientation: landscape) {
+    body {
+        background-attachment: scroll;
+    }
+    .content {
+        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .main-header {
+        min-width: 100%;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        background-size: cover;
+
+        height: 65px;
+        margin-top: 15px;
+    }
+
+    .main-header h1 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    .main-header h1::first-letter {
+        font-size: 48px;
+    }
+
+    header {
+        min-height: 60px;
+    }
+    header h1 { font-size: 45px; }
+    header h1::first-letter { font-size: 48px; }
+}
+
+@media screen and (min-width: 1600px) {
+    body { font-size: 24px; }
+
+    .content { max-width: 975px; }
+
+    header { min-height: 150px; }
+    header h1 { font-size: 90px; }
+    header h1::first-letter { font-size: 94px; padding-right: 3px; }
+    header p { margin-top: -45px; padding-left: 30px; font-size: 24px; }
+
+    .main-header {
+        min-width: 750px;
+        width: 975px;
+        height: 90px;
+        margin-top: 37px;
+        border-bottom-width: 3px;
+        border-top-width: 3px;
+    }
+
+    .main-header h1 { font-size: 90px; }
+    .main-header h1::first-letter { font-size: 94px; padding-right: 3px; }
+
+    h2 { font-size: 60px; }
+    h2::first-letter { font-size: 66px; padding-right: 4px; }
+
+    h3 { font-size: 45px; }
+    h3::first-letter { font-size: 51px; padding-right: 4px; }
+
+    .main-nav, .second-nav {
+        border-bottom-width: 3px;
+        border-top-width: 3px;
+    }
+    .main-nav a { font-size: 25px; margin-left: 15px; margin-right: 15px; }
+    .second-nav a { font-size: 24px; padding: 4px 9px; margin: 7px; }
+
+    .img-character, .img-in-text, .img-spell, .green-box, .game-archive-button {
+        border-width: 3px;
+    }
+
+    .game-archive-button {
+        max-width: 600px;
+        padding: 15px;
+        margin: 37px auto;
+        font-size: 24px;
+    }
+
+    .img-in-text-left { margin-right: 22px; }
+    .img-in-text-right { margin-left: 22px; }
+    .img-spell { margin-left: 22px; margin-right: 7px; margin-top: 15px; }
+    .img-margin-left-20 { margin-left: 30px; }
+    .img-margin-right-20 { margin-right: 30px; }
+
+    table.post-tabulka {
+        font-size: 21px;
+        margin: 30px auto;
+    }
+
+    .animagus-card {
+        min-height: 255px;
+    }
+
+    .animagus-layer p {
+        font-size: 21px;
+        margin-top: 7px;
+    }
+}
+
+@media print {
+    body {
+        background: #ffffff !important;
+        color: #000000 !important;
+    }
+
+    h1, h2, h3, .text-highlighter, .animagus-layer b, .post-tabulka tr:first-child {
+        color: #000000 !important;
+        text-shadow: none !important;
+    }
+
+    .img-character, .img-in-text, .img-spell, .green-box, table.post-tabulka td, hr {
+        border-color: #333333 !important;
+    }
+
+    header,
+    .main-header,
+    .main-nav,
+    .second-nav,
+    .game-archive-button {
+        display: none !important;
+    }
+
+    .content {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .green-box,
+    .student-face-card,
+    .animagus-card,
+    img,
+    table.post-tabulka {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    .layer-animal {
+        display: none !important;
+    }
+
+    .layer-human {
+        opacity: 1 !important;
+    }
+}
