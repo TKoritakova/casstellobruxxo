@@ -5,7 +5,7 @@ import TurnajNav from './TurnajNav.jsx'
 const ZadaniAVypracovani = () => (
   <div>
     <TurnajNav/>
-    <div className="main-header"><h1>Zadání</h1></div>
+    <div className="main-header"><h1>Zadání a vypracování</h1></div>
 
     <h2>První úkol</h2>
     <hr />
