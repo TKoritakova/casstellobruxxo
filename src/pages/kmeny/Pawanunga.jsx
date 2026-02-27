@@ -10,7 +10,9 @@ import Sofia from '../../img/postavy/sofia_sanchez.png';
 import Yara from '../../img/postavy/yara_quetzal_do_sol.png';
 import Gabriel from '../../img/postavy/gabriel_sebastian_almeida_soares.jpg';
 import Josiah from '../../img/postavy/josiah_micheas_noguera.jpg';
-
+import Daniela from '../../img/postavy/daniela_gonzales_eumann.jpg';
+import Thiago from '../../img/postavy/thiago_burgos_diaz.png';
+import Bruno from '../../img/postavy/bruno_flores_delgado.jpg';
 
 import KmenyNav from './KmenyNav';
 
@@ -54,10 +56,21 @@ const Pawanunga = () => (
     <hr/>
 
     <p className='text-align-center'><i>(Pro školní rok 2008/2009.)</i></p>
+     <h3>První ročník</h3>
+    <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={GenGirl} className='img-character'/>
+        <p>Constância do Sol</p>
+      </div>
 
+    </div>
 
     <h3>Pátý ročník</h3>
     <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={Daniela} className='img-character'/>
+        <p>Daniela Gonzáles Neumann</p>
+      </div>
       <div className='student-face-card'>
         <img src={Lucia} className='img-character'/>
         <p>Lucia Juliana Navarro</p>
@@ -71,6 +84,14 @@ const Pawanunga = () => (
 
     <h3>Šestý ročník</h3>
     <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={Bruno} className='img-character'/>
+        <p>Bruno Flores Delgado</p>
+      </div>
+      <div className='student-face-card'>
+        <img src={Thiago} className='img-character'/>
+        <p>Thiago Burgos Diaz</p>
+      </div>
       <div className='student-face-card'>
         <img src={Yara} className='img-character'/>
         <p>Yara Quetzal do Sol</p>
@@ -90,8 +111,6 @@ const Pawanunga = () => (
       </div>
 
     </div>
-
-
 
 
   </div>
