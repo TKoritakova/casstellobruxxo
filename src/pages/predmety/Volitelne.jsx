@@ -107,9 +107,9 @@ const Volitelne = () => (
     <h3>Výroba magických artefaktů</h3>
     {/* <img src={artefakty} className='img-in-text img-in-text-right'/>*/}
     <p><span className='text-highlighter'>Délka:</span> Dva roky<br/>
-      <span className='text-highlighter'>Náplň předmětu:</span>Kurz studentům nabízí hlubší vhled do výroby magických
+      <span className='text-highlighter'>Náplň předmětu:</span> Kurz studentům nabízí hlubší vhled do výroby magických
       artefaktů, jež tvoří samotný základ jihoamerického kouzelnického řemesla. První ročník se zaměřuje na teoretické
-      <span className='text-highlighter'>porozumění symbolice přírodních materiálů</span> a propojení s pěti silami stvoření – ohněm, vodou, větrem, zemí a
+      <span className='text-highlighter'> porozumění symbolice přírodních materiálů</span> a propojení s pěti silami stvoření – ohněm, vodou, větrem, zemí a
       sluncem. Studenti zjišťují, že funkční artefakt nevzniká pouhým složením částí, ale vyžaduje naprosté soustředění
       a jasný záměr tvůrce. Druhý ročník je pak věnován praktické <span className='text-highlighter'>tvorbě složitějších ochranných, komunikačních a
         obřadních předmětů</span>. Studium klade hlavní důraz na dosažení naprosté vnitřní harmonie mezi myslí kouzelníka a
