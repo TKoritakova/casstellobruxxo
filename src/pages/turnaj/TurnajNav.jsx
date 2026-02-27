@@ -6,6 +6,7 @@ function TurnajNav() {
       <Link to="/ucastnici">Účastníci</Link>
       <Link to="/zadani-a-vypracovani">Zadání a vypracování</Link>
       <Link to="/vysledky">Výsledky turnaje</Link>
+      <Link to="/seminare">Semináře</Link>
     </nav>
   );
 }
