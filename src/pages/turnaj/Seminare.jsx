@@ -7,6 +7,7 @@ import Archeologie from '../../img/turnaj/seminare/archeologie.png';
 import Komunikace from '../../img/turnaj/seminare/komunikace.png';
 import Ritualka from '../../img/turnaj/seminare/ritualni_magie.png';
 import Zveromagie from '../../img/turnaj/seminare/zveromagie.png';
+import Kanoe from '../../img/turnaj/seminare/kanoe.png';
 
 const Seminare = () => (
   <div>
@@ -18,21 +19,24 @@ const Seminare = () => (
 
     <div className='face-cards-wrapper'>
         <div className='seminar-face-card'>
+            <Link to="/archeologie" target='_blank'><img src={Archeologie} className='img-character' />
+                <p><span className='text-highlighter'>Archeologie</span></p></Link>
+        </div>
+        <div className='seminar-face-card'>
             <Link to="/artefakty" target='_blank'><img src={Artefakty} className='img-character' />
                 <p><span className='text-highlighter'>Artefakty</span></p></Link>
         </div>
         <div className='seminar-face-card'>
-            <Link to="/archeologie" target='_blank'><img src={Archeologie} className='img-character' />
-            <p><span className='text-highlighter'>Archeologie</span></p></Link>
+            <Link to="/komunikace" target='_blank'><img src={Komunikace} className='img-character' />
+                <p><span className='text-highlighter'>Komunikace s tvory</span></p></Link>
+        </div>
+        <div className='seminar-face-card'>
+            <Link to="/kanoe" target='_blank'><img src={Kanoe} className='img-character' />
+                <p><span className='text-highlighter'>Let na kanoích</span></p></Link>
         </div>
         <div className='seminar-face-card'>
             <Link to="/ritualni-magie" target='_blank'><img src={Ritualka} className='img-character' />
             <p><span className='text-highlighter'>Rituální magie</span></p></Link>
-        </div>
-
-        <div className='seminar-face-card'>
-            <Link to="/komunikace" target='_blank'><img src={Komunikace} className='img-character' />
-            <p><span className='text-highlighter'>Komunikace s tvory</span></p></Link>
         </div>
         <div className='seminar-face-card'>
             <Link to="/zveromagie" target='_blank'><img src={Zveromagie} className='img-character' />
