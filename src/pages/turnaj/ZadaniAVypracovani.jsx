@@ -14,7 +14,6 @@ import paty_ukol_04 from '../../img/turnaj/paty_ukol_04.png';
 
 import sesty_ukol_01 from '../../img/turnaj/sesty_ukol_01.png';
 import sesty_ukol_02 from '../../img/turnaj/sesty_ukol_02.png';
-import Carmila from "../../img/postavy/carmila_iris_jose.png";
 
 const ZadaniAVypracovani = () => (
   <div>
@@ -50,13 +49,13 @@ const ZadaniAVypracovani = () => (
         <td>Jméno</td>
         <td>Body</td>
         <td>Vypracování</td>
-   
+
       </tr>
       <tr>
         <td>Mateo Benítez</td>
         <td>29</td>
         <td><a href="/casstellobruxxo/ukoly/1/MateoBenitez1.pdf" target="_blank">Vypracování</a></td>
-       
+
       </tr>
 
 
@@ -64,64 +63,60 @@ const ZadaniAVypracovani = () => (
         <td>Catriel Ulises Condori</td>
         <td>27.5</td>
         <td><a href="/casstellobruxxo/ukoly/1/CatrielUlisesCondori1.png" target="_blank">Vypracování</a></td>
-        
+
       </tr>
 
-      
+
       <tr>
         <td>Sofía Sánchez</td>
         <td>27.5</td>
         <td><a href="/casstellobruxxo/ukoly/1/SofiaSanchez1.pdf" target="_blank">Vypracování</a></td>
-        
+
       </tr>
 
-       <tr>
+      <tr>
         <td>Sofia Amarilis Perez</td>
         <td>27</td>
         <td><a href="/casstellobruxxo/ukoly/1/SofiaAmarilisPerez1.pdf" target="_blank">Vypracování</a></td>
-        
+
       </tr>
 
       <tr>
         <td>Juan Miguel Santos Ramírez</td>
         <td>26.5</td>
         <td><a href="/casstellobruxxo/ukoly/1/JuanMiguelSantosRamirez1.pdf" target="_blank">Vypracování</a></td>
-      
+
       </tr>
 
       <tr>
         <td>Chiara Antonia José</td>
         <td>25.5</td>
         <td><a href="/casstellobruxxo/ukoly/1/ChiaraAntoniaJose1.pdf" target="_blank">Vypracování</a></td>
-    
+
       </tr>
 
       <tr>
         <td>Lucia Juliana Navarro</td>
         <td>25.5</td>
         <td><a href="/casstellobruxxo/ukoly/1/LuciaJulianaNavarro1.pdf" target="_blank">Vypracování</a></td>
-        
+
       </tr>
 
       <tr>
         <td>Luana Mariana Almeida Soares</td>
         <td>24.5</td>
         <td><a href="/casstellobruxxo/ukoly/1/LuanaMarianaAlmeidaSoares1.pdf" target="_blank">Vypracování</a></td>
-      
+
       </tr>
 
       <tr>
         <td>Alejandro Navarro</td>
         <td>18.5</td>
         <td>-</td>
-        
-      </tr>
-    
-      
 
-      
-     
-      
+      </tr>
+
+
     </table>
 
 
@@ -156,14 +151,14 @@ const ZadaniAVypracovani = () => (
       generovaný umělou inteligencí.</p>
 
     <h2>Vypracování druhého úkolu</h2>
-    <hr />
+    <hr/>
 
     <table className="post-tabulka">
       <tr>
         <td>Jméno</td>
         <td>Body</td>
         <td>Vypracování</td>
-    
+
       </tr>
       <tr>
         <td>Sofia Amarilis Perez</td>
@@ -174,14 +169,14 @@ const ZadaniAVypracovani = () => (
       <tr>
         <td>Mateo Benítez</td>
         <td>30</td>
-        <td><a href="/casstellobruxxo/ukoly/2/MateoBenitez2.pdf" target="_blank">Vypracování</a></td>        
+        <td><a href="/casstellobruxxo/ukoly/2/MateoBenitez2.pdf" target="_blank">Vypracování</a></td>
       </tr>
 
-       <tr>
+      <tr>
         <td>Sofía Sánchez</td>
         <td>29</td>
         <td><a href="/casstellobruxxo/ukoly/2/SofiaSanchez2.pdf" target="_blank">Vypracování</a></td>
-       
+
       </tr>
 
       <tr>
@@ -194,24 +189,23 @@ const ZadaniAVypracovani = () => (
         <td>Juan Miguel Santos Ramírez</td>
         <td>25.5</td>
         <td><a href="/casstellobruxxo/ukoly/2/JuanMiguelSantosRamirez2.pdf" target="_blank">Vypracování</a></td>
-        
+
       </tr>
-   
+
       <tr>
         <td>Alejandro Sánchez</td>
         <td>25</td>
-        <td><a href="/casstellobruxxo/ukoly/2/AlejandroSanchez2.pdf" target="_blank">Vypracování</a></td>     
+        <td><a href="/casstellobruxxo/ukoly/2/AlejandroSanchez2.pdf" target="_blank">Vypracování</a></td>
       </tr>
- 
+
       <tr>
         <td>Lucia Juliana Navarro</td>
         <td>20.5</td>
         <td><a href="/casstellobruxxo/ukoly/2/LuciaJulianaNavarro2.pdf" target="_blank">Vypracování</a></td>
-        
+
       </tr>
-      
-      
-      
+
+
     </table>
 
     <br/>
@@ -238,10 +232,10 @@ const ZadaniAVypracovani = () => (
       vzpomínky, jež se jim navrátila až po několika dnech.</p>
 
 
-      <h2>Vypracování třetího úkolu</h2>
-    <hr />
+    <h2>Vypracování třetího úkolu</h2>
+    <hr/>
 
-      <table className="post-tabulka">
+    <table className="post-tabulka">
       <tr>
         <td>Jméno</td>
         <td>Body</td>
@@ -250,70 +244,70 @@ const ZadaniAVypracovani = () => (
 
       <tr>
         <td>Sofia Amarilis Perez</td>
-     
+
         <td>28</td>
         <td><a href="/casstellobruxxo/ukoly/3/SofiaAmarilisPerez3.pdf" target="_blank">Vypracování</a></td>
-  
+
       </tr>
 
       <tr>
         <td>Juan Miguel Santos Ramírez</td>
-     
+
         <td>27</td>
         <td><a href="/casstellobruxxo/ukoly/3/JuanMiguelSantosRamirez3.pdf" target="_blank">Vypracování</a></td>
-        
+
       </tr>
 
       <tr>
         <td>Inés Soraya Caro</td>
-       
+
         <td>26.5</td>
         <td><a href="/casstellobruxxo/ukoly/3/InesSorayaCaro3.pdf" target="_blank">Vypracování</a></td>
-       
+
       </tr>
 
       <tr>
         <td>Luana Mariana Almeida Soares</td>
-     
+
         <td>25.5</td>
         <td><a href="/casstellobruxxo/ukoly/3/LuanaMarianaAlmeidaSoares3.pdf" target="_blank">Vypracování</a></td>
-       
+
       </tr>
 
       <tr>
         <td>Mateo Benítez</td>
-    
+
 
         <td>25.5</td>
         <td><a href="/casstellobruxxo/ukoly/3/MateoBenitez3.pdf" target="_blank">Vypracování</a></td>
-       
+
       </tr>
-      
+
       <tr>
         <td>Chiara Antonia José</td>
-     
+
         <td>25</td>
         <td><a href="/casstellobruxxo/ukoly/3/ChiaraAntoniaJose3.pdf" target="_blank">Vypracování</a></td>
-       
+
       </tr>
-      
+
       <tr>
         <td>Lucia Juliana Navarro</td>
- 
+
         <td>24.5</td>
         <td><a href="/casstellobruxxo/ukoly/3/LuciaJulianaNavarro3.pdf" target="_blank">Vypracování</a></td>
- 
+
       </tr>
-      
-      
+
+
       <tr>
         <td>Sofía Sánchez</td>
-    
+
         <td>20.5</td>
         <td><a href="/casstellobruxxo/ukoly/3/SofiaSanchez3.pdf" target="_blank">Vypracování</a></td>
-   
+
       </tr>
-      
+
     </table>
 
     <br/>
@@ -346,10 +340,10 @@ const ZadaniAVypracovani = () => (
       proč by měl projekt o tuto konkrétní soutěž stát.
     </p>
 
-  <h2>Vypracování čtvrtého úkolu</h2>
-  <hr />
+    <h2>Vypracování čtvrtého úkolu</h2>
+    <hr/>
 
-  <table className="post-tabulka">
+    <table className="post-tabulka">
       <tr>
         <td>Jméno</td>
         <td>Body</td>
@@ -361,7 +355,7 @@ const ZadaniAVypracovani = () => (
         <td>32.5</td>
         <td><a href="/casstellobruxxo/ukoly/4/SofiaAmarilisPerez4.pdf" target="_blank">Vypracování</a></td>
       </tr>
-     
+
       <tr>
         <td>Inés Soraya Caro</td>
         <td>31.5</td>
@@ -372,10 +366,10 @@ const ZadaniAVypracovani = () => (
         <td>28.5</td>
         <td><a href="/casstellobruxxo/ukoly/4/JuanMiguelSantosRamirez4.pdf" target="_blank">Vypracování</a></td>
       </tr>
-       <tr>
-        <td>Chiara Antonia José</td>    
+      <tr>
+        <td>Chiara Antonia José</td>
         <td>22.5</td>
-        <td><a href="/casstellobruxxo/ukoly/4/ChiaraAntoniaJose4.pdf" target="_blank">Vypracování</a></td>    
+        <td><a href="/casstellobruxxo/ukoly/4/ChiaraAntoniaJose4.pdf" target="_blank">Vypracování</a></td>
       </tr>
       <tr>
         <td>Sofía Sánchez</td>
@@ -393,7 +387,7 @@ const ZadaniAVypracovani = () => (
         <td>Alejandro Sánchez</td>
         <td>20</td>
         <td><a href="/casstellobruxxo/ukoly/4/AlejandroSanchez4.pdf" target="_blank">Vypracování</a></td>
-  
+
       </tr>
 
       <tr>
@@ -408,7 +402,7 @@ const ZadaniAVypracovani = () => (
         <td><a href="/casstellobruxxo/ukoly/4/CesarJesusGimenezCastillero4.pdf" target="_blank">Vypracování</a></td>
 
       </tr>
-      
+
     </table>
 
     <br/>
@@ -446,6 +440,11 @@ const ZadaniAVypracovani = () => (
 
     <p>Symboly každého živlu lehce světélkují, ale je patrné, že světlo je slabé a nepravidelné. A to je nejspíš příčina
       té nepřirozeně oslabené přírody kolem. Živly nejsou v rovnováze.</p>
+
+    <h3>Fungování komplikací</h3>
+
+    <p>Během plnění úkolu narazí každá postava na <span className='text-highlighter'>překážku</span> u <span className='text-highlighter'>dvou náhodně určených</span> sil stvoření. Zbylé tři fáze
+      proběhnou hladce. Konkrétní podoba hrozby je vždy popsána v sekci dané síly.</p>
 
     <h2>Sol</h2>
     <hr/>
@@ -615,9 +614,9 @@ const ZadaniAVypracovani = () => (
     </p>
 
     <h2>Vypracování pátého úkolu</h2>
-  <hr />
+    <hr/>
 
-<table className="post-tabulka">
+    <table className="post-tabulka">
       <tr>
         <td>Jméno</td>
         <td>Body</td>
@@ -628,8 +627,8 @@ const ZadaniAVypracovani = () => (
         <td>34</td>
         <td><a href="/casstellobruxxo/ukoly/5/SofiaAmarilisPerez5.pdf" target="_blank">Vypracování</a></td>
       </tr>
-    
-      
+
+
       <tr>
         <td>Inés Soraya Caro</td>
         <td>31</td>
@@ -646,11 +645,9 @@ const ZadaniAVypracovani = () => (
         <td>26</td>
         <td><a href="/casstellobruxxo/ukoly/5/JuanMiguelSantosRamirez5.pdf" target="_blank">Vypracování</a></td>
       </tr>
-     
-      
-      
 
-       <tr>
+
+      <tr>
         <td>Lucia Juliana Navarro</td>
         <td>23</td>
         <td><a href="/casstellobruxxo/ukoly/5/LuciaJulianaNavarro5.pdf" target="_blank">Vypracování</a></td>
@@ -666,7 +663,7 @@ const ZadaniAVypracovani = () => (
         <td>19</td>
         <td><a href="/casstellobruxxo/ukoly/5/ChiaraAntoniaJose5.pdf" target="_blank">Vypracování</a></td>
       </tr>
-      
+
     </table>
     <br/>
     <div className="main-header"><h1>Škola hrou</h1></div>
@@ -722,10 +719,10 @@ const ZadaniAVypracovani = () => (
       pouze na <span className='text-highlighter'>lidský dotek</span>, <span className='text-highlighter'>přirozený přístup</span> a <span
         className='text-highlighter'>nesilová kouzla</span>.</p>
 
-      <h2>Vypracování šestého úkolu</h2>
-  <hr />
+    <h2>Vypracování šestého úkolu</h2>
+    <hr/>
 
-        <table className="post-tabulka">
+    <table className="post-tabulka">
       <tr>
         <td>Jméno</td>
         <td>Body</td>
@@ -736,7 +733,7 @@ const ZadaniAVypracovani = () => (
         <td>34</td>
         <td><a href="/casstellobruxxo/ukoly/6/SofiaAmarilisPerez6.pdf" target="_blank">Vypracování</a></td>
       </tr>
-      
+
       <tr>
         <td>Inés Soraya Caro</td>
         <td>33</td>
@@ -752,14 +749,14 @@ const ZadaniAVypracovani = () => (
         <td>23</td>
         <td><a href="/casstellobruxxo/ukoly/6/ChiaraAntoniaJose6.pdf" target="_blank">Vypracování</a></td>
       </tr>
-     
+
       <tr>
         <td>Mateo Benítez</td>
         <td>19</td>
         <td><a href="/casstellobruxxo/ukoly/6/MateoBenitez6.pdf" target="_blank">Vypracování</a></td>
       </tr>
-    
-  
+
+
     </table>
 
   </div>
