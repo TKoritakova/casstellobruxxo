@@ -8,6 +8,7 @@ import hudba_a_magie from '../../img/predmety/uvod/hudba_a_magie.png';
 import jazyk_a_kultura_kmenu from '../../img/predmety/uvod/jazyk_a_kultura_kmenu.png';
 import magicka_archeologie from '../../img/predmety/uvod/magicka_archeologie.png';
 {/* artefakty from '../../img/predmety/uvod/artefakty.png';*/}
+
 import PredmetyNav from './PredmetyNav';
 
 const Volitelne = () => (
@@ -104,7 +105,7 @@ const Volitelne = () => (
       více o archeologii </Link>
 
     <h3>Výroba magických artefaktů</h3>
-    <img src={artefakty} className='img-in-text img-in-text-right'/>
+    {/* <img src={artefakty} className='img-in-text img-in-text-right'/>*/}
     <p><span className='text-highlighter'>Délka:</span> Dva roky<br/>
       <span className='text-highlighter'>Náplň předmětu:</span>Kurz studentům nabízí hlubší vhled do výroby magických
       artefaktů, jež tvoří samotný základ jihoamerického kouzelnického řemesla. První ročník se zaměřuje na teoretické
@@ -114,8 +115,8 @@ const Volitelne = () => (
         obřadních předmětů</span>. Studium klade hlavní důraz na dosažení naprosté vnitřní harmonie mezi myslí kouzelníka a
       magickou pamětí pralesa, což je klíčem k úspěšnému probuzení předmětu.</p>
 
-{/*    <Link className='game-archive-button with-arrow' to="/artefakty" target="_blank" rel="noopener noreferrer">Číst
-      více o artefaktech </Link>*/}
+   <Link className='game-archive-button with-arrow' to="/artefakty" target="_blank" rel="noopener noreferrer">Číst
+      více o artefaktech </Link>
 
 
   </div>
