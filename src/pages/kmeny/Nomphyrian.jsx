@@ -19,6 +19,7 @@ import AlejandroN from '../../img/postavy/alejandro_navarro.png';
 import KmenyNav from './KmenyNav';
 import GenGirl from '../../img/postavy/generic_girl.png';
 import GenBoy from '../../img/postavy/generic_boy.png';
+import Carlos from '../../img/postavy/carlos_montoya_giraldo.jpg';
 
 const Nomphyrian = () => (
   <div>
@@ -86,6 +87,10 @@ const Nomphyrian = () => (
 
     <h3>Šestý ročník</h3>
     <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={Carlos} className='img-character'/>
+        <p>Carlos Montoya Giraldo</p>
+      </div>
       <div className='student-face-card'>
         <img src={Cesar} className='img-character'/>
         <p>César Jesus Giménez Castillero</p>

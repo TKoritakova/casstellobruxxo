@@ -55,6 +55,16 @@ const Kuaraori = () => (
     <hr/>
 
     <p className='text-align-center'><i>(Pro školní rok 2008/2009.)</i></p>
+    <h3>Třetí ročník</h3>
+    <div className='face-cards-wrapper'>
+      <div className='student-face-card'>
+        <img src={GenGirl} className='img-character'/>
+        <p>Samara do Sol</p>
+      </div>
+    
+
+    </div>
+
 
 
     <h3>Šestý ročník</h3>
