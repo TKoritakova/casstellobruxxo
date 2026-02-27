@@ -447,18 +447,6 @@ const ZadaniAVypracovani = () => (
     <p>Symboly každého živlu lehce světélkují, ale je patrné, že světlo je slabé a nepravidelné. A to je nejspíš příčina
       té nepřirozeně oslabené přírody kolem. Živly nejsou v rovnováze.</p>
 
-
-    <h3>Nonrpg</h3>
-    <p>V prvním příspěvku si prosím hoďte kostkou v rozmezí <span className='text-highlighter'>1–10</span>. Následné
-      číslo bude určovat, ve kterých <span className='text-highlighter'>dvou silách</span> stvoření na vás bude
-      číhat <span className='text-highlighter'>nebezpečí</span>. Číslo si prosím <span
-        className='text-highlighter'>pamatujte</span> – u každého úkolu se bude nebezpečí odkazovat na konkrétní čísla.
-    </p>
-
-    <p>Zároveň, pokud vaše postava nějaký z úkolu nedokáže splnit a vzdá se, pak můžete reagovat vlastně na stejného
-      vypravěče, jako kdyby úkol splnila – postava si ale uvědomuje, že daný úkol nesplnila. A můžete pokračovat silou
-      další.</p>
-
     <h2>Sol</h2>
     <hr/>
 
@@ -476,7 +464,7 @@ const ZadaniAVypracovani = () => (
       tak osvítí i předtím rozsáhlé stinné kouty.</p>
 
     <h3>Komplikace</h3>
-    <p><span className='text-highlighter'>Čísla 1, 2, 3, 4:</span> Ve chvíli, kdy prales ztratí veškeré světlo,
+    <p>Ve chvíli, kdy prales ztratí veškeré světlo,
       zaslechne student <span className='text-highlighter'>roj</span> jakéhosi <span
         className='text-highlighter'>hmyzu</span>. Ten doletí až k jeho hlavě, slepě do ní začne <span
         className='text-highlighter'>narážet</span>. Student si nakonec odnese několik <span
@@ -502,7 +490,7 @@ const ZadaniAVypracovani = () => (
 
     <h3>Komplikace</h3>
 
-    <p><span className='text-highlighter'>Čísla 1, 5, 6, 7:</span> Student ale nezahlédne zvíře jenom jedno. Asi o deset
+    <p>Student ale nezahlédne zvíře jenom jedno. Asi o deset
       metrů dále si všimne číhajícího <span className='text-highlighter'>jaguára</span>. Nevypadá úplně, že by měl v
       nejbližší vteřině zaútočit, ale to se také může rychle <span className='text-highlighter'>změnit</span>. Nejen, že
       bude těžší se v takové situaci soustředit na samotný úkol, ale zároveň by větší chyba mohla znamenat i <span
@@ -532,7 +520,7 @@ const ZadaniAVypracovani = () => (
 
     <h3>Komplikace</h3>
 
-    <p><span className='text-highlighter'>Čísla 2, 5, 8, 9:</span> Semínko se stane ale zájmem i jiných tvorů, než
+    <p>Semínko se stane ale zájmem i jiných tvorů, než
       samotného studenta. Z jedné strany přiběhne skupinka <span className='text-highlighter'>pěti</span> na evropské
       poměry dost velkých <span className='text-highlighter'>mravenců</span>, ze vzduchu pak přiletí <span
         className='text-highlighter'>papoušek</span>. A oba dva druhy se pokouší <span
@@ -567,7 +555,7 @@ const ZadaniAVypracovani = () => (
         className='text-highlighter'>rozsvítí</span> symbol větru a název samotné síly.</p>
 
     <h3>Komplikace</h3>
-    <p><span className='text-highlighter'>Čísla 3, 6, 8, 10:</span> Cesta k samotnému víru větru je natolik složitá, že
+    <p>Cesta k samotnému víru větru je natolik složitá, že
       ať se student snaží jakkoliv, nakonec se mu jedna noha až po <span
         className='text-highlighter'>koleno</span> ztratí v jakési <span className='text-highlighter'>tůni</span>. Ta
       byla až do tohoto okamžiku tak <span className='text-highlighter'>zarostlá</span>, že všimnout si jí bylo skoro
@@ -595,7 +583,7 @@ const ZadaniAVypracovani = () => (
 
     <h3>Komplikace</h3>
 
-    <p><span className='text-highlighter'>Čísla 4, 7, 9, 10:</span> Ona postava je v tomto případě <span
+    <p>Ona postava je v tomto případě <span
       className='text-highlighter'>všímavější</span> a zaregistruje studenta <span
       className='text-highlighter'>dříve</span> než on ji. Vytáhne z kapsy hůlku, kterou na studenta namíří a <span
       className='text-highlighter'>úspěšně</span> jeho směrem vyšle jedno kouzlo, <span
