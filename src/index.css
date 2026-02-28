@@ -540,6 +540,12 @@ color: #2e8b57;
         font-size: 48px;
     }
 
+    header p {
+      font-size: 12px;
+      margin-top:-20px;
+      padding-left:24px;
+    }
+
     .main-header h1 {
         font-size: 40px;
     }
@@ -554,7 +560,7 @@ color: #2e8b57;
     }
 
     .main-nav a, .second-nav a {
-        margin: 8px 10px;
+        margin: 2px 10px;
         line-height: 1.8;
     }
 
@@ -575,7 +581,7 @@ color: #2e8b57;
     }
 
     table.post-tabulka {
-        width: 100%;
+        
         font-size: 14px;
     }
 }
@@ -617,6 +623,12 @@ color: #2e8b57;
     }
     header h1 { font-size: 45px; }
     header h1::first-letter { font-size: 48px; }
+
+    header p {
+      font-size: 12px;
+      margin-top:-20px;
+      padding-left:24px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
