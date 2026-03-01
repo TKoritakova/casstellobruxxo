@@ -151,6 +151,9 @@ const Turnaj = () => (
       Skotska.
     </p>
 
+    <a className='game-archive-button' href="/casstellobruxxo/PrijezdTurnaj.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv příjezdu (NonRPG 4. 10. 2025)</a>
+
     <img src={seznameni} className='img-in-text img-in-text-right'/>
 
     <p>Náš první týden v Evropě proběhl v duchu <span className='text-highlighter'>směsi cizích jazyků</span>, <span
@@ -324,6 +327,9 @@ const Turnaj = () => (
       dalším úkolu pralesem srovnáme skóre.
     </p>
 
+    <a className='game-archive-button' href="/casstellobruxxo/CasteloAkce.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv betakurzu (NonRPG 22. 11. 2025)</a>
+
     <img src={paty_ukol_castelo} className='img-in-text img-in-text-right'/>
 
     <p>Právě v tomto osobním pralesním koutku se pak <span className='text-highlighter'>třetí úkol</span> odehrával.
@@ -399,6 +405,9 @@ const Turnaj = () => (
       mostu vstříc dalšímu úkolu, náš byl naštěstí ten poslední zmíněný letec.
     </p>
 
+    <a className='game-archive-button' href="/casstellobruxxo/LosovaniSampionu.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv slosování (NonRPG 27. 12. 2025)</a>
+
     <img src={ivan_vyherce} className='img-in-text img-in-text-right'/>
 
     <p>První doražení Matea do nejvyšší věžičky sotva měli fandící čas oslavit, jelikož v dalších vteřinách bylo možno
@@ -411,6 +420,9 @@ const Turnaj = () => (
       obhájil a uzmul <span className='text-highlighter'>krásné druhé místo</span> a prý, že se silou přátelství vyhrává
       jen v pohádkách…
     </p>
+
+    <a className='game-archive-button' href="/casstellobruxxo/FinaleTurnaje.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv finále (NonRPG 3. 1. 2026)</a>
 
     <img src={bromance} className='img-in-text img-in-text-left'/>
 
