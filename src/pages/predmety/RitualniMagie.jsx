@@ -136,7 +136,7 @@ const RitualniMagie = () => (
     </p>
 
     <h2>Návštěvy kmenů</h2>
-    <hr />
+    <hr/>
 
     <p>Důležitým prvkem výuky rituální magie je <span className='text-highlighter'>kontakt s autentickými kouzelnickými kmeny</span> Amazonie.
       Mezi nejbližší

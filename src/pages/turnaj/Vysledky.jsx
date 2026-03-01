@@ -8,7 +8,6 @@ const Vysledky = () => (
     <div className="main-header"><h1>Výsledky turnaje</h1></div>
 
 
-   
     <table className="post-tabulka">
       <tr>
         <td>Jméno</td>
@@ -140,12 +139,8 @@ const Vysledky = () => (
         <td>-</td>
         <td>127.5</td>
       </tr>
-      
+
     </table>
-
-
-
-
 
 
   </div>

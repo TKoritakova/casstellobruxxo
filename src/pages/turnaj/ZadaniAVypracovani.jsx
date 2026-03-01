@@ -443,7 +443,8 @@ const ZadaniAVypracovani = () => (
 
     <h3>Fungování komplikací</h3>
 
-    <p>Během plnění úkolu narazí každá postava na <span className='text-highlighter'>překážku</span> u <span className='text-highlighter'>dvou náhodně určených</span> sil stvoření. Zbylé tři fáze
+    <p>Během plnění úkolu narazí každá postava na <span className='text-highlighter'>překážku</span> u <span
+      className='text-highlighter'>dvou náhodně určených</span> sil stvoření. Zbylé tři fáze
       proběhnou hladce. Konkrétní podoba hrozby je vždy popsána v sekci dané síly.</p>
 
     <h2>Sol</h2>

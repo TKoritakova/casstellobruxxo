@@ -491,6 +491,64 @@ color: #2e8b57;
     text-shadow: 1px 1px 5px #000000;
 }
 
+.two-images {
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.slide {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide-B {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: Fade 15s infinite ease-in-out;
+}
+
+@keyframes Fade {
+    0%, 30% {
+        opacity: 0;
+    }
+    50%, 80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.img-fading {
+    position: relative;
+}
+
+.img-fading:hover .img-fade-top {
+    opacity: 0;
+}
+
+.img-fade-top {
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1.3s ease;
+    height: auto;
+}
+
+.img-fade-bottom {
+    width: 100%;
+    opacity: 1;
+    display: block;
+}
+
 .layer-human {
     opacity: 1;
     z-index: 1;
