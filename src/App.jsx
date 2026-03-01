@@ -57,6 +57,7 @@ import ZadaniAVypracovani from "./pages/turnaj/ZadaniAVypracovani.jsx";
 import NominovaniStudenti from "./pages/turnaj/NominovaniStudenti.jsx";
 import Vysledky from "./pages/turnaj/Vysledky.jsx";
 import Seminare from "./pages/turnaj/Seminare.jsx";
+import SoukromeHry from './pages/turnaj/SoukromeHry.jsx'
 
 
 function ScrollToTop() {
@@ -163,6 +164,7 @@ function App() {
           <Route path="/ucastnici" element={<NominovaniStudenti/>}/>
           <Route path="/vysledky" element={<Vysledky/>}/>
           <Route path="/seminare" element={<Seminare/>}/>
+          <Route path="/utrzky-z-bradavic" element={<SoukromeHry/>}/>
 
 
         </Routes>
