@@ -219,7 +219,7 @@ const SoukromeHry = () => (
 
     <h3>Reflexe oběti: Turnajové setkání</h3>
     <p><span className='text-highlighter'>Datum a čas:</span> 10. 11. 2025 (17:50 – 22:54) - prosinec 2008</p>
-    <p><span className='text-highlighter'>Účastníci:</span> uan Miguel Santos Ramírez, Melissa Nayra de León, Tristán Yeray Moreno (profesor), Chiara Antonia José, Mateo Benítez, César Jesus Giménez Castillero</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Juan Miguel Santos Ramírez, Melissa Nayra de León, Tristán Yeray Moreno (profesor), Chiara Antonia José, Mateo Benítez, César Jesus Giménez Castillero</p>
     <p><span className='text-highlighter'>Shrnutí:</span> Skupina studentů z Castelobruxo se schází v klubovně se svým profesorem Tristanem Morenem k neformálnímu zhodnocení uplynulých událostí. Hlavním tématem diskuse je hluboká filozofická reflexe posledního turnajového úkolu a konceptu „oběti“, kdy každý student sdílí svou osobní zkušenost s tím, co musel v pevnosti odevzdat. Večer je protkán přátelským popichováním (zejména na účet Césara a jeho vztahu k Livii), nostalgií po domově a společným pitím bylinkového čaje na uklidnění. Celá hra končí po večerce, kdy profesor Moreno odvádí celou skupinu přes hrad bezpečně zpět do jejich stanu.</p>
 
 
@@ -416,13 +416,13 @@ const SoukromeHry = () => (
     <p><span className='text-highlighter'>Shrnutí:</span> Mateo se v noci přiznává Sofíi, že porušil večerku, aby vyřešil problém se „valentýnkou“ od Cindy (dívky, která ho dříve šikanovala). Mateo šokuje Sofíi tvrzením, že se mu hnusné věci od Cindy začaly líbit a že ho straší v snech. Sofía propadá žárlivosti a bolesti, pláče a zvažuje rozchod, protože nevěří, že na Cindy dokáže Mateo přestat myslet. Mateo se v zoufalství vrhá na kolena, prosí o odpuštění a ujišťuje ji, že Cindy nechce a miluje jen ji. Sofía mu nakonec odpouští, oba se v slzách usmíří v pevném objetí a nad ránem společně odcházejí do svých ložnic.</p>
 
 
-    <h3>Mateův nácvik Patrona a síla přátelství</h3>
+    <h3>Mateův nácvik patrona a síla přátelství</h3>
     <p><span className='text-highlighter'>Datum a čas:</span> 5. 12. 2025 (1:52 – 2:56) - březen 2009</p>
     <p><span className='text-highlighter'>Účastníci:</span> Mateo Benítez</p>
     <p><span className='text-highlighter'>Shrnutí:</span> Mateo přichází uprostřed noci k ohništi v pyžamu, aby o samotě trénoval kouzlo Expecto Patronum. Během několika pokusů se snaží vyvolat dostatečně silnou šťastnou vzpomínku, přičemž se v mysli vrací do prvního ročníku, kdy našel vzácného brouka a jeho přátelé Juan a César se mu namísto výsměchu rozhodli pomoct. Mateo reflektuje důležitost přátelství a přiznává si, že bez nich by mu bylo příliš smutno a kouzly by to nevyléčil. Přestože se mu nepodaří vyvolat plnou podobu patrona, kouzlo opakovaně produkuje alespoň modrou energii a jiskry. Hra končí Mateovou krátkou modlitbou a tichým odchodem zpět do ložnice.</p>
 
 
-    <h3>Juanův nácvik Patrona a pouto z džungle</h3>
+    <h3>Juanův nácvik patrona a pouto z džungle</h3>
     <p><span className='text-highlighter'>Datum a čas:</span> 2. 1. 2026 (1:49 – 2:26) - červen 2009</p>
     <p><span className='text-highlighter'>Účastníci:</span> Juan Miguel Santos Ramírez</p>
     <p><span className='text-highlighter'>Shrnutí:</span> Juan přichází v noci k ohništi, aby osamocen trénoval vyvolání Patrona. Jako zdroj síly využívá vzpomínky na své nejlepší přátele, Matea a Césara, a jejich společné zážitky při přežívání v brazilské džungli. Soustředí se zejména na moment, kdy César vymyslel magické papírky, které je k sobě v divočině táhly, díky čemuž se po dnech bloudění vždy znovu našli. Po sérii neúspěšných pokusů se mu nakonec podaří vyvolat světle modrou energii patrona. Hra končí Juanovým smutným uvědoměním, že za pár dní turnaj končí a všichni odjedou domů.</p>
