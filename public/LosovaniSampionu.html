@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset='UTF-8'/>
+    <title>Univerzální chat I.</title>
+    <style>
+        html { 
+            background-color:#000;
+            color:#fff;
+            font-size:1.25em;
+        }
+            
+        body{
+            justify-content:center;
+        }
+        
+        table {
+            width:70%;
+            border-color:#000;
+            margin:10px auto;
+            font-size:1em;
+        }
+            
+            
+        tr{text-align:center;height:25px}
+        
+        tr:nth-child(odd) {background-color: #1F120B;}
+        
+        tr:nth-child(even) {background-color: #271A13;}
+        
+        td{padding:1%}
+        
+        .time{font-size:medium;opacity:.7}
+        
+        .to{margin:1px 0;font-size:medium}
+        
+        .receiver{display:inline}
+        
+        .content{width:85%;text-align:justify}
+        
+        .emote{font-style:italic}
+        
+        .effect{font-style:italic}
+        
+        .effect.random{color:#d5afaf}
+        
+        .effect.spell{color:#f0e68c}
+        
+        .effect.spell.fail{color:#fff}
+        
+        .effect.trait{color:#87cbfa}
+        
+        .effect.trait.fail{color:#d1465a}
+    </style>
+</head>
+<body>
+<table>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="2057" data-message-type="special">
+            <td title="Tadeu Luce Costa">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:20</div>
+            </td>
+            <td class="content">Šampionem za Bradavice se stává Theodore Ian Everett! To máme radost!</td>
+        </tr>
+    
+        <tr class="message" style="color: #C3073F;" data-sender-id="2057" data-message-type="normal">
+            <td title="">
+                <div class="head">Tadeu Luce Costa</div>
+                <div class="time">27. 12. 2025 20:20</div>
+            </td>
+            <td class="content">Následné číslo zvolí šampóna za Bradavice, je ním <span class="effect random">[Z rozsahu 1-1000 padlo číslo 712.]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="2057" data-message-type="special">
+            <td title="Tadeu Luce Costa">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:17</div>
+            </td>
+            <td class="content">A nakonec vylosujeme šampiona <b>Bradavic</b>:<br>
+<b>Ruphert Jolleg Saviyer</b>: 16,88 % —> Rozsah 1 – 169<br>
+<b>Maya Garcia-Berry</b>: 12,12 % —> Rozsah 170 – 290<br>
+<b>Elise Trevelyan</b>: 12,04 % —> Rozsah 291 – 410<br>
+<b>Ella Norah Firewalker</b>: 10,65 % —> Rozsah 411 – 517<br>
+<b>Ellie Lewis</b>: 10,14 % —> Rozsah 518 – 618<br>
+<b>May Amelia Torchio</b>: 9,15 % —> Rozsah 619 – 710<br>
+<b>Theodore Ian Everett</b>: 6,71 % —> Rozsah 711 – 777<br>
+<b>Amelia Roberts</b>: 4,17 % —> Rozsah 778 – 819<br>
+<b>Joshua J. Pérez</b>: 4,17 % —> Rozsah 820 – 861<br>
+<b>Mattéo Saverio Grossi</b>: 4,08 % —> Rozsah 862 – 902<br>
+<b>Thomas Severin Gibson</b>: 3,46 % —> Rozsah 903 – 936<br>
+<b>Rebekka de Løvenørn</b>: 2,81 % —> Rozsah 937 – 964<br>
+<b>Nicola Alice Andre</b>: 1,08 % —> Rozsah 965 – 975<br>
+<b>Lorayne Joy Aubrry</b>: 0,96 % —> Rozsah 976 – 985<br>
+<b>Skadi Mikkelsen</b>: 0,44 % —> Rozsah 986 – 989<br>
+<b>Eli Harold Vaughn</b>: 0,42 % —> Rozsah 990 – 993<br>
+<b>Celeste O'Connor</b>: 0,37 % —> Rozsah 994 – 997<br>
+<b>Lysander Owain Goldschmidt</b>: 0,19 % —> Rozsah 998 – 999<br>
+<b>Falco Sullivan</b>: 0,16 % —> Rozsah 1000<br>
+</td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="10543" data-message-type="special">
+            <td title="Felicity Moonbrook">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:15</div>
+            </td>
+            <td class="content">Šampionem za Castelobruxo se stává <b>Mateo Benítez</b>.</td>
+        </tr>
+    
+        <tr class="message" style="color: #db7093;" data-sender-id="10543" data-message-type="normal">
+            <td title="">
+                <div class="head">Felicity Moonbrook</div>
+                <div class="time">27. 12. 2025 20:15</div>
+            </td>
+            <td class="content">A šamanem za piráty z pralesního Castelobruxa se stáváááá <span class="effect random">[Z rozsahu 1-1000 padlo číslo 469.]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="10543" data-message-type="special">
+            <td title="Felicity Moonbrook">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:11</div>
+            </td>
+            <td class="content">Jako třetí přichází na řadu <b>Castelobruxo</b>:<br>
+<b>Sofia Amarilis Perez</b>: 23,45 % —> Rozsah 1 – 235<br>
+<b>Juan Miguel Santos Ramírez</b>: 17,79 % —> Rozsah 236 – 413<br>
+<b>Mateo Benítez</b>: 13,66 % —> Rozsah 414 – 550<br>
+<b>Chiara Antonia José</b>: 12,82 % —> Rozsah 551 – 678<br>
+<b>Sofía Sánchez</b>: 10,56 % —> Rozsah 679 – 784<br>
+<b>Inés Soraya Caro</b>: 9,67 % —> Rozsah 785 – 881<br>
+<b>Lucia Juliana Navarro</b>: 8,22 % —> Rozsah 882 – 963<br>
+<b>Luana Mariana Almeida Soares</b>: 1,62 % —> Rozsah 964 – 979<br>
+<b>Alejandro Sánchez</b>: 1,32 % —> Rozsah 980 – 992<br>
+<b>Catriel Ulises Condori</b>: 0,49 % —> Rozsah 993 – 997<br>
+<b>Alejandro Navarro</b>: 0,22 % —> Rozsah 998 – 999<br>
+<b>César Jesus Giménez Castillero</b>: 0,19 % —> Rozsah 1000<br>
+</td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="2057" data-message-type="special">
+            <td title="Tadeu Luce Costa">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:10</div>
+            </td>
+            <td class="content">Šampionem za Mahoutokoro se stává Fuji Yamamoto.</td>
+        </tr>
+    
+        <tr class="message" style="color: #C3073F;" data-sender-id="2057" data-message-type="normal">
+            <td title="">
+                <div class="head">Tadeu Luce Costa</div>
+                <div class="time">27. 12. 2025 20:10</div>
+            </td>
+            <td class="content">Číslo pro žampiona za školu Mahoutokoro je <span class="effect random">[Z rozsahu 1-1000 padlo číslo 913.]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="2057" data-message-type="special">
+            <td title="Tadeu Luce Costa">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:06</div>
+            </td>
+            <td class="content">Dále vylosujeme šampiona školy <b>Mahoutokoro</b>:<br>
+<b>Sagiko Sumire</b>: 38,45 % —> Rozsah 1 – 385<br>
+<b>Hu Yanmei</b>: 34,92 % —> Rozsah 386 – 734<br>
+<b>Suzume Yukishiro</b>: 8,84 % —> Rozsah 735 – 822<br>
+<b>Hanzo Natsume</b>: 4,63 % —> Rozsah 823 – 868<br>
+<b>Fuji Yamamoto</b>: 4,48 % —> Rozsah 869 – 913<br>
+<b>Tadashi Kai Tsunoda</b>: 4,02 % —> Rozsah 914 – 953<br>
+<b>Mina Kan</b>: 1,92 % —> Rozsah 954 – 972<br>
+<b>Hiroki Tanaka</b>: 1,54 % —> Rozsah 973 – 987<br>
+<b>Ryuk Ashiwaka</b>: 1,20 % —> Rozsah 988 – 1000<br>
+</td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="10543" data-message-type="special">
+            <td title="Felicity Moonbrook">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:06</div>
+            </td>
+            <td class="content">Šampionem Kruvalu se stává <b>Ivan Nikolaevich Vasiliev</b>, gratulujeme!</td>
+        </tr>
+    
+        <tr class="message" style="color: #db7093;" data-sender-id="10543" data-message-type="normal">
+            <td title="">
+                <div class="head">Felicity Moonbrook</div>
+                <div class="time">27. 12. 2025 20:05</div>
+            </td>
+            <td class="content">Číslo pro vylosování šampiona Kruvalu <span class="effect random">[Z rozsahu 1-1000 padlo číslo 547.]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="10543" data-message-type="special">
+            <td title="Felicity Moonbrook">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:01</div>
+            </td>
+            <td class="content">Začneme vylosováním šampiona <b>Kruvalu</b>:<br>
+<b>Ghuhloalan Zipporah Elazar</b>: 36,46% —> Rozsah 1-365<br>
+<b>Ivan Nikolaevich Vasiliev</b>: 34,79 % —> Rozsah 366 – 713<br>
+<b>Kamilla Bokorova</b>: 22,07 % —> Rozsah 714 – 934<br>
+<b>Fjodor Alexej Konovalov</b>: 3,21 % —> Rozsah 935 – 966<br>
+<b>Älviana Nova Sjöström</b>: 2,91 % —> Rozsah 967 – 995<br>
+<b>Gabriel Florescu</b>: 0,56 % —> Rozsah 996 – 1000<br></td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="10543" data-message-type="special">
+            <td title="Felicity Moonbrook">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 20:00</div>
+            </td>
+            <td class="content">Vítejte na losování šampionů turnaje čtyř kouzelnických škol,<br>
+v nejbližších chvílích budeme postupně losovat šampiona z každé zúčastněné školy. Podle toho, kolik každý účastník získal v průběhu turnaje bodů, byly spočítány šance na jeho vylosování. Pro každou školu budeme losovat jedním hodem kostkou v rozsahu 1-1000, přičemž každému účastníkovi byly určeny rozsahy. Šampionem se stává ta postava, do jejíhož rozsahu se hod trefí. Losovat budeme v pořadí: Kruval, Mahoutokoro, Castelobruxo, Bradavice. Pokud bude v některé škole vylosována postava hráče, který již jednu postavu šampiona vylosovanou má, pak se hod bude opakovat.
+</td>
+        </tr>
+    
+        <tr class="message" style="color: #AA55FF;" data-sender-id="2057" data-message-type="special">
+            <td title="Tadeu Luce Costa">
+                <div class="head">RPG Upozornění</div>
+                <div class="time">27. 12. 2025 19:40</div>
+            </td>
+            <td class="content"><h1 style="text-align: center;"><span style="text-decoration: underline;"><span style="color: #99ccff; text-decoration: underline;">LOSOVÁNÍ ŠAMPIONŮ</span></span></h1></td>
+        </tr>
+    </table>
+</body>
+</html>

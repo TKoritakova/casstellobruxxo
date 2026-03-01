@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset='UTF-8'/>
+    <title>Odpočívadlo v 7.patře</title>
+    <style>
+        html { 
+            background-color:#000;
+            color:#fff;
+            font-size:1.25em;
+        }
+            
+        body{
+            justify-content:center;
+        }
+        
+        table {
+            width:70%;
+            border-color:#000;
+            margin:10px auto;
+            font-size:1em;
+        }
+            
+            
+        tr{text-align:center;height:25px}
+        
+        tr:nth-child(odd) {background-color: #1F120B;}
+        
+        tr:nth-child(even) {background-color: #271A13;}
+        
+        td{padding:1%}
+        
+        .time{font-size:medium;opacity:.7}
+        
+        .to{margin:1px 0;font-size:medium}
+        
+        .receiver{display:inline}
+        
+        .content{width:85%;text-align:justify}
+        
+        .emote{font-style:italic}
+        
+        .effect{font-style:italic}
+        
+        .effect.random{color:#d5afaf}
+        
+        .effect.spell{color:#f0e68c}
+        
+        .effect.spell.fail{color:#fff}
+        
+        .effect.trait{color:#87cbfa}
+        
+        .effect.trait.fail{color:#d1465a}
+    </style>
+</head>
+<body>
+<table>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10927">
+            <td title="">
+                <div class="head"><div class="sender">Tristán Yeray Moreno</div></div>
+                <div class="time">10. 11. 2025 0:58</div>
+            </td>
+            <td class="content"><span class="emote">*Zato on by se mohl usmívat pořád. I ta Eliho slova o havraspárských způsobí, že mu koutky cuknou vzhůru.*</span> Promiň, že ti do toho vstupuji, ale mohl bych tě poprosit o připomenutí momentu, o kterým se nyní bavíme? Není to stále ten jeden seminář, kde ses kvůli svému stavu cítil vyčleněn? Špatně by ti bylo po celou dobu, nic bys z toho neměl. Ale máš pravdu, měl jsem to raději nechat být. Už tu jenom plýtvám slovy. <span class="emote">*Neřekne to ani se špetkou sebelítosti, spíše smířlivě a možná také s menší dávkou ironie.*</span> O žádném takovém případu, kdy by si z ní někdo vzal příklad, nevím. Máš prostor mě obohatit. Dokud mé metody fungují, neplánuji se ubírat k jiným. Nějak jsme si to se studenty nastavili a nehodlám to měnit. Navíc. Snažila se tě probrat. Jen bohužel ne tolik šetrným způsobem. <span class="emote">*A už zase promlouvá s naprostým klidem a na závěr krčí rameny. Když mu ale Eli odhalí tu řeznou ránu, zůstane na ni s lehce pootevřenou pusou zírat. Rty brzy semkne k sobě a zpomalí dech. Na chvíli ho možná i zastaví.*</span> <span class="thought" style="color: hsla(139.28571428571, 24.778761061947%, 55.686274509804%, .8);">//Tvou krev. Naši krev. To...//</span> <span class="emote">*Na ruku zírá i po jejím opětovném obvázání. Krátce k němu zvedne oči.*</span> Uvědomuješ si důsledky? <span class="emote">*A to je pravděpodobně zároveň jeho rozloučení. Více toho ze sebe nevydoluje. Jen zatne zuby, semkne rty a pevně do obou rukou uchopí lemy saka. To nakonec, jako by nic, popotáhne o něco níže, s hlubokým nádechem se napřímí a vydá se ke castelobrušskému stanu, cestou se ještě krátce ohlížeje.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">10. 11. 2025 0:30</div>
+            </td>
+            <td class="content">Havraspárští studenti se neusmívají, pokud tedy zrovna nedostanou dobrou známku. <span class="emote">*Oznámí profesoru Morenovi poměrně suše, tentokrát i bez těch dalších pubertálních projevů, což mu dokonce vydrží i během toho povídání o zázračném zlepšení stavu.*</span> Jen jsem žádný protijed nepotřeboval. Mattéo říkal, že to do rána přešlo, takže chyba v úsudku je na tvé straně. Nebylo to potřeba, nic z toho. <span class="emote">*Provede druhé oznámení v řadě, stále tím velmi suchým způsobem, načež pak tedy přeci jen protočí očima, když slečně Chiaře se údajně za mlácení jeho osoby dostalo jen toho pokárání.*</span> Pokárání bokem, kde to nikdo nevidí, není účinné. Když nevidí studenti následek, mají pocit, že se můžou fackovat beztrestně všichni. Nebo kouzlit do zad a tak podobně. Dává to špatný příklad. <span class="emote">*Představí svůj problém s daným řešením situace na tolik propírané hodině. Mlčet zvládne pak následně, až do těch posledních Tristánových slov, kdy jen zavrtí hlavou. Stále mlčky odváže ten obvaz ze své ruky a ukáže ránu pod ním - podlouhlou, rovnou, definitivně od říznutí nožem.*</span> Na to, abys byl profesor Moreno a já jen student Vaughn, je zjevně trochu pozdě. Nechal jsem kruvalským v pevnosti svou krev. Tvou krev. Naši krev. <span class="emote">*Sdělí mu ono... temné tajemství. S čímž obvaz přes ruku provizorně zase rychle přetáhne a bez dalšího povídání vykročí k havraspárské společence, v níž zmizí.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10927">
+            <td title="">
+                <div class="head"><div class="sender">Tristán Yeray Moreno</div></div>
+                <div class="time">10. 11. 2025 0:13</div>
+            </td>
+            <td class="content">Bezpochyby by se nad ní pousmál nejeden havraspárský student. <span class="emote">*Jestli tím poukazuje na něj samotného nebo na vážný akademický přístup celé koleje, to si Eli bude muset domyslet sám. V jeho tváři každopádně v tuto chvíli opět hraje pobavený úsměv. A ten přetrvává i nadále. K tomu osočení se, že už je starý, se ani více nevyjadřuje, prostě to nechává odplout jako nějaký špatný vtip. Zůstává přitom stát na místě, nesnaží se dohnat vzdálenost, kterou mezi sebou měli, než ji Eli ještě prohloubil. A vlastně i ta další slova si vyslechne v tichosti. Několikrát sice lehce pohne rty, jako by chtěl promluvit, nakonec je ale semkne k sobě.*</span> A přeci jen se ti po tom záhadném lektvaru udělalo lépe. <span class="emote">*Pronese uvolněně a samolibě se usměje.*</span> A vidíš, tady máš důkaz, že ne všichni sledují všechno. Náhodou jsem si slečnu Chiaru odchytil, když kolem mě procházela a pokáral ji. Věřím, že už se to znovu neopakovalo. Nebo se mílím? <span class="emote">*A to už zase kmitá pohledem mezi jeho očima a rukou.*</span> Odhalil jsi mě. Přesně z toho důvodu jsem se tě snažil udržet v bdělém stavu a neposlal tě rovnou na ošetřovnu, která by byla hned další variantou po podání protijedu. Kdybych ho u sebe náhodou zrovna neměl. A pokud jsou pro tebe kruvalské semináře lepší, tak běž. Nejsem tu od toho, abych ti v tom bránil. Vlastně jestli ti to udělá radost, klidně můžeme začít předstírat, že vůbec nejsme příbuzní. <span class="emote">*Zní to lehce, skoro jako by to pronesl jen tak mimochodem, ale pohled, který mu věnuje, už lehkost postrádá.*</span> Budu jen profesor Moreno, co ti zkazil rituál a před spolužáky tě ztrapnil. A ty budeš jen student, který nemá ponětí, že ten samý muž ti kdysi pomohl ovládnout vlastní magii a najít si cestu k bylinkám. <span class="thought" style="color: hsla(139.28571428571, 24.778761061947%, 55.686274509804%, .8);">//Alespoň doufám, že se mi nepodařil opak, se kterým se pak doma musela prát má nebohá sestra. Ještě to tak.//</span> <span class="emote">*Pohlédne na něj s naprosto klidnou tváří a milým úsměvem, čímž zřejmě ukazuje, že je tomu stoprocentně otevřen.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">9. 11. 2025 23:35</div>
+            </td>
+            <td class="content">Protože taková vizitka by definitivně měla úspěch. <span class="emote">*Převrátí očima a přesune svou osobu od toho okna o dva nebo tři kroky hloubš do té chodby, více směr havraspárská společenka. U čehož nechá strýčka pěkně povídat, ale vlastně si Moreno vyfasuje akorát další protočení očí z jeho strany, protože to přesně příslušnému profesorovi on dopřeje.*</span> Ach, já zapomněl, že už jsi starej, takže ti vyloženě věci nedochází. <span class="emote">*Odsekne mu pubertálním způsobem, dokonce i ten tón má takový pubertální nádech, zatímco se zůstává mračit. Aspoň už však stojí čelem, neukazuje Tristánovi jen svá záda.*</span> To, že mě vytáhneš mimo kolektiv a dáš mi speciální péči, je také vyčlenění. Celé je to vyčlenění a všichni ho tam sledovali. Myslíš, že po tomhle nebude všem rovnou jasné, že jsi jen profesor, co mě náhodou učí seminář? Když mě vyčleníš a před celým davem idiotských studentů, co mě mlátí - na což jsi mimochodem neřekl nic, a to byl zrovna ten moment, kdy se to hodilo - mi dáváš záhadné lektvary. <span class="emote">*Převede i tu jeho obhajobu na problém vyloženě astronomických rozměrů, protože stále to dle jeho slov tedy celé bylo vyčlenění.*</span> Ale neměj péči, já už nepřijdu. Zjevně nestojíš o to, abych cokoliv té vaší magie pochopil, jsem tam stejně byl jenom kvůli tobě. Tak se teď omezím na semináře Kruvalu, ty jsou stejně lepší. <span class="emote">*Vyzvedne jednu školu nad jinou a založí si ruce na hrudníku, což je pozice, z níž tedy stále toho strýčka sleduje notně nahněvaně, ještě když ten oznámí, že nikam nejde. To na něj znovu ukázkově převrátí očima.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10927">
+            <td title="">
+                <div class="head"><div class="sender">Tristán Yeray Moreno</div></div>
+                <div class="time">9. 11. 2025 23:23</div>
+            </td>
+            <td class="content"><span class="emote">*Přes Eliho chladnou řeč se mu koutky rtů lehce pohnou – ne do výsměchu, spíš do jakéhosi unaveného pobavení. Když chlapec skončí, chvíli mlčí, jako by zvažoval, jestli to vůbec stojí za odpověď. Nakonec jen tiše vydechne a srovná si klopy saka.*</span> Takže bojkot vzdělání mladých lidí, hm? To zní jako věc, kterou bych si mohl dát na vizitku. Profesor Tristán Moreno – ničitel akademických snů. <span class="emote">*Pokrčí rameny. Jeho tón zůstává odlehčený, ironický, nikoliv nejedovatý. Poté přejde o krok blíž a o něco klidněji pokračuje.*</span> Víš, já tě nevyčlenil proto, že bych si myslel, že jsi horší než ostatní. Ale proto, že jsem věděl, že jsi zrovna v ten okamžik víc ohrožený. A ne, to není totéž. A vůbec, trochu bych přehodnotil to označení. Nebyl jsi vyčleněn, vsadil bych se, že ani ostatní to tak nevnímali, spíš sledovali se závistí, jakou dostáváš péči. <span class="emote">*Už už se nadechuje, jako by chtěl dodat něco dalšího, ale nakonec slova spolkne a krátce sklopí pohled, než ho k Elimu zase zvedne.*</span> Žádnou přednášku ti nevnucuju. Ale nabízím ti tu možnost pro případ, že by se něco změnilo. Že bys přeci jen dostal chuť se nad tím vším trochu zamyslet. <span class="emote">*Líně pohodí rameny a znovu se lehce pousměje, snad doufaje, že tím tomu dopomůže. A pak se zadívá z okna společně s ním, třeba aby se alespoň na chvíli mohli naladit na stejnou notu.*</span> To každý z nás. <span class="emote">*Uzná bez jakéhokoliv ale, nic mu nevyvrací, prostě to nechá tak, jak to je.*</span> Já nejsem ten, kdo utíká. <span class="emote">*Připomene mu, jakmile se otočí zpět. Následně se znovu pomalu začne přibližovat chlapcovi.*</span> Doufal jsem, že ti tím dopomůžu k nějakému zamyšlení se, uvědomění... A jak tě tak poslouchám, svůj účel to splnilo. <span class="emote">*Koutky mu lehce unaveně povyskočí vzhůru.*</span> Ale dobrá. Možná jsem tě vyčlenil. Možná jsem tě měl nechat, ať se zhroutíš před půlkou školy, protože bys měl alespoň pocit, že jsi součástí. <span class="emote">*Ironie v jeho hlase je suchá, ale jemná, ne zlá.*</span> Ale já nemám zájem ti dokazovat, kdo z nás má pravdu. Já nejsem tvůj protivník. Jen člověk, který tě odmítl nechat spadnout – doslova i obrazně. Slova týkající se mého semináře ti vyvracet nebudu, ne každého vtáhne a ne každý pochopí. To je naprosto v pořádku. <span class="emote">*Pokračuje v klidném vysvětlování.*</span> A kdybych teď utekl, jak říkáš, stejně bys mi to neodpustil. Takže tě zklamu a zůstanu. <span class="emote">*A už do toho zase vnáší trochu té ironie, jako by to bez ní prostě nešlo. Jako by bez ní nedokázal zůstat tak klidný.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">9. 11. 2025 22:57</div>
+            </td>
+            <td class="content"><span class="emote">*A to on to obočí povytáhne ještě o nějaký ten milimetr dřív, když je zmíněno nějaké to jeho utíkání ze seminářů.*</span> Pokud vím, z prvního jsi mě poslal pryč ty. A u toho druhého jsi mi pro jistotu zakázal účast zcela, to bych úplně nenazýval svými útěky, spíš tvou snahou o bojkot vzdělání mladých lidí. <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Vida, další špatný profesor. A to jsem myslel, že to dneska skončilo Berrym, co vyhodil ze třídy vlastní dceru, zjevně je to běžná praktika, být idiot na příbuzný.//</span> <span class="emote">*Vrátí mu to ledovým tónem, když tam padají taková hrozná obvinění jako že on snad odněkud odchází rychlejším tempem, než zavrtí hlavou.*</span> Řekl jsem, že žádnou přednášku nepotřebuju. Ani koukat na vlastní svědomí, do svého nitra jsem už koukal dostatečně v kruvalské pevnosti, to už mám tento měsíc za sebou. <span class="emote">*Oznámí tak jako mimo řečí tu svou účast na kruvalském úkolu, než pohled odvrátí zase zpátky k tomu oknu, kam kouká opět poměrně pečlivě, jen... v tuhle chvíli je dost možné, že to dělá kvůli nějakému vyhnutí se pohledu na strýčka.*</span> Já bych chtěl věcí... <span class="emote">*Zabručí pořád, no, nabručeně, a vlastně se neohlíží, nechává toho pána pěkně couvat, on... má asi dost vlastního velkého ega, které mu v tom pravděpodobně brání.*</span> <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Si jdi. Jo.//</span> Tak si uteč. Jinak by sis musel přiznat, že mám pravdu. Že jsi mě vyčlenil a nedovolil se účastnit. A pochopit to, co teď vidím jako hromadu blbých keců stejných jako jasnovidectví.</td>
+        </tr>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10927">
+            <td title="">
+                <div class="head"><div class="sender">Tristán Yeray Moreno</div></div>
+                <div class="time">9. 11. 2025 22:47</div>
+            </td>
+            <td class="content"><span class="emote">*Nechá ticho ještě chvíli ležet mezi nimi, neuhne pohledem. Místo uražené reakce si srovná manžetu saka, jako by právě poslouchal počasí, a ne chladnou výtku.*</span> Takže už jsme ve fázi, kdy tě debaty se mnou dokázaly znechutit natolik, že bys kvůli nim dobrovolně opustil Británii. To je pokrok. Donedávna jsi utíkal jen ze seminářů. <span class="emote">*Poví to klidně, bez posměchu, spíš jako suchý komentář, který se v závěru mírně zjemní drobným pousmáním.*</span> Víš, já ti vlastně rozumím. Když jsem byl ve tvém věku, taky jsem měl pocit, že mi každý druhý kazí svět. Jenže problém byl v tom, že půlka z nich to nemyslela zle. Jen mi nastavovali zrcadlo, do kterého se mi nechtělo dívat. Protože pohlédnout do očí vlastnímu svědomí někdy bývá opravdu těžké. <span class="emote">*Následují krátká pauza, během níž mu pohled sklouzne k obvázané ruce a pak se zvedne zpět k jeho očím.*</span> Vlastně bych si přál, aby to, co tě teď žere, bylo jenom mnou. Protože to by znamenalo, že všechno ostatní máš pod kontrolou. <span class="emote">*Koutky mu zase o kousek povyskočí.*</span> Tím důvodem jsem samozřejmě nerad, ale jestli to tak musí být, v návratu domů ti nebudu bránit. Jen si rozmysli, jestli je to to, co chceš. <span class="emote">*Tentokrát udělá zase pár kroků, kterými se od Eliho vzdálí.*</span> A kdybys náhodou zjistil, že se ti po mých přednáškách stýská, víš, kde mě najdeš. Bývám u Kamenného kruhu. Nepřednáším tam, jen občas... poslouchám ticho. <span class="emote">*Před posledními slovy vydechne téměř všechen vzduch a vysloví je pak v doprovodu zbytku výdechu. Pomalu se pak začne otáčet směrem k oknu a od něj ke schodišti, k němuž vykročí.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">9. 11. 2025 22:32</div>
+            </td>
+            <td class="content"><span class="emote">*Něco si tím pohledem upřeným ven z okna zjevně prohlíží - ten pohled tam upíná vyloženě upřeně a maličko do tmy za sklem mhouří oči, což je samozřejmě vyrušeno, když na něj onen člen rodu Morenů promluví. Otočí k němu hlavou a vyloženě kruvalským ledovým pohledem strýčka sjede od hlavy k patě. Prve to pak může vypadat, že si z herní příručky pro kruvalské půjčí i další trik, mlčení, protože on tam to ticho mezi nimi nechá notnou chvíli ležet, než si rukáv zkusí alespoň lehce stáhnout před ten obvaz a zavrtí hlavou.*</span> Já o žádnou další přednášku o tom, jak není můj čas a kdo ví co ještě, opravdu nestojím. Vlastně právě začínám uvažovat, že jsem měl jet domů, kde ty nejsi. <span class="emote">*Odtuší chladně v té španělštině, definitivně bez úsměvu, spíš se tak jako mračí.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10927">
+            <td title="">
+                <div class="head"><div class="sender">Tristán Yeray Moreno</div></div>
+                <div class="time">9. 11. 2025 22:27</div>
+            </td>
+            <td class="content"><span class="emote">*Kousek za Elim, ale ne hned v jeho závěsu – s pauzou odpovídající době odvrácení jednoho schodiště z původního směru a opětovného navrácení – kráčí i on. Dnes oděn v tmavě olivovém obleku, bílé košili s rozhaleným límečkem, bez kravaty, jen se zlatou broží ve tvaru ptačího pera místo spony. Na nohách má nazuté černé polobotky, místy lehce ušpiněné od bahna. Tmavé vousy i vlasy má oproti tomu perfektně upravené. Nic s sebou nenese, jen svou hůlku, částečně vyčuhující zpod saka – jako by byla připevněná k jeho hnědému pásku či olivovým kalhotám. Na chvíli se zastaví o pár metrů dál od chlapce. Chvíli tiše stojí, než se k Elimu obrátí pohledem.*</span> Víš, tyhle prázdninové dny mají zvláštní schopnost. Člověk si konečně odpočine od školy, ale hlava si stejně nedá pokoj. <span class="emote">*Krátce se usměje, přejde pár kroků blíž, zůstane však kousek od něj – tak, aby mu nebral prostor.*</span> Já třeba právě přemýšlím, proč tu můj synovec sedí, vypadá, jako by nesl na bedrech půlku světa, a k tomu má ještě obvázanou ruku. Jestli se to má tvářit dramaticky, tak musím uznat, že vizuálně to působí výborně. <span class="emote">*Krátký záblesk ironie v očích, který se hned zmírní do klidného pohledu.*</span> Ale jestli to dramatické být nemá, pak by mě možná zajímalo, co se stalo. Ne jako profesora, ale jako někoho, kdo tě zná o pár let déle, než Bradavice vůbec slyšely tvoje jméno. <span class="emote">*Na okamžik se zadívá z okna, jako by mu chtěl dát prostor.*</span> Kdyby sis chtěl popovídat, můžeme to jednou udělat bez těch hloupých rituálů i lektvarů. I tu čokoládu mohu v případě nouze nabídnout. <span class="emote">*Pokračuje ve španělštině, zatímco se mu koutky rýsují do jemného úsměvu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">9. 11. 2025 22:07</div>
+            </td>
+            <td class="content"><span class="emote">*Směrem od astronomické věže, s možnou zastávkou v některém z nižších pater, kráčí pomalu a jistě skrze chodbu v sedmém patře. Na sobě má ještě stále svou školní uniformu složenou z bílé košile, černých kalhot, černého sáčka a kolejních prvků v podobě kravaty s modrými tóny a odznáčku ve stejné barvě. Nohy má schované v botkách a ještě má na jednom rameni hozený batoh. Vlasy má poměrně dost rozcuchané, ale nejvíc zajímavá je asi jeho pravačka, která má přes pravou dlaň zamotaný bílý kus obvazu. V dané chodbě u odpočívadla on se zastaví, pěkně u některého z oken, a upne pohled ven.*</span> <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Možná jsem měl přeci jen jet domů.//</span></td>
+        </tr>
+    
+        
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">13. 10. 2025 0:40</div>
+            </td>
+            <td class="content"><span class="emote">*Na ta Césarova slova o dámách se jen pobaveně usměje.*</span> Pravda, to vysvětluje, proč to vytahuješ přede mnou.<span class="emote">*Prohlásí lehce, jako by jí to vůbec neurazilo. A co si budem, ono jí to možná nakonec opravdu šumák je, přeci jen ona sama se v posledních chvílích taky neukázala jako pravá dámička, no. Jenže to už tam přijde na řadu ta mapa, kdy ve chvíli, kdy ji čapne za ruku, ztuhne  a zvedne k němu pohled, který je... no trochu překvpaený.*</span> Uhm... promiň? <span class="emote">*Zkusí zvolit nějaké to slůvko, co by ho snad mohlo přesvědčit, že žádnou svatokrádež jeho milované mapy už v plánu nemá, ovšem té jeho ruce věnuje dost nesouhlasný pohled.*</span> Já nevěděla, že je tajná. <span class="emote">*Když však místo toho obdrží tu druhou, překvapeně zamrká a věnuje mu už upřímné zazubení.*</span> Páni! Díky, Fjodore! <span class="emote">*Div že ho tam nepotlapká jak šikovného psíka, ale přičtěme jí k dobru, že na něj už nechmatá. Jen co však obdrží to vysvětlení ohledně Protivy, to si ho přeměří pohledem, jako by mluvila s někým mentálně zaostalým.*</span> Hele, já jsem ta poslední, kdo může někoho peskovat za špatnou angličtinu, ale... jak můžeš ve slově šikana udělat tolik chyb? <span class="emote">*Zakroutí nad ním nechápavě hlavou, než tu mapu rozloží a pokusí se v ní zorientovat.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Okej, jestli je tohle ta lepší mapa, asi jsem ráda, že jsem nezkoušela rozluštit tu pracovní. Co už.//</span> <span class="emote">*S menším pokývnutím ji zase složí, ale než mu ji stihne vrátit, to už se chlapec vydá za Césarem.*</span> Hej! <span class="emote">*A to už neváhá a svižnou chůzí, nebo možná spíš poloběhem, vzhledem k rozdílu délky jejich kroků, se za nimi vydá i ona.*</span> Počkejte!</td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10948">
+            <td title="">
+                <div class="head"><div class="sender">Fjodor Alexej Konovalov</div></div>
+                <div class="time">13. 10. 2025 0:30</div>
+            </td>
+            <td class="content">Studem nebo hněvem? <span class="emote">*Zkouší Césara. Dokonce i to obočí mu vylétne o kus výš.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Ani jedním. To k ní nesedí.//</span> <span class="emote">*Od té konverzace o Césarových prstech si i nadále drží bezpečný odstup. A že skutečně udělá i jeden drobný krok vzad, pokud mu to ta lavice za ním vůbec dovolí. Nad tou poznámkou o medvědech se... uchechtne? Je to tiché a krátké, jako odfrknutí, ale fakt to tam je. Ale zase tedy bez toho, aby se to projevilo ve tváři. No a zároveň s tím zavrtí hlavou. Když se pak Luana začne natahovat k té jeho mapě, reflexivně vystřelí ruku stejným směrem. Pokud je rychlejší, mapu prostě čapne do ruky, ještě jednou ji přeloží a šoupne si ji do kapsy. Pokud ne, pak Luanu chytne za zápěstí a věnuje jí ne zrovna dvakrát příjemný pohled.*</span> Pracovní... mapa. <span class="emote">*Dovysvětlí jí to zase hezky ve stručnosti. Však ona ta dvě slova třeba nakonec řeknou více než dlouhý, monotónní monolog.*</span> Tady toho vyčtete víc. <span class="emote">*Ze stejné kapsy místo té "pracovní" vyndá jinou, celkově mnohem udržovanější mapu. Ani těch kaněk od inkoustu by tam člověk moc nenašel. Nerozkládá ji však, to už nechává na nich, jak si s ní poradí.*</span> Myslíš toho, co převrací lavice? To není šikana, to je zkouška. <span class="emote">*Obeznámí Luanu zase s naprosto vážným výrazem. Je to vlastně potřeba stále zmiňovat?*</span> To si nemůžu nechat ujít. <span class="emote">*Broukne k Luaně, když César vezme nohy na ramena. Rychle si pobere věci. Některé nasouká do kapes, jiné, jako třeba chleba, si nechá v ruce. A celkem svižnou chůzí se vydá po schodech dolů.*</span> Pozor, ten se bude hýbat! <span class="emote">*Křikne šeptem snad ve snaze Césara varovat.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10886">
+            <td title="">
+                <div class="head"><div class="sender">César Jesus Giménez Castillero</div></div>
+                <div class="time">13. 10. 2025 0:18</div>
+            </td>
+            <td class="content"><span class="emote">*Ohledně rozesmívání Livie se na oba dva sebevědomě usměje a ještě se u toho jako správný pán narovná v zádech!*</span> No fakt. Dokonce bych přísahal, že se i červenala. <span class="emote">*Dodá tomu korunku navrch, než se ušklíbne k Luaně.*</span> To sem moh, bych třeba zapůsobil, ale k dámám se chovám s respektem. Ještě k takovym co maj auru, že snad choděj po snídani lovit medvědy. <span class="emote">*Prohlásí ohromeně a pak pohledem sklouzne k Fjodorovi.*</span> S respektem, samozřejmě. Lovit medvědy je hustý. <span class="emote">*Doplní to tam ještě, aby si pan velký kruvalák nemyslel, že před ním pomlouvá jeho spolužačku v přímém přenosu.*</span> Klid, eh. <span class="emote">*Trochu nechápavě nakloní hlavu. Tak ono u brazilců asi moc klidu najít nejde, takže třeba ten koncept vlastně ani nijak nepostrádá, když ho nezná!*</span> Simtě, Lu, já nepotřebuju žádnou mapu. Čum jak se dostanu do stanu po svejch. <span class="emote">*No s tím se fakt rozhodně otočí k chodbě, kterou sem vlastně přišel.*</span> No, tak se mějte! <span class="emote">*A asi aby nějak dokázal, že to fakt zvládne, tak teda opravdu odkráčí kamsi po svých...snad do toho stanu, doufejme.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">13. 10. 2025 0:07</div>
+            </td>
+            <td class="content"><span class="emote">*Na tu Césarovu námitku se jen tiše uchechtne, ovšem ten pohled jí k těm jeho rukám sklouzne, ne že ne. Co tam však vykouká, to je nejspíš ve hvězdách, ovšem na to jeho ujištění, že už je to druhý zářez, co se rozesmívání kruvalských týče, jen nahodí lehce zamyšlený výraz.*</span> A taky to bylo po tom, co ses podělil o názory své ex na své... <span class="emote">*Pohledem k němu opět kmitne.*</span> prsty? <span class="emote">*Koutky jí cuknou do už nefalšovaného pobavení, se kterým mu na to pohoršení jen lehce pokývne hlavou.*</span> Jo ty. A v tom kde jsme ti moc neporadím. Jediný, co vím, je že jsme někde v sedmém patře. <span class="emote">*Malinko se ušklíbne, než se rozhlédne a očima sklouzne k té Fjodorově mapě, která (snad ještě pořád, uhm) leži někde u těch jeho věcí a beze slova se po ní natáhne.*</span> Hele, tohle je mapa, ne? <span class="emote">*Užuž ji vezme do ruky, ovšem když tam padne ta krásně nevinná otázka, jestli se mají před čím schovávat, to jí to veselí celkem viditelně pustí, jako by dostala neviditelnou facku. Na chvilku se zarazí, než párkrát mrkne a pokusí se ten úsměv hezky vrátit.*</span> Jasně. Neslyšel jsi o tom, že tady mají toho ducha, co vlastně není duch a šikanuje děcka? Před tím bych se chovala fakt ráda.</td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10948">
+            <td title="">
+                <div class="head"><div class="sender">Fjodor Alexej Konovalov</div></div>
+                <div class="time">13. 10. 2025 0:03</div>
+            </td>
+            <td class="content"><span class="emote">*Prsty jako zbraň proti přítelkyni? Tak to je vrchol nechutnosti! Tedy to alespoň říká ten jeho nakrčený nos a svraštělé obočí. Verbálně se k tomu nijak nevyjadřuje, však on tu konverzaci César nakonec uzavře sám. To pošťuchování mezi nimi nejspíše moc nevnímá. A pokud ano, rozhodně to nijak nedává najevo. Ještě by na sebe za dnešek dal tak desátý terč a to už by i pro takového Kruvalce mohlo být neúnosné! A to se neangažuje, jenom tiše pozoruje. A to vlastně i ve chvíli, kdy se na něj Luana uculí. Pokud se ale sama dívá pořádně, může v jeho očích zahlédnout pár jiskřiček.*</span> To se ti zdálo. <span class="emote">*Prohlásí bez váhání, odmítavě vrtě hlavou, čímž Césarovi jasně dává najevo, že usmívající se Livia je nerealistická představa.*</span> Neschovávám se. Jen... je tu klid. <span class="emote">*Ta svá dosud narovnaná ramena prvně krátce zvedne a nakonec je povolí.*</span> Zjišťuju, jak to tu funguje. <span class="emote">*Během těchto slov těkne pohledem k mapě stále ležící na lavici.*</span> Ty se schováváš? Máte vy vůbec důvod se před něčím schovávat? <span class="emote">*S tímto dotazem se obrátí i na Césara. A čučí. Zase bez jakýchkoliv emocí. Prostě čučí. Třeba z nich něco vykouká i bez jejich odpovědí.*</span> V sedmém patře. <span class="emote">*Odpoví Césarovi jednoduše. Nadechuje se pak snad i k dalším slovům, ale nakonec je spolkne.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//To stačí. Už tak si musí myslet, že je sleduješ.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10886">
+            <td title="">
+                <div class="head"><div class="sender">César Jesus Giménez Castillero</div></div>
+                <div class="time">12. 10. 2025 23:43</div>
+            </td>
+            <td class="content"><span class="emote">*On se tam opravdu nechá od kruvalce poučit a překvapivě mu na to i chápavě kývne! No třeba to znamená, že si to zapíše někam za uši a fakt přestane na lidi ukazovat prstem. Nebo ho jen nechce víc vytočit, no...kdo ví.*</span> Neřekl bych, že moje prsty jsou zbraně teda. Nebo jako, moje ex to občas tvrdila, ale to jsme asi jinde. <span class="emote">*Dovolí si tam na to nadhodit jakýsi velmi nevinný vtípeček a zaculit se znova absolutně dementně na oba dva.*</span> Jsem ti řikal, že se nezdaj. Včera se na mě ta Livia usmívala! <span class="emote">*Připomene Luaně události včerejšího večera a důležitě přikývne. Když ho Lu začne tak nenápadně dissovat za to, že se tam objevil úplně odnikud, tak nejdřív překvapeně vykulí oči a zabodne si prst do vlastní hrudi.*</span> Já? <span class="emote">*Zeptá se jí naprosto překvapeně. To chudák asi vůbec nedokáže pobrat, že zrovna on by něco někde narušoval.*</span> Já se jen ztratil! A vůbec...kde sme? <span class="emote">*Sám těkne pohledem mezi dvěma společníky.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">12. 10. 2025 23:34</div>
+            </td>
+            <td class="content"><span class="emote">*Na tu Césarovu obhajobu na téma jejího vylekání se jen malinko ušklíbne.*</span> Jdi do háje, Césare. <span class="emote">*Broukne na jeho adresu, ale spíš než dopáleně to zní rezignovaně. A no... jistý náznak pobavení tam taky straší, ne že ne. Ale to už se tam věnuje tomu blonďákovi, jehož obsáhlý monolog si vyslouží tiché zalapnání po dechu a skoro nevěřícný pohled směr spolužák, kterému neslyšně naznačí jen něco ve stylu "slyšels to?!" a tiché, bezeslovné naznačení rty slovíčka wau. Když se navíc dočká i toho slušného postavení se a zároveň ji chytí nabízenou ruku, to už se na chudáka Fjodora uculí jak sluníčko. No fakt! Očividně stačí ke štěstí opravdu málo.*</span> Těší mě. Co jsi tu dělal? <span class="emote">*No, byla by hloupost se nepokusit tu konverzaci přeci jen malinko naťuknout, no ne? I když je vidět, že je to opravdu hodně opatrný pokus. Však co kdyby tam na ni náhodou vystartoval, že? Nebo ji třeba proklel. Nebo oboje.*</span> Není to moc dobré místo na schování. Já si taky myslela, jak jsem to vyhrála a přitom... <span class="emote">*Jemně pokrčé rameny a pohledem těkne mzi nimi.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10948">
+            <td title="">
+                <div class="head"><div class="sender">Fjodor Alexej Konovalov</div></div>
+                <div class="time">12. 10. 2025 23:27</div>
+            </td>
+            <td class="content"><span class="emote">*Asi se všichni shodneme na tom, že přání dobrého dne už tu zaznělo mnoho a že by se od Kruvalčana neslušilo, aby se v tom pitval dál. A tak to prostě nechá viset ve vzduchu, nebo to možná úplně zamete pod koberec a sleduje ty dva dál, asi v očekávání, co z nich vyleze.*</span> Dobře. <span class="emote">*Zareaguje stroze na to Césarovo vysvětlení.*</span> Tak to příště zkus bez toho prstu, kterým to vypadalo, že mi jdeš vypíchnout oko. Nech si své zbraně, až budou fakt potřeba. <span class="emote">*No panečku, slyšíte to taky? On ten Kruvalák snad mluví víc než oba Casteláci dohromady! Ale neboje, on to v následujících chvílích zase hezky vykompenzuje mlčenlivostí. Jakmile k němu Luana natáhne ruku, konečně všechny ty své věci, které si dosud uchovával v klíně, opatrně smete na lavičku a konečně se sám také postaví. Chvíli si jenom prohlíží Luaninu ruku, jako by se snažil vyčíst, zda pro něj nemůže být nebezpečná. Pak si krátce prohlédne dívčinu tvář a nakonec jí tu ruku tedy stiskne a krátce s ní potřese.*</span> Fjodor. <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Školní příslušnost, hádám, nemusím zmiňovat.//</span> <span class="emote">*Představí se a ruku se co nejdříve pokusí vymanit z onoho sevření.*</span> Fjodor. <span class="emote">*Zopakuje to ještě jednou pro Césara. Sám mu tedy nemává, jenom přikývne.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//A co teď?//</span> <span class="emote">*Chudák tam zůstane stát a kmitat pohledem mezi těma dvěma a svými věcmi.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10886">
+            <td title="">
+                <div class="head"><div class="sender">César Jesus Giménez Castillero</div></div>
+                <div class="time">12. 10. 2025 23:11</div>
+            </td>
+            <td class="content"><span class="emote">*No on toho vychování moc asi nepobral a nebo jo, jen v trochu jiný kultuře, ze který nevyšli seřazení jak vojáci na nástupu, no. Chudák si asi neuvědomuje, že tímhle může toho Fjodora nějak urazit, takže když na něj tak defenzivně vyjede, tak zase zvedne ruce do nějakého obranného formátu, aby mu ukázal, že on teda není žádná velká hrozba, nebo tak. S přepnutím do angličtiny mu asi dojde, že teda portugalsky si nepokecaj, tak se přepne taky.*</span> To vůbec nemá bejt výsměch! To je omyl, já jen pocenil, že se tak vtipně vylekala. <span class="emote">*On sám to zdravení tak zmateně přejde pohledem a jejich zdvořilostní pozdrav mu asi projde hlavou jen tak letmo, protože se toho nijak moc nechytí.*</span> Čau, jsem César. <span class="emote">*Pokusí se to tady tu napjatou situaci aspoň nějak zachránit, i když se tomu asi nedá říkat vyloženě záchrana, no. K pozdravu zvedne dlaň, jen na letmé zamávání a druhou ruku si strčí do kapsy kalhot. Tak on asi jako primární pozdrav bere tu jejich pěstičku.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">12. 10. 2025 23:04</div>
+            </td>
+            <td class="content"><span class="emote">*To už se neudrží a s poněkud pobavenějším úsměvem protočí oči.*</span> Že mě to nenapadlo hned, že ten háček bude v tomhle. <span class="emote">*Poznamená na téma Chiary a její kamarádské pomoci chlapci v nouzi. Když se však dostanou do oné fáze s Kruvalcem a jeho opakované potřebě dávat na odiv všechny možné i nemožné svaly, to v první chvíli povytáhne obočí, ale v té druhé? No, ne že by si ho aspoň letmo neprohlédla, uhm. Když však padnou ona slůvka z jeho úst, to pohledem kmitne mezi oběma chlapci, no, nějaká ta nejistota se tam zjeví. Co si však ukradne její pozornost víc, je Fjodrovo doplnění její nedokončené věty, které ocení roztažením úst do uculení.*</span> Přesně tak. Dobrý den. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Přesně to jsem chtěla říct. Jo.//</span> <span class="emote">*Když však přijde ono pobídnutí od Césara, to k němu stočí pohled, který jako by se nemohl rozhodnout, jestli ho chce propálit, nebo jen shovívavě poslat do míst, kam slunce nesvítí. Nakonec se ale nejspíš nerozhodne ani pro jedno, protože si jen povzdechne a trhne rameny.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Však o co jde. Jestli mi bude chtít vrazit-//</span> <span class="emote">*Pohledem sklouzne k Césarovi.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//no dobře, nefanděme si až tak.//</span> Máš pravdu. <span class="emote">*Odvětí nakonec možná až moc lehce na to, aby to bylo uvěřitelné, vstane a nepříliš ochotně se vydá za nimi, aby k cizinci natáhla ruku. To, že se tam ruka malinko, skoro nepatrně chvěje, to je jistě jen následek toho utrpěného šoku.*</span> Luana. <span class="emote">*Tak doufejme, že nebude ten blbeček i tohle brát jako výzvu k útoku, protože, co si budeme, ona by měla asi o dost smutnější vyhlídky.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10948">
+            <td title="">
+                <div class="head"><div class="sender">Fjodor Alexej Konovalov</div></div>
+                <div class="time">12. 10. 2025 22:56</div>
+            </td>
+            <td class="content"><span class="emote">*A to Césarovo ukázání prstem? Asi vás to nepřekvapí, ale i tohle pravděpodobně v první chvíli bere jako útok, jelikož se znovu napřímí, zatne všechny možné prsní svaly a zamračí se. To snad kdyby ten jeho obranný postoj nestačil...*</span> To má být výsměch? <span class="emote">*Zeptá se anglicky s ledovým klidem a napřimuje se víc a víc. Jeden by se bál, že z něj fakt vyklíčí pěkně nebezpečná rostlinka. Ale zatím tedy zůstává sedět, rozhodně ale nemá daleko od toho, aby vstal.*</span> Dobrý den? <span class="emote">*Dokončí za Luanu onu načatou větu.*</span> To bychom si nedovolili. <span class="emote">*Vážnou tvář si bez problému udržuje i nadále. Však pro něj musí být naopak problém vůbec projevit nějaké emoce, ne? Ty si ti dva i v tuto chvíli zřejmě budou muset domyslet. Jediné, z čeho by mohli něco vyčíst, je cuknutí hlavou do strany. Jako by se s ní chystal zavrtět a na poslední chvíli si to rozmyslel. Onen deník si mezitím hezky manuálně uklidí zpátky do kapsy.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10886">
+            <td title="">
+                <div class="head"><div class="sender">César Jesus Giménez Castillero</div></div>
+                <div class="time">12. 10. 2025 22:49</div>
+            </td>
+            <td class="content">No jasný, však tabulky, data, na to jsem dobrej určitě. <span class="emote">*Absolutně očividně jí tam zalže do očí, přičemž se na ní furt tak dementně culí, jak měsíček na hnoji.*</span> Vůbec jí to neukazuj, ta moje písmo pozná, mi falšuje úkoly občas. <span class="emote">*Zvedne ruce na svojí obranu. Tak on sice je akademickým premiantem, nicméně i akademický premiant může být takzvaně líný prase. To on asi nějak pochopí, že se Fjodorovi jeho nabídka zprvu úplně nezdála, takže když mu nepřiletí pěst na ksicht, ale fakt jen to ťuknutí, tak si sám tak pobaveně oddychne. Oheldně omluvy po jejich se zase hezky nadchne a ukáže na něj prstem, což teda neni vůbec slušný, ale očividně ho to moc netrápí.*</span> Chlape, to řeknu rovnou, že umíš po našem! <span class="emote">*Vychrlí na něj v Portugalštině nadšeně, takže pokud chudák Fjodor neumí, tak asi teď bude muset začít vařit z vody. Za přízvuk se mu nijak nevysmívá, vlastně obecně ho to asi ani nenapadne, ale tak jeho nenapadá očividně dost věcí.*</span> Simtě, však to bylo vtipný, Lu. Uvolni se trochu! <span class="emote">*Pobídne jí.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">12. 10. 2025 22:39</div>
+            </td>
+            <td class="content"><span class="emote">*Na tu jeho nabídku se celá rozzáří jak sluníčko.*</span> Fakt? <span class="emote">*Obličej se jí stáhne do téměř dojatého pohledu.*</span> Ty jsi fakt milý. To si ani nezasloužím. <span class="emote">*No... nezaslouží... tak ještě že je to celé jeden hezkej vtípek, uhm. Na tu žádost ohledně Chiary však jen chápavě pokýve hlavou.*</span> Budu na to myslet. Až si budeme porovnávat kalendáře, budu se tvářit, že tak škrábu já. <span class="emote">*Broukne tam s naprosto vážnou tváří, ale ty koutky jí tam skoro viditelně cukají. Když však přijde řada na toho bubáka v podobě Fjodora a následného výbuchu Césara, to jen co to maličko prodejchá, stočí pohled ke svému spolužákovi a jen lapne po dechu. Opět.*</span> Co jdeš... <span class="emote">*To už ale nedořekne, jak se očividně maličko vyděsí pro změnu tím, jak se tam na něj napříhne tou pěstí. Ono je asi celkem fuk, jaký je tam záměr, ono kombo pěst a Kruvalec asi není něco, co by člověka uklidnilo. Ovšem když se nakonec dočká jen toho, že místo rány přijde ono ťuknutí, to vyloženě zaraženě zamrká, kmitne pohledem z jednoho na druhého, než zavrtí hlavou.*</span> To si ze mě děláte... <span class="emote">*Očividně jí je nějaká omluva úplně u zadku, momentálně má co dělat, aby zpracovala fakt, že zatímco ona tady málem dostala infarkt, tak mistr Castillero si s jejím skorovrahem dává pěstičku. Nehoráznost!*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10948">
+            <td title="">
+                <div class="head"><div class="sender">Fjodor Alexej Konovalov</div></div>
+                <div class="time">12. 10. 2025 22:35</div>
+            </td>
+            <td class="content"><span class="emote">*Tak jestli ti dva spolu celou dobu mluví portugalsky, tak to mění kompletně celou situaci! Ale dejme tomu, že si přeci jen najde něco, co má potřebu zaznamenat do svého deníčku, a tak se to prostě nakonec lehce semele, no. Jemu to Luanino nadskočení zřejmě nepřijde ani trochu vtipné vzhledem k tomu, že ty ruce v obranném gestu zvedne ještě o kus výše.*</span> Perdón. <span class="emote">*Vypustí z úst s celkem slušným portugalským přízvukem. Ale stále se tváří velice zmateně. A jelikož je César očividně jediným, kdo tady má dobrou, sdílnou náladu, začne hledat pomoc u něj. Ne, nejde k němu, ani se ničeho nedoprošuje. Jen na něj prostě značně zoufale civí.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Buď si budou myslet, že jim rozumím a pošlou mě do háje, nebo se mi vysmějí za můj přízvuk. Jedna lepší volba než druhá.//</span> <span class="emote">*A když si to k němu pak César namíří, snad instinktivně narovná ramena a vypne hruď, jako by byl vskutku připraven na úder.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Co to? Aha... Asi?//</span> <span class="emote">*Celkem nejistě zvedne vlastní ruku a do té jeho pěsti lehce ťukne. Ve tváři mu nadále zůstává tázavý pohled.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10886">
+            <td title="">
+                <div class="head"><div class="sender">César Jesus Giménez Castillero</div></div>
+                <div class="time">12. 10. 2025 22:18</div>
+            </td>
+            <td class="content"><span class="emote">*Pobaveně protočí oči v sloup a k dívce lehce kývne hlavou.*</span> Tak mi dej pak vědět, ti začnu vést kalendář. <span class="emote">*Pokrčí rameny se smíchem a rukou si prohrábne vlnité vlasy.*</span> Jen to neříkej Chiaře, by pak chtěla taky. <span class="emote">*Dodá tam ještě nějakou tu podmínku a ono je jasné, že jako nějakej extrémní strach z ní taky nemá. Ono asi jen prostě nechce schytat bezdůvodně ránu, když se jí může prostě vyhnout.*</span> Však vidim v jakym seš stavu, ne? Zas nejsem dement. <span class="emote">*Je. Je to dement. jestli ho něco očividně netrápilo, tak je to pravděpodobnost toho, že by snad byla v takový náladě, že by mu prostě najednou vlepila. No nepřestává se na ní debilně usmívat, takže to asi nebude zas takovej hřích a nemá chuť jí tam vyprovokovat úplně. To ten úsměv zmizí v moment, kdy chudák Fjodor upustí ten deník na zem a on stočí hlavu k němu. No asi mu neunikne ani to její nadskočení, které ho spolehlivě rozesměje a on tam tak nějak vyprskne smíchy.*</span> Seš frajer, takhle nadskočit jsem jí neviděl dlouho. <span class="emote">*Houkne k chlapci v angličtině a přejde k němu, kdy  natáhne pěst, asi aby mu mohl správně pogratulovat, za tenhle komický moment. Ne že mu chce dát pěstí, chce si ťuknout, logicky.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">12. 10. 2025 22:10</div>
+            </td>
+            <td class="content"><span class="emote">*Na tu jeho poznámku se zatváří téměř až zklamaně.*</span> Nesleduješ? A já na tebe spoléhala. Já si svoje záznamy zapomněla doma a teď sama nevím, kdy to na mě dopadne. <span class="emote">*Tiše si povzdechne, no jo, tragédie pomalu starořeckých rozměrů, jen co je pravda. Když se však její pseudovýhružka tak hezky uchytí, to jí ty koutky cuknou skoro až v pobavení.*</span> Jen upozorňuju, že je rozumné si nejdřív zjistit, v jakém stavu holka je, než si začneš dělat srandu z takových věcí. <span class="emote">*Pokrčí nezaujatě rameny.*</span> Kdyby to Maty udělal, možná by taky dopadl líp. <span class="emote">*Jo, protože tohle byl určitě ten důvod, že? Ale zdá se, že ona si dneska prostě potřebuje do něčeho kopat, ať už si to dotyčný cíl zaslouží nebo ne. Když si pak vyslouží i to laškové mrknutí, to mu věnuje slďunký úsměv, jako by ji to zamrkání opravdu celou rozpustilo a možná dokonce i potěšilo. Ovšem to už k ní nejspíš dolehne onen zvuk spadlého deníku, který, co si budeme, nejspíš opravdu nečekala. Jak jinak si taky vysvětlit to, že tam na té lavičce chudák nadskočí dobrých pár čísel do vzduchu, prudce se otočí Fjodorovým směrem a vytřeští na něj oči, když se bezděčně posune na lavičce směrem od něj, jako by byl nějaké nebezpečné zvířátko. No, vypadá to, že i kdyby byla Césarova teorie správná a ona byla chudák mrtvolka, tak momentálně ji ta obyčejná příhoda s žuchnutím deníku pomohla vstát z mrtvých.*</span> Děláš si srandu?! Jak dlouho tam seš?! <span class="emote">*A to, že v tom překvapení to vyjeknutí vyleze v její rodné řeči, to jí zřejmě ani náznakem nedojde. Chudák chlapec.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10948">
+            <td title="">
+                <div class="head"><div class="sender">Fjodor Alexej Konovalov</div></div>
+                <div class="time">12. 10. 2025 22:05</div>
+            </td>
+            <td class="content"><span class="emote">*Po celou dobu si udržuje naprosto nečitelnou, místy maximálně lehce soustředěnou tvář. Když ale Luana začne sázet jednu perličku za druhou, nezabrání lehkému pousmání – ne že by to v té tmě bylo z vedlejší lavičky vidět, ale támhle nějaké myši vykukující z díry ve zdi to stoprocentně zlepší den. Proto je důležité to zmínit. Přehodí si tužku do pravé ruky a levou přiblíží ke kapse od kabátu. Prsty od ukazováčku až po malíček napne a podobně natažený palec k nim přiblíží tak na vzdálenost dvou centimetrů. Ruku postupně oddaluje od kapsy a během toho cosi mumlá. A pokud je jeho kouzlo úspěšné, pak by mu z kapsy postupně měl začít vykukovat jakýsi zapečetěný deník. Když je ale skoro venku, ruku náhle povolí a deník nechá spadnout na zem. Oči se mu snad ve zděšení náhle rozšíří, rychle se ale pro deník sehne a vzápětí se jako ve zpomaleném filmu otočí k té dvojici, lehce zvedaje ruce v obranném gestu. Dokonce i ten omluvný pohled k tomu přidá, pak už se ale asi rozhodne je dále nerušit a pustí se do otevírání deníku, tentokrát už tedy za pomoci hůlky.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10886">
+            <td title="">
+                <div class="head"><div class="sender">César Jesus Giménez Castillero</div></div>
+                <div class="time">12. 10. 2025 21:57</div>
+            </td>
+            <td class="content"><span class="emote">*On je asi tak trochu slepej dement, takže bohužel nějakého toho pána od severských vojáků si asi úplně rovnou nevšime, ještě s tím, že tam sedí tak tiše a nenápadně. Čeho si všimne je to vyjádření toho, jak je jeho poznámka naprosto úžasná a to mu spolehlivě vykouzlí na rtech další pohlouplej úsměv. To bude zastydlá puberta určitě.*</span> Tak co já vim, ti cyklus nesleduju. Navíc to neni jediná jeho část, ne? Se to nezdá, ale tohle vim! <span class="emote">*Hrdě vypne hruď na svojí znalost o ženském těle a trochu poodstoupí s tou výhružkou.*</span> Tak zase se nemusíš uchylovat k násilí, jo? Já jsem nic neproved, to je Mateův boj. <span class="emote">*Zvedne ruce na svou obranu ohledně nějakého casteláckého love island drámka.*</span> Já vim. <span class="emote">*Prohodí jednoduše na poznámku o tom, že ho ráda vidí a s pousmáním na ní laškovně mrkne.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">12. 10. 2025 21:51</div>
+            </td>
+            <td class="content"><span class="emote">*Když tam zaslechne onen hlas, to v první chvíli pořád se zavřenýma očima trochu hlouběji vydechne, než bez otevření očí zvedne ruku, aby na Césara ukázala ono známé gesto v podobě palce a ukázováčku spojeného do kroužku, nejspíš v náznaku toho, jak hrozně super a vytříbená za poznámka byla.*</span> Jestli tím naznačuješ, že mám krámy, Césare, tak bych tě ráda upozornila, že kdybys měl pravdu, koleduješ si o podobnou památku, jakou dala Matymu Lucka. <span class="emote">*Pronese naprosto nevzrušeně, no, těžko říct, jestli se klučina v odhadu jejího rozpoložení trefil, ovšem když tam ty oči otevře a otočí se k němu, věnuje mu pousmání. Nepříliš nadšené, ale je tam!*</span> Ale taky tě ráda vidím. <span class="emote">*No jo, ono vzhledem k tomu jejímu rozpoložení se asi není moc čemu divit, že jistého Kruvalce si tam zatím nevšímá. Však, když je tak tichučký a hodný...*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10948">
+            <td title="">
+                <div class="head"><div class="sender">Fjodor Alexej Konovalov</div></div>
+                <div class="time">12. 10. 2025 21:49</div>
+            </td>
+            <td class="content"><span class="emote">*On se mezitím skrývá ve stínu mezi okny, usazen na lavičce o něco vzdálenější od schodiště, než je ta vybraná Luanou, s jednou nohou nataženou vpřed a druhou opřenou o okraj lavice. Na koleni této nohy má položenou mapu, která až nápadně připomíná bradavické pozemky. Jen je vyplněná větším množstvím textu, než by bylo zdrávo. Ona písmenka ve výsledku téměř dominují nad samotnými, precizními – nutno podotknout – kresbami. Pravou rukou si přidržuje mapu a levou do ní cosi zakresluje. Oděn je v tuto chvíli mimochodem v černých kalhotech a tmavě zeleném pulovru. Přes ramena má navíc přehozený světle hnědý kabát s kožešinovým límcem. Vedle sebe má položený obyčejný chléb, ze kterého si během kreslení sem tam uždibuje. Občas ale také zabloudí pohledem směrem ke schodišti.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Neříkejte mi, že mé vzorce přestávají vycházet.//</span> <span class="emote">*Semkne rty k sobě a nakloní mapu tak, aby do ní z pohledu těch dvou bylo co nejméně vidět. Lehce se nahrbí, jako by si díky tomu připadal neviditelnější. Ale s kreslením nepřestává, jen se okolím nechává rozptylovat mnohem častěji.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Veškeré vzorce přestávají dávat smysl. Tahle vypadala, že se v životě nemůže unavit.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10886">
+            <td title="">
+                <div class="head"><div class="sender">César Jesus Giménez Castillero</div></div>
+                <div class="time">12. 10. 2025 21:33</div>
+            </td>
+            <td class="content"><span class="emote">*To ani on se vlastně nijak moc neliší svým oděvem. Po chodbách hradu si totiž vykračuje právě v castelácké uniformě, která mimo své obvyklé prvky má i menší doplňky v tyrkysové a růžové barvě, která jen poukazuje na chlapcovu příslušnost k jistému kmeni kyselých. Pořád vypadá trochu ztraceně, jak alenka v říši divů, protože se za chůze zmateně a ohromeně rozhlíží po všech ptácích. nebo brněních, no prostě takovejch těch blbostech okolo. No, uričtě díky tomu důkladnýmu skenování nepřehlédne ani jeho vlastní spolužačku, která tam mrtvolně odpočívá na tom...no odpočívadle.*</span> Čus, Lu. Dneska nejsi nasraná, ale mrtvá? Změna v cyklu? <span class="emote">*Vysolí na ní naprosto dementně a vyhodí i nějakej ten úsměv, no prostě trouba.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10947">
+            <td title="">
+                <div class="head"><div class="sender">Luana Mariana Almeida Soares</div></div>
+                <div class="time">12. 10. 2025 21:27</div>
+            </td>
+            <td class="content"><span class="emote">*Soudě dle uniformy castelácké školy je asi celkem patrné, že si to štráduje z nějaké té hodiny. To, proč jde sama, to už nejspíš z jejího oděvu nevykoukáme, ovšem onen lehce napjatý výraz ve tváři může být malým, nenápadným, ale i tak pro některé možná celkem dostačujícím vodtíkem. Každopádně ať už jsou její důvody a záměry jakékoliv, jen co dojde na ono odpočívadlo, modrým pohledem sklouzne do chodby a bez většího zaváhání do ní rovnou zamíří. Bez většího výbírání si vyhlédne jednu z lavic mezi okny, na kterou se s tichým vydechnutím, které působí skoro až úlevně, sesune. Opře si záda i hlavu o zeď, zavře oči a vypadá to, že ze sebe aspoň trochu toho napětí začíná dostávat ven.*</span></td>
+        </tr>
+    
+       
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10894">
+            <td title="">
+                <div class="head"><div class="sender">Chiara Antonia José</div></div>
+                <div class="time">12. 10. 2025 15:53</div>
+            </td>
+            <td class="content">Klidně si to poslechnu, jestli se chceš podělit. Třeba můžeme jít sehnat o kakao nebo to maté. <span class="emote">*Navrhne Alejandrovi se zazubením a zvedne se ze svého místa.*</span> Cože? Políbili? <span class="emote">*A jejda. Ona zřejmě neumí být tichou drbnou, protože to tam řekne hezky nahlas, zatímco se u toho zasměje a zakroutí hlavou.*</span> To jsi si teda vybral.. A odešel? Tak ta musí mít z toho radost. <span class="emote">*Zavrtí nevěřícně nad jeho činy hlavou.*</span> Já se s ní moc nebavím, nemůžu ti říct, co má ve své hlavě. <span class="emote">*Omluvně se na něj usměje.*</span> Možná nějaké lístky s sebou vzala máma, tak se jí zeptám. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Mi balila, jak kdybych byla malé dítě.//</span> <span class="emote">*A jak tam tak stojí, tak k němu natáhne ruku.*</span> Tak tohle zní jako lepší nabídka, pane králi. Co zatím podniknout výlet za kakaem? <span class="emote">*Navrhne mu a jestliže proti tomu nic nemá, tak se prostě někam rozejde, třeba ještě někam dále, aby se mohla více ztratit. V případě, že nesouhlasí, tak se rozejde sama stejně někam pryč.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="11035">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Navarro</div></div>
+                <div class="time">12. 10. 2025 15:37</div>
+            </td>
+            <td class="content">To bych ti to celé musel vysvětlit. <span class="emote">*Zakření se a mávne nad tím rukou. Chvíli se směje, ale pak přestane a zadívá se Chiaře do očí.*</span> No, tak nějak... Ono se stalo, že jsme se políbili. Víš, já byl včera s Kirou na tom seznamování, pak se stalo to co se stalo, no a já při odchodu dal Lu pusu na tvář a pak jsem byl s Kiarou u černého jezera, povídali jsme si, pomohla mi od těch zčernalejch ruk a odprovodil jsem jí ke stanu a šel jsem se pak ještě projít. Pak jsem narazil právě na Lu a políbili jsme se. Jenomže ona do mě pořád rýpala ohledně Kiry, tak jsem jí tam nechal a odešel. <span class="emote">*Vysvětlí a pokrčí při tom rameny.*</span> Já-já nechápu co těm holkám fakt je. <span class="emote">*Protočí panenkami a protáhne obličej do jakéhosi úšklebku.*</span> No fakt nedělám, to kakao mi zachraňuje život, protože je sladké a teplé. <span class="emote">*Mrkne na ní a pokrčí rameny.*</span> Hele, tak to nevím, ale taky bych si dal. Nemáš nějaké sebou? Že bychom si ho udělali sami, víš? <span class="emote">*Zazubí se a spiklenecky na svou kámojdu mrkne.*</span>  Tak jinak! Vaše Veličenstvo nebude nic plánovat a prostě se rozhodneme a něco podnikneme, co ty na to? <span class="emote">*Asi to právě vymylel, chytrolínek jeden.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10894">
+            <td title="">
+                <div class="head"><div class="sender">Chiara Antonia José</div></div>
+                <div class="time">12. 10. 2025 15:29</div>
+            </td>
+            <td class="content">Klidně mi řekni a já něco vymyslím. <span class="emote">*Broukne k němu a volnou rukou stiskne svůj flakonek ve tvaru srdce na jejím krku.*</span> Luana? <span class="emote">*Jo, ona úplně zrovna dvakrát nevypadá, že by měla nějaký ten šajn, co tím myslí.*</span> Neříkej mi.. <span class="emote">*Najednou se rozhihňá jako malá školačka, tak kdo ví, co tím myslí. U toho svého smíchu mu to ramene stiskne o trošku více, ale není se čeho bát, není to nijak silné, aby ho to muselo bolet.*</span> Kakao? <span class="emote">*Zopakuje po něm nápoj a přimouří jeho směrem pohled.*</span> To jsem nezkoušela. Doufám, že si ze mě neděláš legraci. <span class="emote">*Dloubne ho do boku, sevření pustí a ruku stáhne zpět ke svému tělu. Samozřejmě však na něj celou tu dobu kouká.*</span> A myslíš, že tu někde seženu i maté? <span class="emote">*Zeptá se zamyšleně než se nadechne pro ten jeho plán, dokonce se ani nezdá, že by jí nějak speciálně vadilo, že tam na ni sahá.*</span> To by šlo, tohle zní jako skvělý nápad, pane králi. <span class="emote">*Znovu do něj tak jemně strčí a zasměje se.*</span> No, tak to abychom to teď nepokazili. To naplánujeme a pokazí se to. <span class="emote">*Napomene ho ohledně toho a zavrtí hlavou ze strany na stranu.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="11035">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Navarro</div></div>
+                <div class="time">12. 10. 2025 15:14</div>
+            </td>
+            <td class="content">Řekl bych, že je to jedno s druhým. Řeším hromadu problémů a do toho je tu Luana. <span class="emote">*Povzdychne si a zadívá se kamsi do dálky. Je evidentní, že se mu o tom moc mluvit nechce, ale nakonec se pohledem zase vrátí k Chiaře a usměje se. Zdá se, že jeho úsměv je přátelský. Asi si nechce vybíjet svou frustraci na kámošce.*</span> Zima tu je, to jo, furt je mi zima. Ale naučil jsem se pít jejich kakao, zkoušela jsi ho někdy? Je fakt dobré. <span class="emote">*Zakření se jako měsíček na hnoju.*</span> Bude, já v to věřím. <span class="emote">*Položí ruku na stehno Chiary a poplácá jí po něm, jen lehce, spíš tak nenuceně.*</span> Hmm.. A víš ty co? To chce napravit! Tak co kdybychom pravidelně spolu něco podnikali? Přece nebudeš zavřená ve stanu, no ne? Jsem tu já! Král hovadin. <span class="emote">*Zasměje se a ruku z jejího stehna zase stáhne.*</span> Měl no, ale víš jak to chodí, něco plánuješ a ono to nevyjde. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Však jo, nechám se mrzačit jen tak pro nic za nic, jsem fakt idiot, že si nedávám větší pozor, ale znovu už to nedovolím, se jí budu vyhejbat, vlastně všem holkám.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10894">
+            <td title="">
+                <div class="head"><div class="sender">Chiara Antonia José</div></div>
+                <div class="time">12. 10. 2025 15:07</div>
+            </td>
+            <td class="content"><span class="emote">*Nakloní hlavu starostlivě na stranu a znovu koukne na Alejandra.*</span> Jsem tě včera viděla.. Souvisí to s tím? <span class="emote">*Zeptá se ho celkem opatrně, jak kdyby nevěděla, jestli ho ta otázka až moc rozbije nebo ne.*</span> Kdo by se domů netěšil. Však je tady zima. A třeba se to zlepší. <span class="emote">*Zkusí mu tak trochu naděje, zatímco mu položí ruku na rameno a jemně mu to rameno stiskne.*</span> A ten rok stejně bude skvělý, hm? <span class="emote">*Zkusí mu teda ještě jednou dodat nějakou tu naději na snad normální a zábavný rok.*</span> No.. jo. <span class="emote">*Povzdychne si, jak zmíní toho Matea, jak kdyby sama věděla, co tam chlapec vyvádí.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Jsem prostě blbá.//</span> Jak se mám? Poslední dobou..nějak ani nevím. Asi je to na mě moc velká změna. <span class="emote">*Uchechtne se.*</span> Nějak mě zatím nic nelákalo. Byla jsem maximálně na jídle, včera se kouknout, co se tam děje a jinak jsem furt ve stanu. <span class="emote">*Pokrčí lehce rameny, jakoby tím chtěla říct, že jí zatím nic z toho neoslovilo.*</span> Měl jsi plány, jo? <span class="emote">*A to už jí zajmou právě tato slova, kdy na něj zaujatě hledí.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="11035">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Navarro</div></div>
+                <div class="time">12. 10. 2025 14:38</div>
+            </td>
+            <td class="content">No, řekněmě, že jsem radši ve tmě než v denním světle. Zvláště poslední dny. <span class="emote">*Povzdychne se a pokrčí rameny s lehkým zavrtěním hlavy. Asi se tak zdá, že hoško nemá dobrou náladu nebo tak něco, kdo ví.*</span>  U nás je to nejhezčí. Nikomu to neříkej, ale těším se domů. A to jsem byl ten, co nejvíc prohlašoval, že letošní rok bude naprosto bombovej, ale jaksi mě to přešlo. <span class="emote">*Ušklíbne se a přehodí si nohu přes druhou. Mírně jí zhoupne a věnuje Chiaře další pohled.*</span> Mateo má totiž jiné starosti. Jsem slyšel, že boduje. <span class="emote">*Zahyhňá se a dá si při tom ruku před pusu.*</span> No ale spíš mi řekni co ty. Jak se vůbec máš, hm? Jsem za tebou chtěl zajít včera, ale nějak se včera nepovedlo nic z toho co jsem měl naplánované. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10894">
+            <td title="">
+                <div class="head"><div class="sender">Chiara Antonia José</div></div>
+                <div class="time">12. 10. 2025 14:34</div>
+            </td>
+            <td class="content"><span class="emote">*Samozřejmě, že když jejím směrem začne povídat jeho důvody, pro které se na tomto místě nachází, tak ho bedlivě pozoruje a pravděpodobně i poslouchá, protože mu na to přikývne.*</span> Tma? Jsi nespal a vadí ti denní světlo? <span class="emote">*Začne tak zase vyzvídat, kdy ho do odpovídání samozřejmě nenutí, naopak mu tam dá jistě čas na to jí odpovědět nebo ne.*</span> Ale jo, ta krajina je tu hezká, ale lepší je to u nás. <span class="emote">*Zaculí se při pohledu z výklenku ven, ale nakonec si její pozadí najde místo na lavičce vedle Alejandra.*</span> Jsem slíbila Mateovi, že mu najdu tady knihovnu, ale zabloudila jsem.. <span class="emote">*Zasměje se nad jejím ztracením a nad tím pořádným pokecem zase tak kývne.*</span> To je dobrý nápad. Od příjezdu jsme toho moc nenamluvili.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="11035">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Navarro</div></div>
+                <div class="time">12. 10. 2025 14:24</div>
+            </td>
+            <td class="content"><span class="emote">*Si tak sedí na dřevěné lavici hledí na obraz před sebou a píská si. Píská si do doby, než zaslechne něčí hlas. Poposedne si a vzhlédne k dané osobě, není to nikdo jiný než Chiara.*</span> Aloha, krásko. <span class="emote">*Zazubí se na ní a přejde plynule do portugalštiny.*</span> Jsem se šel projít a ocitl se tady. Je tu klid, tma a docela zajímavé obrazy krajin. <span class="emote">*Kývne hlavou k obrazu naproti němu a poplácá volné místo vedle sebe na lavici.*</span> Co tu děláš ty? Nudila ses a nebo ses ztratila, hm? <span class="emote">*Zašklebí se na ní a věnuje jí delší pohled do očí.*</span> Jsem tě dlouho neviděl, tak aspoň konečně můžeme pořádně pokecat. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10894">
+            <td title="">
+                <div class="head"><div class="sender">Chiara Antonia José</div></div>
+                <div class="time">12. 10. 2025 14:20</div>
+            </td>
+            <td class="content"><span class="emote">*A nějakou tou hradní chodbou si to v sedmém patře vykračuje celkem se zaujatým výrazem ve tváři, se kterým se rozhlíží vlastně tak nějak kolem sebe neustále.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Aha. Ta knihovna asi tady nebude, když říkali, že to prý neminu. Mu něco slíbím a ani to nenajdu.//</span> <span class="emote">*Nafoukne tváře, aby následně mohla vyfouknout vzduch pořádně ze svých plic. Ale to už jí do rány padne jistý klučina, takže se na moment zastaví a prohlédne si ho.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Aha!//</span> Čao. <span class="emote">*Houkne na chlapce se smíchem v hlase, když k němu zase vykročí a vyskočí, kdy se u toho chytne jeho ramen.*</span> Co tu pohledáváš? <span class="emote">*A to na něj s touto otázkou pustí španělštinu. Samozřejmě zde nechodí nijak odhalená, takže má na sobě džínové kalhoty v šedé barvě, do niž má zastrčenou tmavě modrou halenku se s jakýmisi divnými světle modrými vzory. Černé huňaté vlasy má pro tento den sčesané do několik pracně zpracovaných copánků doplňující její celý dnešní outfit flakonek přivázaný na řetízku, co se jí tam dost možná houpe do rytmu její chůze či útoku na jeho záda.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="11035">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Navarro</div></div>
+                <div class="time">12. 10. 2025 13:45</div>
+            </td>
+            <td class="content"><span class="emote">*No a tak si to teda po chodbě štráduje i tenhle tmavovlasý a tmavooký kluk docela vysoké postavy. Na sobě má černé kalhoty, tmavě zelené tričko a černé boty. Ruce má strčené do kapes a píská si.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Tady jsem ještě nebyl, proč je tu všude tak depresivní nálada, hm? To bude asi tím hradem.//</span> <span class="emote">*Nakrčí nos a rozhlédne se kolem sebe, při čemž se zastaví u jedné z dřevěných lavic a posadí se. Nohy natáhne před sebe, ruce si nechává v kapsách a zíra na obraz před sebou*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Jen doufám, že nepotkám zase tu Kruvalku. Asi bych jí tentokrát vážně zaškrtil.//</span> <span class="emote">*Vytáhne ruku z kapsy a v ní drží jahodový balzám na rty. Přetře si s nim několikrát rty a balzám zase pěkně schová do kapsy odkud jej vzal.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 21:01</div>
+            </td>
+            <td class="content">Není za co. <span class="emote">*Pousměje se a taky podpoří to ticho - jak jinak než vlastním mlčením. Zase si tak nejistě prohrábne vlasy a dál mlčí. Tedy dokud ho neprolomí Lucka.*</span> Jasný. Rád. <span class="emote">*Po jejím vzoru vstane a do tváře se mu trochu vrátí původní barva, snad z úlevy, že ho neposlala do patřičných míst. Ušklíbne se na ní, sám se tak nějak zaboří do té své mikiny a následuje Castelobruxku kamsi do chodeb hradu, asi směrem k tomu jídlu, že ano, kam taky jinam.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10900">
+            <td title="">
+                <div class="head"><div class="sender">Lucia Juliana Navarro</div></div>
+                <div class="time">10. 10. 2025 20:52</div>
+            </td>
+            <td class="content"><span class="emote">*Pokračuje v tom sezení, aktuálně s podepřenou bradou o ruku, která je pro změnu zapřená o nohu. Rty se jí jaksi třesou, a zírá do blba, ale to neznamená, že nedává pozor tomu, co říká Alex, jelikož oči jí občas utečou spíše jeho směrem, tudíž není úplně mimo realitu.*</span> Dík. <span class="emote">*Ne moc nahlas utrousí tohle jedno slovíčko, a následuje opět chvíle, a docela dlouhá, kdy mlčí a nic neříká, navzdory tomu, že ve vzduchu patrně visí ona nabídka.*</span> Tak... můžem skočit na jídlo. Mám hlad. Celkem. <span class="emote">*Zhluboka se nadechne a vstane, nejspíše že zkusit udělat něco tak základního jako najíst se je vhodný záchytný bod. Ruce si vrazí do kapes od mikiny, a koukne se po Alexovi, jestli tedy chce třeba jít taky, no potom z odpočívadla odejde, potenciálně s ním, tak o jeden bod méně troska, než při svém příchodu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 20:48</div>
+            </td>
+            <td class="content"><span class="emote">*Odkloní se a obličej mu trochu zrudne, ale jen malinko, nic k tomu nedodává. Ale i tak s úsměvem pozoruje, jak se z toho velkého klubíčka stane menší klubíčko, snad i to považuje za úspěch, že ano.*</span> Jo. Úplně slepej. <span class="emote">*Zopakuje po ní ještě jednou pomalu, jako kdyby to měl utvrdit a pootevře pusu, kterou hned zase sklapne. A zase otevře. A ještě jednou.*</span> Víš, kdybys chtěla, vždycky tady budu, jo? kdybys třeba chtěla někdy, uhm. Ven. Klidně jen jako kámoši. Nebo ne. <span class="emote">*Ta poslední slova úplně šeptne, ale zrak odvrátí úplně.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Neutíkej prosím.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10900">
+            <td title="">
+                <div class="head"><div class="sender">Lucia Juliana Navarro</div></div>
+                <div class="time">10. 10. 2025 20:43</div>
+            </td>
+            <td class="content">Bych neřekla... <span class="emote">*Utrousí své názory o pravdě, jenže názory to jsou dále nerozvedené, a tak můžeme pouze hádat, co se tím snaží Alexovi vlastně sdělit. S označením poleno odfoukne nosem, ne moc vesele, ale prostě reaguje takto jakože funguje. A možná kdyby nebyla ve stavu rozpadu, zasmála by se, avšak to dnes nějak extra nehrozí.*</span> Eh, dík? <span class="emote">*Donutí se nakroutit koutky rtů nahoru, aby možná ocenila onen kompliment, však na více se nezmůže, i kdyby se snažila. Nebo jenom tipuje, co mohl říct tím polohlasem, no.*</span> On je úplně slepej. To je pravda. <span class="emote">*Pomalu se vytočí zády ke zdi a nohy dá dolů, ale předkloní se, takže pořád jakési klubíčko tvoří.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 20:39</div>
+            </td>
+            <td class="content">Všechno, co je pravdivý, je dobrý. <span class="emote">*Zase se malilinko pousměje, ale má to dost daleko od jeho klasického šklebu.*</span> To jsem nemyslel na tebe, ty poleno. <span class="emote">*Dodá už s úsměvem o trochu širším, ale stále mluví dost potichu.*</span> Ale na Sofíu. <span class="emote">*Odmlčí se a nechá jí tedy ze sebe dostat všechno co potřebuje. A vlastně i po tom, až na jednu krátkou větu.*</span> I tak jsi moc hezká. <span class="emote">*Poví tiše, těžko říct, zda to Lucka zaslechne, ale pravděpodobně to úplně nemožné taky nebude.*</span> Je slepej, pokud si to nemyslí. <span class="emote">*Poví už trochu hlasitěji.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 20:39</div>
+            </td>
+            <td class="content">Všechno, co je pravdivý, je dobrý. <span class="emote">*Zase se malilinko pousměje, ale má to dost daleko od jeho klasického šklebu.*</span> To jsem nemyslel na tebe, ty poleno. <span class="emote">*Dodá už s úsměvem o trochu širším, ale stále mluví dost potichu.*</span> Ale na Sofíu. <span class="emote">*Odmlčí se a nechá jí tedy ze sebe dostat všechno co potřebuje. A vlastně i po tom, až na jednu krátkou větu.*</span> I tak jsi moc hezká. <span class="emote">*Poví tiše, těžko říct, zda to Lucka zaslechne, ale pravděpodobně to úplně nemožné taky nebude.*</span> Je slepej, pokud si to nemyslí. <span class="emote">*Poví už trochu hlasitěji.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10900">
+            <td title="">
+                <div class="head"><div class="sender">Lucia Juliana Navarro</div></div>
+                <div class="time">10. 10. 2025 20:34</div>
+            </td>
+            <td class="content">Ale- ale- <span class="emote">*Opětovně se pustí do koktání slov, přes která místo dokončení škytne, a odmlčí se, aby snad neprohlubovala svou trapnost.*</span> Ono to ale dobře nebylo. Ono too jenom bylo pravdivý. Ne dobrý... <span class="emote">*Se ještě pustí i do filosofických rozprav pro raněné pubrťačky, by si měla založit kroužek.*</span> Já ho asi nechcu vymazat... <span class="emote">*Což nerozvede více, ale podle toho jak si obejme ty nohy a přitiskne je k sobě je naprosto jasné, že tato skutečnost ji nejenom trápí, ale i u toho srdíčka zabolí.*</span> Vypadám hrozně. Slzy nejsou moc hezký. <span class="emote">*S tím si rukávem otře nos, ale pozor, vypadá to, že ten pláč si dává pauzu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 20:28</div>
+            </td>
+            <td class="content"><span class="emote">*Pokrčí rameny, ale furt se na ní nedivá, takže by to pro náhodného kolemjdoucího možná mohlo vypadat, že mluví se zdí.*</span> Udělala jsi, co sis myslela, že je dobře. A to je hlavní. I když o tom teď možná pochybuješ. <span class="emote">*Takže teď je z něj asi psycholog, heleme se. Poposedne si na místě a pohledem začne těkat od místa k místu, přičemž to, že o ní furt mluví, přejde. Nebo to tak alespoň vypadá. Pak se rukama zapře a přetočí se tak, že na lavičce kouká směrem k Lucce.*</span> Mozek někdy vymazává traumatický události. Ten můj už vymazává jakoukoliv zmínku o Sofíi. <span class="emote">*Mírně se ušklíbne, ale jako kdyby mu došlo, že to není ideální, a sklapne.*</span> Nemyslím, vím to. Ty se na sebe podívej. <span class="emote">*Ještě jí přelétne očima a pousměje se.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10900">
+            <td title="">
+                <div class="head"><div class="sender">Lucia Juliana Navarro</div></div>
+                <div class="time">10. 10. 2025 20:24</div>
+            </td>
+            <td class="content"><span class="emote">*Rukávem zase zašermuje na obličeji, čímž si rozmaže vodu v očích, ale jako snad je i trošku vysuší.*</span> Jsem mu to chtěla říct už dřív. A pak jsem to odkládala. Jsem neměla nic říkat. <span class="emote">*Fňukne si o tom znova a opět položí bradu na kolena.*</span> Však... o ní furt mluví. A furt o holkách. Jenom mě nechce. Že jsem jenom kámoška. <span class="emote">*Ona to snad ani tomu nepřítomnému nevyčítá, jenom je naprosto zřejmé, že by byla mnohem radši, kdyby se mohla zařadit k těm ostatním holkám.*</span> Myslíš? Si nemyslím. Se na mě podívej. <span class="emote">*Zhluboka se nadechne a následuje povzdechem, no holka má ego někde hluboko v hrobě, jak se zdá.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 20:20</div>
+            </td>
+            <td class="content"><span class="emote">*Odsune se na druhý konec lavičky, asi když zaznamená to cuknutí, aby jí možná nijak neublížil, že ano.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Já ho fakt zabiju.//</span> <span class="emote">*Povzdechne si a potřese hlavou, přičemž si sám přitáhne nohy k tělu a opře se o zeď.*</span> Já si myslím, že seš docela odvážná, že jsi mu to řekla. Už to je hustý. <span class="emote">*Pousměje se a nakloní hlavu jejím směrem. Ať už se mu v hlavě děje cokoliv, očividně se sám začíná pomaličku, ale jistě, uvolňovat.*</span> Sofíu? No to se posral. <span class="emote">*Vylítne z jeho pusy, asi dřív, než si to sám uvědomí, a dodá.*</span> Rozhodně není hezčí než ty. Teda, není hnusná, ale...ty seš hezčí, jo. <span class="emote">*A ten úsměv mu zase povadne, přičemž pohledem začne hypnotizovat protější stěnu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10900">
+            <td title="">
+                <div class="head"><div class="sender">Lucia Juliana Navarro</div></div>
+                <div class="time">10. 10. 2025 20:16</div>
+            </td>
+            <td class="content"><span class="emote">*Kousíček, fakt malý, se cukne dozadu, pokud má možnost zaregistrovat tu jeho ruku, avšak když se to obejde bez doteku, více sebou nešibuje.*</span> Jo. On. <span class="emote">*Potvrdí, a sklopí hlavu, protože se začíná zdát, že z toho jejího smutku začíná i natahovat, načež potáhne nosem.*</span> Jsem mu to řekla. A on se tak prej necejtí. A- a já ho mám ráda. Nebo já nevím. <span class="emote">*Rukávem si přejede celkem akčně přes oči, jako kdyby se za ty tvořící se slzy styděla.*</span> On balí tvoji ségru. A ta je hezčí než já. Tak... mě nechce. <span class="emote">*Zas potáhne, ale pak se trošičku uklidní, bohužel jenom tak, že zmlkne úplně.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 20:11</div>
+            </td>
+            <td class="content"><span class="emote">*Trochu se k ní šoupne, stále tak docela nejistě. Chvíli to vypadá, že by jí dokonce položil ruku na rameno, ale to se nestane a zase jí stáhne.*</span> To mě mrzí. <span class="emote">*Povzdechne si chraplavým hlasem a znovu si projede prsty ty vlasy.*</span> Mateo? <span class="emote">*Zeptá se, snad pro ujištění, ale vypadá to, že sám ví odpověď, vzhledem k tomu, že to zní spíš jako věta, než jako otázka. Při tom se mu ale v očích rozsvitne něco jako naděje, jen to hned zase zmizí, tak s toho snad nikdo nevšimne.*</span> Tak to je pěkně blbej. Kdo by tě něchtěl? A on s někým je, nebo? <span class="emote">*Doptá se s opatrností v hlase.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10900">
+            <td title="">
+                <div class="head"><div class="sender">Lucia Juliana Navarro</div></div>
+                <div class="time">10. 10. 2025 20:07</div>
+            </td>
+            <td class="content"><span class="emote">*Zvedne hlavu směrem k příchozímu Alexovi a koukne na něho z toho jejího bezpečného bodu pod kapucí, načež velice rychle ty oči sklopí zase dolů, a s pozdravem otálí, až to nakonec vyprchá a žádný pozdrav z její strany nepřijde. Když přisedne k ní, nohy si jako kdyby z instinktu přitáhne ještě více k sobě, avšak celkem rychle to povolí, chudák by tam jinak byla úplně strnulá a zkoprnělá.*</span> Ne. <span class="emote">*Odpoví tiše, skoro jí to ani moc nejde, to mluvení. S krátkou odmlkou pokračuje.*</span> On mě nechce. A... a dal mi i náramek. Ale nechce. <span class="emote">*Fňukne si a hlavu s pohledem odvrátí úplně do zdi.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10877">
+            <td title="">
+                <div class="head"><div class="sender">Alejandro Sánchez</div></div>
+                <div class="time">10. 10. 2025 20:03</div>
+            </td>
+            <td class="content"><span class="emote">*A tím samým směrem si to míří právě i tady on. Co se jeho vzhledu týče, nejedná se o nic drastického ani pozornost přitahujícího - což by možná v jeho případě mohlo být pro některé zarážející. Zkrátka a dobře hodně baggy kapsáče a černá mikina. Hnědé vlasy mu trčí do všech stran a právě ty si prohrábne, když pohledem padne na Lucku.*</span> Čau Navarrov- <span class="emote">*Už má na tom jeho obličeji klasický škleb, když mu povadne.*</span> Seš v cajku? <span class="emote">*Sedne si vedle ní, furt ale v dostatečné vzdálenosti. Jeho výraz je dosti nečitelný, jako by nevěděl, co dělat.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10900">
+            <td title="">
+                <div class="head"><div class="sender">Lucia Juliana Navarro</div></div>
+                <div class="time">10. 10. 2025 20:00</div>
+            </td>
+            <td class="content"><span class="emote">*Se tady do sedmého patra vyškrábe tahle castelobruxká studentka. Oděnou má na sobě jenom světle šedou mikinu na zip a s kapucí, kterou má přehozenou přes hlavu a staženou do obličeje, přičemž jenom pár volných vlasů nechává čouhat ven. Dále má na sobě černé legíny, a samo sebou tenisky, ty jsou pro změnu v křiklavě modré s logem fejkovýho Adidas. Kouká do země, a i když je její tvář zastřena kapucí a vlasy, jde vidět, že moc štěstí v sobě nenese, a působí jaksi uzavřeně. Koukne se po té chodbě, zamíří k jedné lavici, a tam si na ni bokem sedne, načež vyhodí nohy nahoru k sobě a obejme je, s bradou položenou na kolenou.*</span></td>
+        </tr>
+    
+       
+    
+        
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 15:20</div>
+            </td>
+            <td class="content">Ano, co hele? Já jsem jen realista, stalkerko, pokud se tě nepokusí zabít tahle škola a její studenti, ti z Kruvalu to nepochybně udělají. Ošetřovna se hodí. Ale učebny ti ukázat mohu taky, to vlastně není úplně hloupý nápad. <span class="emote">*Poučí slečnu o tom, že ošetřovna je šíleně důležité místo, zvedne svou knižní milenku a už Perezovou vede vstříc těm pohyblivým schodům, u čehož jí děsně vážně povídá historii poloviny hradu - však si o tu prohlídku přece jen řekla sama.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 15:15</div>
+            </td>
+            <td class="content">Fandíš snad svojí? <span class="emote">*Optá se ho s nádechem pobavení, protože ona zkrátka jeho stanovisko k vlastní škole patrně moc dobře zná. Když jí pak podporu fakt přislíbí, tak na něj krátce blýskne rovnejma zubama. A ano, nechá mu čas udělat to nedobrovolné vstání důstojně.*</span> Vím, že tu ne. Neočekávám, že mi usnadníš to hledání tolik, očekávám, že mi pomůžeš ty hodiny, co můžu strávit hledáním, nezabít blouděním po hýbajících se schodech. Hele. <span class="emote">*Ohradí se pobaveně, když jí doporučí tu ošetřovnu. Nu, a zatímco ho pěkně bude poučovat na téma toho, jak je šikovná a ošetření jí netřeba, mu asi připomene knižní milenku, a fakt s ním odejde na tu prohlídku.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 15:03</div>
+            </td>
+            <td class="content">Já mám fandit cizí škole? <span class="emote">*Povytáhne na tu holku obočí, jak kdyby po něm právě požadovala, ať se krví upíše, že zradí svou rodinu. Nakonec nicméně výraz povolí a pokrčí rameny.*</span> Proč vlastně ne, hm. Stejně si tu nikdo vyhrát nezaslouží, moji spolužáci jsou idioti. <span class="emote">*Protáhne a přislíbí tu svou podporu jiné škole, než spolu s ní začne vstávat, vlastně i nedobrovolně, když je popotahován.*</span> Šance? Hm. Zhruba tak poloviční. Knihovnu ti neukážu, tu si bude muset najít sama, začneme praktičtějšími věcmi, jako je... ošetřovna. Tu budeš potřebovat.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 14:57</div>
+            </td>
+            <td class="content"><span class="emote">*To jemně přikývne a vlastně mu nepředhodí, že jsou tedy míšenci oba, ne, ne, možná prostě jen vezme zavděk informacemi, dokonce natolik, že se mu ani nevysměje, že je brit - alespoň tak tedy neučiní ihned.*</span> Jasně, že se nemůžeš hlásit, musíš mi fandit. <span class="emote">* Šťouchne do něj zvesela, no, zároveň u toho ale vypadá, že jí cosi myšlenkama ještě rezonuje - možná jeho řeči o černé magii, možná něco úplně jiného, kdoví. Tak jako tak každopádně následně pomalu vstane a jemně ho u toho popotáhne za tu ruku.*</span> Jaké jsou moje šance, že mi uděláš prohlídku hradu?</td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 14:47</div>
+            </td>
+            <td class="content">Hm, otec? <span class="emote">*Nakrčí čelo, když slečna vytáhne tedy jeho ctěného tatínka, načež zavrtí hlavou.*</span> Táta je z části brit a z části francouz, také míšenec. <span class="emote">*Prozradí jednak tedy původ svého otce, ale zároveň fakt, že i on je z nějaké té části brit, byť se proti téhle skupině lidí tolika vyhrazuje.*</span> Já jsem je chtěl odsoudit předem podle pověsti. A nelituju toho, jsou divní. O důvod víc se do žádného turnaje nehlásit, stačí, že černou magii dělají místní podzemní krysy, natož abych ještě chytil nějaké kouzlo od nich. <span class="emote">*Vrtí nespokojeně hlavou a na to jídlo... on pokrčí rameny.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 14:38</div>
+            </td>
+            <td class="content"><span class="emote">*Se tlumeně uchichtne, když do ni drcne on. A podruhé pravděpodobně, když se zase označí za vola, no, z nějakého důvodu se z té urážky asi fakt stal vtípek.*</span> Tvůj táta je? Čistokrevný francouz? Protože pokud ano, možná přeci jen dám přednost míšenci. <span class="emote">*Vytáhne opatrně další francouzsky mluvící postavičku, se kterou se oba setkali - tedy druhou ze dvou -, a pokud na tuto zmínku Eliho reakce nebude kdovíjak vyostřená, tak to skutečně dořekne až k míšenci a jemně svému oblíbenému žabožroutovi zmáčkne prsty.*</span> Já... Moc taky ne. <span class="emote">*Připustí váhavě ohledně pověsti Kruvalu.*</span> A sice jsem to nechtěla brát tak, že je hned odsoudím podle pověsti. Ale první dojem taky nic moc? A čím je tam u všech všudy krmí? <span class="emote">*Rozšíří maličko v nevíře oči nejspíš v potřebě se podivit maličko i nad tím, že každý jeden kruvalčan vypadá, jako když může rozsednout nejen ji, ale klidně i je oba dokupy.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//To budou nějaké velmi zajímavé doplňky stravy, hmm. Na to se pak musím podívat. Pro zajímavost. Třeba něco vysleduju... Kde oni mají svoje... "Ložnice?"//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 14:32</div>
+            </td>
+            <td class="content">Ještě dva roky v pekle a pak už mě sem nikdo nedostane. <span class="emote">*Broukne s nějakou lehce znatelnou nadějí v hlase, asi že ten jeho pobyt v bradavicích se přeci jen blíží ke konci, načež do ní tak maličko drcne loktem, když je oznámeno, že on je snad něčí osobní kousek Francie.*</span> Zas si tolik nefandi, já čistokrevný francouz nejsem, jsem jen čistokrevný. Vůl. <span class="emote">*Vrátí se k tomu označování sebe samého jako kusu dobytka, s čímž provede ještě krátký návrat k těm kruvalským.*</span> Nojo, ta škola má... svou pověst. Jasně že tam budou divní, když si své studenty vybírají tak jak vybírají. Jsem o té škole neslyšel nic moc dobrého.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 14:27</div>
+            </td>
+            <td class="content"><span class="emote">*Mu to oponování nechá, dost možná čistě za tím sobeckým účelem, aby tu zbytek roku měla s kým fňukat, že není sluníčko.*</span> Hmm, tak to s tebou soucítím. Nedokážu si to představit každý rok. Jako jednorázový výlet to asi snesu. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Mořský žabák je to.//</span> Nó, já jsem teda úplně na výběr neměla. Je to tohle nebo nic. A... Hmm, náhodou se mi kruvalští zdáli ještě o trochu... Nudnější a divnější. Z dálky. A i u jídla. Ne že bych se s nimi moc bavila. v tuhle chvíli jsem asi mluvila se s tejným počtem britů a severských evropanů - nula. <span class="emote">*A vesele po něm loupne očkem.*</span> Ale vidíš, já jsem si tu svůj osobní kousek Francie našla. Jenom tobě tedy bohužel žádný nepřijel. <span class="emote">*Trošku rýpne, pod něco přece slova svůj a osobní zamést musí, a zůstane na něj koukat.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 14:22</div>
+            </td>
+            <td class="content">Kdo říká, že mi nechybí víc než žáby? <span class="emote">*Povytáhne na ni znovu to své obočí, možná přeci jen jde těm vráskám tedy nakonec vstříc, když mu to obočí lítá nahoru co chvíli.*</span> Sluníčko mi chybí taky, abys věděla. Já jsem z Provence, od moře. Tohle je britské peklo. <span class="emote">*Uvede další ze svých mnoha negativních názorů na británii a školu, v níž se právě nachází, a zase sklouzne pohledem k jejich rukám.*</span> Ale kdyby sis vybrala jakoukoliv jinou zemi, uděláš líp, britové jsou nudní. A divní, hlavně místní profesoři.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 14:17</div>
+            </td>
+            <td class="content">Vidíš, tak jsem ti na to přišla. <span class="emote">*Odhalí tu jeho volovskou pečlivě pěstovanou image a zvědavě si ho prohlídne, nu. Ta děsně beztak má dojem, že kdyby se zeptatla proč, tak jí kartičky neodhalí, tudíž se nezeptá. Namísto toho jí ty koutky zase směřujou pěkně vzhůru a to i u toho, když si ty prsty zauzluje s jeho a pohladí ho přes klouby palcem.*</span> Mám dojem, že jsem si na rozšířování obzorů vybrala špatnou zemi. Měla jsem jet do Francie, zní to přinejmenším zajímavě. Mně z domova chybí sluníčko. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//A pár dalších detailů, dobře.//</span> Tobě chybí jíst žáby. To zní jako pěkná exotika. <span class="emote">*Zhodnotí pobaveně, jako by tu vůbec ona nebyla ta divoženka z pralesa.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 14:10</div>
+            </td>
+            <td class="content"><span class="emote">*Kdo ví, co ho vlastně zajímá, ona to nakonec může být slečna samotná, neb to její povídání on poslouchá se zaujatým výrazem ve tváři, než si tak potichu odfrkne sotva je naznačeno, že to své volovství možná dělá schválně.*</span> Nikdy jsem neřekl, že se tak neprezentuju naschvál. <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Protože prezentuju. Ale co ty o tom tak můžeš vědět, stalkerko z pralesa. Co chodíš ve volném čase pozorovat zvířata, ta vaše škola zní jako dlouhá dovolená v tropech.//</span> <span class="emote">*Natáhne tu jednu větičku spolu s nadzvednutým jedním koutkem a proplete si s ní prsty, když je mu její ruka ponechána.*</span> Náhodou, francouzi by sdíleli mou zálibu v pojídání žab. A konečně bych tu měl normální lidi na povídání, tady je to samej brit... A letos i další cizinec, ale mého lidu je tu nedostatkové zboží.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 14:05</div>
+            </td>
+            <td class="content">Neřekla jsem, že jsi zločinec. Ani jsem tě z toho neobvinila. To ty. <span class="emote">*Připomene mu zlehka a odhodí si část vlasů na záda.*</span> Ve skutečnosti se neomezuju ani jen na kluky. Ani pouze na džungli. Koukám na to, co mi přijde zajímavé. Specificky v tom pralese třeba hlavně nebezpečná zvířata, protože domorodci a děti mě většinou nezajímají až tolik, a moji spolužáci a starší mě většinou vidí. <span class="emote">*Mu to své stalkování pěkně objasní, protože... No, kdoví proč. Jako ohrazení proti jeho rýpání to vyloženě stejně nezní a jinak se vlastně ten kluk neptal, tak to má asi jenom tak. Patrně ho to podle ní děsně zajímá - určitě tohle a určitě ne ti další kluci, na které se ptal ve skutečnosti, jo jo. Jeho výklad volovských výstupů pak sleduje s maličko nadzvednutým obočím, než mu s nejistým prohnutím koutku sdělí svůj závěr.*</span> Víš jistě, že se jako vůl neprezentuješ naschvál? <span class="emote">*Naštěstí pro něj se jí nepodaří zhodnotit, že by byl ještě třeba nějaký další kus dobytka, když jí zabrání tu ruku schovat, namísto prchání pod plášť ji tedy nechá v jeho péči.*</span> Mám důvodné podezření, že ani francouzové by nefandili tvojí chuti poobědvat něčího mazlíčka. Ale hodně zdaru.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 13:55</div>
+            </td>
+            <td class="content">Takže v té vaší džungli existují další kluci, které sleduješ ze stromů, říkáš jim že jsou volové a obviňuješ je z toho, že jsou Morenovic zločinci? <span class="emote">*Vytáhne na ni obočí, zase v tom rýpavějším duchu, se až může zdát, že se slečna těch jeho stalkerských urážek prostě nemá šanci zbavit, minimálně ne v tento den.*</span> Ale ne, já jsem vůl. Jsem nikdy netvrdil opak, vlastně jsem si dost jistej, že něco podobného mi řekla Rosé, když jsem ji prásknul, že kouzlila na mé věci. A Cindy, když jsem profesorům řekl, že mi kouzlí do zad. Loren by ti něco takového pravděpodobně řekla taky... <span class="emote">*Začne jmenovat ty jednotlivé slečny, které mohou sdílet onen názor, to možná i vypadá tak, že vůl je prostě jeho nová imidž. Přesto pořád tenhle vůl ze sebe tuhle slečnu nesundavá, pohne vlastní rukou a zkusí tu její mizející packu chytit.*</span> Pravda, halucinogeny raději nechci. Zkusím najít nějaké francouze s žábama. Škoda, že Krásnohůlky nepřijely.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 13:43</div>
+            </td>
+            <td class="content">Zklamu tě, neomezují se čistě na tebe. <span class="emote">*Uculí se na něj maličko, patrně je právě toto její výraz, který se zjevuje při rýpání do Morenů - zvláštní, ale nyní již opakovaně potvrzený.*</span> A nejsi vůl. Já jsem možná jenom byla trochu naštvaná, říkala jsem ti, že to ti se mnou nějak jde. <span class="emote">*Dodá tlumeněji, tak jako pro pořádek a... Pokud existuje nějaký vesmír, ve kterém by si mohla nevšimnout, jak na její nešmátravou ruku kouká, tak se přesně do toho vesmíru přemístí a nevytvoří reakci prosím vůbec žádnou, kromě toho, že už to rozhodně znovu neudělá. Ta ruka zas postupně pěkně zmizne v teple pod pláštěm.*</span> Jsou? <span class="emote">*Se nejistě jednou stranou pusy ušklíbne a nadzvedne obočí.*</span> Si je klidně sněz, já to řekla kvůli tomu, že některé žáby u nás jsou jedovaté. Nebo... Je lidi strkají do pusy kvůli halucinogenům. A myslela jsem, že jsi slušný a nevinný hoch. <span class="emote">*Se maličko narovná a koukne na něj.*</span> Ne, nemůžeš. Jsem říkala, že nemáš lidem jíst mazlíčky. Vůbec.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 13:29</div>
+            </td>
+            <td class="content">Nojo, občas když mlčíš a lidi pozoruješ, tak se o nich hodně dozvíš... Což ostatně víš, stalkerko. Bys měla vědět, jestli nejsou agenti, leda se ty tvoje stalkerské tendence omezují pouze na mou osobu. Což nechápu proč, když jsem údajně vůl. <span class="emote">*Rýpne do ní zas, najednou s tím nějak ne a ne přestat. Rýpal neMorenovský. Že z něj nic není páčeno, to možná vezme i s vděkem, ale pohled mu teda k té její šmátravé ruce přeci jen trošku sklouzne.*</span> <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Co to dělá?//</span> Hm? <span class="emote">*Broukne, když je mu nakázáno přestat s děláním si choutek na cizí mazlíčky.*</span> No, tak si ty žáby hlídejte, žáby jsou ve skutečnosti fakt dobrý. Počkat. Když nesmím jíst žáby, králíky smím?</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 13:22</div>
+            </td>
+            <td class="content">Dobře, samozřejmě nevím, jestli nejsou tajní agenti. <span class="emote">*Hodí očima vsloup pobaveně, načež se na něj zadívá.*</span> To asi nebyli moc dobří tajní agenti, když toho tolik víš. <span class="emote">*Z něj žádné znalosti o Morenech nepáčí, ostatně je docela zjevné, že už svůj názor stejně má. A zkrátka se o tom s ním bavit nesnaží... A ušetří si poznámky vlastně i ohledně školy, by´t třeba možná působí, že někde pod tím, že je děsně nad věcí, jí začínají Eliho velmi silné antipatie k jeho ústavu dělat trochu starosti. Snad právě proto, aby ukonejšila - buďto jeho anebo aspoň sebe - mu po té paži, ze strany své a nikoliv milenčiny, sklouzne prsty a zastaví se až nad loktem. Možná i proto, že už se fakt pohoršeně musí podívat, když se tam ten kluk s chutí tak oblizuje.*</span> Nechej toho. <span class="emote">*Odfrkne potišku se smíchem a maličko do něj strčí svou osobou, to má asi místo dloubance.*</span> Králíka. A být tebou, žádné žáby dovezené od nás bych nejedla. Já bych tedy asi nejedla žádné žáby, ale tyhle obzvlášť.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 13:15</div>
+            </td>
+            <td class="content">Hm, co ty víš. Třeba jsou to tajní agenti, co se jen tváří, že jsou profesoři a maj jinačí věci na práci, ale ve skutečnosti chtějí ovládnout celý svět. Však bradavické převraty vždy začaly tím, že tu byl nastrčený profesor, co úplně nebyl profesor. <span class="emote">*Popíchne ji, stále bez prokázání čehokoliv, co by mohlo vést k poznání toho, jestli morenovské profesory zná či ne, než si pokrčí rameny.*</span> Si posluž, klidně tenhle ústav spal na popel. Myslím, že ti většina lidí i poděkuje, je to tu jak vězení. <span class="emote">*Broukne, tedy ne, skutečně svou školu proti žhářství ani jiným útokům zjevně bránit nehodlá. Za to možná má choutky na cizí mazlíky, když se ta holka začne tvářit pohoršeně, on se zatváří pobaveně a hladově si olízne spodní ret.*</span> Takže jsi přivezla oběd, výborně. Hm, žábu? Nebo toho králíka? Pták to nejspíš nebude, kdo by pojmenoval ptáka takhle.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 13:08</div>
+            </td>
+            <td class="content">Tihle. Mi přijde, že naši profesoři mají na práci lepší věci. Nebo... Jinačí věci. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Nějak mám dojem, že by se pití čajíku a rýpání v hlíně se studenty nevěnovali celý den, kdyby měli ambice na nějaké převraty.//</span> <span class="emote">*Tak se má aspoň čemu smát, když tam ten kluk houká o čarodějnicích na celý patro.*</span> Ne, ne, ne, žádné takové. Žádné vymrzání. To bych ti tu musela udělat převrat já. <span class="emote">*(Ne)pohrozí mu, jako by vlastně čekala, že ani svou školu před jejím potenciálním útokem chránit nebude. Nápadně to každopádně vypadá, že toho mazlíčka konečně trefil, poněvadž se jí do tváře přes snahu o neutrální výraz zase žene něco kapánek pohoršeného.*</span> Nemůžeš lidem jíst mazlíčky! <span class="emote">*Ohradí se jemně-ji, ehm, jo, není to úplně jemné, ale snaží se.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 12:58</div>
+            </td>
+            <td class="content">Tihle dva? <span class="emote">*Povytáhne na ni obočí, otázkou je však, zda je to proto, že o těchto Morenech nic neví, nebo jestli slečnu soudí za to, že pánům nevěří, že zvládnou udělat převrat. Moc tichý pak následně není, to je pravda, on tam tu čarodějnici vyhlásí na celou chodbu, než přijme ten její rozsudek ohledně smrti upálením.*</span> Ještě bych tě prostě mohl postavit na nádvoří, přivázat ke sloupku a nechat umrznout, to by bylo bez práce pro mě. <span class="emote">*Přidá přeci jen nějakou pohodlnější možnost pro jeho osobu, no a prohlédne si samozřejmě i tu naznačenou velikost slečnina mazlíčka.*</span> Hm, to vypadá jako dobrá svačinka. Pták téhle velikosti by byl dobrej, žába taky, i králík by se dal.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 12:49</div>
+            </td>
+            <td class="content">Tihle dva zrovna. <span class="emote">*Odpoví mu na ten převrat pobaveně - no, nezní to, že by profáčky Moreny nebrala vážně nebo nerespektovala, to ne, to ona zas jo, jen se jí moc asi nezdá ten převrat v jejich podání.*</span> Jsem říkala potichu! <span class="emote">*Tlumeně se rozesměje a maličko do něj dloubne.*</span> Upálit, děkuju. Konečně se zahřeju. <span class="emote">*Vybere si bez mrknutí očka preferovaný způsob popravy, zato u toho rozhovoru o mazlíčcích mrká - konkrétně teda kouká na jeho osobu patrně zvědavá, kolik zvířat ještě zvládne vyjmenovat.*</span> To ne, Salvia není žádný oběd. A nenajedl by ses, je maličká. <span class="emote">*Naznačí dlaní zhruba velikost svého mazlíka.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 12:43</div>
+            </td>
+            <td class="content">Ach tak, přísně tajné. Takže sem jedete dělat převrat? <span class="emote">*Povytáhne na ni zase obočí. Které hned na to nechá klesnout zase dolů, přeci jen o ty předčasné vrásky asi taky nestojí. Než si šokovaně lapne po dechu.*</span> Ty jsi čarodějnice? Tak to bych tě měl nahlásit knězovi a... nechat upálit. Nebo radši utopit? <span class="emote">*Se jí zeptá na preferovanou variantu její vlastní smrti, než se vrátí k tomu pobavenému vrcení hlavou s návratem k těm opičím mazlíčkům.*</span> No, takže opice to není. Papoušek taky ne. Přivezla sis spíš mazlíčka nebo potenciální oběd?</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 12:33</div>
+            </td>
+            <td class="content">To je přísně tajné. <span class="emote">*Prohlásí s děsně seriózním pokýváním hlavou, jelikož... No, co by mu říkala ohledně obhajování dovozu Morenů, leda by snad jeho strýčky mohla ocenit za odvahu sem vkročit.*</span> Š-š-š. <span class="emote">*Natáhne a přiloží si prstík ke rtům, zas trochu rozšiřujíc oči.*</span> To vůbec nemůžeš taková slova říkat nahlas, to sis nevšiml, že jsem čarodějnice? <span class="emote">*Nadzvedne hlavu tak, aby se mohla o jeho rameno opřít místo líčkem či ouškem bradou a z této speciální a poněkud úsporné vzdálenosti se na něj podívá a maličko se uculí.*</span> A kdepak bych je tady našla, hmm? Hm. Ale to zní vlastně jako zábava. Musím si pořídit opici. <span class="emote">*Vlastně dost vypadá, že ji fakt přesvědčil.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 12:26</div>
+            </td>
+            <td class="content">No to nevím, co vás láká k dalšímu dovozu do Británie, všichni víme, jak to tu dopadlo posledně... Aby si tu ještě celou vaši delegaci nenechali a neobvinili vás třeba z... čarodějnictví. <span class="emote">*Připojí si další rýpavou poznámku k tomu dovozu morenů na jiné kontinenty, i s tím dovětkem, před kterým si dá pěkně dlouhou a děsně důležitou pauzu. Teprve poté pak odkýve ty její díky ohledně upozornění na zlé schody, a kupodivu slečnu nechá opřenou o své rameno. Moc toho prostoru na čtení ani osobního zase nepotřebuje, jak se zdá.*</span> Jsem si dost jistej, že papouška nemáš. Vlastně tě vidím na tu opici, polezete spolu po stromech a budete stalkovat nevinné a hodné kluky.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 11:56</div>
+            </td>
+            <td class="content"><span class="emote">*Ta květinka jí nadzdvihne obočí, jako by ani nevěděla, jak mu to vrátit, poněvadž "ty můj bodláčku" prostě úplně není ono. Snad právě proto to alespoň prozatím přejde bez poznámky a omezí se na tichou pobavenou poznámku.*</span> To by pasovalo, no jo, můj kontinent vyváží Moreny do celého světa. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Tebe třeba. I když kdoví, jak do toho ten děsně světlý otec sedí. Možná budeš adoptovaný.//</span> Uhm. <span class="emote">*Si jen maličko rozpačitě odkašle, když zmíní toho vola, jako by jí to zpětně vlastně i trochu blbé bylo.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//To vlastně docela zní jako já, tak jsem tě asi nazvala.//</span> Vlastně si cením toho, žes mi to řekl předem. A před tím, než bych se nad tom schodišti fakt vysekala. <span class="emote">*Ocení, prohne koutky a opře se mu ze strany o rameno - Elimu se nejenže nedostává prostoru na čtení, ono se mu nedostává prostoru jako celkově.*</span> Samozřejmě, v tom pralese je jich totiž nejvíc. <span class="emote">*Ujistí ho, že dovezli i růžové delfíny.*</span> Mám s sebou mazlíčka. Ale neřeknu ti jakého, ať se můžeš děsit nad tím, jestli to náhodou třeba není papoušek. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 11:48</div>
+            </td>
+            <td class="content">Hm, nemusíš se bát, květinko, jediní Morenovi, kteří teď na škole jsou, jsou ti, které sis sem přivezla ty. <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Taky sem mohl jet někdo jinej než strýčci, tohle je zrada.//</span> <span class="emote">*Upozorní ji na fakt, že Morenovi údajně tuhle školu definitivně již opustili, a zase se na tom místě zavrtí, nějak nemůže vydržet zůstat sedět v klidu.*</span> Ovšem záchranná mise ti stejně nevyjde, do mé ložnice holky nemůžou. Což neříkám jenom proto, že jsem vůl nebo jak jsi mě to nazvala, ale fyzicky nemůžou. Když zkusíš jít po schodech do klučičí věže, udělá se z ní klouzačka a ty se vysekáš, než sjedeš zase zpátky pod ní. <span class="emote">*Vysvětlí tam slečince něco ohledně bradavic a začne u toho poklepávat nohou o tu zem, což nepřestane ani při dalším pobaveném cuknutí koutku, jak se mluví o dalších zvířecích druzích.*</span> Jistě. A máš tam i papouška? A rybičky? Jsem slyšel, že máte růžové delfíny, toho jste taky dovezli?</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 11:41</div>
+            </td>
+            <td class="content">Pak jsem možná blázen, už jsem začala zvažovat záchrannou misi. Tohle si ty rostliny nezaslouží ani ve jménu vzdělání. <span class="emote">*Připustí, že nakonec asi je odhodlaná svůj čas marnit, což ostatně stejně je beztak jasné, poněvadž proč jinak by trávila tolik času s tadytím morousem, ne?*</span> Nicméně si nejsem jistá, jakému množství Morenů jsem pak ochotná na tvém pokoji vysvětlovat, co tam dělám, takže to možná přehodnotím. <span class="emote">*Zvedne prstík a zarazí se v záchranné misi sama ještě předtím, než se do toho pustí on. Když se tam vrtí on, tak se na lavičce pošoupne i ona, konkrétně například směrem k němu, protože... U něj... Ta lavička prostě... Míň klouže, ano. *</span> Jasně, že máme opice s sebou. A počkej, až z té tašky vytáhnu toho hroznýše. <span class="emote">*Určí mu naprosto přesnou podobu Castelobruxské pomsty za atakování zimou.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 11:36</div>
+            </td>
+            <td class="content">To je marná snaha, tě budu považovat za blázna spíš, když budeš držet palce rostlinám v mém pokoji než když budeš hledat jednu osobu na tomhle skotském hradě. Víc promarněného času, definitivně. <span class="emote">*Ucedí a poposedne si na té lavičce, zjevně je nepohodlná pro jeho osobu stejně jako naznačuje popis onoho sedátka. Tvorbě vrásek taky už více naproti nejde, když vyhraje, tak zase obočí pustí dolů a znovu mu cukne koutek.*</span> Jste si ty opice přivezli i sem? Nebo poletíš až do té vaší džungle na druhém konci světa, jen aby ses zeptala? <span class="emote">*Rýpne si i tentokrát, takovým vyloženě rýpavějším tónem.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 11:30</div>
+            </td>
+            <td class="content">Budu rostlinám ve tvém pokoji držet palce. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Nebo je prostě dojdu zachránit, někdo by patrně měl. To ty šance s tím, že je to jídlo z udržitelných míst, začínám vidět hodně bledě. Umřu dřív zimou nebo hlady?//</span> <span class="emote">*Inu, tak ho souboj ve zvedání chlupatých housenek nad očima nechá vyhrát, ano, přeci jen by asi nerada, kdyby se jí obočí zaseklo ve vlasech, tak už ho výš nezvedá. Tvoření předčasných vrásek mu tedy přenechá úplně a raději se zase vyjádří ke slůňatům, to si šokovaně překryje prsty ústa.*</span> V civilizaci? Co to je? Na to se u nás musím zeptat těch opiček. <span class="emote">*Zkontroluje si pobaveně pohledem nehty a zas ruku od tváře nechá spadnout do klína a pod pláštík.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 11:24</div>
+            </td>
+            <td class="content">Hm, většinou ne. S tím letošním ještě nevím, s tím bydlím poprvé. Ale předchozí roky s Morenem a dalšíma mi moc naděje nedávají, že letos nám na tom pokoji přežije víc než jedna rostlina. <span class="emote">*Pokrčí rameny, jeho to asi vůbec netrápí, že bradavičtí studenti nejen že zabíjí rostlinky, ale zároveň nemají žádnou úctu k tomu životu. Souboj ve zvedání obočí asi má v úmyslu vyhrát, když ho zvedne ještě víc a na slečnu dál takto čumí, než dojde na tu strategii. To jí samozřejmě odkýve, však proč trochu nepopíchnout soupeře, no a vlastně mu cukne koutek, když jsou jeho spolužáci označeni za slůňata.*</span> To víš, ne každej žije v lese. My jsme tady v civilizaci, nemusíme chodit potichu.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 11:17</div>
+            </td>
+            <td class="content"><span class="emote">*A to se zatváří trochu pohoršeně, vida.*</span> Tvoji spolubydlící nemají úctu k životu? <span class="emote">*No, že by se tou emocí nechala kdovíjak víc strhnout, to... Ani ne, to dostane pod kontrolu hnedle vzápětí a zrovinka včas na to, aby mu to popotažení obočí s tázavým pohledem vrátila, jelikož jí patrně na tom, že by snad měla pracovat na své závěrečné práci, nic zvláštního nepřijde.*</span> Aha! Takže to JE strategie! <span class="emote">*Se toho rýpance tedy chytne a rozšíří hnědá očka, zase si následně přitahujíc pláštík k tělu.*</span> To abychom vymysleli nějaký protiútok nebo tak něco. <span class="emote">*Broukne pobaveněji, načež jí to naplno pronikne do tváře a zavrtí hlavou.*</span> Tvých spolužáků se nebojím, na to by nejdřív všichni museli přestat po těch kamenech tak strašně dupat, aby mi mohli vrhat cokoliv do zad. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 11:11</div>
+            </td>
+            <td class="content">Hm, zmírající kytky pozoruju proti své vůli často i bez řádného výzkumu, vždycky když nějakou dostaneme na bylinkách, polovina mých spolubydlících se rozhodne ji nechat umřít. <span class="emote">*Podsune slečně onu myšlenku čítající studentský bradavický nezájem o pečování o květinky, než na ni zase ráčí povytáhnout obočí jak slečna mluví o své závěrečné práci, praxi a psaní.*</span> <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//A pak kdo je tu šprt. Ona, definitivně ona. Já jsem jenom nejlepší, ale nejsem šprt.//</span> Kdo vám tvrdil, že budou Bradavice hrát fér? <span class="emote">*Rýpne až do toho jejího dalšího zmrzlého tvrzení.*</span> Být tebou, dávám si pozor i když jen procházíš chodbama, chodí jima jistá nebelvírčanka, co ráda vrhá kletby do zad.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 11:06</div>
+            </td>
+            <td class="content">Pravda, to by nebyla žádná zábava. <span class="emote">*Odvrkne souhlasem, skočí jí pobavená jiskřička v očích a pomalu hodí nohu přes nohu. Na to, že jí vlastně neprozradil zhola nic, vlastně vůbec nevypadá rozezleně, spíš po něm tak líně sklouzne svým pohledem a vlastně si dá načas, než se vrátí ke tváři.*</span> Nikoliv. <span class="emote">*Zavrtí pomalu hlavou a odklidí si část tmavých vlasů za ucho.*</span> Tuhle kartu ti klidně dám, jelikož je zhruba tak zajímavá jako sledování těch zmírajících kytek: Chystám se tu letos dokončit svoji závěrečnou esej. Nebo alespoň téměř dokončit, praxi musím stihnout určitě. A co se umrzajících květin týče... Budu první. <span class="emote">*Sdělí mu s takovým komickým nádechem dramatična, že se to dá až vyloženě jednoznačně označit za vtípek.*</span> Všechna kouzla na světě mi nepomůžou k tomu, abych tady neumrzla. Včera jsem měla dvě kouzelné deky a prý bude každý den větší a větší zima. To ubytování ve stanu beru ze strany Bradavic jako pokus o atentát.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 10:57</div>
+            </td>
+            <td class="content">Co bych to byl za člověka, kdybych ti všechna svá tajemství takhle prozradil? Ne, ne, člověk si musí svý karty držet pěkně blízko u těla. <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Byť kdo ví, co za ty týdny, co jsem ji neviděl, vystalkovala, co když už teď všechno ví?//</span> <span class="emote">*Neodpoví na její otázku, spíše nasadí ten tajemný tón, se kterým jí prozradí, že jí vlastně vůbec nic neprozradí. Dosednout slečnu nechá kam se té zlíbí, přece nebude diktovat kdo vedle něj smí sedět kde na lavičce, dokonce i za cenu toho, že nyní na svou knižní milenku nevidí, když kouká na Perezovic stalkerku na druhé straně.*</span> Hm, přijela jsi sem zkoumat, která kytka v téhle zimě chcípne nejdřív? To zní totiž jako šíleně důležitá práce.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 10:46</div>
+            </td>
+            <td class="content">A to se děsíš, nebo si to přeješ? <span class="emote">*Ve skutečnosti mu jako netvrdí, že by ji snad jakékoliv stalkovací schopnosti či zvyky měly v nejbližším časovém okruhu opustit. Vlastně ona a opouštění ve větě celkově se nějak neděje, jelikož namísto opuštění pseudoMorena v klidu a míru si ona dosedne na lavičku vedle něj a to tak že velmi pečlivě na látku toho pláště, skoro jako by jinak na ni hradní lavičky mohly být moc studené. Preferovaně taky vynechá stranu, na které se nachází knižní milenka, to ostatně zní, že ta mezi ně nepůjde, no, a maličko na Eliho zvedne koutky.*</span> A to zas ne, já s sebou práci mám, můj čas ke ztracení se nachází spíše v řádu hodin. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 10:40</div>
+            </td>
+            <td class="content"><span class="emote">*Tak od té knížky vzhlédne směrem k slečně a přeměří si ji pohledem, dokonce ty oči trochu přimhouří.*</span> Ale budeš, stalkerko. Nebo mi snad chceš tvrdit, že tě tvoje stalkovací zvyklosti od mistroství ráčily přejít? <span class="emote">*Povytáhne na slečnu obočí a zavře si knížku. Tu učebnici odloží pěkně vedle nich a ten svůj sed lehounce nahrbí.*</span> Mi přijdeš jako člověk, co má těch pár dní ke ztracení, však se tu stejně nedá nic lepšího dělat, tohle jsou Bradavice. <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Hm, ale já bych se měl stavit za strejdama.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 10:28</div>
+            </td>
+            <td class="content">Kdo říká, že ji budu hledat? <span class="emote">*Velmi neformálně mu napůl pobaveně oznámí možnost, že by se na něj taky mohla vyprdnout.*</span> Navíc přece nejsem blázen, nikdy bych přece nehledala jednoho člověka v hradě plném lidí. To je zaručený recept na promarnění hned několika dnů. <span class="emote">*Opáčí s dost jasnou tezí o svém čistě náhodném zjevení právě v sedmém patře. A jelikož už se asi koukla, tak mu záclonku z obzoru odstraní, přitáhne si plášť blíž k tělu a maličko sešpulí rty.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Jsou lidi, co svoje kamarády objímají, když je několik týdnů nevidí, víš?//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 10:17</div>
+            </td>
+            <td class="content"><span class="emote">*Aniž by od té knihy oči zvedl, tak si děsně dramaticky povzdychne sotva mu holka vytvoří záclonku z vlasů a nahlédne mu do jeho učebnice.*</span> <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Jistě, takže klid ani na chodbě. Bych opravdu v téhle škole chtěl moc.//</span> Jsem doufal, že ti bude trvat aspoň dva týdny, než tohle odpočívadlo najdeš. Člověk tu ani chvíli klidu nemá. Příště tě nechám hledat knihovnu. <span class="emote">*Zabručí, stále aniž by se na ní podíval. A otočí stránku v té čtené knize, zjevně lpí na tom, že se tady učí a... socializace je věc vedlejší.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10882">
+            <td title="">
+                <div class="head"><div class="sender">Sofia Amarilis Perez</div></div>
+                <div class="time">5. 10. 2025 10:07</div>
+            </td>
+            <td class="content"><span class="emote">*Zda se jeho nečastou činnost chystá proměnit na častou tím, že by se k němu přidala, to není moc jasné, nicméně na té chodbě se v tento speciální okamžik vyskytne i ona. Pomalu se vyloudá po těch schodech a s pozvednutým obočím jí padne pohled právě na toho vrabčáka pod hnízdem.*</span><span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Ale nepovídej.//</span> <span class="emote">*Co se jejího oděvu týče, ten je zrovna tak zvláštně nezvláštní jako ten jeho. Pod zeleným pláštíkem lze registrovat teplejší vyšší boty, černé punčochy a obtáhlejší šaty. O výskytu výstřihu či jeho nedostatku pak nesvědčí zhola nic, jelikož plášť a poněvadž vlasy. Vlasy, jimiž se mu rozhodne stínit, když se potichu zjeví u něj a sehne se k němu, aby mu mohla nakouknout do učebnice.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2963f8;" data-sender-id="10179">
+            <td title="">
+                <div class="head"><div class="sender">Eli Harold Vaughn</div></div>
+                <div class="time">5. 10. 2025 10:02</div>
+            </td>
+            <td class="content"><span class="emote">*Jeden by možná řekl, že existovat v neděli před polednem na hradní chodbě v sedmém patře s učebnicí není zrovna časté, ale přesně tam se v onen čas i s onou pomůckou vyskytuje. Konkrétně vykoukne z prostor své koleje a spolu se svou učebnicí dojde k jedné z těch laviček u oken, kam se způsobně usadí.*</span> <span class="thought" style="color: hsla(223.1884057971, 93.665158371041%, 56.666666666667%, .8);">//Blázinec ve společence, blázinec na hradě. Jeden klidnej rok, to chci tolik? Alespoň v ložnici je letos klid.//</span> <span class="emote">*S nakrčeným čelem svou knížku otevře a začne po jejích stránkách brouzdat pohledem. Na sobě má k této zvláštní nedělní činnosti i poměrně zvláštní oblečení, černou košili, pečlivě upravenou jak u krku, tak má urovnané i rukávy, černé kalhoty a černé teplejší tenisky. Kolem krku má pověšený černý křížek z obsidiánu a obdobného materiálu je i prsten, který má na prsteníčku pravé ruky. Vlasy má ve tvaru vrabčího hnízda, tedy řádně rozcuchané.*</span></td>
+        </tr>
+    </table>
+</body>
+</html>
