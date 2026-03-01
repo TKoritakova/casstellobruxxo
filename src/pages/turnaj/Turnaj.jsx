@@ -198,7 +198,7 @@ const Turnaj = () => (
 
     </p>
 
-    <img src={prvni_ukol_vstup} className='img-in-text img-in-text-right'/>
+    <img src={prvni_ukol_vstup} className='img-in-text img-in-text-left'/>
 
     <p>Pověst jsme obhájili až časem, takové první sněženky přišly spolu s prvním <span className='text-highlighter'>turnajovým úkolem zadávaným
       Mahoutokorem</span>. Hned v prvních dveřích <span className='text-highlighter'>čelili soutěžící svým nejhlubším démonům</span>,
