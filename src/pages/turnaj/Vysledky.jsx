@@ -7,6 +7,8 @@ const Vysledky = () => (
     <TurnajNav/>
     <div className="main-header"><h1>Výsledky turnaje</h1></div>
 
+    <p>Níže je statistika se všemi našimi účastníky turnaje a body, které v jednotlivých úkolech získali.</p>
+
 
    
     <table className="post-tabulka">
