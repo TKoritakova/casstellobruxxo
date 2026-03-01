@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset='UTF-8'/>
+    <title>Univerzální chat I.</title>
+    <style>
+        html { 
+            background-color:#000;
+            color:#fff;
+            font-size:1.25em;
+        }
+            
+        body{
+            justify-content:center;
+        }
+        
+        table {
+            width:70%;
+            border-color:#000;
+            margin:10px auto;
+            font-size:1em;
+        }
+            
+            
+        tr{text-align:center;height:25px}
+        
+        tr:nth-child(odd) {background-color: #1F120B;}
+        
+        tr:nth-child(even) {background-color: #271A13;}
+        
+        td{padding:1%}
+        
+        .time{font-size:medium;opacity:.7}
+        
+        .to{margin:1px 0;font-size:medium}
+        
+        .receiver{display:inline}
+        
+        .content{width:85%;text-align:justify}
+        
+        .emote{font-style:italic}
+        
+        .effect{font-style:italic}
+        
+        .effect.random{color:#d5afaf}
+        
+        .effect.spell{color:#f0e68c}
+        
+        .effect.spell.fail{color:#fff}
+        
+        .effect.trait{color:#87cbfa}
+        
+        .effect.trait.fail{color:#d1465a}
+    </style>
+</head>
+<body>
+<table>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 4:52</div>
+            </td>
+            <td class="content">Já neříkám, že mám raději ty romantické filmy, ale zombíci jsou fakt odporní. <span class="emote">*Znovu si dovolí tuhle poznámku ve směru Matea, přesněji to zavrhnutí jeho celého nápadu o apokalypse. A když se tam k němu přidá i JUAN a IVAN? To zvedne očka směrem vzhůru a tiše vydechne.*</span> <span class="thought" style="color: hsla(120, 100%, 50%, .8);">//Se smrtí se nežertuje ani při tomhle.//</span> <span class="emote">*Naštěstí tohle téma je brzy pryč, dokonce i to chození je vyřešené a tak nastává ta část s odchodem.*</span> Nikam se mi nechce. <span class="emote">*Postěžuje si tiše. Bohužel je to pravda. Čas se pomalu krátí, a tak se neochotně z toho místa zvedne, za což snad může povzbuzené políbení na tvář, při kterém se teda zvedne.*</span> Dobře, ráda s tebou ještě podniknu poslední cestu ke hradu. <span class="emote">*Uculí se na něj a sama mu tam daruje jedno políbení na tvář. Než se ještě rozhodne následovat kroky Juana k tomu východu, ona se podívá ve směru KAMILLY s trochu starostlivým výrazem, jak kdyby jí snad nechtěla nechávat samotnou při tom jejím odjezdu. Nakonec však s tím nic nenadělá, a tak k ní vyšle jeden úsměv, který by se mohl snad zaoznačit na vzkaz ve stylu hodně štěstí. S čím? Těžko říct.  Ona teda není nijak odvážná, takže chudák IVAN to třetí objetí nedostane, ale věnuje mu jeden milý úsměv.*</span> Ráda jsem vás poznala. <span class="emote">*Prozradí jim své pocity, i když teda jejich vztah nebyl tak nijak hluboký než s těmi casteláckými. Po rozloučení se jednoduše odebere společně s Juanem směrem pryč, zatímco při cestě začne cosi lovit ve své kapse u kraťasů a s nějakými těmi slůvky mu tam něco po cestě předá. Co? Kdo ví.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 4:48</div>
+            </td>
+            <td class="content"><span class="emote">*MATEOVA povzbudivá slova přijme s pokývnutím hlavy, snad vděčný, že se neptá dál. O zombie filmech ani nemluvě. K jeho natažené ruce se podívá a na oplátku mu podá tu svou v pevném stisku. Postaví se sice sám, ale není nad pevné chlapské podání ruky, že ano. Však jsou to bratři ve zbrani! Nakonec na jeho slova kývne. To on dělá často.*</span> Ráno. Já napéct vám pirožky na cestu. <span class="emote">*Slíbí ještě a pak už ho tedy pustí. Věnuje kývnutí na pozdrav i JUANOVI, který ho ovšem znovu napadne agresivní formou objetí, které určitě junáka bude stát dalších několik let života.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Další. Proč to pořád dělají?!//</span> <span class="emote">*Ztuhne jako oživlý nanuk a velmi, velmi neochotně poplácá kloboučníka po zádech. Teprve když chlapec odejde, tak vypadá, že se mu malinko uleví. A tak se raději věnuje poslední zbývající osůbce na mejdanu, totiž KAMČI. Na její osočení z nějakých postranních úmyslů se jen mírně pousměje.*</span> Nevím, o čem to mluvíš. <span class="emote">*Odpoví jí podstatně plynuleji v mateřštině. Raději kukne dolů k těm jejím nohám a zase skepticky nahoru na ni. A když se rozejde pryč, to jde samozřejmě s ní. Na rameno ji nezvedne, ale bohužel jí není ani dopřáno si nést vlastní zavazadlo, protože najednou se odkudsi seshora objeví ruka, a tu brašnu jí čmajzne, tak. A pověsí si ji na vlastní rameno. A k ní dolů vyšle jen pohled alá "můžeš být ráda, že na tom rameni nejsi ty". A pak? Inu, pak společně s ní vyrazí vstříc temnotě, a snad i v závěru noci vstříc Kruvalské lodi. Dobrou noc.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 4:39</div>
+            </td>
+            <td class="content"><span class="emote">*Kdo by to byl čekal, že ten jejich mafiánský méďa s rozseknutou hlavou, dokáže být takový gentleman, že jí údajně i nějakou tu lahvičku podá? Nu, ona očividně ne, protože na něj podezřívavě koukne.*</span> Ivane. <span class="emote">*Zasyčí hodně slabým hlasem, jak asi úplně netouží, aby tuhle výhružku zaslechli i ostatní.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Já moc dobře vím, o co se snažíš.//</span> Jsem v pořádku. <span class="emote">*Šeptne na podobné decibelové frekvenci.*</span> To tys dneska používal hlavu namísto beranidla. <span class="emote">*Dokonce si dovolí nad ním zavrtět nespokojeně bradou, než si teda douklízí náčiní do té své fešácké kabelečky a následně si její popruh opatrně přehodí přes rameno.*</span> Hm. <span class="emote">*Zamručí spolužákovým směrem.*</span> Jsem už... <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//unavená.//</span> <span class="emote">*Zamračí se a radši zvolí jinou odpověď.*</span> Zase se začaly oz- <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//ozývat ty dlaně a chodidla. Ne. Eh.//</span> <span class="emote">*Zamrká. Těžký život někoho, kdo se snaží všechny případné slabiny maskovat jako čert kříž, co? A to vysekne i finálním pokus. Podobně nezdařilý, jak ty předchozí.*</span> Nechci, aby se mi zase Dragunová... <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//hrabala v myšlenkách. A ječela. A trhala. A...//</span> <span class="emote">*No, prostě to vysvětlování momentálně vzdá a radši se vyškrábe na nohy. Na MATEA pak hledí vyloženě s prázdným výrazem, jakoby zas plánovala, co všechno s těmi jeho slíbenými dopisy provede, než nakonec jen poraženecky kývne. Možná se jí ani nechce bojovat s někým, kdo prostě jen projevuje starostlivost a ochotu udržet se v kontaktu. A tak jen nechá ze svých rtů splynout poslední*</span> Dobrou. <span class="emote">*než se pomalu, pomalinku, rozejde směrem k východu z toho jejich nočního útočiště. Během toho se pootočí na Váňu, kterému teda mimo jemné pousmání přistane i varovné zamračení.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Jestli mě zas zvedneš do náruče, přísahám, že příště si to budeš všechno šít sám. A je mi jedno, jestli půjde o ponožky nebo o natržený obličej.//</span> <span class="emote">*A pak s tlumeným unaveným povzdechem, jakoby celé tohle bradavické dobrodružství přineslo víc otázek než odpovědí, opustí scénu i ona. Vstříct noci. A tmě.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 4:37</div>
+            </td>
+            <td class="content"><span class="emote">*S CATEM a GLOGLO se tedy nezapomene rozloučit.*</span> Tak zítra, snad budeme mít ještě možnost se rozloučit. <span class="emote">*To je jistě směřované na Kruvalku a ne na jeho kámoše. Usměje se na ní ještě a vyprovodí dvojici pohledem z budovy loděnice. Jejich řady se tu pomalu krátí a ono to s tím blížícím se rozbřeskem asi nebude moc zvláštní. Nad tím, že by oni měli být staří se ale zasměje.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Pochybuju, že dneska bude ve finále vlastně někdo spát. Asi ne...//</span> <span class="emote">*Po odchodu těch dvou se vrátí pozorností k debatujícím MATEOVI a MAYE o těch zombie filmech, kde se ti dva neshodnou. Sám se ale dá do reakce na tu jeho teorii.*</span> To sice jo, ale tyhle mikroorganismy mají problém s kontrolou složitějšího organismu, proto se přes hmyz dál nedostávají. Zatím se nikdy nestalo, že by se něco vyvinulo tak aby se to mohlo přesunout na hostitele většího než jsou drobní brouci. Pokud se to má někdy šanci vyvinout, tak nikdo z nás už to vědět nebude. Tak dlouho by to trvalo. Pokud by se ten virus přenášel přes komáry... Možná by to i dávalo smysl, ale myslím si, že by to vedlo jen k přežívání v mrtvém těle a bez možnosti ho ovládnout. Určitě ne plně. Možná by se to dopracovalo k fenoménu toho, že by některé orgány stále pracovaly, nebo se tak tvářili i přes klinickou smrt toho člověka. Ale pochybuju, že by zvládl pohnout čímkoliv. <span class="emote">*Zakončí to tak, snad. A pak? Pak je tam téma toho chození v hlavní roli s ním a MAYOU. S dívky potvrzením jeho slov, nebo vlastně zopakováním do jisté míry se zase usměje o trošku víc.*</span> Jsem to nechtěl vytahovat, když jsi řešil turnaj. Taktiky byly důležitější. I když jsi ej očividně vůbec nevyužil. <span class="emote">*Ušklíbne se na kámoše. Nasměruje pohled přes jezero a rty stiskne pevněji k sobě s tím, že koukne zase na MAYU.*</span> Měli bychom taky jít. Už asi nemá smysl spát, ale... Ať se dobalíme a tak. Doprovodím tě k hradu. <span class="emote">*Poví Zmijozelce a vtiskne jí kratší polibek na tvář s tím, že už vstane z bedny zase do stoje. Na KAMILLU se usměje, to je bezpečné, a k IVANOVI přejde a na chvilku pustí Mayu jen aby Ivana objal. Možná už z toho předchozího objetí od Matea vypozoroval, že tady to může bezpečně udělat.*</span> Mějte se zatím. Tak snad bude při odjezdu ještě prostor. Buenas noches. <span class="emote">*Rozloučí se s nimi a on sám - snad teda i s Mayou - vyrazí pryč z loděnice někam k tomu hradu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 4:30</div>
+            </td>
+            <td class="content"><span class="emote">*Pokrúti nad otázkou od KÁTI hlavou. Takže ne. Odpoveď bude ne. Len pak už jemu a GHUHLE zamáva s úsmevom na tú dobrú noc. No jeho priority sú niekde inde. A to pri JUANOVI.*</span> Prídem. Ale musíme to načasovať i s Césarom. <span class="emote">*Prikývne hlavou na tú prespávačku, než sebou na mieste zavrtí a povzdychne si ohľadom zombíkov.*</span> Ale vo tom to je brácho! Začne to u niečoho malého. Ale ono sa to vyvinie, nie? Hmyz je na to perfektnej. Malej. Všade sa dostane. Žije v rôznych teplotách. A najmä prenáša choroby. Tak prečo by sa nemohlo stať, aby keď sa vyvinie nejakej zombí virus a napadne najprv hmyz, že by sa postupom času dokázala tá látka udržať i v ľudskom tele? Napríklad cez komáre. <span class="emote">*Vylepí tam na neho tú svoju teóriu.*</span> Muselo by to teda asi najprv napadnúť iné druhy zvierat ale časom... a to určite možné je. <span class="emote">*Dokonca sa mrkne ku KAMILLE, ako keby ho v jeho teórii mala podporiť, než sa mrkne k MÁJI.*</span> Seš jak Sofía. Ani jej sa to nepáčilo. Mne to príde lepšie jak romantické slaďárny... <span class="emote">*Nakrčí noštek. To už ale JUANA prebodáva pohľadom. Než dostane tú odpoveď. Precukne pohľadom z JUANA na MÁJU a späť, než nakrčí obočie a odfúkne si.*</span> Ts. Konečne... <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Sis to uznal.//</span> <span class="emote">*Tak, keď je toto doriešené, on mrkne ešte na toho IVANA a ďalej pokračuje v tom jeho polo-objatí. Lebo oni sú predsa len objatia najlepším liekom na svete, nie? Na to pokrútenie hlavou si skúsne pery a popláca ho po rameni.*</span> Neviem načo to bolo, ale prajem nech to dopadne dobre, jo? Pre bráchu. Nech je šťastnej. <span class="emote">*A kútik mu uskočí do akého povzbudivého výrazu, než sa presunú na tématiku zombí filmov.*</span> Jo, sekyry sú skvelé na sekanie ich hláv. Ty bys bol dobrej v takom zombí filme. Si to upé viem predstaviť. <span class="emote">*A on síce asi nerozumie tým slovám od IVANA ale predsa len je neskoro na všetkých a KAMILLYNO balenie môže vidieť i on, tak sa postaví na nohy a podá ešte ruku IVANOVI, jak keby sa nevedel týpek postaviť sám. Ale on určite sa len snaží byť milej, než k obom prehlási.*</span> Ja pôjdem. Na mňa čaká Sofía, nechcem aby čakala dlho. <span class="emote">*Skúsne si pery.*</span> Ráno? Ešte? Ak nezdrhnete moc rýchlo. <span class="emote">*Šepne a venuje i jemu i Kamči úsmev. Dokonca sa k nej pohne, jak keby plánoval objať i ju, ale neučiní tak. Ho určite nejaká možná spomienka alebo fakt v jeho hlave zastaví. Tak jej len mávne.*</span> Budem písať. <span class="emote">*Zopakuje, než sa rozíde preč. Zastaví sa ešte pri Juanovi, na ktorého mrkne ako keby zisťoval či ide s ním, no ale napokon zmizne niekde preč v tme.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 4:20</div>
+            </td>
+            <td class="content"><span class="emote">*Dál jen tak pohlíží na ostatní, snad poslouchající jejich rozhovory. Přestože ale jsou dost možná zajímavé, potlačí zívnutí. Po onom potvrzení odchodu, nechá pohled spíš už na oné dívce. Když se GHUHLOALAN takhle ujme slova, nevypadá, že by mu to taky nějak vadilo. Ani to, že tu z nich udělala osmdesátníky, nebo jak staří podle ní jsou. To jen povyfoukne vzduch z nosu, než pokývá hlavou na to její druhé oznámení. Snad, že nemůže nesouhlasit.*</span> Mějte se. <span class="emote">*Rozloučí se s nimi, alespoň pro teď. Jestli se uvidí ještě ráno... Kdo ví. To se ale týká spíše těch necasteláckých. Ještě naposledy na ně koukne, než i s tou jeho babičkou vyrazí někam k oněm pozemkům.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 4:11</div>
+            </td>
+            <td class="content"><span class="emote">*Když se HUHLA začne zvedat, koukne na ni a věnuje jí pokývnutí, patrně tiché popřání dobré noci. A když mu věnuje KAMILLA zavrtění hlavou, tak jen stiskne rty k sobě, ale nic neříká, patrně respektujíce její rozhodnutí.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Tvrdohlavá.//</span> <span class="emote">*No a u MATEA, inu, tam může chlapec čekat třeba do dalšího rána, ale odpovědi se nedočká. Naopak, když ho chlapec obejme kolem ramen, tak ztuhne, jako by si právě uvědomil, co řekl.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Dneska na mě pořád někdo sahá. Co se to dnes děje?//</span> <span class="emote">*Koukne na něj a ačkoliv neuhýbá, je našponovaný jak pravítko. A na jeho slova, inu, to prostě dlouho mlčí. A v ruce pořád dlachní ten černý kamínek na přívesku.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Nebyl.//</span>  <span class="emote">*Mlčí dlouho, jako by snad nemohl lhát a pravda byla pro něj moc těžká. Nakonec prostě jen... zavrtí hlavou. Víc z něho pravděpodobně nikdo nedostane. Ne teď.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Zajímalo by mě, jestli u nich na škole trestají děti žhavým uhlím.//</span> <span class="emote">*Raději si mírně povzdechne a zase narovná, jako by snad doufal změnit téma.*</span> Já vidět zombie film. Kdyby zombie, já použít sekyrka. <span class="emote">*Prohlásí. A jakmile se Kamilla začne balit, tak se narovná a snad jí i s tím pomůže, když ta brašna leží asi někde vedle něj, že jo. Jí třeba podá nějakou tu lahvičku nebo něco.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Už odchází? Mohl bych jí pomoci s tou taškou, ať to nemusí tahat v rukách.//</span> Chceš už jít? <span class="emote">*Zamumlá k ní rusky a tak tiše, že to slyší jen ona.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 4:10</div>
+            </td>
+            <td class="content"><span class="emote">*A ona toho Juana zvědavě sleduje nadále, i když se z monologu o genetice přesune k něčemu, co je jí očividně ještě víc blízké. Mrtvá těla a pochybné kolonie anaerobních bakterií, napadající dobře vyživenou neuronovou tkáň? To zní jako pohádka, kterou by sama sobě mohla vyprávět před spaním. Přesto stále nezasahuje. Vzorně mlčí a radši jen tak nasává tu atmosféru okolo. Možná si prostě jen užívá těch pár posledních momentů, kdy není v zajetí kruvalských hradeb. A tak na Ghuhloalan jen chápavě pokývne hlavou, přesto se s ní do lodi prozatím ještě nevydává. Jakoby těch trestů za porušení večerky zatím měla ve své sbírce málo, ha. A tak tam prostě jen chvíli koexistuje. Dokonce se i přesune zpátky k lavičce a dá se do balení svého nářadí, než se nakonec usadí vedle Váni. Nohy si natáhne před sebe a úlevně vydechne. Pak pohled přesune na junáka. Skoro jakoby se ho chtěla mlčky zeptat, jestli je všechno v pořádku.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 4:05</div>
+            </td>
+            <td class="content">Tohle je teda pěkně hnusné, na tohle bych se rozhodně nekoukala. Hlavně to má smutný a nešťastný konec, to se mi rozhodně nelíbí. A vůbec. Není žádná zábava ani cool, když si někdo myslí, že je mrtvý. Je to akorát smutné a.. a.. <span class="emote">*Našpulí nespokojeně rty nad touto konverzací, nějaké to povídání či koukání na takové romantické drama v zombie apokalypse prostě nebude její šálek kávy. Ale když se do té debaty zapojí i JUAN, tak si povzdychne a více se tam opře o toho jeho rameno, jak kdyby se pokoušela tohle téma poslouchat jedním uchem dovnitř a druhým ven. Na moment tam zavře oči a nechává je nějakou dobu zavřené, než je zase otevře. Nic už k tomu tématu neřekne, naopak se tam vyjádří až na to oslovení Juana, že je její kluk. Nechápavě nejprve na MATEA koukne a potom u toho koukne na JUANA.*</span> Ví to.. <span class="emote">*Doplní svá předchozí slova s tím stejným úsměvem. A to ještě jednou vymění takto pohled mezi nimi než se zase už jenom o to jeho rameno opře. Však to vysvětlili oba, tak proč by to bylo k nepochopení, že?*</span> Měj se. <span class="emote">*Mávne volnou ručkou směrem ke CATOVI a jeho odchodu s HUHLOU, na které rovnou packou mávne nekomentující to jejich velmi velké stáří babičky a dědečka.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 4:02</div>
+            </td>
+            <td class="content"><span class="emote">*Snad ten pohled KAMILLY chytne, protože viditelně zaváhá, jak zatiká zorničkami, pak ale rty naznačí v pohybu 'ráno', jak už patrně sezná, že na ni vážně začíná být pozdě na řešení toho čehokoliv, co chtěla s Kamillou řešit. Matea už nechá Mateem, alespoň tentokrát, snad že JUAN a jeho vyprávění o výzkumu je zajímavější.*</span> Máš na to ještě zbytek života. To by bylo, aby se to nepovedlo, <span class="emote">*podotkne ve směru mladého pána, načež přeostří vstříc CATRIELOVI. A když oznámí, že jde s ní, přeostří zase k ostatním diskutujícím.*</span> MY STAŘÍ LIDÉ UŽ MÁME VEČERKU, <span class="emote">*pronese pak v lehkém navýšení hlasitosti, snad aby to chytli všichni, které to zajímá, přičemž do tónu ale vsadí i lehkou ironii, jak si patrně moc dobře uvědomuje, že to právě ona s Catrielem jsou tu nejmladší z celé skupinky.*</span> Takže se loučíme. Doufám, že se ještě potkáme ráno před odjezdem. <span class="emote">*A s tím sotva znatelně kývne ve směru zbylých přítomných a pak už zabere do vycházkové hole, kterak se prostě otočí ve směru odchodu a zmizí někde na cestě od loděnice vstříc dalším pozemkům. Ať už s Catrielem, nebo bez něho.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 3:53</div>
+            </td>
+            <td class="content">Nemáte nějaké své vlastní kubánské? <span class="emote">*Optá se MATEA, jestli by to nemohl řešit přímo u něj doma. A když mu teda spolužák něco jako poděkuje, s lehkým pousmátím pohne hlavou do nějakého pokývnutí. Fakt, že on sám má jendoho rodiče na ministerstvu už tedy ale dál nerozebírá. Snad jak to nebere za něco zásadního. Ona ho GHUHLOALAN taky asi celkem dobře prokoukla, jelikož se mu  zrovna už i trochu klíží oči. Proto není divu, že už nezvládá onu konverzaci sledovat. Když mu proto dá tu nabídku, přikývne.*</span> Půjdu s tebou, po včerejšku bych chtěl dostat do postele aspoň trochu dřív. <span class="emote">*Řekne dívce, asi přeci jen oba moc dobře ví, kolik toho včera naspali. A že tento scénář asi moc opakovat nechtějí.  Přesto ale v nějaké snaze ještě jednou koukne ke zbytku, snad jako by se svou únavou alespoň nějak statečně bojoval.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 3:50</div>
+            </td>
+            <td class="content"><span class="emote">*Jak vypadají KAMILLA s GHUHLOALAN zaujatě jeho povídáním o mango-malině tak snad možná i proto se do toho položí trošku víc než jen "řeknu to jen krátce" jak sliboval Mateovi. Na GHUHLU se uculí.*</span> To by bylo super. Budu se muset ale dopracovat k něčemu ještě trošku komplexnějšímu než jen kombinaci dvou ovocí, ale uvidíme. Bude to ještě dlouhé. <span class="emote">*Zakončí to vlastně tak trošku, pro Mateovu vyprchávající sanitu. Je znát, že by o tom ale mluvil klidně do halelujah, kdyby měl možnost.*</span> Dáme, se stav klidně hned po tom, co dorazíme domů. <span class="emote">*Přitaká MATEOVI a místo toho aby dál mlel o svém ovoci, tak trošku otevře prostor pro MATEOVU posedlost mrtvými lidmi pojídajícími živé lidi a to nejlépe na plátně.*</span> Jakože uznávám, že to, že je něco, co je fyzicky nutí dále se hýbat a podporuje jejich chuť jen na jeden konkrétní orgán a jen v lidském těle... Je zajímavý. Ale nedává to tak úplně smysl a určitě se to nemůže zvrtnout z mého ovoce. Nebo... Ne přesně takhle. Leda by tam byly nějaké mikroorganismy, co by pak napadly mozek oběti a nějak ji postupně usmrtili načež by zvládly imitovat fungující mozek v mrtvém těle a to tak ovládat. Ale... Ne aby to bylo jak ve filmech a lidi jsou na to moc komplexní. Možná nějaký hmyz nebo tak. <span class="emote">*Mávne volnou rukou, kterou nedrží za ruku MAYU, čímž nějak naznačí, že to prostě není proveditelné. Kupodivu Matea nijak nezarazí při označení jeho jako Mayi kluka a když se k tomu vlastně MATEO vyjádří na konci a Maya mu sama poví, že její kluk je tak se tam usměje jako měsíček na hnoji. Dokud teda nezachytí MATEŮV vražedný pohled.*</span> Jo, náhodou o tom vim. <span class="emote">*Poví mu a teda sice to řekne pomaleji ale neodsekává ty slova jako Mateo zase.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 3:47</div>
+            </td>
+            <td class="content"><span class="emote">*Preskočí pohľadom medzi GHUHLOU a CATRIELOM, pričom stisne pery k sebe.*</span> Seš hodnej. Ja ale neviem, pod aké spadám. Zistím. <span class="emote">*Prikývne k nim. Najmä Káťovi, než sa obráti k MÁJE k tomu jej vyjadrení o zombíkoch. Pokrčí nosom.*</span> No je. Je tam to drama, napätie. Šecko čo tomu treba. Si predstav, že máš zamilovanej pár a oni si myslia, že ten druhej je mŕtvej a v tom sa v tej apokalypse nájdu. Ale zistia, že jeden je pokúsanej a bude z neho zombík! Úplne ti pak buší srdce z hrude. A tiež sú kúl tie vizuálne efekty. Kolaps spoločnosti... <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//I keď moc rozdielne tie miesta od našich ulíc nevyzerajú.//</span> <span class="emote">*To zasa stisne pery k sebe a mrkne sa v smere toho IVANA. A fakt čučí. V tichosti. Ako keby očakával, či sa k tej jeho otázke vyjadrí. Dokonca sa mu na tvári začne objavovať náznak nervozity, ako keby sa bál, že sa predsa len niečo spýtal zle. A pri tej jeho vete mu kútiky úst poklesnú hodne dole. Až smutne. Než sa proste k Ivanovi nakloní a venuje mu prosté objatie okolo jednoho ramena. Sa k nemu pritiahne a tou dlaňou okolo neho ho popláca po rameni ruky.*</span> A myslíš, že tam by nebol? To ho nemôžete poslať inam? Eh... ja neviem jak fungujú kúzelnícke školy moc. Ale u mudlov máme väčšinou na výber. <span class="emote">*Povie mu. Než zasa zmlkne a v tom polo objatí si ho ponechá. Uťukne očkami ľahko i ku KAMILLE, no nijako sa nevyjadrí.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Ju nechcem nútiť rozprávať... mhm. Ale je škoda, že nekecá. Možno sa hanbí Juana?//</span> <span class="emote">*Ale to už ucukne pohľadom k MÁJI a jej prehláseniu o Juanovi. A okamžite obráti svoj výraz k JUANOVI, akurát má nakrčené zvráštené obočie, jak keby plánoval chlapca v ďalších sekundách zabiť.*</span> A vie o tom Juan? <span class="emote">*Vyjde z neho pekne slovo za slovom.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 3:44</div>
+            </td>
+            <td class="content"><span class="emote">*Na moment se zatváří ještě o něco víc rozpačitě a ztraceně, když Mateo neutuchá s dotazy na nástup Ivanova sourozence na Kruval. Snad že je to pro ně pro všechny o trochu citlivější téma, než by si chtěli připustit. Ale nijak se nevyjadřuje, samozřejmě, jak se jí to přeci jen vůbec netýká. Radši si vyslechne chlapcovo blábolení o zombiecích, přičemž jí sice v očích na moment zazáří pobavené jiskřičky, ale nestačí k tématu ani nic dodat, než světýlka opět vyhasnou. A tak tam zase stojí mlčky, než najednou zamyšleně nakloní hlavu na stranu, při pohledu na svoji stále otevřenou pitevní brašničku. Třeba jí dochází, že už tam ani brašna ani ona sama vlastně k ničemu nejsou potřeba, když je pan pacient Vasiliev ošetřen a stabilizován. A když je řeč o něm, jen co se jejich pohledy setkají, tvrdohlavě semkne rty k sobě, plus cukne hlavou ze strany na stranu. A tak by měl asi Váňa radši pokračovat v tom držení jazyku za zuby, protože přestože teď nejsou v Kruvalu, slečna zde se nezdá být moc ochotná tam projevovat nějakou slabost, či ukazovat skryté rány. Radši obrátí pohled k loučící se Ghuhloalan a vyšle k ní mírně tázavý výraz, jak si asi moc dobře pamatuje, že s ní chtěla dívka ze začátku o něčem mluvit. Sama se ale nevyptává. Ne, dál zarytě mlčí.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 3:40</div>
+            </td>
+            <td class="content"><span class="emote">*Očkama ještě nějakou dobu sleduje dvojici Ivana a Kamilly, jak kdyby jí celá ta konverzace o popáleninách opravdu dělala starosti, ale když není nic více řečeno, tak se k tomu holt slovně nevyjádří. Ale zpět k tomu, že tam bohužel toho času moc nezbývá, takže se tam rozhodně od chlapce nevzdaluje, naopak tam zůstává pěkně na tom místě vedle něho a vlastně se tak není čemu divit, když tam před tím tu jeho ruku  stiskla o něco silněji. A jak si tam JUAN povzdychne po tom, co se ona vyjádří na ty MATEOVI zombíky, několikrát u toho zamrká.*</span> Jsem nechtěla rozpoutat peklo. <span class="emote">*A hele. Ona se při tomto pobaveně uchechtne, ale když se jí pokusí Mateo vysvětlit, proč jsou zombící kúl a to všechno, ona rozhodně tu pusu zkrátka nezavře.*</span> To teda rozhodně nezní moc zábavně, pokud by ti někdo chtěl sníst mozky. Fuj, ty sleduješ zombíky, jak.. <span class="emote">*A to na něj zůstane překvapeně až skoro znechuceně koukat, očividně si nedokáže představit, že někdo může na něco takového dobrovolně koukat.*</span> Nemyslím si, že by z toho mohla být apokalypsa, maximálně bude hodně ovoce a to je dobře. <span class="emote">*Zase se tak zazubí, když se pokusí obhájit Juanův projekt, než si tam vlastně uvědomí, jak tam Mateo zrovna nazval toho Juana a vlastně se tam neplete. Jen je to pro ni ještě takové nové si zvyknout na ten fakt, že ho takto fakt může oslovovat nebo za to může ten fakt, že veřejnost v podobě Matea Beníteze není informovaná. Zhluboka se nadechne a vydechne, snad aby se na tuto informaci připravila, než s růžovými tvářemi k Mateovi ve španělštině a tiše pronese.*</span>  Je to můj kluk... <span class="emote">*Aha! Tak ona to tam přizná hezky napřímo, i když u toho koukne trochu nejistě na JUANA, jak kdyby se obávala, zda si to tam nechtěl nechat pro sebe. Ale nejistota není na její tváři dlouho, protože to už se potom zase tak hezky usměje.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 3:33</div>
+            </td>
+            <td class="content">Minimálně záležitosti, co jsou v rozporu se zájmy Ministerstva a kouzelnické komunity, budou mít nějak pořešené, takže bych tam zašla a zeptala se, <span class="emote">*ozve se ještě k MATEOVI, stále poměrně klidným hlasem, jak její přesvědčení je zřejmě stále ještě na stejné úrovni. A pak už dodá jen na to poděkování jedno prosté:*</span> Není zač. <span class="emote">*Pak už ale pohledem nalezne mladého pana CONDORIHO, když propálí, že má otce na místním Ministerstvu. Nijak na to ovšem výrazově nereaguje. Místo toho se nejspíš rozhodne mu trochu pomoct v tom nestíhání, snad jak to vytuší, když se k němu ozve v:*</span> Asi už pomalu půjdu spát. Chceš mě doprovodit, nebo zůstat ještě tady? <span class="emote">*Tón nechává zcela netečný, jako kdyby jí bylo vážně upřímně jedno, jestli půjde Catriel s ní, nebo jestli se tu ještě bude bavit. Nárok si na něho evidentně vážně nečiní.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 3:30</div>
+            </td>
+            <td class="content"><span class="emote">*Jo, tak tahle možnost ho asi nenapadla. Když ji ale GHUHLOALAN takhle navrhne, zakroutí mírně hlavou a úšklebek si z tváře sklouznout nenechá.*</span> To bych byl. <span class="emote">*Utrousí pobaveně jejím směrem. On tam sám, stejně jako já ostatně, už asi přestává trochu stíhat, co přesně a kdo s kým řeší. Takže spíš než aby se zapojoval, zůstane jen mlčky stát a poslouchat. Akorát na odcházející Sofíu tedy kývne, snad pro nějaké to rozloučení. Nakonec ale pohledem skončí na JUANOVI a jeho mangomalině, jejíž popis si vyposlechne, i když už ho celkem určitě neslyší poprvé. Asi bude tímto tématem sám poměrně zaujatý, narozdíl od takového MATEA. Když po něm právě on koukne s tím povoláním rodičů Sofíe, přikývne.*</span> Jo, pracují tam. Můj táta kdyžtak taky, kdyby to mohlo nějak pomoct. I když on je teda na argentinským a asi trochu jiném odboru. <span class="emote">*Zkusí nabídnout alespoň nějakou pomocnou ruku. Než svůj pohled přesune zas někam jinam.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 3:29</div>
+            </td>
+            <td class="content"><span class="emote">*Když mu JUAN potvrdí ty popáleniny, tak jen přikývne. A hodí další, velmi významný pohled na KAMILLU, jako by se jí snažil pohledem vtlouct do hlavy, aby něco prostě sakra řekla.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Jindy bych ji chápal, ale tady... by jí mohli pomoct.//</span> <span class="emote">*Zatne mírně ruku v pěst.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Tady to není jako tam.//</span> <span class="emote">*A snad že v těch ponurých myšlenkách pokračuje i nadále, protože když se MATEO zeptá na toho jeho sourozence, tak přesune své tmavé zraky na něj a hodnou chvíli prostě mlčí. Nakonec ty oči sklopí. Mrkne na Kamčiny ruce na okamžik, než zase koukne do vlastního klína. Pak zavrtí hlavou, snad jakože se nic nestalo.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Dřív jsem byl. Ale po tomhle roce...//</span> <span class="emote">*Trvá mu nějakou dobu, než přijde z odpovědí, a i za tu snad může ten kamínek okolo jeku krku, ke kterému mu zabloudí ruka. Párkrát pusu otevře a zase ji zavře.*</span> Já chtít aby on být šťastný. <span class="emote">*Zamručí jenom, ať už to znamená cokoliv.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//A mám pocit, že v Kruvalu to nebude.//</span> <span class="emote">*A tak raději mlčí, sedí a mračí se jako vždy.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 3:21</div>
+            </td>
+            <td class="content"><span class="emote">*Na slová od GHUHLI na tému jeho vyhnutiu sa vojenského výcviku sa len tak zamyslene so zvráštením obočím pozrie do diaľavy. Než teda napokon dodá.*</span> Jo. Mne to nejak... ma nejak moc nikdy nenapadlo riešiť tieto veci cez kúzelnícke ministerstvá... myslím, že tam robia Sofíini rodičia? <span class="emote">*To venuje ľahký pohľad CATRIELOVI, ako keby on práve mal vedieť či je to pravda. Najmä, keď jej brácha je jeho naj kamoš, žeo. Tse. Ešte aby nevedel. Ale pak zasa oči skloní.*</span> Dík. Seš chytrá. <span class="emote">*Húkne k Ghuhle, než sa zasa natočí na IVANA. Na jeho dotazy ohľadom popáleniny prikývne. Viac otázok nemá. Sa radšej zameria na tématiku mladších súrodencov.*</span>  Aj ja... <span class="emote">*No nebude úplne nevšímavej, takže toho jeho ešte viac nenadšeného ako je normou potvrdenia o nástupe jeho bráchu do školy si asi povšimne. Nad tým sa trochu natočí k IVANOVI a skrčí obočie.*</span> Z toho nejseš rád? Alebo- uh, soráč. Ja nejsom moc- <span class="emote">*Usekne sa. Zakokce, než stisne pery k sebe.*</span> Dáme pak prespávačku? <span class="emote">*Keď JUAN ale začne rantiť, o svojej rastline ale, tak pretočí očami a nasadí nesmierne unavenej výraz. Ale divíte sa mu? On to určite počúva šesť rokov každej deň na pokoji! On to určo pretrpí. Vyjadrí sa skôr k MÁJI a jej zombíkovskej nechuti.*</span> No to ne! <span class="emote">*Vyhlási.*</span> Nejsú nudní. A desiví možno, ale to je tak nejak... ich pointa? Šak sú to príšery. A neviem čo ti na nich príde nudné. Není fascinujúce predstaviť si, že niečo poháňa mŕtve ľudské telo, aby pak žralo mozgy? Jako... nežeby to bolo kúl, keby to bolo vaše mŕtve telo. Ale filmy sú o tom spravené úžasne. A najmä knihy. I keď sa priznám, že asi by som dal prednosť niečomu s mimozemsťanmi- <span class="emote">*Usekne sa, než prstom ukáže na JUANA.*</span> Jeden zlej krok a tvoj kluk takú zombí apokalypsu začne z ovocia. To furt vravím. <span class="emote">*A to sa usekne. Stíchne a dá ruky nad hlavu.*</span> Soráč, teda. Ne-kluk. Či čo to ste. </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 3:17</div>
+            </td>
+            <td class="content"><span class="emote">*Když i přes protesty Matea JUAN spustí, naváže s ním oční kontakt a naprosto nehybně setrvá mladého muže pozorovat, jak si zřejmě chce jeho výzkumné záměry vyslechnout. Na konci monologu ze strany mladíka pokývne sotva patrně hlavou, snad aby dala najevo, že to zavnímala, načež se ozve v:*</span> To zní zajímavě a komplexně. <span class="emote">*Pohledem u toho krátce tikne ke Kamille, jak si snad i všimne, že to i kruvalskou dívku zaujalo. Slovně se k tomu ovšem nevyjádří a místo toho znovu přeostří vstříc Juanovi.*</span> Doufám, že se o tom jednou dočteme jako o bylinkářském počinu roku.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 3:15</div>
+            </td>
+            <td class="content"><span class="emote">*Ono to MAYI nadšení a dobrá nálada jsou prostě nakažlivé, takže po té melancholii tam v jeho výrazu už není příliš stopy. Asi si ale nevšimne toho, co proběhne mezi ní a Sofíou, protože na to nijak nereaguje a jen pokračuje v tom držení se v dívky blízkosti dokud jim to zbývající čas dovoluje. Takhle v již letních dnech ale za chvilku začne na obzoru světlat obloha, takže ten času bude přeci jen opravdu omezený. V moment, kdy Mateovi Maya pokritizuje zombíky si povzdychne.*</span> Ale ne. To teď bude dlouhý. On má zombíky totiž strašně rád a z nějakýho důvodu po mě chce abych svým výzkumem způsobil apokalypsu. <span class="emote">*Ušklíbne se k tomu, ale v takovém tom pobaveném rázu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 3:15</div>
+            </td>
+            <td class="content"><span class="emote">*A přestože Mateo směřuje otázku o jedenáctiletém sourozenci čistě k Ivanovi, ona sama k němu najednou prudce cukne hlavou. Skoro jakoby ho chtěla varovat, ať se neptá. Ať to prostě nechá být. Ať tu otázku nevytahuje na světlo světa a ještě ji radši pár dní nechá někde spát. Přestože to ani není její sourozenec a ona sama - už - nejspíš žádné vlastní sourozence nemá. Nakonec nechá toho svého zbabělého uhýbání pohledem a přeci jen na Váňu koukne, přestože jí hned vzápětí obličejem proletí nějaká emoce a ona výraz zase stáhne nejenže k zemi, ale i pod masku.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Jako bychom to zrovna včera neřešili, ten náš dokonalý školní institut.//</span> <span class="emote">*Pohled v očích jí ztěžkne. Ramena trochu poklesnou a v postavení těla se jí usídlí... něco jako strach? Ne. To určitě ne. Pff. To už si asi ale naštěstí získá její pozornost Juan a jeho dihybridní rostlinka, jelikož si ho vyposlechne vcelku nadšeně, přestože do debaty o výzkumu nijak nevstupuje. A slovo nadšeně je možná taky trochu přehnané. Každopádně, působí zaujatě. Docela dost.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 3:09</div>
+            </td>
+            <td class="content"><span class="emote">*Tak po zmínce řešení jiných důležitých věcí a setkání s pohledem od JUANA, jí jistě docvakne, co se tam snaží říct. To se totiž uculí jako sluníčko, jak kdyby mu chtěla ty jeho plány opravdu potvrdit. Sama však svoje plány neprozrazuje. Až taková tajnůstkářka to je, hrozné. Nebo to jen blbě pochopí a myslí si, že je to otázka směřovaná hlavně na její castelácké kamarády. Taky možnost. Momentálně tak září jako sluníčko a to do chvíle, dokud se najednou Sofia nerozhodne odejít a předtím jí sjet pohledem. Nad její reakcí si tiše povzdychne a rty stiskne do tenké linky, takže po jejím zářivém úsměvu ani stopy.*</span> <span class="thought" style="color: hsla(120, 100%, 50%, .8);">//Jsem asi zase řekla něco blbě.//</span> <span class="emote">*Štěstí je však při ní a tím není nikdo jiný než JUAN, který jí tam tak dále hladí na té ruce a po tom políbení těch jejích kloubů k němu zase zvedne pohled a koutky úst jí tam zacukají. A jak tu ruku poté spustí zpět dolů, ona mu ji tam ještě trošku silněji stiskne, ne nijak bolestivě, holt prostě dávající najevo, že ho opravdu nechce pustit, no. Co se týče zmínky o spáleniny, to trochu zvážní a začne se zajímat. Nejprve se zaměří na IVANA a následně očka přehoupne směrem ke KAMILLE, kterou tam rychle přejede pohledem.*</span> <span class="thought" style="color: hsla(120, 100%, 50%, .8);">//Myslí tu ruku? To si ji nenechala vyléčit? A mě posílala za někým a sama si nepomůže. Proč to dělá?//</span> <span class="emote">*Cukne pohledem nakonec zpět k Juanovi a místo řešení popálenin se zaposlouchá do toho jeho výkladu o jeho výzkumu, který tam dost pravděpodobně slyšela už tak několikrát, ale ona si jej ochotně klidně a tiše vyslechne.*</span> Však je to zajímavé, zombíci jsou nuda a děsiví. <span class="emote">*Namítne na MATEOVA slova a dále už povídání o té jeho mangomalině neruší.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 3:05</div>
+            </td>
+            <td class="content"><span class="emote">*MATEO si od něj vyslouží široký úsměv.*</span> No jasně. Už teď vás s Césarem čekám. Jak se Rico stěhuje tak dokonce bude úplně volný pokoj a nebudeme se tam muset mačkat tolik. <span class="emote">*Potvrdí tenhle plán pro jejich trojlístek. GHUHLE na otázku kývne a už otevře pusu, že začne, jenže jak MATEO vytáhne zombíky k jeho výzkumu tak se pobaveně uculí.*</span> Neboj, řeknu to jen krátce. <span class="emote">*Ubezpečí kamaráda a pak už začne s odpovědí.*</span> Máme od pátého ročníku na starosti vlastní téma, kterému se máme věnovat. Na konci studia pak celou věc musíme předložit a obhájit. Já se zajímám hlavně o rostliny a propojuji to s práci s genetickým kódem. Pracuji na stromu, co plodí hybridní ovoce mezi mangem a malinou, ale tak aby se zvládl začlenit do ekosystému amazonské džungle, takže potřebuji aby mladší výhonky po vysemenění mohly být například snědené zvířaty a nerozšířil se strom moc. Celý tenhle rok jsem se hlavně zabýval tím, že se mi nedařilo aby měly plody semena, takže se rostlina nemohla přirozeně reprodukovat. Konečně se mi to podařilo. Nejlepší by bylo... Teda, co bych chtěl je vytvořit super potravinu. Ovoce co by obsahovalo dokonale vyvážený obsah vitamínů. Akorát to asi nezvládnu během toho posledního roku, potřebuji dotáhnout alespoň tenhle strom. Vlastně ho mám celou dobu u nás ve stanu. <span class="emote">*Vysvětlí tam tedy obsah toho svého "výzkumu" a co co vlastně jde pro něj a jeho spolužáky. Odcházející SOFÍE kývne a usměje se.*</span> Měj se. Buenas noches. <span class="emote">*Rozloučí se s ní a zaměří se znovu na ty přítomné zůstávající průšviháře. Ale co... Co jim kdo udělá, kdyby je chytil? Strhne body? Pošle domů? Vidina toho, že je někdo chytí ho očividně nijak netrápí, asi je to ochotný milerád riskovat. S touhle skupinkou. K Malému plamínku se jen ještě trošku víc uculí.*</span> Máš zvláštní představu o tom, co je malý plamínek. <span class="emote">*Poznamená jen bez většího rýpání, přeci jen to je dle jeho slov oblíbená vzpomínka. Stočí pohled k IVANOVI.*</span> Umíme léčit i popáleniny. Léčitelství je jeden z hlavních předmětů, co se u nás učíme. <span class="emote">*Ale se zaujetím poslouchá i o sourozencích právě tohoto hromotluka, zvláště jak se tam připojí ten veselý tón. Za veselým tónem od kruvaláků jde asi jako včely na sladké.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 3:02</div>
+            </td>
+            <td class="content"><span class="emote">*Když se ho JUAN zeptá na popáleniny, tak jen zavrtí hlavou.*</span> Já zajímat. <span class="emote">*Jen řekne mimoděk, jako by to vysvětlovalo tak divnou otázku mimo mísu. I když, v momentě, kdy má pocit, že se nikdo nedívá, tak hodí jeden upřený pohled po KAMILE. A to i přes její snahu jeho pohledu uniknout. Prostě na ni bude zírat tak dlouho, dokud se na něj slečna nepodívá.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Mohli by jí pomoci. Určitě to bude lepší, než se s tím trápit dalších několik dní.//</span> <span class="emote">*A tak, když dostane od MATEA pozitivní odpověď, tak se na něj koukne a zavrtí hlavou.*</span> Já nepopálit. Já zajímat. Popálenina špatně ošetřovat. <span class="emote">*Řekne, zřejmě tedy ani rok v Anglii nepomohl jeho jazykovým dovednostem. A pak už se vrátí k jiným tématům, třeba sourozencům. Na MATEOVU odpověď kývne.*</span> Oni všichni vyrůst, já moc těšit je vidět. <span class="emote">*Odpoví i on sám trochu veselejším tónem než obvykle, možná i ten pohled mu na okamžik změkne. Tedy dokud nepřijde na téma toho jedenáctiletého. To trochu neochotně kývne.*</span> Da... on má nastoupit. <span class="emote">*Řekne, ale nevypadá, že by z něho zrovna čišela nějaká radost nebo hrdost.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//I když bych byl možná radši, kdyby ne.//</span> <span class="emote">*Na téma vojny jen nakloní hlavu na stranu, ale nic neříká.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 2:59</div>
+            </td>
+            <td class="content">Nebo by chtěli vidět tu zářící hůl a byl bys v loji, <span class="emote">*podotkne ještě jako druhou možnou variantu vstříc mladému panu CONDORI, jak patrně tedy nemíní zaručovat stoprocentní úspěšnost. Pak už si ale vyslechne ten mladíkův okamžitý slib, který počastuje vlastním přikývnutím, jen decentním pohybem hlavy, snad že ho tedy bere vážně a na vědomí.*</span> Dobře, <span class="emote">*zopakuje po Catrielovi ještě, načež znovu obrátí hlavu vstříc hovořící různorodé skupince, konkrétně tedy k MATEOVI, chápavě pohne hlavou do pokývnutí.*</span> Myslím, že to by místně příslušné ministerstvo mělo mít v pravomocích pořešit. Zájmem kouzelníků je, abys dostudoval a získal ve svém oboru dostatečné schopnosti. <span class="emote">*Pronese to poměrně sebejistě, snad jak si je tedy poměrně jista tím, že mladý muž nebude muset dva roky používat mudlovské zbraně. A co se výzkumu týče, obranně zvedne levačku, která se nezapírá do vycházkové hole, a dlaní ji ukáže MATEOVI poblíž vlastní hlavy, jak se tedy patrně mlčky vzdává tohoto tematu, pokud by to mělo znamenat, že Mateo usne a spadne ve spánku do jezera.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 2:52</div>
+            </td>
+            <td class="content">Nepodpálila. <span class="emote">*Prehlási niekde smerom k MÁJI na účet Kamilly, ako keby slečna nevedela odpovedať sama za seba. Ale on to určite myslí dobre. Sa skôr zamerá na toho IVANA, keď už mu vlastne odstráni tak hroznú vec a to modrinu. Prikývne na tie veky jeho súrodencov, pričom mu obočie vyskočí dohora.*</span> Ten jedenásťročnej k vám nastupuje? Ďalšej rok? <span class="emote">*Vyjde z neho otázka, pretože on furt bude trochu bublifikovanej ohľadom Kruvalu a netuší, že by to mohla byť citlivejšia téma.*</span> Trinásť ale o mesiac štrnásť. Budem doma na jej narozky, aspoň. Už není tak prťavá ale to si nevšimneš. Hlavne, keď som väčšinu roku na Castele. <span class="emote">*Ucukne pohľadom od zeme zasa k IVANOVI a zmätene zažmurká očkami.*</span> Jo, jasne. I popáleniny. Si sa spálil? Keď tam padlo to ohnivé kúzlo? <span class="emote">*A nad nejakou vecou ohľadom vojny len pokrúti hlavou.*</span> Práveže nechcem. <span class="emote">*Klarifikuje, než svoju pozornosť obráti k JUANOVI. Tomu skúsi skočiť do reči vo forme otázky.*</span> Môžem sa niekedy prísť cpať jedlom od tvojej mamá tiež, že? <span class="emote">*Táto radosť a nadšenie ho hneď ale odpustí akonáhle spustí niečo o výskume. A akonáhle sa GHUGLA spýta na dotyčný výskum. Rukami si prejde po tvári.*</span> Kámo, ak do toho nezakomponuješ zombíkov, tak tu zaspím. Soráč ale na vedecké veci je neskoro. <span class="emote">*Okomentuje, než sa pokúsi vyjadriť aj k tej otázke od GHUHLI.*</span> Uh, jo. A ja na nej nemôžem- alebo teda. Jako. Dva roky. To ne... <span class="emote">*A to už sa natočí na SOFÍU.*</span> Neviem... <span class="emote">*Šepne jej, než si proste zoberie tú pusinku na čelo. Jej ruky sa drží čo najdlhšie, než za ňou šepne prosté.*</span> Za tebou pak prídem. <span class="emote">*A s pustením jej dlane, pošle jej smerom ešte malú pusinku. To už sklopí ruky dolu, do klína.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 2:52</div>
+            </td>
+            <td class="content"><span class="emote">*Jen co z Mateových úst zazní slůvka o jejich náhodném setkání ve studovně a... popovídání, překvapeně ztuhne. Jakoby si snad ani nechtěla připustit, že je občas schopná produkovat ven více slov, než je jen vyloženě nutné minimum.*</span><span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Slabá chvilka.//</span><span class="emote">*A dál rozpačitě upírá pohled někam dolů. Moc tomu nenapomůže ani MAYA a CATRIEL, když se jí jeden po druhém začnou omlouvat za události z první hodiny přemisťování. Vypadá, jakoby ani nechápala, co přesně má s tou jejich omluvou dělat. No jo... jak něco není kosterní pozůstatek, který by si mohla vystavit ve svojí kajutě, asi těžko pro to hledá uplatnění. Stejně tak nepůsobí, že by tušila co si počít s MATEOVÝM pocitem chybění a listy. Jen teda dvakrát prudce zamrká a pak se jí v obličeji usídlí o něco smířenější výraz, snad že to přinejhorším použije na podpal. Ty listy, ne Matea. Doufám. A vzhledem k tomu, že Ivánkovi se pohledem zrovna velice okázale vyhýbá, nejspíš ani nezaslechne jeho dotaz k popálení, protože se radši věnuje povytažení obočí na JUANA.*</span> Já nemůžu za to, že se lekáte každého malého plamínku. <span class="emote">*Malého. Tak určitě. Nicméně sama se při té větě taky trochu ošije. Ať už je to kvůli vzpomínce na ten podpal ošetřovny anebo na nějaký jiný oheň, těžko říct. A pak prostě jen dál mlčí. Nečekaně.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 2:42</div>
+            </td>
+            <td class="content"><span class="emote">*Když mu tam GHUHLOALAN dá onu možnost, jak případně zahnat neposlušné sourozence, nahodí na tvář menší úšklebek. Snad že si to dá tedy kdyžtak do zálohy.*</span> Je pravda, že to by mě snad nechat mohli. <span class="emote">*A jak se všichni hrnou do sdílení těch plánů, nezůstane jako skoro poslední beze slova.*</span> Taky spát. A pak se vypořádat s hromadami příbuzných, kteří se budou zajímat o to, co že jsem tu dělal. <span class="emote">*No nejsou to takové hezké, mírumilovné plány? Říká to takovým lehce hořkosladkým tónem. Jako kdyby se domů těšil, ale byly tu jistě okolnosti, které by tuto budoucnost zhoršovaly. Ale vypadá to, že rovnou i může na svůj plánovač přidat další věc. Zraky nechá na slečně ELAZAR, zatímco mu šeptá to, co po něm chce slíbit. A on to i okamžitě udělá.*</span> Dobře, slibuji. <span class="emote">*Nijak se nad ním dlouze nezamýšlí a ještě mírně přikývne hlavou. Až potom se zase obrátí mě zbytku. Když tam JUAN začne celkem očividně dosti strugglovat s Ghuhloalaniným jménem, pokud se tak šílenost dá vůbec nazvat, ehm, povyfoukne trochu vzduchu z nosu. Snad že s chlapcem dosti soucítí. A pokud se tam ještě tak pěkně omlouvají za ono přemísťování i on se přidá.*</span> Promiň za tu ruku. Nedomyslel jsem to. <span class="emote">*Ozve se vůči KAMILLE. A oči mu cuknou k té její pravačce, hádám tedy, že to je ta správná ruka.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 2:41</div>
+            </td>
+            <td class="content"><span class="emote">*Střihne pohledem po MATEOVI, když zmíní jejich setkání na mostě. Nezareaguje na to slovně nijak, ještě aby taky prořekla, že s mladým mužem opravdu trávila nějaký čas, no ne asi... Ale hlouběji se nadechne nosem, snad do nějakého níznaku možnosti, že se na ono setkání také vybavuje. A když jí mladý muž ještě odkýve ten její plán na další dny, pohne hlavou do mírného pokývnutí.*</span> Máte ve vašem státě povinný vojenský výcvik? <span class="emote">*zeptá se mladého pana BENÍTEZE ještě, než s tou informací, že mu budou všici chybět a že obdrží upomínky, že Mateo existuje, nosem vyfoukne salvu vzduchu snad až pobaveněji, ale tak jako měkce pobaveněji, snad že ji to svým způsobem nepřiznaně těší. Pak už přeostří vstříc JUANOVI. Cukne slabě obočím výš.*</span> Výzkumu...? <span class="emote">*Snad tedy ve výzvě, že to má mladý muž ideálně rozvést, pokud ráčí.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873" data-message-type="normal">
+            <td title="">
+                <div class="head">Sofía Sánchez</div>
+                <div class="time">4. 1. 2026 2:37</div>
+            </td>
+            <td class="content"><span class="emote">*Mrkne k Mateovi, když si zase sedne zpátky vedle ní, tak k němu jen tak na minutku koukne. O dlouhé koukaní určitě nejde, protože ona se s tím pohledem potom přesune někam před sebe a utkví ho na tom místě. Při jeho slovech o tom, že si mysleli, že se bude prát se zamračí. Vrhne na něho pohled a zavrtí hlavou.*</span> Proč by chtěli abyste si navzájem ublížili. Dost ubližujou už ty nástrahy v úkolech. <span class="emote">*Poznamená k němu ještě na tohle téma, jak mohl / nemohl ten turnaj vypadat. Tak štěstí, že se nemusí dlouze dohadovat, když už je stejně za nimi a všechno je vyjasněno. Nad tím Césarem se tichounce uchechtne ale nic neřekne. Jeho hlavu si klidně položit na rameno nechá a koutky se jí u tohi tak lehce zvednout. On jí ten úsměv a všechno zase hodně rychle přejde po zmínce toho Mateovího výcviku. Těkne zrakem k zemi a zase zmáčne rty k sobě. K tomu nic neříka. Vrhne i jeden kratší pohled na Ivana při té otázce a pak zase na Matea, že jí snad i ta odpověď zajmá. Si tam pár minut takhle sedí než se natočí k Mateovi. A pak mu vlepí krátkou pusu na čelo.*</span> Půjdu. Se musím zabalit. <span class="emote">*Špitne k němu a fakt se i pomalu začne zvedat, až si on svoje časti těla nějak poskláda, aby na ní nebyli složeny. Ona ani k Máje nic neřika, akorát si jí rychle sjede pohledem. Nakonec kývne při tom odchodu k všem.*</span> Se třeba ještě zítra uvidíme. A nenechejte se chytit. <span class="emote">*Tam mrkne hlavně na toho Matea, ale nakonec s těmi slovy i zmizí směrem do stanu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 2:35</div>
+            </td>
+            <td class="content"><span class="emote">*Na to, co je čeká v u nich na škole pokrčí ramenem o které se mu neopírá Maya.*</span> Asi budeme nějakou chvíli v naší škole, kvůli zkouškám. A pak cesta domů. Budu - <span class="emote">*Koukne po SOFÍI.*</span> - asi podobně ležet někde na sluníčku a snažit se rozmrznout. Budu se cpát jídlem od mamky. Řešit... Další důležitý věci. <span class="emote">*Pohledem sklouzne na MAYU, co je o něj opřená hlavou, takže tohle ji pravděpodobně nějak obsahuje.*</span> Prázdniny a pak poslední rok. <span class="emote">*Znovu pokrčí jedním ramenem.*</span> A věnovat se svému výzkumu. Mám na to už jen rok. <span class="emote">*Odpoví tam teda takhle GLOGLO i když to spíš může trošku znít jako výčet obyčejných plánů na prázdniny. Prudčeji a pobaveně vyfoukne vzduch nosem.*</span> No pozor, my se do útoku nedávali - Mateo ve finále neměl možnost. <span class="emote">*Rýpne si do MATEA s úsměvem a plamen, co měla údajně KAMILLA pod kontrolou mu zase zahýbe koutky úst.*</span> Málem jsem spadl z postele když se tam objevil plamen dobrý metr vysoký. <span class="emote">*Dodá k tomu ještě pobaveně s potměšilým úculem. Jak vypráví MATEO své vlastní příhody a oblíbené vzpomínky s těmi kruvaláky tu, v tichosti po všech kouká.*</span> Ten plán byl geniální. Nebyla v něm chybička hele. <span class="emote">*Významný pohled věnuje právě tomu jejich šampionovi a ten když vysloví to, jak mu budou chybět vžene právě do i jeho tváře zase něco melancholického.*</span> Jo. Všichni a celý tohle. Tohle místo... Nějak se dostane pod kůži, co? <span class="emote">*Jeho úsměv je teď podstatně jemnější. MAYU dál hladí palcem po kloubech prstů a k té ruce pak zamíří a druhou, kterou tu dívky krátce překryje a pak zvedne ke svým rtům s tím, že jí na hřbet ruky vtiskne polibek a zase jejich spojené ruce spustí dolů.*</span> Škoda, že se všichni na další rok nesejdeme zase na jiné ze škol. <span class="emote">*Poznamená do prostoru a pak se zaměří pohledem k IVANOVI a MATEOVI, mluvícím o popáleninách.*</span> Máš nějaké popáleniny? <span class="emote">*Optá se ho.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 2:32</div>
+            </td>
+            <td class="content"><span class="emote">*Když jim tam SOFIA spílá za mlácení během úkolu, tak nahlas nic neříká, snad že se nechce míchat do konverzace, jen se po ní podívá a mírně nakrčí čelo.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Ten z Bradavic si začal. Tu berušku si zasloužil.//</span> <span class="emote">*A pak tedy, v péči medika MATEA, tak nějak drží. Nevypadá, že drží moc ochotně, spíš jako by při jednom špatném pohybu vyskočil a začal se bušit do hrudi jako gorila, ale drží. Nezapomene hodit velmi útrpný pohled ke KAMILLE, ale zřejmě její pronikavý pohled ho maličko uklidní, protože přinejmenším povolí zatnuté... všecko. Ono ujištění, že jeho případný vrah umře strašlivou smrtí -a tu Kamilla určitě dokáže zařídit- je zkrátka uklidňující. Raději se asi soustředí na příjemnější věci, jako je rozprava o sourozencích.*</span> Šesť, osm, deset a jedenáct. <span class="emote">*Řekne a jako by mu na těch pár slov až necharakteristicky změkl hlas.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Už se jich nemůžu dočkat.//</span> Tvoje? <span class="emote">*Optá se na oplátku. A když mu modřina opravdu zmizí, tak se možná trochu překvapeně podívá dolů na vlastní břicho a přejede prsty po kůži.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//To jsem nečekal.//</span> <span class="emote">*Zabloudí pohledem ke Kamille, jmenovitě k jejím rukám, a pak zpět k MATEOVI.*</span> Spasiba. <span class="emote">*Zabručí. A po chvíli položí otázku.*</span> Ty dobře léčit. Umět léčit... víc? Popáleniny? <span class="emote">*Nadhodí, snad jen tak mimochodem. Pak už si nechá svetr spadnout zase zpátky dolů a snad už tedy konečně vypadá jako nerozbitá hračka. A snad že i poslední MATEOVA slova ho zaujmou.*</span> Ty chtít na vojnu? <span class="emote">*Optá se a dodá mu ještě pokývnutí, na ty dopisy.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 2:30</div>
+            </td>
+            <td class="content">Je trošku složitější, to netvrdím, ale.. <span class="emote">*A to už se pokusí zase pana Theodora obhájit, ale holt dneska nemá svůj den, takže nakonec místo nějakého toho obhajování jen utichne a lehounce se zase na Sofiu zamračí. No, je rozhodne znát, že  se jí tam vůbec nelíbí, jak se tam o jejím možném kamarádovi nebo spíše známému baví.*</span> Umíš, to já ti nevyvracím. <span class="emote">*Pronese směrem k Mateovi takovým stylem, jak kdyby jí ten jeho styl řečení této věci prostě dělal problém, a tak se to rozhodne dále nekomentovat. Nebo si jen prostě přijde blbě, že se tam Mateo a jeho holka s těmi názory proti ní spolčí a ona tam teď možná vypadá jak blbka, co chce chránit někoho, kdo jim ublížil. Místo toho se hezky odmlčí a momentálně tak sleduje, jak tam Mateo toho Ivana vyléčí. Tak alespoň v tento moment se lehce pousměje, hlavně když jí to tam ještě JUAN potvrdí slovy.*</span> Ještě že tak. <span class="emote">*Zareaguje na to léčení, ale řekněme, že i tak jejich debata ve španělštině je zajímavější. Vyslechne si jeho slova a znovu se pousměje.*</span> Opravdu to rychle uteklo, ani jsem nestačila mrknout a už je to tady. Je to pochopitelné, že se těšíš domů. <span class="emote">*Zkusí ho ujistit, že ho tam chápe, ale přesto lze v jejích očích spatřit cosi, co by mohlo naznačit, že ho tam úplně pouštět nechce.*</span> Kéž bys mohl zůstat delší dobu. <span class="emote">*Zamumlá ještě tak do toho jeho ramene, než svá kukadla upře na KAMILLU.*</span> Podpálila jsi ošetřovnu? To by ti madame Pomfreyová teda pěkně dala. <span class="emote">*Pobaveně se zatváří, dokonce to nevypadá, že by to myslela nějak zle.*</span> Já jsem omylem na přemisťování tady Kamillu zasedla, takže se ti za to omlouvám. <span class="emote">*Aha! Tak tam tentokrát vytáhne alespoň něco, za co se omluvit může. Dokonce u toho na ni nevinně zamrká.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 2:20</div>
+            </td>
+            <td class="content"><span class="emote">*Akonáhle sa mu podarí niečo s tou IVANOVOU modrinou spraviť, tak sa mu na tvári vyčaruje veľkej úsmev a prútik si zasa strčí do brašne, do bezpečia, tam kam patrí. Popláca ho ešte po ramene, pričom sa zasa usadí niekde vedľa neho a i SOFÍE, žeo, ktorú chytí zasa za ruku.*</span> Jo... ja sa tiež teším na ségru. <span class="emote">*Šepne tam niekde ešte do vetra k IVANOVI, očkami pritom skĺzne z neho dolu k zemi a pousmeje sa. Letmo. Tak ako keby to nemali ostatní vidieť.*</span> Koľko maj tí tvoji rokov? <span class="emote">*Dodatočne sa opýta, než sa zameria na JUANA a tie jeho príhody si hezky vypočuje s veľkým úsmevom.*</span> Pre mňa bol hezkej ten pokec s Kamčou v študovni. A jak som prvne našiel Ivana v jazere... Ghuhloalan na moste. <span class="emote">*Stisne pery k sebe. Viac detailov k týmto zážitkom nedodáva. Oni určite stačia len opísané proste. Veď kto tam bol, určite pamätá. Mrkne na chvíľu zasa k SOFÍI.*</span> Všetci čakali, že sa budeme biť. Si to rieš s Césarom, on mi vymyslel celý bitevný plán. <span class="emote">*Než sa jej oprie sám o rameno a začne jej prechádzať ľahko po ruke. Na jej slniečko len kývne. Mrkne k GHUHLE.*</span> Krásnej plán. <span class="emote">*Uchechtne sa.*</span> Uh, pôjdem domov. Zistím čo je nové. Skúsim poriešiť vojenskej výcvik. Či na to nemá niečo naše ministerstvo, abych nešiel. To hlavne. <span class="emote">*Jej tam zanechá túto svoju odpoveď do tej blízkej budúcnosti, keď už sa holčina tak hezky opýta aj na nich. To ešte mrkne ku KAMILLE. Len tak ľahko nakloní hlavu, ak sa mu to dá ale nič jej špecificky nepovie. Skôr tak do vetru, možno VŠETKÝM a možno nikomu, zamrmle.*</span> Mi budete chýbať. <span class="emote">*A k uchechtnutím dodá.*</span> Očakávajte listy. </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 2:18</div>
+            </td>
+            <td class="content"><span class="emote">*Na MÁJU jen jemně zavrtí hlavou, asi že netřeba se omlouvat, když už je o Ivanovu mafiánskou vizáž stejně postaráno, a ta žebra může opravdu radši vyřešit ochotný Castelský služebníček Mateo. Teda co? Radši se pak věnuje své velice oblíbené činnosti a to přihlížení situaci s kamenným výrazem a mlčky. Tu a tam jí ale na spodní čelisti cukne nějaký sval, jak asi přeci jen nemá úplně nejhlubší důvěru v Mateovi schopnosti. Přesto, jakmile se zahledí VÁŇOVI do očí, nechá do obličeje prostoupit klidný výraz, asi že mu chce naznačit, že má situaci i takhle z dálky pod kontrolou... a jeho případnou smrt kdyžtak velice ochotně pomstí. Anebo ho třeba hned nerozpitvá, kdyby náhodou skončil po Mateově kouzlení jako krysa, eh. Co se její vlastní dlaně týče, přesune ji do polohy za záda, protože se tam určitě nutně potřebuje poškrábat, a jistojistě to nemá nic společného s tím, jak urputně se najednou Ivánkově pohledu vyhýbá. A plány do budoucna? Mlčí. Vyloženě zarytě. Snad že žádné nemá, snad že je nechce sdílet s touto skupinou lidí, anebo snad nejsou úplně pozitivní a ona si tuhle... ne-úplně-nepříjemnou... chvíli nechce kazit. Ale stačí, aby JUAN vynesl na stůl její starý žhářský kousek a najednou se z ní ta slova hrnou jedna báseň.*</span> No dovol. <span class="emote">*Ohradí se ledově.*</span> Ten plamen jsem měla dokonale pod kontrolou. <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Tenhle ano. Tenhle konkrétní ano.//</span> <span class="emote">*A nechá svůj pohled padnout k zemi. Anebo se možná kouká na svoje nohy, jakoby na nich snad bylo něco zajímavého.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 2:06</div>
+            </td>
+            <td class="content">Taky si myslím, <span class="emote">*pronese vůči mladému panu CONDORI s pokývnutím hlavou, jen jemným, náznakovým.*</span> A když ne, můžeš těm malým pohrozit, že znáš jednu šílenou holku, která je prokleje svítící holí, jestli tě nenechají si odpočinout. <span class="emote">*To už nechá tón vyznít v lehké ironii, s níž přeostří pro změnu zase k dění u skupinky jako takové. MATEOVA otázka si získá hluboký nádech nosem, nejprve, než pronese:*</span> Prospat tři dny. Pak udělat zkoušky. Co na vás čeká v Jižní Americe? <span class="emote">*To už snad teda míří primárně na ty castelácké, drbna jedna zvědavá. Od kruvalské dvojice, ke které jukne, pak ale zase upře očka zpátky na CATRIELA, pro něhož zase sníží hlasitost vypouštěných slov na minimum.*</span> Že až se pořádně vyspíš, napíšeš mi. Sejdeme se někde mezi Argentinou a Norskem, na neutrální půdě, kde nebude nikdo z Kruvalu ani Castelobruxa a ani nikdo jiný. A tam uvidíme, kam nás to zavede. <span class="emote">*Pak už ale přeostří zase vstříc dění, a to konkrétně ku JUANOVI. Jeho vyprávění si získá jemné povytažení obočí výš a jukne ve směru KAMILLY, jak se kruvalská patrně s touto storkou nějak zapomněla pochlubit. A pak už zase přeostří vstříc mladému panu REMÍREZOVI.*</span> Ghuhloalan, <span class="emote">*pronese rovnou jemu vstříc, naprosto neutrálním tónem, v prosté pomoci započít větu, nejspíš. Ono jméno vysloví tak, že se při něm nadechuje, nikoliv vydechuje.*</span> A já se s vámi do křížku nedala. Útočit a zároveň snášet útoky jste zvládli oba dost dobře sami. <span class="emote">*Vyzní poněkud rýpavěji, snad jak jí taky s odstupem času nedělá takový problém si dělat z JUANA a MATEA humorníčky.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873" data-message-type="normal">
+            <td title="">
+                <div class="head">Sofía Sánchez</div>
+                <div class="time">4. 1. 2026 2:05</div>
+            </td>
+            <td class="content"><span class="emote">*MÁJINO mračení jí je oplaceno. Ne teda nějak silně, ale mírně to obočí svraští k sobě. Zakroutí nad tím mírně hlavičkou.*</span> Sesl na Matea kouzlo..k tomu z Mahoutokoru se zrovna mile taky nechoval. <span class="emote">*S ní ten názor o Theodorově fajnosti prostě nesdíli. A to je už od pohledu úplně jasné. Taky kdo by se jí divil, když ho asi soudí z doslechu malého prváka a z turnaje. Po slovech MATEA se ale taky tak mírně zamračí. Zakroutí nad tím dost nesouhlasně hlavou.*</span> Anebo se nemlátit vůbec? Jste nebyli postavení do areny abyste se bili. <span class="emote">*Plácne se hezky jednou rukou do čela a nakrčí nad tím nosánek.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Kdyby to tak bylo, tak je Mateo v koncích.//</span> <span class="emote">*Ten KAMILLIN postup oprav Ivana si raději nevšima a když přejíždí pohledem Loděnici, tak u toho vždycky vyloženě přeskočí Ivana, snad proto aby neviděla jeho umírajcí výraz, co se tam určitě děje, že ano. Ale jak na ní promluví KAMČA, tak k ní ten pohled přece jenom přesune, už jen tak ze slušnosti, aby přitom mluvení na ní nekoukala někam do země nebo tak.*</span> Hmm. I tak mi tohle místo nepřijde idealní na šití. <span class="emote">*Poví ke kruvalce takovým tím tižšim hlasem, který lze stále zaslechnout. MATEOVI po ruce hezky přejiždí prstíky, když už se spolu za tu ruku drží.*</span> Já si hnedka půjdu lehnout na sluníčko! Tohle absoluntě nepálí a já potřebuju do kůže dostat trochu víc vitamínu Dé. <span class="emote">*Po delší době sezení s nimi se jí i vykouzlí na tvářičce drobný úsměv, ale furt úsměv, což je docela pokrok od toho zachmuření, co do teďka v podstatě vedla. Mateovu ruku pomalinku uvolní a nechá ho klidně odejít. Si tu svojí přemísti do klínu zpátky, tak jak jí měla předtím.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 2:02</div>
+            </td>
+            <td class="content"><span class="emote">*Když je pobídnutý MATEO aby šel pomoct s léčením, stejně jako zbytek nabízejících pomocnou ruku, tak se k tomu hned nevrhne. On sice kubánec musí být po celém tom dni taky dost unavený, ale je tady u něj znát, že mu do toho nechce teď hned lézt. Na moment umlkne a možná za to může dost i to jak koukne na jezero a v tom jeho výrazu se objeví cosi hořkosladkého. Když se ale MAYA začne omlouvat kruvalským tak se na ní pousměje a ruku jí o trošku více stiskne.*</span> Je to rychlejší. <span class="emote">*Potvrdí jí a koukne jak MATEO léčí Ivana kouzly.*</span> Vidíš, už je to lepší. <span class="emote">*Poví k dívce a snad se tak snaží utnout její omluvy, které jsou přeci jen neopodstatněné, nemá vůbec proč se omlouvat, no ne? Pak k ní tišeji promluví a s její odpovědí se opře hlavou o tu její hezky navrch.*</span> Uteklo to moc rychle. Hlavně teď od té zimy. Až moc... Těším se na rodinu a kamarády a teplo. Ale... Nechci pryč. <span class="emote">*Přiznává dál ve španělštině a stále podobně tiše. Pohled vrátí na kruvalské a kamarády z jeho školy.*</span> Mateo má pravdu, jsme kámoši. <span class="emote">*Řekne k nim a široce se na ně usměje.*</span> Oblíbená vzpomínka je určitě jak KAMILLA použila Mateovu hůlku a málem zapálila ošetřovnu. <span class="emote">*Uculí se.*</span> A Mateo visící přes rameno Ivanovi a blijící slimáky. A Ghu- Ghuhloa... <span class="emote">*Mlaskne.*</span> Ghuhloal-an když se s námi dala do křížku na tom přemisťování. I když... To je spíš tou uplynulou dobou. <span class="emote">*Párkrát k tomu přikývne s tím všudypřítomným úsměvem.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 1:58</div>
+            </td>
+            <td class="content"><span class="emote">*KAMILLINA slova o pravidelném tréninku doprovodí kývnutím, jako by snad ošetřování ran druhých po zvlášť krutém trestu od profesorů byla naprosto normální součást výuky. Ale to nahlas neřekne, že jo. Raději si všímá své ošetřovatelky a neunikne mu to, jakým způsobem si promne dlaň. To se jí koukne do očí, snad jako by se jí snažil telepaticky něco sdělit.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Pořád ji to bolí. Mohla by si to taky nechat ošetřit. Ta mastička od babušky není zázračná.//</span> <span class="emote">*Ovšem v momentě, kdy od něho Kamča poodstoupí a předá jej tak do péče ostatních, se mu oči maličko rozšíří... hrůzou? Né, to určitě ne. Koukne po casteláckých a pak vrhne jeden další, snad skoro prosebný pohled na Kamillu ve stylu "nenechávej mě jim!". Najednou už není tak hodný pitevní preparát jako předtím. Nutno podotknout, že všechny tyhle pohledy jsou utlumené asi tak o osmdesát procent jeho přirozeným kamenným výrazem. Ale jsou tak. Nahlas ovšem nic neříká, jen vrhá po Mateovi s hůlkou skeptický pohled.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//To mě bude ošetřovat on?//</span> <span class="emote">*Tak patrně má pan Vasiliev menší trust issues, snad to bude taky něco, co se naučil v rozsáhlých učebních osnovách Kruvalu. Nicméně neprotestuje, jen zatne zuby a patrně doufá v to, že ho mladý pan BENITEZ nepromění v chrobáka. A raději se soustředí na ta jeho slova.*</span> Já vrátit k rodina. Těšit se na sourozenci. <span class="emote">*Zabručí.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Pak udělám zkoušky a pak... nevím.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 1:57</div>
+            </td>
+            <td class="content"><span class="emote">*Sleduje tam teda ty pochybnosti ohledně KAMILLINÝCH technik, zatímco on sám se zřejmě k tomu léčení nemá. Nejspíš dívce důvěřuje, že Ivana zvládne ošetřit sama moc dobře. Zvlášť když má sama už takovou praxi. Ale když se toho chopí onen MATEO a vlastně se mi to i podaří s tou VÁŇOVOU modřinou i něco udělat, trochu si oddechne. Snad že ona diskuze skončila. Místo toho zase koukne ke kruvalské vedle sebe.*</span> Snad mě rodina nechá. Ale doufám, že by to všichni až na tříletá dvojčata mohli pochopit. <span class="emote">*Asi všichni chápeme, že všichni budou chtít slyšet o těch jeho báječných zážitcích, ale snad by ho opravdu vyspat nechat mohli. K oněm posledním dnům taky přikývne, že na tom snad není ani co vyvracet. Zrak nechává upřený na GHUHLOALAN i po té její tiché odpovědi.*</span> Ano? <span class="emote">*I on to řekne tišeji, snad že tohle by měla být skutečně konverzace jen mezi nimi dvěma. I on po té zacuká očima k ostatním přítomným, jen aby od nich pohled zase odvrátil.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 1:51</div>
+            </td>
+            <td class="content"><span class="emote">*Obráti sa pri zmienke Theodora k MÁJI. Uchechtne sa.*</span> Tak kameň viem zobrať aj ja. A aspoň odhadnem, že ktorej mu ublíži najviac. Tvrdosť... hornín sa dosť líši. <span class="emote">*Jo, ak by nestačilo, že celej rok melie o hmyze, tak tu o chvíľu začne mlieť aj o šutroch. Celkom krásne dlc jeho záujmov odomknuté v posledný deň školy. Keď mu SOFÍA flákne po ruke, tak sa na ňu prudko obráti a zvrášti obočie v akomsi nechápavom výraze. Jo, jemu moc nedochádza, že jeho neslušné symboly sa jej moc nepozdávaj. Než sa konečne natočí k IVANOVI s KAMILLOU.*</span> Takjo. <span class="emote">*A hneď na to k ním prehodí prostú otázku.*</span> Čo plánujete? Jako teraz... keď sa vrátite domov. <span class="emote">*Presunie sa ešte i ku GHUHLANE s menším krátkym úsmevom.*</span> To není sportovne... šak sme kámoši. <span class="emote">*To teda asi referuje na Ivana, no. Na koho iného. A presne potom zmlkne. Len Sofíu ďalej drží blízko seba a očkami skáče k IVANOVI s KAMILLOU a keď mu je slečnou povolené to liečenie, tak sa postaví, Sofíu pustí a skúsi sa tam niekde šupnúť blízko KAMČI pred IVANA. Siahne si do brašne a vytiahne prútik a skúsi ním, s akýmsi mrmlaním, prejsť ponad tú IVANOVU modrinu.*</span>  <span class="effect trait" data-effect-type="trait" data-effect-id="80" data-effect-success="true">[Uživatel použil Medik. Student se věnuje kouzelnickému léčitelství a první pomoc i práci se zraněným má v malíku. Rychle se dá do ošetřování či analyzování. Pár mávnutí hůlkou a drobnější zranění jakoby nebyla, ta středně závažná jsou stabilizovaná a ta těžká - no řekněme, že jsou na tom lépe než kdyby tam tento student nebyl.]</span></td>
+        </tr>
+
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 1:45</div>
+            </td>
+            <td class="content"><span class="emote">*Když se jejích slov chytne SOFIA a začne tam chudáka Theodora pomlouvat před jejíma vlastníma očima a ušima, tak se lehounce zamračí.*</span> Neurážej ho. On není tak špatný a hloupý, je fajn. <span class="emote">*Pokusí se ochránit Theodorovu pověst před všemi přítomnými. Přeci jen je s ním v koleji a trochu ho tam zná, takže proč by se nemohla k tomu vyjádřit, že ano.*</span> To neříkám, že to neumí, jen by to možná bylo rychlejší. Nechtěla jsem urazit, pardon. <span class="emote">*Omluví se tam nejen IVANOVI, ale zároveň také KAMILLE, ale to už zřejmě nechce nic dalšího pokazit nebo jen k tomu nemá co říct. A nebo je prostě momentálně zajímavější JUAN, k jehož osobě stočí svoje oříškově hnědá očka. Nejprve k jeho ruce a hlazení, nad čímž se usměje a poté pohled přesune k jeho tváři.  Na jeho slova o tom loučení a odloučení se smutně pousměje, ale to jen na moment, holt se přeci jen ještě uvidí, i když to nějaký ten čas zabere.*</span> Taky se mi nechce loučit, raději bych, kdyby to ještě chvíli počkalo. Už teď se mi stýská. <span class="emote">*Zamumlá ve španělštině tiše k brazilci a ač smutnit může, tak alespoň pro tentokrát smutek zahodí a věnuje mu malý úsměv, než si o jeho rameno opře hlavu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 1:40</div>
+            </td>
+            <td class="content"><span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Hodiny léčitelství?//</span> <span class="emote">*Na malý moment si dovolí kmitnou pohledem k MATEOVI, než se zase zahledí na hromotluka před sebou. Přesto jsou její následující slova mířená opět ke Castelskému.*</span> My taky. Pravidelně na sobě trénujeme. <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Což teda není ta oficiální část výuky, ale člověk se to stejně nejlíp naučí praxí.//</span> <span class="emote">*A pak od kruvalského junáka poodstoupí, přestože si chudák stěžuje na to žebro. A máchne jeho směrem stručně dlaní, jakoby snad všechny přítomné pobízela, ať se na něj teda vrhnou. Sama pak poodstoupí o něco víc dozadu, snad že jí ta chvilková pozornost nebyla úplně příjemná a neubrání se ani jednomu rychlejšímu ohlédnutí přes rameno. A promne si pravou dlaň. Opatrně. Nadále však nechává prostor pro magii Castelských, jen teda, kdyby se do toho přestali tak ochotně hrnout, tak tam toho Váňu nenechá a vrátí se k roli soukromého ošetřovatele. Takhle však alespoň využije čas k tomu, aby odpověděla SOFÍI.*</span> Dezinfekce proběhla. A trocha bolesti... <span class="emote">*Pokrčí rameny.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Bez ní to už ani nejde, ne?//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 1:30</div>
+            </td>
+            <td class="content"><span class="emote">*Ohlédne se za MATEEM, když uslyší to oslovení, obočím kmitne výš, snad v očekávání, co jí mladý muž objevného poví. A když to zase tak objevné není, pokývne sotva znatelně hlavou.*</span> Je sympatické, že to bereš takto sportovně, <span class="emote">*pronese pak, neironicky, zcela vážně, snad jak si toho skutečně tak nějak víc považuje, než aby si tady teď trhali vlasy vzájemně a kopali se do holení. A sama se rozhodně s pomocí Kamille nenabízí, snad jak ví, snad i z vlastní zkušenosti, co by si tím vysloužila za následky. Pak už ale přeostří ve směru CATRIELA a pokývne sotva znatelně hlavou v souhlasu.*</span> Alespoň to dospíš. Poslední dny byly náročnější, <span class="emote">*podotkne, než přeostří od něho ve směru KAMILLY. Jen krátce, jen snad aby si zjistila, kde se dívka momentálně nachází.*</span> Slib, <span class="emote">*ozve se nakonec tišeněji, jen pro Catriela.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 1:29</div>
+            </td>
+            <td class="content"><span class="emote">*MATEOVI ruku pevně stiskne. A dál drží jak sloup, zatímco KAMILLA pracuje. Ani se nehne. Možná jen občas na ni koukne, v očích jako by se mu zrcadlilo pobavení. Ale to zase velmi rychle zmizí a vrátí se mu jeho obvyklý kamenný obličej.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Celý rok vypadá tak rozhozeně... ale když mi může zašívat čelo, tak vypadá nejšťastněji.//</span> <span class="emote">*Ani když mu snad svitne vidina toho, že by dostal nějakou úlevu od té jehly, tak to nechává vyloženě na ní, jak se mu o tu ránu postará.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//A pak že by nebyla dobrá léčitelka.//</span> <span class="emote">*Před nějakou bolestí asi moc neucuká, jen sem tam, každopádně slovně se určitě nebrání. Jen když mu nakape na to čelo nějakou tu tinkturu, tak si úlevně vydechne.*</span> Mnohem lepší. Díky. <span class="emote">*Zabručí taky rusky naoplátku. A když se ho optá na další zranění, tak sáhne pro lem svetru na pravém boku a mírně si ho vyhrne. Čímž odhalí nejen břišáky, ale i krásnou modřinu, která se mu tam rýsuje.*</span> Žebro. <span class="emote">*Zabručí. A když se ostatní, třeba MATEO nebo MAYA strachují o jejich metody, tak jen zavrtí hlavou.*</span> Já v pořádku. Ona umí. <span class="emote">*Zabručí se svým ruským přízvukem a dál poslušně sedí jako ten nejlepší pitevní preparát.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//A taky to nebude poprvé. I když... možná to bude naposledy.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 1:25</div>
+            </td>
+            <td class="content"><span class="emote">*Co se týče návrhů MATEA a MÁJI ohledně nějaké té pomoci, taky trochu kývne. Snad že on kdyžtak taky rád pomůže, pokud by to bylo nějak potřeba. I když to teda Kamča zřejmě zvládá moc dobře i bez pomoci. Když JUAN dojde k tomu, že kruvalští jsou zamračení a bez radosti, záletné k těm třema očima. Pěkně jeden po druhém. On k tomu tedy sám nic neříká, za á, jelikož přeci jen sám není z Kruvalu a za bé, jelikož nejspíš souhlasí s Ghuhloalan, že to asi stejně není úplně nejlepší téma nebude. Snad jako by už o tomhle sám nějakou konverzaci měl, ehm. Právě na oné zmiňované GHUHLOALAN i pohledem zůstane, když mají i nějaké to téma konverzace.*</span> Není. V nejlepším případě mi to naopak pomůže návrat můj spánkový režim do pořádku. <span class="emote">*Vysloví s jistou nadějí v hlase. A co se týče onoho dalšího tématu, tam mu úsměv ze rtů nesklouzává. Jen na moment cukne ke zbytku osazenstva očima, jak kdyby to tam tou svou početností lehce kazili.*</span> Můžu naopak nabídnout něco já? <span class="emote">*Pronese jejím směrem, snad aby tady taky nemusela dělat všechno ona.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873" data-message-type="normal">
+            <td title="">
+                <div class="head">Sofía Sánchez</div>
+                <div class="time">4. 1. 2026 1:24</div>
+            </td>
+            <td class="content"><span class="emote">*Narozdíl od kruvalských ona tělo i duši má zřejmě ještě lidskou, takže když jí KAMILLA obeznamí o tom, že to přežije, tak by snad i tu pusu zase otevřela, ale pak jí zase rychle zavře. Stiskne rty k sobě úplně přemahajcí něco říct. Jistý soucit s Ivanem určitě má. Taky bodat do živýho masa nebude nic moc přijemného. Obhlédne si kruvalskou a zrak jí rychle klesne dolů. Určitě úplně omámená tou její děsivou..teda ehm zcela kruvalskou aurou! Že i jazyk za zubama drží. Ručku si schytnout nechá i přitáhnout se nechá, ale nezapomene ho ještě plesknout přes ruku, kde ukazal to velice reprezentativní gesto. Nic k tomu neříka, ale on ten účel je snad jasný, když nad tím i protočí očima v dulcích, že se jí div celý neprotočí. A jak hezky rozdělený to mají. Ona ho pleská a on jí utíra špinu z ruky. Koutky úst jí povyskočí nahoru a jen to tak sleduje. Při zmínce Huhli se k ní krátce otočí. Mrkne na ní a pak na Matea. Svraští k sobě obočí a zakroutí nad tím hlavou. A jakmile je zmíněno ty KAMILLINO operovaní, tak přikývne několikrát hlavou.*</span> A hlavně by to tolik nebolelo. Bylo menší riziko infekce. <span class="emote">*Se úplně rozmluví, když se do toho komentování Kamillinýho přistupu přidají i jiný. Z nula vět na dvě! Se dá považovat za opravdu velký pokrok.*</span> To mě nepřekvapuje. Vypadá dost hloupě na to aby bojoval jako Neandrtalec. <span class="emote">*Přikývne na ty MÁJINY slova. A pěkně si do zmíněného Zmijozelce rýpne, se přece musí využít, když tady s nimi není!*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 1:17</div>
+            </td>
+            <td class="content"><span class="emote">*Po SOFÍI rýpnutí do MATEA s útokem na kruvalku ty dlouhé měsíce nazpět vypadá, že zadržuje smích.*</span> Pravda. <span class="emote">*Broukne jen pobaveně. Jemu tohle místo asi opravdu nevadí, na rozdíl třeba od dívky Mateova srdce, které má samozřejmě fakt velké, aby se tam vešlo tolik lidí. U toho tak nějak sleduje práci KAMILLY na Ivanovo ranách, ale vyloženě k tomu nic neříká jen mu zase zacuká v těch koutcích úst, které se drží vysoko v úsměvu.*</span> Jinak než třeba my. My se usmíváme a směje a jásáme. Teď už bych to možná i... Viděl. <span class="emote">*Kývne IVANOVI na tu jeho mikroradost. Ale tak alespoň ty energie to tu vyvažují. Veselí Casteláci a zakabonění Kruvaláci. A jedna zbloudilá Maya. Prostředníček od MATEA oplatí jen dalším ze zásoby úsměvů. Jenže ho pak spíše zaujme zmínka o léčení.*</span> Máme na to celkem rozsáhlý výcvik, to je pravda. Ne že by ti to nešlo dobře. <span class="emote">*Poznamená ke KAMILLE a tu pomoc nevnucuje, pokud není chtěná, že ano. Místo toho nechává ruku v té MAYI a palcem jí hladí po kloubech prstů. Možná si jen nemůže pomoct a nebo se snaží využít každičký moment aby jí byl nablízku dokud to jde. Zítra přeci jen už budou všichni odjíždět. Polkne a přesune z osob v loděnici pohled na jezero, kam chvilku kouká, než hnědýma očima přeskočí k MAYE.*</span> Nechce se mi loučit, ani na tu chvíli než přijedeš. <span class="emote">*Poví k ní trošku tlumeněji ve španělštině jakoby se k této myšlence akorát nějak dopracoval a potřeboval jí rychle sdělit.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Zítra touhle dobou už budeme každý úplně jinde.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 1:14</div>
+            </td>
+            <td class="content"><span class="emote">*A tak následuje kroky chlapce a usadí se na krabici vedle něho, v případě nedostatku místa si holt zabere jako židličku jeho nohu, což určitě nebude nic strašného, když není zase tak těžká. Po usazení se zahledí směrem k MATEOVI, jak zmíní zmijozelského šampiona.*</span> Theodor je dobrý v souboji, stačí mu na to obyčejný kámen. <span class="emote">*A tak tam tedy odsouhlasí zřejmě to, že je Mateo o hodně slabší než právě tento klučina. Ale snad se právě na něj ještě zlobí za nějakou tu jeho zbabělost nebo jen prostě už k tomu nemá co říct, protože to jsou jediná slova, co mu tam věnuje. Naopak se poté obrátí směrem k IVANOVI, který je tam ošetřován.*</span>  Na to, že říkali, že to nemá být nebezpečné, jste utrpěli nehezké rány. <span class="emote">*Poví jeho směrem starostlivě.*</span> No, léčitelská kouzla by byla rychlejší, to je pravda. <span class="emote">*Dá za pravdu opětovně brazilci nesoucí jméno Mateo, ale dále do jejich debaty ani do ošetřovní nevstupuje, spíše se tak drží zpátky.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 1:08</div>
+            </td>
+            <td class="content"><span class="emote">*Na JUANA a jeho pripomienku vytiahne jednu ruku nahor, a ukáže mu prostý prostredníček. Dnes u neho už akosi opakovaná akcia. To už sa natočí k SOFÍI. To jej šuchanie špiny dlaňou pozoruje s menším úškrnom na ksichte. A keď sa konečne k nemu usadí, tak si ju pritiahne rukou bližšie k sebe okolo pasu. Skúsi chytiť tú jej dlaň ktorou ten bordel pratala. Dá si ju dlaňou nahor na svoje stehná a začne jej tam voľnou rukou šprtať, jak keby jej tú špinu skúšal dávať dole svojou holou rukou on.*</span> Ghuhloalan. <span class="emote">*Kývne hlavou v GUGINOM smere, načo i očká k nej obráti.*</span> To rozhodne. Prvé si zaslúžil ale on. <span class="emote">*A pri zmienke IVANA sa k nemu i natočí. Tú ruku z dlane Sofíe odtiahne a schmatne jeho pravačku. Potrasie si s ním.*</span> Takjo, spoločné. <span class="emote">*A presne vtedy mrkne očkami k tej ošetrovateľke KAMILLE a hukne k nej úplne prosto.*</span> Nešlo by to rýchlejšie, keby sme pomohli? Máme na léčko hodiny... neviem jak vy v Kruvale. <span class="emote">*Dodá. A pak zmlkne.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 1:02</div>
+            </td>
+            <td class="content"><span class="emote">*A tak teda nechá ty svoje ruce odborníka pracovat, přestože jí jehla, pinzetka i další kovový nástroj, kterým si tu jehlu občasně přichycuje, tu a tam v těch jejích rukavicích podklouznou. Soustředěně přimhouří oči, ale přesto nepůsobí dojmem, že by si je plánovala sundávat. A nástroje nepouští. Skoro jakoby to chtěla mít co nejrychleji za sebou, přestože vypadá, že je opravdu ve svém živlu. Ještě teda stačí směrem k SOFÍE syknout*</span> To přežije. <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Přežil i mnohem horší věci.//</span> <span class="emote">*A jen co Ivánkovi tu trhlinu na hlavě hezky zaštupluje, vytáhne z kapsy pro změnu nějakou zelenou tinkturu, kterou na něj bez milosti vykape. Spokojeně vydechne a nástroje odloží. A pak se sníží na úroveň Ivana, jen aby se mu mohla zahledět do očí.*</span> Co ještě? <span class="emote">*Broukne rusky. Velice jemně. A taky velice tiše. Ale jen co se JUAN opováží podotknout, že mu přijde, že se to jejich "zamračení a bez radosti" nějak změnilo, bleskurychle k němu cukne pohledem a otráveně se zamračí. Jakoby ho snad nemohla nechat u takhle hrubého omylu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 0:59</div>
+            </td>
+            <td class="content">Inu, vyšel jsi s Ivanem, takže máš minimálně druhé místo, <span class="emote">*podotkne vstříc MATEOVI pragmaticky, jak tedy patrně nemá problém zařadit si v hlavě a vzpomínkách casteláckého v žebříčku úspěšnosti na druhé místo hned za kruvalského velikána. Pak už ale přeostří na Juana a s jeho slovy o proměně kruvalských znejistěně sevře vycházkovou hůl v rukojeti o něco pevněji. Zhluboka se nadechne, ale nic k tomu nepoví, snad radši. Ostatně, kazit takový pěkný večer vysvětlováním, kdo nebo co z nich dělá to, čím jsou, by nebylo nejvhodnějším programem. A tak přeostří vstříc CATRIELOVI, snad jak si vybere radši toto jako únosnější variantu.*</span> To ještě není tak hrozné. Navíc, pokud sis navykl tak ponocovat, budeš díky tomu u vás chodit spát prakticky akorát rozumně. <span class="emote">*Pak už ale oplatí mladému muži pohled a cuknutí obočí si získá její vlastní.*</span> To nevadí, občas je lepší držet se osvědčených scénářů. </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 0:59</div>
+            </td>
+            <td class="content"><span class="emote">*Na MATEŮV skepticismus ohledně zápasu jen zavrtí hlavou.*</span> On nevyhrát, protože my být dva. Když on porazit tebe, já chytit. <span class="emote">*Prohlásí a pak, snad že v reakci na všechny ty gratulace, natáhne k Mateovi pravačku.*</span> To společné vítězství. <span class="emote">*Řekne a koukne se chlapci do očí, zkrátka dojemná chlapská chvilka. Ať už ji přijme nebo ne, na slova JUANA reaguje pohledem na něj.*</span> Bez radosti? Já mít radost. <span class="emote">*Oponuje. A tváří se u toho jako by se právě chystal utopit pytel plný štěňátek. No, asi se prostě budou muset zahledět hlouběji do jeho kruvalské dušičky. A pak už hezky poslušně v klidu a nechá Kamillu, aby na něm prováděla své zvrácené experiment- ehm. Ošetření, jo.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Vážně bych nečekal, že tu budeme takhle sedět. Tohle místo je úplně jiné, než u nás doma.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873" data-message-type="normal">
+            <td title="">
+                <div class="head">Sofía Sánchez</div>
+                <div class="time">4. 1. 2026 0:55</div>
+            </td>
+            <td class="content"><span class="emote">*Mírně se tělem natočí ke Kamille, i když to asi nebude tak těžký otáčení, když je dívka taky poblíž Ivana. Jen tak mírně ustoupí o krok dozadu a zamlkle jí sleduje. Hlavně jak vytahuje z tašky tu ampulku.*</span><span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Ona ho plánuje otrávit? Že by ho pak mohla zkoumat..//</span><span class="emote">*Ty očka o to víc přimhouři a rty tisknoucí k sobě začne uvolňovat.*</span><span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//To si ale v Kruvalu nedělají ne?//</span><span class="emote">*A její pohled je upřen zpátky na nebohou kruvalku KAMILLU. A jak vytáhne tu nit s jehkou, tak očkem cukne níž, jak by na to nechtěla se dívat. Koukne se na špičky od svých bot a ty si tak rychle přelétne zrakem. Pak zpátky mrkne na Kamillu. Se nakonec přece jenom neudrží a vypadne z ní.*</span> Nebude ho to bolet? Bez umrtvení. <span class="emote">*Ona určitě počíta s tím, že takový kruvalec má stejný práh bolesti, jako každý jiný člověk! MATEEM se zavolat nechá, protože tam k němu přikročí.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Zase ta špinavá Loděnice. Proč chce někdo slavit vpodstatě u popelnic?//</span> <span class="emote">*Zastaví se u toho místa a lehce si opraší místo na sendutí..rukou. Na tu pak mrkne a lehce si povzdechne. Zatřepe s ní ve vzduchu a až tentokrát se na to místo usadí. Nohy si pokrčí do pravého úhlu a ruce si položí taky někam na sebe.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Mateo přežil..přežil..trochu špíny..a slizu nevadí.//</span>  <span class="emote">*Trochu sebou zatřepe a zkousne si spodní ret. Pomalinku pustí vzduch skrze rty a nadechne se. Ale po těch MATEOVÍCH slovech jí vyloženě vystřelí obočí nahoru.*</span> Vážně? Od začátku? Nezautočil si na jednoho? <span class="emote">*Jí obočí mírně vyletí nahoru, a zřejmě mu nevěří ani nos mezi očima!*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 0:53</div>
+            </td>
+            <td class="content">Sice by dávalo větší smysl aby o čtyři, ale je to o tři hodiny. V Argentině odsud. <span class="emote">*Osvětlí GHUHLOALAN onu situaci s tónem, že to fakt zase tak hrozný není. Prostě hodina sem, hodina tam. Ten jet lag nemůže být tak zlý, no ne?*</span> Takže od vás to o ty čtyři bude, hádám. <span class="emote">*Zamyslí se snad na moment, asi že se snaží rozpomenout, jak je to s časovými pásmy v Evropě. I on má zrak momentálně upřený na její tvář. To se ale změní a těmi ostatními lidmi, třeba že k IVANOVI taky prohodí onu gratulku.*</span> Samozřejmě taky gratuluji. <span class="emote">*Dodá ještě přeci jen to bude asi nějak ta slušnost. Ale když se na něj JUAN takhle šibalsky uculí, jen lehce nuceně povytáhne koutek. Jak kdyby ho ani tato momentální situace moc netěšila. Což vlastně není ani moc udivující, když je skoro ten odjezd. Pohled upře na KAMILLINU práci, snad že ani nemá žádný problém s nějakou krví, a že by ho možná i zajímalo, co s ním bude teď provádět. Pokud ji do toho zrovna neskáče Mateo, samozřejmě. A jelikož jich tu pořád není zřejmé dostatečně, kývne i na MAYU a SOFÍU.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Ajo, my tady jsme všichni jako na té první hodině.//</span> <span class="emote">*Přelétne pohledem ještě celé osazenstvo, ale když jsou zdvořilosti za ním, podívá se opět na Ghuhloalan. Na ten její lehký úsměv mu pouze miniaturně, že by to snad ani nemusela zachytit, cukne obočí. Snad že ani on sám tohle možná nečekal. Ale jak sama říká, je to poslední večer v Bradavicích.*</span> Asi moc originální nebudu... <span class="emote">*Podotkne s též, teď už upřímně, lehce povytaženým koutkem.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 0:51</div>
+            </td>
+            <td class="content"><span class="emote">*Nějaké zvyknutí na sebe navzájem je ostatně už dost znát, když se tu zvládají takhle sejít. I přes reakce od dvou kruvalských dívek, nebo nereakce, ho neopouští pozitivní nálada.*</span> Jo, asi to tak bude. Jsme tu všichni něco pochytili. <span class="emote">*Poví s tím, že IVANOVI věnuje široký úsměv.*</span> No nebude to jinak. Vy zase... No asi pořád zamračení a bez radosti? Ale přijde mi, že se to změnilo. Trochu... <span class="emote">*To "trochu" tam dodá s pobaveným kratším zasmátím než usedne na krabici. Je tedy určitě více ukecanější než všichni ti kruvalští dohromady, to se stále nemění, jak se zdá.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Když jsem přijel tak jsem si od prvního momentu snad říkal, že už abychom byli zase zpátky u nás. A teď? Je to takový hořkosladký. Samozřejmě chci domů... A zároveň mě fakt mrzí, že jedu.//</span> <span class="emote">*MATEO si vyslouží pobavené uculení vyslané jeho směrem, když tam pullne "já to říkal" kartu.*</span> Ty jsi toho říkal... <span class="emote">*Ještě mu v těch koutcích úst cukne v onom úsměvu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 0:48</div>
+            </td>
+            <td class="content"><span class="emote">*Keď mu IVAN to objatie oplatí, tak sa od neho odtiahne a venuje mu ešte veľký úsmev.*</span> Ne. Tys ho mal vyhrať. A vyhral. <span class="emote">*Zasa ho popláca po chrbte, než sa odtiahne úplne a na tú otázku ohľadom slimákov pokrúti hlavou.*</span> To je dočasné vraj. A helfol mi s tým ešte Moreno. A pak som si radšej tak trikrát umyl hubu. <span class="emote">*Než svoju pozornosť obráti otočením hlavy aj k zvyšku Kruvalcov. Ako napríklad tej GUGINE. Nad jej slovami nakloní hlavu k ramenu do strany a tiež sa pousmeje. I keď on sa usmieva tak nejak všeobecne. Na všetky strany.*</span> Dík. I keď myslím, že ten boj so mnou vyhral Theodor. <span class="emote">*Pokrčí nad tým nos, jak keby moc spokojný s týmto faktom nebol, než si sám nájde nejaké miesto blízko chudáka Ivana a prejde očkami ešte KAMILLU. Nemá ale asi moc čo povedať. Tak si len skúsne peru a mávne rukou na SOFÍU, jak keby sa ju snažil zavolať sadnúť k nemu.*</span> Hele. Ja ti vravel od začiatku, že sú Kruválci v poho... <span class="emote">*Pokrčí nad JUANOM ramenami a pak už proste zmlkne. Len tam tak sedí. Pokojne.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 0:44</div>
+            </td>
+            <td class="content"><span class="emote">*Nad poznámkou o tom, že mu tam ty kytičky možná neuvadnou, jí vyskočí koutky úst nahoru a opětovně tak s úsměvem koukne na chlapce, poté na jeho nový styl nošení věcí na hlavě, než se teda dostane hezky dolů za těmi ostatními. Na CATA, kterého si zřejmě všimne až teď, se lehce usměje.*</span> Taky jsem nečekala, že to nakonec dopadne dobře. <span class="emote">*Poznamená ohledně toho, že se tam sešli v tomto uskupení, zřejmě tak hlavně narážející spíše na kruvalské než na samotné studenty z Castelobruxa, protože s nimi přeci jen už kecá od prvního stoupnutí na pevnou zem. U toho však věnuje jeden nenápadný a omluvný úsměv Kamille, asi za to sezení na její maličkosti na začátku roku. Ale když jí JUAN tu ruku stiskne, sama mu ji stiskne nazpět s tím stálým úsměvem a rozejde se přímo za ním k té nějaké krabici, kde se třeba usadí, pokud se usadí on, že ano.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 0:40</div>
+            </td>
+            <td class="content"><span class="emote">*Jestli si povšimne pohledu JUANA, nedá to na sobě nikterak znát, snad pro dobro Juanovo i vlastní. Ono dostat holí mezi oči asi nebude úplně přívětivým rozloučením, nu. Když ale mladý pan Remírez položí onen dotaz do pléna a jukne i na ni, povytáhne slabě obočí, jen aby pak přiznala:*</span> To asi vskutku ne. Nejspíš jsme se už stačili se vzájemnou existencí dostatečně smířit. <span class="emote">*Pronese to lehce ironickým tónem, ale je v něm i určitá lehkovážnost, snad jak si skutečně i takový studený čumák, jako je ona, chce poslední večer užít. Na KAMILLU pak kývne v sotva patrném gestu, snad děkovně, a pak už od ní zase odstoupí blíž ke CATRIELOVI, asi aby jí tedy dala místo na ošetřování toho jejich kruvalského velikána.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 0:38</div>
+            </td>
+            <td class="content"><span class="emote">*Nad dalšími gratulacemi pokýve hlavou, zřejmě tedy zůstává mužem málo slov i po tom roce tady, v obležení ukecaných spolužáků. A pak už nehybně drží, když si ho převezme doktorka BOKOROVA. Po nalití tekutiny do rány mu jen mírně cukne oko, snad že to štíplo, ale člověk, co skočí ze střechy, má asi práh bolesti trochu někde jinde. Nebo spíš takový průměrný kruvalčan. Když mu přistane v ruce lahvička, tak se na ni prvně koukne, ale pak ji bez jediné otázky do sebe obrátí. A mírně zkřiví obličej.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Pořád to chutná líp než rybí tuk.//</span> <span class="emote">*A možná si trochu zakucká, ale pak lahvičku poslušně vrátí. Když se mu ovšem objeví ve výhledu jehla a nit, plus Kamilčin děsivě zubatý úsměv, na chvíli se zarazí.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//A kruci.//</span> <span class="emote">*Nakonec si povzdychne.*</span> Věřím rukám odborníka. <span class="emote">*Zabručí rusky a též to doprovodí mírným úsměvem, vyhrazeným jen pro ty jejich společné chvilky lidskosti, kterých je jinak proklatě málo. Nad JUANOVÝMI slovy, které hádám v tom malém prostoru taky uslyší, se na něj jen podívá a mírně zavrtí hlavou.*</span> Vy prvně moc hluční. <span class="emote">*Oznámí mu svůj ne zrovna dobrý první dojem.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">4. 1. 2026 0:28</div>
+            </td>
+            <td class="content"><span class="emote">*Jen co ze sebe Ghuhloalan vysype to dloubnutí o tom, kdo tam teda koho ruší, obratem od ní vyfasuje ledovější pohled a povytažené obočí, ale ani ona sama u toho nepůsobí dojmem, že by věřila, že to se slečnou nějak hne. Radši si to opatrnými nášlapy dokráčí až k té lavičce, na kterou shodí svou otevřenou kabelu a hřbetem levé ruky si odsune sluneční brýle z o očí do vlasů. A možná by se pak začala věnovat té krvácející ráně na spolužákově čele, kdyby najednou nemusela uhýbat před objímajícím se Mateem, že. To jen protočí očima a zamumlá něco o tom, ať ho hlavně Castelský nepoblije do té rány, kdyby třeba hodlal mířit další várku slimáků až do výšin k Ivanově hlavě, než se dá do odzátkování ampulky. Tiskne u toho rty pevně k sobě, jak se asi musí soustředit o něco víc, než obvykle, ale přesto nakonec nalije část té tekutiny chlapci do rány, než mu zbytek skleněné nádobky přistrčí k puse.*</span> Vypij to. <span class="emote">*Sykne. Až pak přesune pohled někam za GHUHLOALAN.*</span> Ale jistě. <span class="emote">*Zamumlá, aniž by se na tu dívku pořádně podívala a radši se skloní pro jednu kovovou pinzetku. Muhehe. A jen co z kabely vyndá i jehlu s nití, zazubí se na pana VASILIEVA.*</span> Nějaké speciální požadavky? <span class="emote">*Hm, no a k JUANOVĚ rozjímavé náladě se zatím rozhodně nepřidává. Radši si hledí čela před sebou.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873" data-message-type="normal">
+            <td title="">
+                <div class="head">Sofía Sánchez</div>
+                <div class="time">4. 1. 2026 0:24</div>
+            </td>
+            <td class="content"><span class="emote">*Nojo, ona je opravdu tažena tím Mateem. Jí dělá v podstatě takovýho tažnýho psa. By to tak snad i vypadalo, kdyby s ním ten krok rychle nesrovnala a nalepila se mu na bok, že se ho lehce dotýka, ale zas ne nějak přehnaně. Ono tam nějaké místo pro pohyb přece jenom být musí. Oblečená je do stejného oblečení, co byla. Takže jde o bíle šaty s hromadou růžových a modrých kytiček. I krátké rukávy ty šaty možná mají, ale to kdo ví, když ona přes to má obleknutou světle modrou riflovou bundu. Vlasky má lehce pročesané a zastrčené za ucho právě díky černé tenké čelence v nich. A nakonec boty jsou bíle conversky. Jak se blíží k té loděnici, tak to mrkne na Matee, tak krátce. Když do ní vstoupí tak si přelétne všechny ty lidi v ní. Hodí k nim menší úsměv.*</span> Ahoj. <span class="emote">*Je tam všechny pozdraví hezky po anglicky. Nejvíce se stejně kouká na IVANA ke kterému se o trochu širšeji usměje.*</span> Taky gratuluju k výhře. <span class="emote">*A Matea samozřejmě pustí, když se začne vrhat kolem Ivana.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 0:23</div>
+            </td>
+            <td class="content"><span class="emote">*Úsměv mu poskočí na rtech.*</span> Díky, je to vylepšení. Třeba se mi podaří aby neuvadly. <span class="emote">*Když pak stane pohledem na CATOVI tak k němu vyšle šibalské uculení jak poskočí pohledem mezi ním a GLOGLO.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//No jo, se vlastně zmiňoval. To je taky dobrej borec.//</span> <span class="emote">*Ohlédne se vchodem na MATEA - s doprovodem nebo bez - a usměje se i na něj.*</span> Dobrý? Už jsi i dokrkal? <span class="emote">*Optá se kamaráda.*</span> César je s Livií někde, že jo? Posílal jí psaní. <span class="emote">*Konstatuje přičemž sleduje i rozmluvu mezi dvěma šampiony a ze rtů mu nemizí úsměv.*</span> Hej dovedli byste si představit na začátku téhle návštěvy... Že tu budeme takhle? <span class="emote">*Konkrétně pohlédne na GHUHLU a KAMILLU, takže tady asi poukazuje na něco konkrétního, možná třeba nějakou první hodinu přemisťka. MAYE stiskne ruku přičemž k ní stočí pohled i s tím úsměvem, takovým měkčím. Pak najde nějaké místo - možno krabici - kam se dá posadit.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #00ff00;" data-sender-id="9770" data-message-type="normal">
+            <td title="">
+                <div class="head">Maya Garcia-Berry</div>
+                <div class="time">4. 1. 2026 0:22</div>
+            </td>
+            <td class="content"><span class="emote">*A  jak se zdá, tak i tato drobná fialovláska se chce rozloučit, když si tam momentálně v ruku v ruce vykračuje po těch schodech směrem dolů s vysokým brazilcem.*</span> Si to vyřešil pěkně s tím slamákem a věnečkem. <span class="emote">*Okomentuje po cestě Juanovy ozdoby na jeho kudrnatého hlavě s úsměvem, zatímco si volnou rukou sama upraví svůj věneček, který má na hlavě usazený a doplňuje tak její copánky. Oblečena je v tento moment do látkových černých kraťasů doplňující se o žluté tričko s menším kulatým výstřihem a krátkým rukávem. K tomu má na nohou obyčejné sandálky. Okolo krku má poté uvázaný šátek, to snad aby tam něco zakryla, což není jedinou ozdobou na její osůbce. Třeba na jejím krku si lze všimnout zlatého řetízku s přívěškem půlměsícem, na pravém zápěstí se jí nachází černý korálkový náramek a na té samé ruce má usazen prstýnek se zeleným motýlkem.*</span> Hola. <span class="emote">*Sama pozdraví přítomné po příchodu, kdy se pohledem zastaví na trochu delší dobu nejprve na KAMILLE a poté na MATEOVI, ale nakonec se obrátí k IVANOVI.*</span> Gratuluji k výhře. <span class="emote">*A to se na něj mile usměje.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 0:19</div>
+            </td>
+            <td class="content">O kolik se vám ten čas posouvá? <span class="emote">*ozve se vstříc mladému panu CONDORI, snad i jak ji to doopravdy zajímá, když se po něm dokonce tváří pootočí. Pak už si prohlédne dalšího příchozího, když koukne na MATEA a kývne mu v jemnějším pohybu hlavou v pozdravu.*</span> Velice ucházející boj. Tedy, z toho mála, které jsme viděli, <span class="emote">*ozve se právě ku mladému panu BENÍTEZOVI v nějakém tom uznání. Pak už zatiká pohledem mezi Ivanem a Mateem a nakonec jím znovu skončí při Catrielovi. Rty pro něho zvlní do sotva znatelného pousmání. Na dálku nejspíš snad i neviditelného.*</span> Nějaká speciální přání na poslední večer v Bradavicích? </td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">4. 1. 2026 0:18</div>
+            </td>
+            <td class="content"><span class="emote">*Na HUHLINU otázku se na chvíli pozastaví a pak zavrtí hlavou. To už se ovšem otočí a vypadá, že se chystá k odchodu, když ho ve dveřích přepadne KAMILLA. To jen stihne mírně pootevřít pusu, než je nezdvořile poodstrčen. Vypadá ovšem, že momentálně nemá energii ani náladu protestovat, protože zase tu pusu zavře a pak si jde potichu jako pejsek sednout na vybranou lavičku. A tam už prostě jen poslušně sedí, dokonce i ten kapesník si sundá z hlavy, snad aby měla slečně lepší přístup. Na gratulace od JUANA reaguje mírným pokývnutím hlavy.*</span> Spasibo. <span class="emote">*Řekne, patrně tedy děkovně. A pak už je tedy v objetí MATEA, při kterém na okamžik ztuhne, ale pak, světe div se, zvedne ruku a až překvapivě nebolestně ho poplácá po zádech taky.*</span> Spasiba. <span class="emote">*Zopakuje.*</span> Ale to ty mít vyhrát turnaj. Vzít pohár. <span class="emote">*Zamumle trochu nabručeně, asi se že se ještě furt nedostal přes tu jejich hádku.*</span> Už slimáky nezvracet?</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931" data-message-type="normal">
+            <td title="">
+                <div class="head">Catriel Ulises Condori</div>
+                <div class="time">4. 1. 2026 0:12</div>
+            </td>
+            <td class="content"><span class="emote">*A onou cestičkou si to tedy kráčí i tento student Castelobruxo. A tentokrát byste tu jeho školní příslušnost poznali i z jeho oblečení. Je totiž ve slavnostní uniformě. Ta je složená hlavně z bílé košile a zelených kalhot. Takže narodil od ostatních v té tmě září možná trochu více. K opasku má jako běžně pouzdro na hůlku, ale i nespočet různých ozdob, šňůrek a peříček. Všechna jsou v barvách zelené a růžové, což nejspíš značí nějaký ten jeho kmen. Tak jako tak, to on je ten, se kterým tam Ghuhloalan jde. Na její slova lehounce pokyvuje, snad že opravdu poslouchá. Asi i on radši nechavá lehkovážnější tón na místě, snad že to bude přeci jen pro tu oslavu, či co příhodnější.*</span> Jo, já to vidím podobně. I když ten časový posun zase nejspíš nebude úplně nejpříjemnější. <span class="emote">*Odpovídá ji teda i nějak, než se tam k nim začnou přidávat i ti další spiklenci, či narušitelé jejich soukromí. Říkejte si tomu jak chcete. Do nějaké té konverzace s IVANEM se tedy nezapletá, to ostatně nechá na Ghuhloalan. Možná jen hýbe hlavou, že je to v pohodě. Ale když dojde KAMILLA a začne tam toho šampiona podrobovat, zasykne si.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//A zrovna nemám svůj normální opasek. Ale ona asi bude vědět co dělá.//</span> <span class="emote">*Ono to bude asi i na konto toho Váňova zuboženého stavu. A že přichází další? Tak na JUANA a teď už vlastně i MATEA samozřejmě taky kývne.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899" data-message-type="normal">
+            <td title="">
+                <div class="head">Mateo Benítez</div>
+                <div class="time">4. 1. 2026 0:11</div>
+            </td>
+            <td class="content"><span class="emote">*Keď už sa tu v túto hodinu rozhodli stretnúť aj iní ľudia, tak predsa len aj jeho hlava sa tu objaví. On už je predsa len funguje tak, že kde sú Kruvalci, tam je on. A určite to nespadne v tento školský čas, nie? Ak ho niekto videl počas turnaja, tak v svojej dotrhanej uniforme fakt oblečený nie je. Práve naopak. Má nejaké béžové nohavice, voľné a k tomu proste voľnú košeľu, ktorá nie je vlastne ani úplne ku krku zapnutá. Vlasy má mierne mokré, ako keby sa ešte len pred chvíľou kúpal. A možno sa i kúpal. Cez rameno nesie ešte nejakú brašnu a za ruku... za tú niekoho tiahne. Možno. Alebo možno nie. To teda určite záleží od tej druhej osoby či niekoho tiahne. A keď je dostatočne blízko, očkami skočí po prítomných a venuje im milej úsmev, než sa doslova vrhne cez Kamillu a aj jej nejaké možné pokusy pomôcť Ivanovi.... k nemu. Do objatia. Takého toho, kde ho popláca po chrbte, než sa odtiahne a prehlási.*</span> Ešte raz, gratulujem. Bez zvracania.</td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">4. 1. 2026 0:05</div>
+            </td>
+            <td class="content"><span class="emote">*Když jí pohled padne na Ivana, zasekne se v pohybu, jak si tak vzápětí kruvalského šampióna prohlédne pátravěji, jak jí zatikají zorničky.*</span> Nerušíš. Nepotřebuješ s něčím pomoct? <span class="emote">*ozve se, snad na konto toho, jak nebohý Ivan po souboji s ostatními školami vypadá. Vycházkovou hůl na pevném povrchu zase spustí až na zem, špičkou ji do ní zapře a přenese pravačkou na hůl trochu váhy. To už se ale objeví Kamilla, která se patrně rozhodne Ivana chopit, a tak prostě jakožto moudřejší určitě ustoupí, že. Minimálně od potřeby Ivanovi vypomáhat. Místo toho trochu ironicky po tom, jak Kamilla do Ivana šťouchne, prohlásí:*</span> Teď rušíme zase my, ne? <span class="emote">*To už ale dorazí Juan, a to už asi taky sezná, že se ti dva soukromí prostě nedočkají, a tak se prve nehne z místa. Není tomu tak však na dlouho, protože pak vykročí pomalu ku dvojici kruvalských a poté, co se k nim dostatečně přiblíží, vydechne tišeněji:*</span> Kamillo, můžu s tebou pak na chvíli mluvit? Až budeš mít... tu chvíli. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10889" data-message-type="normal">
+            <td title="">
+                <div class="head">Juan Miguel Santos Ramírez</div>
+                <div class="time">4. 1. 2026 0:01</div>
+            </td>
+            <td class="content"><span class="emote">*A že se někteří chtějí opravdu rozloučit, ne jen soukromě, ale opravdu se všemi. Takovým jedním je i tenhle slamákový mexičan. Spolu se zmijozelskou fialovovláskou se po všech těch schodech dopracuje až k jejich patě a budově loděnice, kde se dnes večer něco koná. Oblečený je v tmavší košili s krátkým rukávem a vzorem palmových listů, džínových volných kraťasů ke kolenům s roztřepeným lemem a pantoflí taktéž stejně slaměných jako slamák osazený věncem z květin. Na obou zápěstích má zásobu náramků z přírodních materiálů. S dívkou sem dojde ruku v ruce a s úsměvem na rtech.*</span> Hola! <span class="emote">*Pozdraví všechny ty přítomné a volnou ruku zvedne na pozdrav. Pomalovanou a bavlnkami zdobenou hůlku u něj vidno zastrčenou za lem těch kraťasů.*</span> Gratuluju k výhře. <span class="emote">*Popřeje kruvalským a teda na Ivana se usměje ještě o něco víc.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910" data-message-type="normal">
+            <td title="">
+                <div class="head">Kamilla Bokorova</div>
+                <div class="time">3. 1. 2026 23:58</div>
+            </td>
+            <td class="content"><span class="emote">*Přestože si s chůzí dává docela na čas, jak tam opatrně klade jednu nohu před druhou a tu a tam jí při nášlapu obličejem proletí trochu podrážděnější výraz, zjeví se po chvíli v bradavické loděnici i ona. Oblečená je pak do něčeho, co by se na sebe nebál hodit kdejaký tajný agent, ha. Skoro jakoby se tím chtěla vyhnout radaru všech učitelů či zamaskovat něco jiného. Konkrétněji má na sobě nic neříkající černé tričko, maskáčové kalhoty s mnoha kapsami, na nohou má vysoké lovecké boty a na očích mudlovské sluneční brýle. Ano, i teď večer. Možná proto, aby odlákala pozornost od těch kožených rukavic, co má kdo ví proč natažené na obou dlaních, hm? A samozřejmě, že na scéně nechybí ani její kožená brašna, ze které už během posledních pár opatrnějších kroků dolů ze schodů, loví jakési kovové náčiní a... malou skleněnou lahvičku s průzračnou tekutinou. A jen co se ve vchodu střetne s milostivým panem Vasilievem, zamračí se na něj. Žádné "gratuluji", žádné "jsem ráda, žes to přežil". Ne. Jestli junák alespoň trošku působí dojmem, že je na odchodu, prudce ho popostrčí pravým ramenem dovnitř - tak moc, jak jen jde tu horu svalů popostrčit - a s kývnutím brady na nejbližší lavičku nařídí rázné*</span> Sedej a ani se nehni.</td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10892" data-message-type="normal">
+            <td title="">
+                <div class="head">Ivan Nikolaevich Vasiliev</div>
+                <div class="time">3. 1. 2026 23:55</div>
+            </td>
+            <td class="content"><span class="emote">*Kolem loděnice si to pomalu kráčí náš šampion, který momentálně moc jako šampion nevypadá. Drží se za bok jednou rukou a tou druhou si přidržuje kapesník na hlavě, přičemž přes půlku obličeje má zaschnutou krev. Toliko asi k Bradavické pohostinnosti.*</span><span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Bolí mě hlava…//</span><span class="emote">*Na sobě má stále onen zelený svetr a koženou bundu, obojí mírně potrhané a špinavé, snad že ještě nezvládl zabloudit do své kajuty.*</span><span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Ale ten čerstvý vzduch mi dělá dobře.//</span><span class="emote">*Snad že pak upře své hnědé zraky dolů k loděnici.*</span><span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Hele. Tam jsem ještě nebyl.//</span><span class="emote">*A tak se pomalu doklopýtá až tam někam dolů a dovnitř, dokud jeho těžké boty nezavadí o prkna mola. Tam se maličko zarazí, když patrně uslyší hlasy. Zastaví se na místě a kukne na HUHLU a.. kohokoliv, s kým tam tu konverzaci vede.*</span> Ah. Já omlouvat. Ne chtít rušit. <span class="emote">*Zamumle jen a už už se otáčí k odchodu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922" data-message-type="normal">
+            <td title="">
+                <div class="head">Ghuhloalan Zipporah Elazar</div>
+                <div class="time">3. 1. 2026 23:52</div>
+            </td>
+            <td class="content"><span class="emote">*A je to mimo jiné nejspíš i právě ona, kdo nějaký ten vzkazík obdržel, kterak si to kráčí cestičkou dolů k loděnici. Na sobě má slavnostní kruvalskou uniformu, kterak čas na převlečení se patrně nějak nebyl. Na nohou má vysoké kožené boty, na rukou kožené rukavice, vlasy spleteny do volného copu přes rameno. V chůzi si momentálně holí nedopomáhá, snad jak je to v sestupu poměrně nepraktické, a místo toho hůl jen drží v ruce pozvednutou, aby s ní neškrábla o žádný štěrk. A nejde nejspíš sama, kterak se v chůzu občas ke komusi otočí. Tónem vede konverzaci poměrně lehkovážným, snad ve snaze nějak oblbnout mozek od faktu, jak blízko jsou opuštění tohohle snového místa s minimem pravidel a fyzických i psychických trestů.*</span> ...Takže už se celkem těším do postele. Až přijedu domů, prospím první tři dny.</td>
+        </tr>
+    
+        <tr class="message" style="color: #E082E4;" data-sender-id="10436" data-message-type="special">
+            <td title="">
+                <div class="head">Vypravěč</div>
+                <div class="time">3. 1. 2026 23:44</div>
+            </td>
+            <td class="content"><i>Že bujarý školní rok skončil turnajem, to je všeobecně známo. Nicméně k několika studentíkům se dostane papírek či ústní šuškanda o tom, že v loděnici se cosi chystá ještě dnes večer. Snad rozlučka? No přece nejde skončit školní rok bez pořádné oslavy a rozlučky se zahraničními studenty!</i></td>
+        </tr>
+    </table>
+</body>
+</html>
