@@ -13,35 +13,37 @@ const Seminare = () => (
   <div>
     <TurnajNav/>
     <div className="main-header"><h1>Semináře</h1></div>
-    <p>V průběhu turnaje v Bradavicích <span className='text-highlighter'>castelobrušští profesoři</span> obohatili studenty ostatních škol o <span className='text-highlighter'>vědomosti, dovednosti a znalosti</span> jim vlastní. Studenti tedy mohly navštívit tyto <span className='text-highlighter'>semináře</span>:</p>
+    <p>V průběhu turnaje v Bradavicích <span className='text-highlighter'>castelobrušští profesoři</span> obohatili
+      studenty ostatních škol o <span className='text-highlighter'>vědomosti, dovednosti a znalosti</span> jim vlastní.
+      Studenti tedy mohly navštívit tyto <span className='text-highlighter'>semináře</span>:</p>
 
-      <h3>Seznam seminářů</h3>
+    <h3>Seznam seminářů</h3>
 
     <div className='face-cards-wrapper'>
-        <div className='seminar-face-card'>
-            <Link to="/archeologie" target='_blank'><img src={Archeologie} className='img-character' />
-                <p><span className='text-highlighter'>Archeologie</span></p></Link>
-        </div>
-        <div className='seminar-face-card'>
-            <Link to="/artefakty" target='_blank'><img src={Artefakty} className='img-character' />
-                <p><span className='text-highlighter'>Artefakty</span></p></Link>
-        </div>
-        <div className='seminar-face-card'>
-            <Link to="/komunikace" target='_blank'><img src={Komunikace} className='img-character' />
-                <p><span className='text-highlighter'>Komunikace s tvory</span></p></Link>
-        </div>
-        <div className='seminar-face-card'>
-            <Link to="/kanoe" target='_blank'><img src={Kanoe} className='img-character' />
-                <p><span className='text-highlighter'>Let na kanoích</span></p></Link>
-        </div>
-        <div className='seminar-face-card'>
-            <Link to="/ritualni-magie" target='_blank'><img src={Ritualka} className='img-character' />
-            <p><span className='text-highlighter'>Rituální magie</span></p></Link>
-        </div>
-        <div className='seminar-face-card'>
-            <Link to="/zveromagie" target='_blank'><img src={Zveromagie} className='img-character' />
-            <p><span className='text-highlighter'>Zvěromagie</span></p></Link>
-        </div>
+      <div className='seminar-face-card'>
+        <Link to="/archeologie" target='_blank'><img src={Archeologie} className='img-character'/>
+          <p><span className='text-highlighter'>Archeologie</span></p></Link>
+      </div>
+      <div className='seminar-face-card'>
+        <Link to="/artefakty" target='_blank'><img src={Artefakty} className='img-character'/>
+          <p><span className='text-highlighter'>Artefakty</span></p></Link>
+      </div>
+      <div className='seminar-face-card'>
+        <Link to="/komunikace" target='_blank'><img src={Komunikace} className='img-character'/>
+          <p><span className='text-highlighter'>Komunikace s tvory</span></p></Link>
+      </div>
+      <div className='seminar-face-card'>
+        <Link to="/kanoe" target='_blank'><img src={Kanoe} className='img-character'/>
+          <p><span className='text-highlighter'>Let na kanoích</span></p></Link>
+      </div>
+      <div className='seminar-face-card'>
+        <Link to="/ritualni-magie" target='_blank'><img src={Ritualka} className='img-character'/>
+          <p><span className='text-highlighter'>Rituální magie</span></p></Link>
+      </div>
+      <div className='seminar-face-card'>
+        <Link to="/zveromagie" target='_blank'><img src={Zveromagie} className='img-character'/>
+          <p><span className='text-highlighter'>Zvěromagie</span></p></Link>
+      </div>
     </div>
   </div>
 )

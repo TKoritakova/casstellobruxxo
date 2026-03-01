@@ -123,7 +123,7 @@ const Nomphyrian = () => (
         <img src={GenGirl} className='img-character'/>
         <p>María Condori</p>
       </div>
-      
+
 
     </div>
 

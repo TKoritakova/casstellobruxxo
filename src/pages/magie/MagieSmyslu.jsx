@@ -22,7 +22,7 @@ const MagieSmyslu = () => (
       magie není postavena na slovech a gestech, ale na hlubokém spojení s dary země.</p>
 
 
-    <br />
+    <br/>
     <h2>Rozšířené vnímání</h2>
     <hr/>
     <p>Využití magických rostlin – ať už v podobě lektvarů, pokrmů nebo rituálních vykuřovadel – umožňuje

@@ -61,10 +61,9 @@ const Kuaraori = () => (
         <img src={GenGirl} className='img-character'/>
         <p>Samara do Sol</p>
       </div>
-    
+
 
     </div>
-
 
 
     <h3>Šestý ročník</h3>

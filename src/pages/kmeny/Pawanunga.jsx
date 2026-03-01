@@ -56,7 +56,7 @@ const Pawanunga = () => (
     <hr/>
 
     <p className='text-align-center'><i>(Pro školní rok 2008/2009.)</i></p>
-     <h3>První ročník</h3>
+    <h3>První ročník</h3>
     <div className='face-cards-wrapper'>
       <div className='student-face-card'>
         <img src={GenGirl} className='img-character'/>
