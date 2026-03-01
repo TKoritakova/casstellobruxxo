@@ -7,6 +7,7 @@ import prostory from '../../img/kmeny/arashar/prostory.png';
 import uniforma from '../../img/zivot_na_skole/uniformy/arashar.png';
 import Luan from '../../img/postavy/luan_caetanno.png';
 import Catriel from '../../img/postavy/catriel_ulises_condori.png';
+import MarcoC from '../../img/postavy/marco_condori.jpg';
 import KmenyNav from './KmenyNav';
 
 import GenGirl from '../../img/postavy/generic_girl.png';
@@ -54,7 +55,7 @@ const Arashar = () => (
     <h3>První ročník</h3>
     <div className='face-cards-wrapper'>
       <div className='student-face-card'>
-        <img src={GenBoy} className='img-character'/>
+        <img src={MarcoC} className='img-character'/>
         <p>Marco Condori</p>
       </div>
 
