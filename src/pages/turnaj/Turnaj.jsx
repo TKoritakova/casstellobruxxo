@@ -20,6 +20,13 @@ import treti_ukol_klobouk from '../../img/turnaj/drama/treti_ukol_klobouk.png';
 import cute_pary from '../../img/turnaj/drama/cute_pary.png';
 import cute_pary_tse from '../../img/turnaj/drama/cute_pary_tse.png';
 import pololeti from '../../img/turnaj/drama/pololeti.png';
+import may from '../../img/turnaj/drama/may.png';
+import paty_ukol_castelo from '../../img/turnaj/drama/paty_ukol_castelo.png';
+import paty_ukol_ivan from '../../img/turnaj/drama/paty_ukol_ivan.png';
+import pampelisky from '../../img/turnaj/drama/pampelisky.png';
+import finale from '../../img/turnaj/drama/finale.png';
+import ivan_vyherce from '../../img/turnaj/drama/ivan_vyherce.png';
+import bromance from '../../img/turnaj/drama/bromance.png';
 
 
 import TurnajNav from './TurnajNav.jsx'
@@ -212,9 +219,10 @@ const Turnaj = () => (
       jedním z nejtěžších úkolů, bylo jistě, pak už to šlo jako po másle. Každý přece jenom zvládl vymyslet něco, <span
         className='text-highlighter'>co jej
         dělá tím nejsilnějším</span>, třebaže čelit svému odrazu v takové atmosféře nebylo pro některé nejlehčí. Když
-      naši
-      dobrodruzi <span
-        className='text-highlighter'>narazili na místnost plnou hadů, mohli se cítit úplně jako doma</span>. Někteří
+      naši dobrodruzi <span
+        className='text-highlighter'>narazili na místnost plnou hadů, mohli se cítit úplně jako doma</span>.
+
+      <img src={prvni_ukol_hadi} className='img-in-text img-in-text-right'/> Někteří
       přišli s opravdu kreativními
       způsoby, jak se s touhle překážkou vypořádat, ale hlavně – konečně to začalo vypadat, že do toho turnaje snad i
       trochu patříme. Všichni jsme zadání splnili a… Rozhodně jsme to pak s nikým neprobírali u ohně, protože to přece
@@ -224,7 +232,7 @@ const Turnaj = () => (
       přestože
       byli v turnaji i protivníky.</p>
 
-    <img src={treti_ukol_jaguarundi} className='img-in-text img-in-text-right'/>
+    <img src={treti_ukol_jaguarundi} className='img-in-text img-in-text-left'/>
 
     <p>Druhý úkol, jako by přišel hned vzápětí, jen co se naše delegace vymotala z <span className='text-highlighter'>kouzelného plesu</span>.
       Čas vystřídat
@@ -242,7 +250,7 @@ const Turnaj = () => (
       nadechnout a vsadit na ostražitost a vytrvalost.
     </p>
 
-    <img src={treti_ukol_klobouk} className='img-in-text img-in-text-left'/>
+    <img src={treti_ukol_klobouk} className='img-in-text img-in-text-right'/>
 
     <p>Již takhle ze začátku notně vyčerpaní tak všichni úspěšně došli čelit psychicky náročnější zkoušce s <span
       className='text-highlighter'>plamenem
@@ -258,7 +266,7 @@ const Turnaj = () => (
       většinou za nějaké té výpomoci kouzly, srdnatě poprat. A na závěr celého úkolu <span className='text-highlighter'>přinést ledovému srdci hodnotnou
         oběť</span> - někteří části sebe, svých kouzel a jiní… Opravdu hodnotné šperky. A klobouky.
     </p>
-    <div className="img-in-text img-in-text-right img-fading">
+    <div className="img-in-text img-in-text-left img-fading">
       <img src={cute_pary_tse} className='img-fade-bottom'/>
       <img src={cute_pary} className='img-fade-top'/>
     </div>
@@ -270,16 +278,15 @@ const Turnaj = () => (
         className='text-highlighter'>nové lásky a
         vztahy</span>, ať už jako Sofía a Mateo v rámci Castelobruxa či jako Catriel, Sofia či třeba Juan se svými
       polovičkami s
-      fakt strašnými jmény v rámci škol jiných. Podobně jako kruvalští vlastně i naši byli s dalším úkolem v podobě
-      nenásilného <span className='text-highlighter'>získávání kousků srstí či jiného živočišného materiálu</span> od
-      zvířat kompletně v souladu, a tak je turnaj
-      vlastně od utužování nových vztahů a slavení vůbec nerušil. Snad jen ten stesk po domově se tu a tam ozval,
+      fakt strašnými jmény v rámci škol jiných. Podobně jako ostatní, ani většina našich studentů neměla s chytáním
+      zlatonek kolem školy větší problém jiný než ten, že venku bylo mrazivo, a tak je turnaj vlastně od utužování
+      nových vztahů a slavení vůbec nerušil. Snad jen ten stesk po domově se tu a tam ozval,
       ale <span className='text-highlighter'>naši studenti si vždy byli oporou</span>, ať už na ošetřovně, na hodinách
       či ve
       stanu u ohniště.
     </p>
 
-    <img src={pololeti} className='img-in-text img-in-text-left'/>
+    <img src={pololeti} className='img-in-text img-in-text-right'/>
 
     <p>Do třetího úkolu oproti těm předchozím se naopak zdálo být jaksi více času. Najednou byl čas nasbírat nejdříve
       napětí, a pak je postupně upustit. Nechat se ukolíbat lživou ukolébavkou zdejší rutiny a již bez bloudění po
@@ -300,6 +307,120 @@ const Turnaj = () => (
       randíčkách. <span className='text-highlighter'>Británie zkrátka žije pro klišé</span>, které by už nepsal ani
       Shakespeare. A snad by se to alespoň dalo
       připsat Troškovi, kdyby kromě pár facek třeba někde bylo i to slunce nebo seno.
+    </p>
+
+    <img src={may} className='img-in-text img-in-text-left'/>
+
+    <p>Jaro bylo ze strany Castelobruxa manifestováno poněkud rázněji a ještě před roztátím sněhové pokrývky, pod
+      kontrolou učitelů z našich řad vykvetl na bradavických pozemcích <span className='text-highlighter'>kousek osobní amazonské utopie</span>,
+      zkrátka a dobře
+      tam ze dne na den vyrostl autentický miniprales. Ihned po jeho zjevení se v jeho hlubinách pořádala akce <span
+        className='text-highlighter'>betakurz
+        přežití</span>, v němž si naši přátelé z jiných koutů světa mohli ozkoušet, jak by se jim u nás dařilo čelit
+      naší fauně a
+      flóře v duchu našich zásad. Asi není nutno dodat, že padaly některé poměrně drastické neúspěchy, od řad studentů
+      napadených papratkou kajícnou, neshod s kovopláštěm či dokonce některým případům kompletně ztracených bradavických
+      či kruvalských hrajících si na žháře. Již dopředu tedy bylo jasné, že za naše natlučené zadky z ledové pevnosti v
+      dalším úkolu pralesem srovnáme skóre.
+    </p>
+
+    <img src={paty_ukol_castelo} className='img-in-text img-in-text-right'/>
+
+    <p>Právě v tomto osobním pralesním koutku se pak <span className='text-highlighter'>třetí úkol</span> odehrával.
+      Sotva den poté, co měli všichni možnost
+      zkusit si nakoukat, jak má správný prales vypadat a fungovat, byli úkolem vrženi do jeho prostředí podrytém <span
+        className='text-highlighter'>nerovnováhou</span>. A právě tu měli za úkol postupně usmířit a stabilizovat pět
+      živlů reprezentovaných pěti menhiry a
+      pěti skleněnými koulemi do menhirů pasujícími. Ihned u <span className='text-highlighter'>Solu</span>, prvního z
+      živlů, mnohé z naších hrdinů zarazila úloha
+      s transcendentálním rozsahem. Všichni postupně nějaké to <span
+        className='text-highlighter'>vnitřní světlo</span> ze sebe ovšem vydali a více z nich
+      pravděpodobně v úloze vyloženě cítilo přítomnost zadavatelů aneb učitelů, co je léta vedli k meditačním technikám,
+      rovnováze s vnitřním světem a pevnému vztahu s duchy lesa.
+    </p>
+
+    <p>Úkoly pro <span className='text-highlighter'>Yaru</span> a <span
+      className='text-highlighter'>Yvy</span> spočínající ve <span
+      className='text-highlighter'>spřátelení tvora</span> a <span className='text-highlighter'>povzbuzování života v půdě</span> byly
+      něco přesně z repertoáru
+      castelobrušských. Hodně z nich si vypomohlo kouzly, jiní obětovali své jídlo či své šaty a to bez váhání, jelikož
+      nad pomocí přírodě se v těchto končinách jednoduše nikdy neváhá.
+    </p>
+
+    <img src={paty_ukol_ivan} className='img-in-text img-in-text-left'/>
+
+    <p>Notně odlišného charakteru pak byl <span className='text-highlighter'>Ybytu</span>, který naše hrdiny vytáhl dále
+      do hlubin pralesa a donutil je osvědčit
+      se ve věci vynalézavosti a schopnosti citlivě překonávat <span
+        className='text-highlighter'>překážky pralesa</span>, tedy ideálně bez ničení okolí a
+      narušování klidu ekosystému. Většina soutěžících si opět na tomto místě vypomohla kouzly, všichni si odvážně
+      vyslechli <span className='text-highlighter'>poselství</span>, které pro ně větrný vír měl. Stejně odlišný pak byl
+      živel <span className='text-highlighter'>Tatá</span>, tak jak se pro oheň hodí,
+      zkouška zahrnovala dynamičtější situaci v podobě <span className='text-highlighter'>zastavení člověka ubližujícího rostlinnému porostu</span>.
+      Co se této
+      situace týče, jednalo se o řešení vesměs pacifická, jeden mládenec sice odhodlaně vyrazil liánu bránit vlastním
+      tělem, jiní se spolehli na znehybnění protivníka či spíše na zneškodnění jeho nástroje nože. Všem se nakonec
+      nicméně povedlo nastolit v pralese opět rovnováhu a s plicemi plnými vůní domova a s dobrým pocitem ve srdci mohli
+      úkol opustit.
+    </p>
+
+    <img src={pampelisky} className='img-in-text img-in-text-right'/>
+
+    <p>Sic někteří (z jiných škol tedy hlavně, kuc, kuc) během plnění posledního ze tří úkolů působili, že tam vypustí
+      duši, první kontakt se zelení po zimě stejně do všech studentských srdíček vnesl trochu toho života a jarní
+      radosti. Zatímco se většina z nich vyloženě spíše rekreačně vyrovnávala s úkolem v podobě <span
+        className='text-highlighter'>získávání částí
+        zvířecích</span> plášťů a částí nenásilnou cestou, rozmohla se ve škole epidemie <span
+        className='text-highlighter'>květinových věnečků</span>. Nejvíce matoucí na
+      té bylo snad to, že nápadně působila být nejvýraznějších v řadách kruvalských. Jakkoliv matoucí či nesmyslné to
+      ale bylo, jednalo se o krásnou reprezentaci toho, že se nakonec přeci jen s rozdíly studenti z různých kultur
+      poprali a setřeli je, ony květinové korunky a pohoda při společné přespávačce u táboráčku z nich skutečně alespoň
+      zdánlivě dělala mnohem <span className='text-highlighter'>jednolitější skupinku</span>, než tomu bylo prve u
+      příjezdu.
+    </p>
+
+    <img src={finale} className='img-in-text img-in-text-left'/>
+
+    <p>Společně se závěrečnými testy, pravda hluboce prožívanými hlavně bradavickými, se postupně připlížil čas <span
+      className='text-highlighter'>losování
+      šampiónů</span>. Za Castelobruxo to byl <span className='text-highlighter'>Mateo Benítez</span>, hned následně
+      postavný proti protivníkovi v podobě jeho
+      otužovacího a koupacího kamaráda Ivana Niolaieviche Vasilieva; stál proti nim také Yamamoto Fuji a Theodore Ian
+      Everett, vyloženě se nejednalo o průkop feminní síly. Nikdo kromě šampionů samotných vlastně jistojistě nevěděl,
+      co se ve <span className='text-highlighter'>spletitém hrádku</span>, jenž toho dne vyrostl na famfrpálovém hřišti,
+      první poloviny jejich cesty vlastně
+      událo. Na šampiony začalo být vidět až někdy potom, co si pravděpodobně téměř nikdo přes napětí visící ve vzduchu
+      nevyslechnul vyhlášení bradavického školního poháru. Šum hlášených čísel a fandících spolužáků narušila obrovská
+      rána a šampioni se konečně objevili v zorném poli publika na balkónku - Fuji, <span
+        className='text-highlighter'>Mateo</span> s jiskřící hůlkou jako druhý,
+      Theodore a Ivan. Už tak lehce nemotorné pokusy o vyhlášení pak přehlušila exploze následovaná několika druhy <span
+        className='text-highlighter'>letících studentů</span> - někteří z nich letěli na koštěti, jiní vstříc
+      bolestivému polibku se zdí a jiní rychle po
+      mostu vstříc dalšímu úkolu, náš byl naštěstí ten poslední zmíněný letec.
+    </p>
+
+    <img src={ivan_vyherce} className='img-in-text img-in-text-right'/>
+
+    <p>První doražení Matea do nejvyšší věžičky sotva měli fandící čas oslavit, jelikož v dalších vteřinách bylo možno
+      vidět jeho postavu, kterak <span className='text-highlighter'>padá z okna</span>, až… Na to, že nikoliv, přátelení
+      se s Ivanem mu ten den dost možná
+      zachránilo kůži, pozici v turnaji minimálně. Student Kruvalu i Castelobruxa spolupracovali na vyřešení záhady
+      mechanismu ve věži a opět se sotva všichni přihlížející stíhali podivovat či si to pochvalovat, jelikož věž po
+      doražení Theodora zmizela v záblescích sesílaných kouzel. V smršti, která se sešla před místností s pohárem,
+      konečně zmizel i Fuji, zelený záblesk ticho a… Po mučivě dlouhé chvilce Ivan drživší pohár. A Matea. Který tímto
+      obhájil a uzmul <span className='text-highlighter'>krásné druhé místo</span> a prý, že se silou přátelství vyhrává
+      jen v pohádkách…
+    </p>
+
+    <img src={bromance} className='img-in-text img-in-text-left'/>
+
+    <p>Přátelství bylo později na finální rozlučkové akci zpečetěno mezi pány <span
+      className='text-highlighter'>objetím</span> a upřímnými gratulacemi, přičemž
+      ještě tam se Ivan s Mateem hádal o tom, že to vítězství vlastně bylo společné. Předsudky vyvráceny, pomyslné zdi
+      zbořeny a bohužel také čas <span className='text-highlighter'>zakončit epos o slavné castelobrušské výpravě do Bradavic</span>.
+      Po všech hořkosladkých
+      slovech loučení mezi nově vzniklými páry i kamarády jsme opět museli usednout na kánoe a vrátit se tam, kam
+      patříme. Cesta byla stejná, ale my jsme už byli <span className='text-highlighter'>napořád jiní</span>.
     </p>
   </div>
 )
