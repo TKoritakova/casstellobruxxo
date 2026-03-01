@@ -16,6 +16,7 @@ import Mateo from '../../img/postavy/mateo_benitez.png';
 import Yara from '../../img/postavy/yara_monteiro.png';
 import Chiara from '../../img/postavy/chiara_antonia_jose.jpg';
 import AlejandroN from '../../img/postavy/alejandro_navarro.png';
+import MariaC from '../../img/postavy/maria_condori.jpg';
 import KmenyNav from './KmenyNav';
 import GenGirl from '../../img/postavy/generic_girl.png';
 import GenBoy from '../../img/postavy/generic_boy.png';
@@ -120,7 +121,7 @@ const Nomphyrian = () => (
         <p>Chiara Antonia José</p>
       </div>
       <div className='student-face-card'>
-        <img src={GenGirl} className='img-character'/>
+        <img src={MariaC} className='img-character'/>
         <p>María Condori</p>
       </div>
       
