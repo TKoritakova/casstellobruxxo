@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset='UTF-8'/>
+    <title>Černé jezero</title>
+    <style>
+        html { 
+            background-color:#000;
+            color:#fff;
+            font-size:1.25em;
+        }
+            
+        body{
+            justify-content:center;
+        }
+        
+        table {
+            width:70%;
+            border-color:#000;
+            margin:10px auto;
+            font-size:1em;
+        }
+            
+            
+        tr{text-align:center;height:25px}
+        
+        tr:nth-child(odd) {background-color: #1F120B;}
+        
+        tr:nth-child(even) {background-color: #271A13;}
+        
+        td{padding:1%}
+        
+        .time{font-size:medium;opacity:.7}
+        
+        .to{margin:1px 0;font-size:medium}
+        
+        .receiver{display:inline}
+        
+        .content{width:85%;text-align:justify}
+        
+        .emote{font-style:italic}
+        
+        .effect{font-style:italic}
+        
+        .effect.random{color:#d5afaf}
+        
+        .effect.spell{color:#f0e68c}
+        
+        .effect.spell.fail{color:#fff}
+        
+        .effect.trait{color:#87cbfa}
+        
+        .effect.trait.fail{color:#d1465a}
+    </style>
+</head>
+<body>
+<table>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 5:11</div>
+            </td>
+            <td class="content"><span class="emote">*Onen pohled při kmene Mateo, od Kamilly tedy zaregistrujte, i když z moudrý z něj asi bude těžko. Nejspíš si to vykládá jednoduše tak, že na něj prostě zase načuřeně čučí. Zatímco on ale tedy volil spíš strategii Kamilly si nevšímat, Ghuhloalan to asi vidí očividně jinak. Onen její výstup samozřejmě pozoruje a to s na jeho poměry chladnou tváří. Nijak jim do toho ale nevstupuje. Aspoň pro něj kruvalská má minimálně nějaké rozloučení, proto ho taky nepřekvapivě opětuje.*</span> Dobrou. <span class="emote">*Pronese a dokud to jde, ještě na ni spočívá pohledem. Pak když tu tedy zbydou jen dva, mlčky si začne na bosou nohu oblékat ponožku. A jelikož je tedy zaměstnán touto manuální prací, nevěnuje jí ani žádný ten pohled. Ústa má staženy do úzké linky a i to obočí má trochu skrčené. Následně pokračuje i s botou, kterou jen zběžně spíš než jakkoli pevně zaváže. I když se kvůli tomuto úkonu nevyhnutelně předkloní, vypadá že si snaží dávat od Kamilly dávat bezpečný odstup. Ten naštěstí ale nemusí úplně tak řešit, když si to skočí zpět do vody. Na to její zatím předtím jejím od plaváním jen tak něco zabrblá. Před jeho samotným odchodem si to ale ještě jednou naposledy koukne směrem k lodi a povzdychne si. Ale přesto nezbývá nic jiného, než se vydát směr stan, jak to ostatně udělala před nějakou dobou i jeho profesorka.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910">
+            <td title="">
+                <div class="head"><div class="sender">Kamilla Bokorova</div></div>
+                <div class="time">27. 12. 2025 4:53</div>
+            </td>
+            <td class="content"><span class="emote">*Ještě si tu navlhlou kapsičku maskáčových kalhot trochu uhladí, asi aby měla jistotu, že jí kapesník... ne, o kapesník tady nejde, beztak tam prostě jen profesionálně kření těm dvěma dál. Nicméně, to že si Catriel tiše zamumlá jedno konkrétní jméno na eM, bohatě stačí na to, aby k němu prudce švihla pohledem. Zjevně na tu sekundu zcela opomíjejíc fakt, že chlapec jménu nedopřál italský přízvuk. A jen co nejspíš opožděně rozezná tu malou chybičku v zamumlaném slovu, nechá na Catrielovi své oči viset o něco dýl. Snad ve snaze nestočit je automaticky ke Ghuhloalan a nedopřát jí tak informaci navíc. Možná. Ovšem, kdy svůj zrak na mladší dívku skutečně přesune, je pak ten moment, jak jí slečna s holí vykročí vstříct. V klidu si vyposlechne, co má dívka na srdíčku, než pomalu vydechne. A pousměje se.*</span> Ale jistěže. To bylo to, co jsem tu hledala. Zábavu. <span class="emote">*Pokýve obličejem a nenechá do svého tónu proniknout ani špetku jakékoliv emoce. Přesto si udržuje rty stočené do poloúsměvu. Slova o hračce nechá bez odezvy. Místo toho si během Ghuhloalanina odchodu přeměří ještě jednou pohledem Catriela. Zamračí se. Bradou nepatrně kývne za odcházející dívkou a pak nechá své obočí na moment tázavě vyletět vzhůru, než jej opět stáhne do zamračení. Že by snaha Castelskému předat varování i beze slov? Možná.*</span> Zatím. <span class="emote">*Sykne k němu, než se prostě otočí na patě, popojde několika kroky zpátky k jezeru, a jestli je to alespoň trochu možné, zkusí do něj ladně skočit šipku anebo aspoň nějak elegantně zaplout pod hladinu. Snad k úmyslem doplout tam, odkud připlula a nějak se z té vody vydrápat nahoru na kruvalskou loď.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 4:32</div>
+            </td>
+            <td class="content"><span class="emote">*Na Catriela kývne sotva znatelně hlavou, asi že půl pátá ranní opravdu není vhodným časem na testování šeptavého jazyka. A když Kamilla neudělá vůbec nic kromě vytažení kapesníku, ale zato si prohlédne je dva, je to právě ona, kdo tentokrát udělá výhrůžný krok vpřed. Tentokrát ovšem ve směru Kamilly. Vycházkovou hůl si vezme s sebou, kterak učiní krok společně s ní. A aniž by útočila, alespoň zatím, prohlásí naprosto ledovým hlasem, jako by toho právě měla tak akorát dost:*</span> Nejsme tu pro tvoji zábavu. Ani já. Ani on. Jestli už tě tvoje hračka omrzela, běž si novou hledat jinam. <span class="emote">*A s tímto tikne pohledem ve směru Catriela, načež oznámí prosté:*</span> Odcházím. <span class="emote">*Které doprovodí posléze ve směru mladého pana Condoriho ještě s:*</span> Dobrou noc. <span class="emote">*Snad aby alespoň vůči němu byla relativně způsobná. Pak už přechytí vycházkovou hůl v jemném nadhozu a bez toho, aby si s ní dopomáhala v chůzi, kterak ji tak částečně nadzvedne, se otočí ke dvojici zády, sehne se pro pohozené rukavice, které sevře ve volné ruce, a vykročí vstříc kruvalské lodi, s čímž se vytratí velice brzy ve tmě.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 4:27</div>
+            </td>
+            <td class="content"><span class="emote">*Ušklíbne se, snad smiřující se s tím, že holt mu bude říkáno po bylinkách i někým jiným, než jeho profesorkou lékouzelnictví. I když, pokud mu bude říkat tímto jménem tak často, jako do teď, nebude si na moc co zvykat. Co se týče Ghuhloalanina jména, tam už mu zas tolik do smíchu není, jelikož se o tu výslovnost radši ani nepokouší.*</span> Asi máš pravdu. Teď už ani nemám kapacitu na to, abych se o to být je pokoušel. <span class="emote">*Pokrčí rameny, s touto dobou tedy ještě s oběma rukama v kapsách.*</span> Hm, Mateo nebyl zas tak daleko. <span class="emote">*Zamumlá si spíš jen tak pro sebe, než že by to bylo mířené přímo kruvalské. A že Kamilla vytáhne kudl- Aha, tak tedy kapesník. Když usoudí, že teď mu snad okamžité nebezpečí nehrozí, ruku tedy od hůlky odendá. Smrkajicí Kamillu nechá být smrkajicí Kamillou a radši kývne k myšlence druhé kruvalské.*</span> Měli bychom. <span class="emote">*A jelikož tu přeci jen už x hodin je jen s jednou botou, konečně se natáhne k zemi pro ponožku a i tu botu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910">
+            <td title="">
+                <div class="head"><div class="sender">Kamilla Bokorova</div></div>
+                <div class="time">27. 12. 2025 4:12</div>
+            </td>
+            <td class="content"><span class="emote">*Kapesník. Vytáhne kapesník. Látkový a naprosto promočený kapesník. Přesto oči nespouští ze dvojice před sebou, jakoby jí snad ani tak nesešlo na samotném kapesníčku, jako spíš na jejich reakcích na ten její jeden jediný krok vpřed. A jen co v okolním přítmí vezme v potaz jak Catrielovu ruku u opasku, tak Ghuhloalaninu hůl, zasvítí jí v očích další malé pobavené světýlko. Vzápětí bez nějakého většího zájmu o svět okolo sklopí obličej k zemi, aby se mohla lépe soustředit na ždímání onoho kousku látky. Jen co má hotovo, pozvedne jej k nosu, načež se jednou, tiše a stručně vysmrká. Tak. Ghuhloalanina následující slova nijak nepotvrzuje, ale ani nevyvrací. Ne, ona si radši pomalu složí svůj mokrý kapesníček nazpět do podoby čtverce a vrátí jej do kapsy.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 4:01</div>
+            </td>
+            <td class="content">Uvidíme, jestli dovolím, <span class="emote">*podotkne vůči Catrielovi ještě, ovšem když mladý muž poukáže na fakt, že neumí vyslovovat její jméno, nosem vyfoukne salvu vzduchu a prohlásí poměrně ledabyle:*</span> A nejspíš i zůstane. Moje jméno vyslovit nedokážeš. <span class="emote">*Přece jen ho ale vzápětí bezstarostně vysloví, kterak se skutečně ozve v:*</span> Ghuhloalan. <span class="emote">*Nejen, že výslovnost je skutečně jiná, než jak se to píše, ale dokonce to jméno vyslovuje v nádechu, nikoliv výdechu. Víc už ale nestačí, protože to už Kamilla udělá krok vůči Catrielovi. Vycházkovou hůl sevře pevněji v ruce, ale nezasahuje mezi ně. Zatím. Pouze pronese:*</span> Asi bude čas jít, než přijde podruhé.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 3:57</div>
+            </td>
+            <td class="content">Úplně neskutečná. <span class="emote">*Ušklíbne se a ruce si strčí do kapes kalhot.*</span> S dovolením preferuji spíš Catriel, nebo Cato. Pokud sis ale Kontryhela tak oblíbila... <span class="emote">*Pokrčí rádoby ledabyle rameny, jako by jí opravdu dával nabídku, aby mu říkala podle rostliny. Ale když už se tady takhle představil on, nebylo by na škodu to udělat i na opak, no ne?*</span> Výslovnost tvého jména je mi ale pořád záhadou. <span class="emote">*No a skutečně i na to takhle podotkne. Ale samozřejmě tu nejsou sami. Když k němu vyrazí jejich osobní křen a tím jejím cukaním rukou ke kapse, i on pravačku přiblíží k opasku, kde má mimo jiné připnuté i takové pouzdro na hůlku. Je samozřejmé diskutabilní, jak dobře vůbec onu Kamilou v té tmě vidí, ale tak tu přítomnost zřejmě nějak vytuší.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910">
+            <td title="">
+                <div class="head"><div class="sender">Kamilla Bokorova</div></div>
+                <div class="time">27. 12. 2025 3:45</div>
+            </td>
+            <td class="content"><span class="emote">*Na osobní pozvání ke Casteláckému stanu zareaguje jen mlčením, jak asi opravdu nemíní tuhle profesorčinu nabídku v budoucnu přijmout. Slečna bude radši mrznout až do podoby rampouchu, než že by se chystala jít k cizímu stanu doprošovat o vestičku. A když se dva další přítomní při Carmillině odchodu postarají o zvučná loučení, ona je doprovodí jen strohým cuknutím bradou. Informace je zcela očividně brána na vědomí, netřeba k tomu pronášet něco víc, hm? A jen co jejich původní trojici opět zahalí temnota, prudce vykročí o krok blíž ke Catrielovi a nechá svou levou dlaň sklouznout ke kapse maskáčových kalhot. Očividně odsud odhodlaná vytáhnout... něco. Kdo ví co.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 3:36</div>
+            </td>
+            <td class="content"><span class="emote">*Když Kamilla odmítne nabídku oděvu, nijak ji to zřejmě nepřekvapí, kterak nad tím necukne ani obočím. Pak už pohled ponechá na dospělačce, jejíž další slova si rovněž vyslechne, nejspíš, kterak oční kontakt při její tváři udržuje, a pak sotva znatelně pohne hlavou do přikývnutí.*</span> Jistě. Na shledanou, <span class="emote">*nechá se vůči profesorce José slyšet a pak už ji pohledem vyprovodí pryč. Sleduje její postup, dokud je žena vidět, a až pak přeostří ve směru svých dobrovolných i nedobrovolných společníků. Konkrétně tedy spíš ve směru Catriela, když ji seznámí s tímto faktem. Vyfoukne nosem salvu vzduchu, snad až trochu pobaveně.*</span> Jaká romantika, což? <span class="emote">*nadhodí na to konto kysele, než dodá:*</span> Mám u toho Kontryhele rovnou i zůstat? Vypadá to, že k tobě to jméno poměrně přirostlo. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 3:31</div>
+            </td>
+            <td class="content">Ehm, tak já si vás ráno najdu. <span class="emote">*Ujistí profesorku ohledně toho polevu o jeho budouctnosti. A že už se jinak má Karamelka na odchod?*</span> Rozumím. Hezký večer. <span class="emote">*Odpoví jí k ponocování a Murhalovi s lehkým úsměvem, no a nakonec přidá nějaké to rozloučení. Pak už ji jenom nějaký kus vyprovodí pohledem, než zmizí někde v té tmě směr stan. Až teď svou pozornost navrátí zase k Ghuhloalan.*</span> Kontryhele bylo to nejpodobnější, co by se kdy dalo v naší konverzaci nazvat oslovení jménem. <span class="emote">*Zmíní holý fakt, že oni si doteď jmény navzájem opravdu neřekli. I on to ale tedy říká lehce tlumenějším tónem, když ona sama s tím takto začala. Nevypadá z toho ale nějak frustrovaně. Pokud by měl být z něčeho frustrovaný, bude to asi stále přítomná Kamilla.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10929">
+            <td title="">
+                <div class="head"><div class="sender">Carmilla Iris José</div></div>
+                <div class="time">27. 12. 2025 3:21</div>
+            </td>
+            <td class="content"><span class="emote">*Co se týče nějaké budoucnosti tady Catriela, tak k němu znovu přesměruje pohled a pozornost.*</span> Samozřejmě to bude stačit ráno. <span class="emote">*A jak tato slova řekne, tak se najednou zvedne z té země, jak kdyby jí byla až moc velká zima na její pozadí nebo jim tu nechce dělat dál křena na rozdíl od Kamilly.*</span> No, kdyby ti přeci jen byla, tak klidně dojdi ke stanu, najdeš mě tam. Moc dlouho neponocujte, ať vás vaše vedení a tebe Murhala ráno nevidí. <span class="emote">*Promluví nejprve na slečny a poté na Catriela, kterému věnuje další mírný úsměv.*</span> Přijdu vás po tom zkontrolovat, jestli tu stále jste a jestli tu budete, tak už vás odvedu. Věřím, že jste rozumní a nebudete tu potom. Hezký večer. <span class="emote">*Pronese k nim s mávnutím na rozloučení, kdy nechá tu svoji světelnou kouli zhasnout a zmizí kdesi ve tmě.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910">
+            <td title="">
+                <div class="head"><div class="sender">Kamilla Bokorova</div></div>
+                <div class="time">27. 12. 2025 3:14</div>
+            </td>
+            <td class="content"><span class="emote">*A ona už ani Ghuhloalan neodpovídá, jakoby snad nechtěla, aby svědkem jejich konverzace byl i někdo další, než-li Catriel. Místo toho povytáhne na tu bezostyšně tykající profesorku obočí ještě o něco výš, než najednou spěšně uklidní svůj výraz do podoby netečnosti. Továrního nastavení.*</span> Ne, madam. <span class="emote">*Odmítne jak Carmillinu nabídku vesty, tak snad i to tvrzení, že by jí údajně měla být za chvíli zima. Sama nejspíš přesvědčená o tom, že její severská dušičku unese tu skotskou jarní noc, přestože z ní stále tu a tam odkapává voda z jezera. A jen co se Castelácká profesorka rozmluví o něco víc, naruší svou neutrální masku v obličeji zkoumavě přimhouřeným obočím. Jakoby jí snad ta lehkomyslná slova o tom, že se trestu bát nemusí, moc nežrala. Přesto nic nenamítá a dál tam stojí jak navlhlý kůl v plotě, očividně odhodlaná plnit svou úlohu křena-narušitele až do konce.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 3:02</div>
+            </td>
+            <td class="content">Jak se to říká... Vrána k vráně sedá? <span class="emote">*podotkne ještě vstříc Kamille, ale pak už mají patrně jiné starosti, že. S tou zmínkou slova 'budoucnost' z úst Carmilly lehce cukne obočím výš, jak kdyby se o tom s Catrielem tak před hodinou nebavili, že, každopádně to rozhodně nijak nemíní přiznat, jak se zdá, kterak cizí ženě karty opravdu neukáže. Fakt, že Kamilla odpověděla stejně pravdivě jako ona, si nezíská žádnou výrazovou reakci, jak patrně pravdu netřeba komentovat. A když jim tam Carmilla začne slibovat, jak jim tuto událost vyžrat nenechá, a ještě se tam k nim posadí s haldou tolerantních řečí, tiše jakoo pěna ji pozoruje, zatímco se náznakově zapírá holou rukou do rukojeti vycházkové hole. Nijak ženě slova nepotvrzuje, na řečnické otázky nereaguje, jen si ji měří pohledem, snad v očekávání přepadení ze zálohy. Když ale Catriel konstatuje onen holý fakt ohledně jejich jmen, stočí k mladíkovi pohled a sotva znatelně cukne obočím:*</span> Vážně? <span class="emote">*broukne, tišeně, jak kdyby chtěla konverzaci i nadále udržovat pouze mezi nimi, jak to ostatně taky mělo původně být, že Carmillo a Kamillo?!*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 2:59</div>
+            </td>
+            <td class="content">My se jmény obecně moc nechlubili. <span class="emote">*Podotkne na konto poznámky, kterou k němu Ghuhloalan má. A stejně jako ona se neschýbne pro své rukavice, on se nenatahuje pro svou botu a ponožku. No doufejme, že mu je brzo někdo neskopne zpátky do jezera, když už je tak pracně sušil. Místo toho teda zareaguje na tu Karamelku.*</span> Aha, chcete to... Řešit ještě teďka, nebo spíš až ráno? <span class="emote">*Vypadá sice lehce zaskočen, že s ním chce řešit nějaké možnosti ohledně jeho budoucnosti ve skoro tři ráno, ale nějaké odpovědi se jí přeci jen dostane. A když se profka začne věnovat i kruvalským, obzvlášť když tam chce půjčovat Kamille svou vestu, lehce se pousměje. Jen opravdu minimálně, ale naštěstí mu úsměv neopadne ani po té, co jsou ušetření trestu.*</span> Děkujeme. <span class="emote">*Prohodí nějaký dík a sklopí ten pohled k zemi, zvlášť, když Karamelka zmíní to, že to stejně udělají znovu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10929">
+            <td title="">
+                <div class="head"><div class="sender">Carmilla Iris José</div></div>
+                <div class="time">27. 12. 2025 2:45</div>
+            </td>
+            <td class="content"><span class="emote">*Od slečen přesune veškerou pozornost znovu je Catrielovi, s jehož oslovením zřejmě nemá žádný problém, protože mu nic na to neřekne. Pouze se na něj zase mírně usměje a vyslechne si, co má na srdíčku.*</span> Ráda bych s tebou probrala nějaké možnosti ohledně budoucnosti. <span class="emote">*No a co, že tam prozrazuje tuto skutečnost dalšíma dvěma přítomným. Holt se o své studenty zajímá, tak proč by to nemohli vědět i ostatní, že?*</span> Hm. <span class="emote">*Obrátí se zamyšleně nejprve na Huhlu a následně na Kamillu, když jedna přijde s jednou výmluvou a druhá další.*</span> Mám ráda vaši upřímnost,  ale tobě bude pěkná zima, nechceš půjčit moji vestu? <span class="emote">*Zeptá se zcela jednoduše Kamilly a při dalších slovech se podívá i na Huhlu s Catrielem.*</span> Chci vám třem říct, že se trestu bát nemusíte, nehodlám vás trestat jenom proto, že vás to na vaší lodi nebaví a ostatní to dělají nonstop. Lepší je stejně strávit chvilku klidu někde, kde všichni nechrápou, co? <span class="emote">*Mrkne na obě dvě, konečně jí taky roztaje ta její vážná tvář, přičemž si sedne na zem vedle nich. U toho povídání se dokonce snad může zdát, že to je snad důvod toho, proč ona je v tuto pozdní hodinu vzhůru.*</span> A navíc.. Vy to stejně uděláte znovu, tak proč vás trestat. Však každý ví, co je pro koho dobrý a pokud chcete být venku, tak vaše volba. <span class="emote">*Broukne k nim poměrně klidně a uvolněně, jak kdyby fakt neměla nic zákeřného plánu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910">
+            <td title="">
+                <div class="head"><div class="sender">Kamilla Bokorova</div></div>
+                <div class="time">27. 12. 2025 2:33</div>
+            </td>
+            <td class="content"><span class="emote">*Pobaveným kývnutím dá Ghuhloalan za pravdu.*</span> Nezbývá mi nic jiného, než jen sesbírat ostatky, zdá se. <span class="emote">*A jestli se někde poblíž nachází světelná koule, je nanejvýš pravděpodobné, že se za ní dívčiny oči stočí tak rychle, jako můra přilétající za plamenem. Aby ne, když je jinak kolkolem šero. A když z té své koule milá příchozí jedním mávnutím hůlky vyrobí jejich osobní lampičku a nechá jim ji zářit přímo nad hlavami, nevyhne se povytaženému obočí tentokrát ani sama Carmilla. Ovšem nějaké to přání krásného večera si nechá pro sebe a radši pozorně sleduje slovní výměnu mezi Catrielem a jeho profesorkou. Podivné přezdívky nechá být, jak je má asi absolutně na háku, a radši si založí mokré paže na hrudi. A jen co na profesorku zareaguje mladší spolužačka, sama znuděným tónem přidá svou vlastní verzi odpovědi.*</span> Jistěže, paní profesorko.</td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 2:24</div>
+            </td>
+            <td class="content"><span class="emote">*Snad je to reakce na to, jak se Kamilla na jejich účet dobře baví, snad je to reakce na její další slova, každopádně pak vycházkovou hůl velice neochotně protočí v prstech a zapíchne ji ve švihu zase špičkou do země. Sevře ji v rukojeti se stále ještě holýma rukama.*</span> I kdyby, těžko už s tím teď budeš něco dělat, že ano, <span class="emote">*pronese vůči Kamille ještě, ovšem to už snad chytne periferně blížící se světelnou kouli. Ztuhne v pohybu, byť i doteď měla postoj poměrně statický a pak už jen vysleduje jak se koule blíží k nim. Ruku z Catriela stáhne, snad vlivem jeho vstávání, a snad jen aby měla obě ruce volné, kdyby bylo potřeba je použít k obraně. Kterak se ale ze tmy vynoří obličej dospělé ženy, povytáhne sotva znatelně obočí a přes přímé světlo zamžourá v jejím směru, snad ve snaze osobu identifikovat. A když ona osoba osloví právě Catriela, a ještě tak, jak osloví, stočí k mladému muži krátce pohled, spíš jím po něm tak jako šlehne.*</span> Kontryhele...? Ses nepochlubil, <span class="emote">*prohlásí k němu v syknutí, kysele, rýpavě, jak ji ta přezdívka evidentně celkem pobaví, to by ovšem nesměl Catriel oslovit Carmillu zase jako Karamelku. Tehdy už rezignovaně vyfoukne salvu vzduchu nosem.*</span> <span class="thought" style="color: hsla(0, 53.051643192488%, 58.235294117647%, .8);">//Žádná úcta, jak typické.//</span> <span class="emote">*Po svých rukavicích pohozených na zemi se nenatahuje, nechává je zatím tam, kde jsou, a sama přeostří ve směru dospělé ženy.*</span> Nikoliv, paní profesorko.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 2:17</div>
+            </td>
+            <td class="content"><span class="emote">*Tak zase není tak mimo, aby když se Ghuhloalan natočí k té tmě, taky aspoň minimálně nezpozorněl. I když jinak by si toho takhle hned asi nevšiml, ehm. Po tom zvedání, co kruvalská provede, na moment spočine na tom svém rameni. Nakonec se ale i on začne drápat na nohy, díky čemuž se dostane aspoň do nějaké výškové převahy, i když jde jen o pár centimetrů. Dá se ale bohužel předpokládat, že tímto způsobem přijde o onen poslední fyzický kontakt, který se svou společníci má. On sám ale její ruku nijak neshazuje. Pohledem teď zůstává neskrývaně na Kamille, přesto ale vypadá, že pořád lehce nemá slov. Až přitom "něčem" co by tu přítomnou kruvalskou studentku mohlo něco žrát, povyfoukne vzduch nosem. Možná by se jí dostala i nějaká ta reakce, kdyby nebylo té nově příchozí... To už snad zase zpátky zakulené oči vykulí zase ven, těch nových příchodů je na něj už asi moc.*</span> Dobrý večer, Karamelko. <span class="emote">*Pozdraví ji takto uprostřed hluboké noci s lehkým zadrhnutím. Zase snad ale nějak ovládne svůj obličej do přípustné formy.*</span> Ano, byl jsem se projít. <span class="emote">*Přitaká opatrně a cukne očima k těm dvěma kruvalským.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Lepší, že nás našla až v tuhle chvíli.//</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #72aa84;" data-sender-id="10929">
+            <td title="">
+                <div class="head"><div class="sender">Carmilla Iris José</div></div>
+                <div class="time">27. 12. 2025 2:06</div>
+            </td>
+            <td class="content"><span class="emote">*S vytaženou hůlkou si to nedaleko dostanu jemně a lehce mávne se svou hůlkou tato žena  tmavší pleti.*</span> Lumos Solem. <span class="emote">*Zašeptá a kouli nechá viset nad sebou, přičemž jí začne navádět nad sebou. Těžko říct, zda se chce pokochat přírodou při měsíčku nebo jen prostě kontroluje okolí jejich nedalekého stanu, ale tak či tak je jasné, že trojice studentů není vůbec jediná, kdo je v tuto noční hodinu vzhůru. Oblečena je dnes do džínové vestičky s krátkým rukávem a pěti knoflíky, přičemž dva nejhornější má rozepnuté. Pod touto vestičkou se nachází světle modré košile s dlouhým rukávem a k tomu jí nechybí světle modré džínové zvonáčové kalhoty. Aby toho nebylo málo, tak jí k tomu také nechybí vysoké boty na podpatku, což je možná pro chůzí na těchto pozemcích blbá obuv, ale nezdá se, že by jí to nějak vadilo. Tmavě hnědé vlasy má ve vlnách volně rozpuštěné a perfektně upraveně přehozené přes ramena.*</span> <span class="thought" style="color: hsla(139.28571428571, 24.778761061947%, 55.686274509804%, .8);">//Slyším hlasy? A vidím obrysy. Někdo od nás se šel podívat za tou Olihní?//</span> <span class="emote">*A ač se může zdát, že její kroky mířily původně jiným směrem, nakonec se odeberou právě ke trojici studentů. Během chůze mávne hůlkou směrem ke studentům a nechá svou světelnou kouli levitovat na třemi hlavami studentů. Při pohledu na dvě neznámé a Catriela se jí objeví mírný úsměv.*</span>   Kontryhele, ahoj, jsem ráda, že jsem tě našla. Benzín říkal, že jsi se šel projít a ráda bych s tebou něco probrala.. <span class="emote">*To, že se tam nachází se dvěma dalšími, co nepatří do jejich školy, si samozřejmě všimne. Hlavu obrátí jejich směrem s najednou vážnou tváří.*</span> A vy dvě zde pohledáváte, co? Rozhodly jste se uprchnout z vaší lodě a zaplavat si? <span class="emote">*Konstatuje při pohledu na mokrou Kamillu a více k nim popojde, přičemž při světle její koule si lze všimnout, že na jejím levém prsteníčku se nachází bílý proužek, jak kdyby na něm už někdo dlouho nenosil prsten.*</span>  <span class="effect spell">[Uživatel seslal kouzlo Lumos Solem. Vytvoří světelnou kouli, jež může provázet sesilatele.]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910">
+            <td title="">
+                <div class="head"><div class="sender">Kamilla Bokorova</div></div>
+                <div class="time">27. 12. 2025 1:54</div>
+            </td>
+            <td class="content"><span class="emote">*Nechá svá bosá chodidla, aby ji přesunula ještě o dva kroky blíž, jak asi úplně netouží stát při nadcházející konverzaci po kolena ve vodě, a levou rukou si z obličeje odhodí pár nacucaných pramínků vlasů. A zatímco na Ghuhloalanin bojový postoj a fakt, že je na ni mířeno holí, nereaguje vůbec nijak, to že druhá severská slečna zvolí ve svém prvním slůvku množné číslo u ní vyvolá povyjetí obočí o něco výš. Vzápětí je však zas strhne dolů, asi aby mohla v šeru zkoumavě přimhouřit oči a důkladněji prozkoumat, zda-li se ještě Ghuhloalan Catriela dotýká, či nikoliv. Nad její oporou v jeho rameni jí totiž pobaveně zaškube pravý koutek úst.*</span> Kontrola kajut. <span class="emote">*Pronese ledabyle.*</span> Šla jsem se podívat, jestli tě něco nesežralo. <span class="emote">*Při slově "něco" jí oči skoro až nápadně důrazně sjedou dolů na Catriela. A pak zas spočine pobaveným pohledem na slečně naproti.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 1:43</div>
+            </td>
+            <td class="content"><span class="emote">*V polibku s mladým mužem i nadále setrvává, kterak se ho i nadále drží. Ovšem ona, snad tím, jak je čelem k jezeru více natočená než Catriel, nejspíš nějakou změnu vytuší rychleji než společník. Aniž by přerušovala polibek, stočí hlavu lehce ke straně, aby mohla očima vyhledat tmu za nimi. A v další chvíli už se od mladíka odtrhne, a zatímco pravou rukou i přesto, že na ní nemá rukavici, hrábne po vycházkové holi stále ležící vedle ní, levou rukou sklouzne po hrudi společníka až k jeho ramenu a naprosto na férovku se mu do toho ramene částečně zapře, aby si jen pomohla v odpíchnutí těla od země, kterak se vzápětí už vytáhne na nohy. Vycházkovou hůl stočí v ruce s naučenou mrštností a špicí zamíří proti siluetě, co je tam tak přepadla. Levou dlaní setrvává na rameni Catriela, jak kdyby ho tím částečně zkoušela chránit. Když se ale ze tmy vynoří Kamilla a ozve se v pozdravu, aniž by jí ho opětovala a aniž by vycházkovou hůl odložila, prohlásí suché:*</span> Můžeme ti nějak pomoct?</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 1:37</div>
+            </td>
+            <td class="content"><span class="emote">*Na její slova, že si může dělat co chce jen okázale pokýve hlavou, jakože když to teda říká, tak ji z toho vyvracet nebude. No a v nicneříkání pokračuje, jelikož to už dochází k tomu jejich momentu. V onom polibku samozřejmě setrvává, ještě aby ne. A nejspíš chvíli po té, co k hlavě Ghuhloalan přiloží druhou ruku, aby ten úchop mezi nimi snad ještě znásobil, jim tu začne žbluňkat to jezero. Toho si teda že začátku vůbec nevšímá, přeci jen má tu zajímavější věci na práci, ale když se definitivně vynoří Kamila, nějakou reakci už si to zaslouží. Jak často se vám ostatně stává, že se znenadání někdo vynoří z jezera, no ne? Polibek tedy takto nedobrovolně přeruší a i ruce z tváře kruvalské sundá. To vše poměrně bleskově. Ale jinak, vypadá jednoduše řečeno beze slov. Na Kamillu tam v podstatě jen s vykulenýma výrazem zírá.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10910">
+            <td title="">
+                <div class="head"><div class="sender">Kamilla Bokorova</div></div>
+                <div class="time">27. 12. 2025 1:25</div>
+            </td>
+            <td class="content"><span class="emote">*A jakoby ty dvě hrdličky snad celou dobu pohledem lovce sledovala z té vzdálené kruvalské lodi, znenadání se na scéně zjeví i ona. Velice teatrálním způsobem, nutno podotknout. Hladina jezera se totiž se žbluňknutím rozestoupí a ona vystoupí z vody ven. S jedním hlasitějším zalapáním po dechu, než svůj výraz i rychlejší nádechy zmírní do masky absolutního nezájmu. Který krapet nekoreluje s faktem, že očividně musela před pár desítkami sekund prostě a jednoduše přeskočit přes pravobok kruvalské lodi a hezky potápěčským stylem skrz jezero doplavat až k nim. K těm dvěma, co právě probodává ledovým, avšak i docela pobaveným pohledem. Jen co si přeměří Catriela, zřejmě vyhodnotí, že se nejedná o hrozbu, protože radši přesune oči o těch pár stupňů blíž směrem k Ghuhloalan.*</span> Krásný večer. <span class="emote">*Pozdraví, jakoby se nechumelilo. Anebo spíš... nekapalo. Ona z ní totiž ta jezerní voda kape vcelku ve velkém. Z promočené bílé haleny, maskáčových kalhot s kapsami, i z jejích dvou splihlých copánků. Přesto dívka ani přinejmenším nepůsobí dojmem, že by jí to nějak vadilo.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 1:19</div>
+            </td>
+            <td class="content"><span class="emote">*S tím zazněním pochybností v hlase mladého muže se ozve v pobavenějším:*</span> Já si můžu dělat, co budu chtít. <span class="emote">*Pronese to už o něco tišeji, jak snad už vytuší, co se Catriel chystá na popud jejích slov udělat, a tak si ve chvíli, co on proti ní vyrazí rukou, si ona začne rychle stahovat rukavice z dlaní. Hodí si je někam pod sebe, nejspíš na stehna, jen aby pak pokrčila nohy v kolenou a posunula je do strany, aby Catrielovi uvolnila cestu k ní. Nechá se chytit, hlavu nechá náznakově odlehčit, aby ji mohl mladý muž přitáhnout blíž k sobě. Ruce zbavené rukavic přizvedne, aby jimi mohla z obou stran obemknout mladíkovu hlavu a z vlastní iniciativy tak polibek prohloubit, aniž by se jakkoliv vracela k tématu dat narození. Sotva v polibku na to konto něco zamumlá.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 1:11</div>
+            </td>
+            <td class="content">To je pravda. <span class="emote">*Pokývá k souhlasu ohledně černých ovcí. I on si tam pustí ty svoje nohy a nechá je samovolně natáhnout. A když se tam ušklíbne k tomu pití, sám taky dodá.*</span> Netvrď mi, že v Norsku už pít můžeš. <span class="emote">*Poví pochybovačně k tomu jejímu ušklíbnutí. A co se týče těch rituálů... Lehké poušklíbnutí mu z tváře nemizí ani po pronesení její odpovědi. Ještě aby, že. Slovně už na to ale nijak neodpovídá, usoudí spíš, že bude vhodné přistoupit rovnou k rituálu. Jelikož mezi sebou nějaký ten prostor mají, v pár okamžicích se přes něj natáhne a rukou zajede pod její čelist. Ale spíš než by si přitahoval on ji, přiblíží svou hlavu k její. No krása, a je z toho pusa jako malovaná. Pokud se ale vrátíme do nějakého momentu, když ještě jen konverzovali. Na její nevěřícně výroky se uchechtne.*</span> Nikoliv. Už s tím datem žiju šestnáct let. <span class="emote">*Vyvrátí její slova a nakonec se i vykašle na možné numerologické rituály.*</span> Dvacátého prvního, přesněji řečeno.</td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">27. 12. 2025 0:46</div>
+            </td>
+            <td class="content">Všude se najdou černé ovce, <span class="emote">*kontruje mladému panu Condori s letmým pokrčením v ramenou, po čemž obě ruce stáhne z kolenou a zapře se dlaněmi v rukavicích do země, aby mohla na ruce přenést část váhy a rozplést nohy. Ty pak před sebe umístí do natažení. Fakt, že se mladý muž nemůže ještě tak úplně legálně opíjet, už si získá jenom protažení jednoho koutku úst do poušklíbnutí. A to si ostatně ponechá i pro moment, kdy se alespoň dnes Catriel chytí a pronese něco chápavého.*</span> Některé rituály mi nevadí opakovat pořád dokola, <span class="emote">*podotkne nenuceným tónem a přimhouří lehce očka. Ovšem když Catriel pronese ten měsíc, který pronese, nevěřícně se ušklíbne.*</span> Ale notak, to sis teď vymyslel! <span class="emote">*osočí ho.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">27. 12. 2025 0:35</div>
+            </td>
+            <td class="content"><span class="emote">*Ano, ano ta kruvalská loď je krásná! Stejně jako je určitě krásné to cokoli, na co případně zírají. Proč by na to taky jinak koukali, no ne? No a když tam nepřestane zpochybňovat tu jeho výpravu, povyfoukne vzduch nosem.*</span> Nebo na ni jsme intenzivně připravováni. <span class="emote">*Nabídne jiný pohled na věc. Snad aby z toho vyšel aspoň trochu líp.*</span> Tak na ten si počkám ještě rok navíc. Tam mi kouzelnická dospělost nestačí. <span class="emote">*Tak pro ni to sice žádná nová informace nebude, ale s nějakým lehkým úšklebkem to stejně řekne. A když přijde žádost o rituál, povytáhne obočí. On by možná začal i něco vymýšlet, kdyby si teda nevšimnul toho, že dívka spočine právě na jeho rtech. Ghuhloalan by asi měla konečně pochopit, že on a chytání signálu nejde moc dohromady, ale tady mu to výjimečně snad i nějak doteče. Pohled nechá upřený na kruvlaské, zatímco pronese pár slov.*</span> Jediný, který mě ted napadá, už jsi párkrát zažila. <span class="emote">*Jeden koutek mu jen o milimetry stoupne výše a ze svého schouleného sedu se trochu víc napřímí. A když se konečně vymáčkne o tom, kdy že se to narodila, povytáhne i ten druhý koutek.*</span> Únor. <span class="emote">*Prokáže své stáří obdobným způsobem, jako to právě udělala ona.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 23:48</div>
+            </td>
+            <td class="content"><span class="emote">*Třeba na tom jezeře pozorují tu kruvalskou loď, že ano! Nebo taky cokoliv jiného, každopádně sama vypadá oním čímsi na jezeře poměrně fascinována, když na to civí tak urputně.*</span> To to asi nebude moc těžká zkouška, když ji každý udělá, <span class="emote">*podotkne lehkovážnějším tónem, dodávajíc pak k tomu:*</span> Takže na rituály už jsi dost starý, ale na chlast ne? Zajímavá logika. <span class="emote">*A s tím se náznakově poušklíbne, jak jí cukne jeden koutek úst.*</span> Tak mi předveď nějaký rituál, když na ten už věk máš, <span class="emote">*vyzve pak společníka, přičemž pohled přesune vůči němu, na vteřinu jím zůstane při jeho rtech. S otázkou na narozeniny jí ale cukne obočí o kousíček výše.*</span> Taková citlivá informace... S takovým datem narození jde dělat spousta rituálů, což? Ať žije numerologie. <span class="emote">*S tímto ironickým konstatováním ale přece jen prohlásí:*</span> Březen.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 23:41</div>
+            </td>
+            <td class="content"><span class="emote">*I on navrátí tedy pohled k jezeru. To musí být děsně zajímavé, když na nej oba furt civí, no ne? Až na její pochybovačnou otázku se ušklíbne.*</span> Každý musí. Ještě se nestalo, aby zkoušku někdo neudělal. <span class="emote">*Jen ať si mladá dáma nemyslí, že ji tady kecá. On to tedy ale neříká tónem, ze kterého by nějak vyznívalo to, že ho to nějak vnitřně ranilo. No a úšklebek dostane i ta dospělost.*</span> Rituálně možná, legálně ještě necelý rok ne. <span class="emote">*Očividně si sám z té údajné dospělosti nic moc nedělá. Jen na pár momentů je zase z ticha, než obrátí pohled ke Ghuhloalan.*</span> Schválně, kdy máš narozeniny? Jestli jsem, když už, aspoň starší. <span class="emote">*Není přeci nic lepšího, než do někoho dloubat, že je mladší, no ne? I kdyby to bylo třeba jen dvacet tři hodin.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 23:27</div>
+            </td>
+            <td class="content"><span class="emote">*Mlčky zůstává zírat ve směru hladiny jezera, snad tedy i vnímá, co jí mladý muž povídá. A nebo taky možná ne. Ono kdoví, když na to negeneruje žádnou výraznější reakci tváře.*</span> Takže jsi přežil týden v divočině, jo? <span class="emote">*ozve se vůči mladému muži snad až trochu pochybovačně, jako by mu chtěla lehce dloubnout do mužského ega. I po něm krátce střelí pohledem.*</span> A jsi dospělý... <span class="emote">*A to už nechá i jedno obočí cuknout o kousíček výše. Prdty u toho poklepe do leštěného dřeva vycházkové hole, snad aby je nějak zaměstnala.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 23:19</div>
+            </td>
+            <td class="content"><span class="emote">*K vysvětlení kruvalského systému zkouškování přikývne na znamení toho, že tedy chápe. Ani on ještě nějakou chvilku nic neříká, snad ukládající si tuto informaci někam hloubš. Až na otázku ohledně ukončení studia zavrtí hlavou.*</span> Ne, taky končím pátý. Takže ještě dva roky. <span class="emote">*Vysvětlí svou situaci, než se trochu zavrtí na svém místě. Přeci jen, chvilku už na něm sedí.*</span> My skládáme zkoušky ze všech předmětů každoročně. Nemáme nějaké předělové. <span class="emote">*Na pár chvil se odmlčí. Nakrčí obočí, přesto ale vypadá, že dojde k nějakému ekvivalentu.*</span> Nejblíž tomu by byly velké výpravy v terénním výcviku. Na týden v pralese a přežít. Ve čtvrtém je to bráno jako zkouška dospělosti a v sedmém jako ukončení kurzu. <span class="emote">*Tak OVCE to úplně nejsou, ale aspoň něco, no ne? No a při tomto výkladu teda celkem nepřekvapivě nekouká na to jezero, ale pěkně na kruvalskou slečnu.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 22:50</div>
+            </td>
+            <td class="content"><span class="emote">*A tak na tu hladinu jezera momentálně civí oba, že ano. Když se ale Catriel ozve v nepochopení, krátce po něm střelí pohledem, načež sotva znatelně pohne hlavou do pokývnutí.*</span> Ano. Je nižší a vyšší stupeň. První skládáš na konci pátého ročníku, druhý na konci sedmého. Já končím pátý ročník. <span class="emote">*A zase se odmlčí, rty stáhne pevněji k sobě, snad jak nad něčím uvažuje. Ať už je to ale cokoliv, dál k tomu nic nyní nepoví, snad jak očekává, co si z toho odnese sám mladý muž. Až po nějaké chvilce se zeptá:*</span> Jak to vůbec máte vy? Už končíš školu?</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 22:43</div>
+            </td>
+            <td class="content"><span class="emote">*On to jejich mlčení už neprolamuje, obzvlášť když už je neruší ani to proudění vzduchu. Přesměruje radši pohled na hladinu jezera, jak to nejspíš dělá ostatně ona sama, ne? Ani svou kolenaobjímačskou pozici neopouští, jednoduše zůstává v klidu a míru, ještě aby ne taky. Nějak se ozve až když promluví Ghuhloalan.*</span> Hm? <span class="emote">*Povytáhne lehce obočí na ty OVCE, snad že si asi není úplně jistý o co se jedná.*</span> Závěrečné zkoušky? <span class="emote">*Odtuší podle nějakého toho kontextu, jen aby se ujistil. Jinak ale více neříká, možná doufajíc jestli k tomu slečna něco dodá. I tak mu mozek ale nejspíš jede v nějakém tom přemýšlení, co si z toho má přebrat.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 22:26</div>
+            </td>
+            <td class="content"><span class="emote">*Na onu první domněnku mladému muži už nic nepoví, snad že na to už není co víc říct, když to nehodlá nejspíš rozporovat. A tak zůstane sedět v tichu, dokud se neozve Catriel v onom Finite, kdy zvedne krátce pohled právě k tomu jeho kouzlení. Ale zase mu do toho nijak nekecá, snad že to je každého záležitost, ať už se mu daří, či nikoliv. A když přijde pak to, co přijde, zhluboka se nadechne nosem a vyloudí z krku jedno:*</span> Hm, <span class="emote">*snad že to bere na vědomí. A zůstane tiše dál, snad v nějaké hlubší úvaze, než pronese:*</span> Přemýšlela jsem, že bych si OVCE dodělala na Ministerstvu až později.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 22:20</div>
+            </td>
+            <td class="content"><span class="emote">*Prostor na odpověď jí nechává, ale pohled má upřený opět na ní. Asi na sebe tihle dva budou koukat jen vždy na přeskáčku a nikdy ne zároveň. Na slova kruvlaské lehce pokývá hlavou k souhlasu.*</span> Člověk je neuvěřitelně přizpůsobivý tvor. <span class="emote">*Hlesne už jen a pohledné k botě. Nejspíš usoudí, že bude snad suchá dost, jelikož sklopí hůlku a jednoslovně kouzlo ukončí.*</span> Finite. <span class="emote">*A pokud opravdu přestane vzduch proudit, vloží si hůlku zpět do pouzdra. Pak už si ve svém sedu jen mlčky obejme kolena, aniž by si své usušené oblečení znovu navlékl. Nejspíš je totiž myšlenkami u jiných věcí.*</span> Kdybych byl že stejné školy jako ty, zpět by se mi chtělo ještě méně.   <span class="effect spell">[Uživatel seslal kouzlo Finite. Ukončí právě probíhající kouzlo.]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 22:04</div>
+            </td>
+            <td class="content"><span class="emote">*Když se mladý muž pustí do odpovídání, zvedne k němu zase pohled, jak snad nechce, aby jí cokoliv z mladíkova projevu uniklo. A pak chápavě pohne hlavou. Jen s ní mírně kývne, sotva znatelně, načež se jme pohled znovu přesunout k vodní hladině. Pár vteřin je ticho, jak kdyby si potřebovala svou odpověď patřičně promyslet. Nakonec se ale přece jen ústy nadechne v odpověď.*</span> Je to tu tragické, ale úplně odsud nespěchám. Není to tak, že by to jinde nebo tady bylo lepší. Ve smyslu porovnání kladů a záporů. Člověk si ale zvykne na nějaký režim a že věci nějak jsou.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 21:53</div>
+            </td>
+            <td class="content"><span class="emote">*Vrátí se pohledem zpět ke své botě, když i kruvalská kouká kamsi jinam. No a na celkem logickou otázku nejdřív jen pár momentů mlčí, než konečně otevře ústa.*</span> Na jednu stranu budu konečně doma. Pryč z Bradavic, pryč od jejich nesmyslné výuky a hrozného počasí. Na stranu druhou... <span class="emote">*Pronese poměrně pomalu, než se odmlčí a cukne očima k Ghuhloalan. Spočine na ní na sekundu, možná dvě pohledem, než si zase s povzdechem vrátí k sušení. Onu druhou stranu mince nechává v tichu, snad že by jeho společnici mohlo samotné dojít, co tím asi tak myslí.*</span> Co ty? <span class="emote">*Snad aby utekl od svých vlastních myšlenek, přenechá prostor Ghuhloalan. To je dobrá strategie, ne?*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 21:42</div>
+            </td>
+            <td class="content"><span class="emote">*Nadále sleduje bystrým pohledem, jak si tam Catriel suší oblečení, přičemž tiká hezky zorničkami tam, kam se on pohne, jak je to nejspíš teď jediná zábava v okolí, co stojí za nějaký ten pohled. Kterak si ale mladý muž sedne a stočí se tak, aby na sebe viděli, zase očka přesune ve směru jezera. Asi aby si nemyslel, že na něho má potřebu civět nebo tak něco, ne asi.*</span> A cos vymyslel? <span class="emote">*nadhodí pak tedy nějakou tu poměrně se nabízející otázku, prsty pravačky poklepe do vycházkové hole na zemi.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 21:32</div>
+            </td>
+            <td class="content"><span class="emote">*Když si z něj ani srandu žádným způsobem neudělá, jedno obočí mu lehce povylétne, snad ze samotného překvapení. Nijak extra mu to ale asi nechybí, tudíž je ohledně tohoto zticha a možná jen lehce pokývá hlavou. Ani on nepolevuje ve své práci, nebo jak to chceme nazvat, nadále suší své kusy oblečení. Po nějaké době přejde na botu, snad když se mu ponožka zdá dostatečně suchá. Z podřepu, ve kterém nejspíš doteď spočíval, si přesedne. Snad aspoň kousek od kraje, aby nebyl ještě mokřejší než už je teď. Sedne si po jeho směru, asi aby měl na kruvalskou slečnu dostatečně dobrý výhled a zároveň mohl fénovat. Tento výhled se snad i hned prokáže jako praktický, když Ghuhloalan pronese svá slova. V ten moment k ní obrátí pohled a povzdychne si.*</span> To byla taky jedna z věcí, nad kterými jsem sem šel přemýšlet. <span class="emote">*Přizná aniž by skláněl pohled někam jinam.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 21:18</div>
+            </td>
+            <td class="content"><span class="emote">*Už do toho, jak se mladý muž ocitl ve vodě, nijak slovně nerýpe, snad že to jako komediální prvek stačilo a snad se jí jen jednoduše nechce. Aniž by přestávala sedět v meditační poloze a povolila záda, si pohledem měří mladíkovy počiny, kterak mu patrně ani do způsobu sušení látky nehodlá nijak mluvit.*</span>  Chápu, <span class="emote">*vydechne na konto přemýšlení osamotě, naprosto neutrálně, jak v tomto ohledu si z něho zřejmě legraci dělat ani nemíní. A tak si vyčká, dokud mladý muž nezakouzlí, nejspíš aby mu to nepokazila vyrušením, a až pak se ozve v:*</span> Konec školního roku? <span class="emote">*Snad jak se s odmlčením znovu vrací k původnímu přemítacímu tématu.*</span>  </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 21:10</div>
+            </td>
+            <td class="content">Taky bych byl radši, kdyby zůstaly v suchu. <span class="emote">*Přitaká ke kalhotám. Poznámka o skákání do vody ho očividně i celkem pobaví, jelikož mu koutek vylétne o kus výše a i z nosu mu vyjde menší salva vzduchu.*</span> Potřeboval jsem chvíli klidu ke přemýšlení. <span class="emote">*Pokývá lehce hlavou k podtrhnutí svých slov. Nevypadá, že by se chystal nějak rozebírat specifika svých myšlenek, pokud to Ghuhloalan zajímá, ať se rýpe dál. Bohužel je velmi pravděpodobné, že nebude ani moc zapírat. Pokračuje v tom svém zouvaní, tentokrát s ponožkou. Tu si položí hnedle vedle mokré boty. Zastaví se pohledem i na kalhotech a noze, ale ty teda do lajny k ostatnímu nedává. Místo toho pravou rukou šmátne k opasku, od kterého vytáhne hůlku. Levou zase zvedne onu ponožku a po pronesení formule ji hůlkou začne "fénovat".*</span> Fermento.  <span class="effect spell">[Uživatel seslal kouzlo Fermento. Z hůlky začne proudit teplý vzduch, přičemž jeho síla závisí na síle sesilatele. ]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 20:50</div>
+            </td>
+            <td class="content"><span class="emote">*Přeměří si pohledem rozmrzelost mladého muže před ní, jak tak zúží víčka a pokývne sotva znatelně hlavou.*</span> To by byla hrůza. I když je pravda, že i my v Kruvalu se v jezeře nekoupeme plně oblečení. Ty kalhoty to nutně schytat nemusely. <span class="emote">*Když se pak mladý muž započne zbavovat bot, vyfoukne nosem pobaveněji salvu vzduchu.*</span> Bylo to vidět. Doslova skáčeš nadšením... do vody. Co ty tu? <span class="emote">*A s tímto se jme krátce přeběhnout zorničkami po celém společníkovi, než jimi uhne a nalezne si jimi krátce hůl v trávě vedle sebe. Nezvedá se ovšem, patrně tedy Catrielovi s eliminací následků pádů do vody pomáhat neplánuje.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 20:43</div>
+            </td>
+            <td class="content"><span class="emote">*Ani se nesnaží skrývat nějakou rozhořčenost, z toho osvěžení jeho pravé nohy. Obočí má skrčené, ale nevypadá, že by měl v plánu pokračovat v nadávkách. A svůj plán i pěkně plní, jelikož opravdu ani nemukne, místo toho střelí pohledem k tomu bubákovi, který ho tak ošklivě vyděsil- Teda pardon, ke slečně Elazar, samozřejmě.*</span> To snad nebude potřeba. I když je pravda, že je možné, že příště do toho jezera spadnu celý. <span class="emote">*Pronese ohledně možného scénáře, i když jeho tón tedy naznačuje, že příště by už rád do jezera nepadal. To se ale dá jednoduše vyřešit tím, že už třeba nebude chodit tak blízko k vodě, že ano. Je totiž otázka, jestli by tam nezahučel po nějaké době sám od sebe.*</span> Taky tě rád vidím, mimochodem. <span class="emote">*Dodá ještě lehce kyselejším tónem, načež se začne zouvat. Ať ty mokrý věci jsou dolů, že.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 20:28</div>
+            </td>
+            <td class="content"><span class="emote">*Jestli si je vědoma toho, že se někdo blíží, vlastně těžko říct. Nehýbe se, nereaguje a výraz má taky stále stejně klidný a prázdný. Jediné, co by mohlo napovědět, že si je vědoma toho, že se jakýsi pocestný blíží, je fakt, že sotva znatelně zahýbe na koleni prsty pravačky. Jako by si zkoušela jejich hybnost, kdyby nakonec musela sáhnout po vycházkové holi. To už se ale ovšem řítí mladý muž do jezera a ozve se ta nadávka, na čehož konto zprudka otevře oči a upře je naprosto neomylně na mladého muže a jeho zmoklou nohu. Cukne obočím o kousek výše.*</span> Měla bych svoji krásu ještě lépe skrývat. Všechny pak nehorázně vyvádí z míry a pak to takhle dopadá.</td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 20:20</div>
+            </td>
+            <td class="content"><span class="emote">*No a Ghuhloalan se svého chudáka pocestného zřejmě dočká, jelikož si to mladík shodou okolností bloumá jejím směrem. Jelikož ale opravdu moc nekouká kolem, nevypadá to, že by si ji jakkoli všimnul. Možná by ale bylo lehce chytřejší, kdyby nešel tak blízko břehu. Ano, je sice moc hezké, se procházet hnedka takhle u vody, ale díky tomu se pak můžou stávat nehody. Protože ani rým, který se mi právě nějak povedl nezabrání tomu, co se dalo možná trochu očekávat. Když totiž skutečně už dojde ke schovávající se kruvlaské a dokonce si jí i všimne, v rámci tohoto překvapení, šlápne lehce blbě. A to znamená co? Noha, bota, část kalhot a asi i ponožka pěkně v mokru.*</span> Sakra. <span class="emote">*Pronese, pravděpodobně nějaký španělský ekvivalent této nadávky. No a spíš než samotné mladé dámě se věnuje své nože, kterou začne oklepávat.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #cd5c5c;" data-sender-id="10922">
+            <td title="">
+                <div class="head"><div class="sender">Ghuhloalan Zipporah Elazar</div></div>
+                <div class="time">26. 12. 2025 20:07</div>
+            </td>
+            <td class="content"><span class="emote">*A je to právě ona, kdo se nachází na pozemcích poblíž kruvalské lodi. Poblíž na poměry rozlehlosti pozemků, jinak je od ní vlastně dobrých sto, dvě stě metrů. Sedí ve vyšší trávě, čelem je situovaná ve směru jezera, nohy složeny do pravého tureckého sedu. Vycházkovou hůl má položenou vedle sebe, rukojetí poblíž pravačky. Ruce má položeny zlehka v rozevření dlaní na stehnech, oči zavřené, výraz klidný. Na sobě má šedý jednoduše střižený hábit a černé volnější kalhoty, na nohou pak vysoké šněrovací kožené boty, přes rozpuštěné vlasy přehozenou kápi přišitou k samotnému hábitu. A takto nehybně tam jako bubák ve křoví snad číhá na pocestné, co se leknou a spadnou šokem do vody. A nebo tam možná nečíhá a nečeká, kdoví!*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10931">
+            <td title="">
+                <div class="head"><div class="sender">Catriel Ulises Condori</div></div>
+                <div class="time">26. 12. 2025 20:00</div>
+            </td>
+            <td class="content"><span class="emote">*Už takhle při začínajícím stmívání se kolem Černého jezera ochomytá i tato osoba. Nevypadá to naštěstí, že by mladý pán přicházel na toto místo za záměrem koupání, jelikož opravdu v plavkách nepřichází. Na horní části těla má pěkně obléknutou rozepnutou šedou mikinu, díky čemuž jde vidět i červené triko, které má pod ní. No a samozřejmě má i nějaký ten spodek, přesněji řečeno kalhoty džínového typu. Boty jsou očividně pocházející ze školní uniformy, kožené, vysoké a šněrovací. A jako hezký detail na sobě jedna má i očouzený flek. Další věc, která z uniformy nesmí chybět je opasek. K němu má připnuté takové ty klasické srandy, jako třeba pouzdro na hůlku, nebo brašnu. Pokud se ale opravdu chceme bavit o důvodu jeho návštěvy, vypadá to, že sem přišel jen tak bloumat. Jen se tak šourá kolem břehu, a zatímco více méně čučí hlavně do země, mumlá si cosi pod vousy. Možná sem došel, aby měl prostě chvilku klid, kdo ví.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 5:36</div>
+            </td>
+            <td class="content"><span class="emote">*Pousmeje sa. Nad tým popcornom a možno i tak nejak celkovo. I nad tým, že ho vezme na dortíky a koláče a kto vie čo všetko. No nejsú oni úplne rozkošní? Teda, pokiaľ sa nerozprávajú o apokalyptických filmoch, žeo.*</span> Tak si pozrieme. Pustím ti moje obľúbené a kebys sa bála... budeš mať moju hruď o ktorú sa schovať. <span class="emote">*To mu kútiky vyskočia v tom jeho priblblom úškrne dohora, i dlaňami prejde trochu hore a dole po jej bokoch. A keď mu schytí tvár, on si ňou pohybovať nechá. Akurát to ukončí tým, že jej skúsi vlepiť menšiu pusinku aj na pusu - i keď, skôr asi trafí len kútik jej pier. Skloní sa zasa na jej rameno a očami k zemi, keď rozoberajú tú vážnejšiu otázku.*</span> Brouci fungujú aj bezo mňa. <span class="emote">*Skonštatuje, než sa k nej trochu maznavo tou hlavou pritúli.*</span> Takjo, tak s tebou. Odteraz je celá moja existencia venovaná tebe. <span class="emote">*K tomu dohodí akýsi uštipačný tón, snáď aby bolo slečne jasné, že nemôže byť celá jeho existencia venovaná len jej, ale čo už.*</span> No, hodne jazykmi už viem. Arabsky a nemecky nie. <span class="emote">*A na to, že jej ide angličtina zle nadvihne obočie a mierne do nej drncne.*</span> Šak seš úplne perfektná v ájine. <span class="emote">*A na tú vec ohľadom rúže zasa pretočí očami a stisne si ju k sebe bližšie.*</span> A ja chcel vedieť, čo by ťa potešilo, čo som ešte neurobil... <span class="emote">*Vlepí jej na líce ďalšiu pusinku, keď už ju tu tak pusinkuje, než z neho vyjde.*</span> No to neiniciuješ. Aj na vlastnú hruď som ti musel ruky presunúť ja. <span class="emote">*A zaryje si tváričku niekde do jej krku. Uschová ju tam. K Sherlockovi sa nevyjadruje, i keď on si o tom určite urobí záznam v hlave. Zaujme ho až fakt, keď sa slečna nad nejakou otázkou zadrhne. To tvár odtiahne od toho jej krku a skúsi nakuknúť do toho časáku, snáď od zvedavosti akú otázku to číta, než sa mu na tvári vyrysuje šibalskej úsmev a niečo jej šepne do ucha. Než sa rozhodne vyjadriť hlasnejšie k tej ďalšej otázke.*</span> Občas to nespoznám. Moc si- vono to ide občas poznať a občas ne. Ja v tom nejsom dobrej. Ale nechceš so mnou mluviť a seš taká... no. <span class="emote">*Pokrčí ramenami. A na to, že on vyzerá utrápene sa ľahko začervená. A na pusu na čele v tom červenaní pokračuje, než ju nechá odtiahnuť sa. Jej ruku prijme a vyhúpne sa na nohy, pričom ešte mávne prútikom.*</span> Nox. <span class="emote">*A rozíde sa niekde za ňou.*</span> A ja už dúfal, že si pospíme pod širákom... spolu. <span class="emote">*Stisne pery k sebe a zalezie s ňou niekam určite do toho stanu.*</span>  <span class="effect spell">[Uživatel seslal kouzlo Nox. Zhasne bod světla na hůlce, který byl vytvořen zaklínadlem Lumos.]</span></td>
+        </tr>
+    
+  
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 5:21</div>
+            </td>
+            <td class="content"><span class="emote">*On když vlastně řekne, že by se mu to líbilo, kdyby mu nacpala do pusy popcorn, aby nemluvil, tak jí pobaveně vyskočí koutky nahoru.*</span> Hmm. Tak to budeme muset někdy zkusit. <span class="emote">*Výraz se přetvoří do takového drobnějšího úšklebku. Nad tím dortem nakrčí nos.*</span> Půjdeme. Až budeme zpátky, tak tě vezmu. <span class="emote">*Prohlasí nakonec. To už jsou ale u těch méně důležitých témat i když pro Matea to asi bude trochu vážnější téma. K jeho otázkam zakroutí hlavou.*</span> Neviděla! A kdyby to ovoce blbě reagovalo na lidi, tak ti z něho bude špatně. <span class="emote">*To se k němu trochu nahne a chytne ho za tvář. Hezky do jedné ručky. S tou začne tak mírně pohybovat a zkoumat jí, jak kdyby na něm tím měla najít nějakou smrtelnou nemoc. A zase jí pustí a ruce pustí podél těla. Začne se smát, jak s ní tak začne třast. Tak tiše. A a zase nahodí vážnou tvář. Její další reakce vypadá tak, že se plácne dlaní do čela a zakroutí s hlavičkou. Ona to rozhodně jako něco hrozně romantického nevidí. U jeho odpovědi na otázku se zamračí. Dá si ruce zase okolo těla a přitiskne se na něho.*</span> Pff. Ne. To je blbost. Ty když jseš s broukem a chceš si ho ochočit nebo co s nima děláš. A semnou! Kdo by jinak měl neustálou potřebu do mě rýpat. <span class="emote">*Ušklíbne se na něho a misto něho na tu otázku zodpoví ona. Nad svými chybami zavrtí hlavou.*</span> Já? Tse! Nikdy. <span class="emote">*Si dál stojí za svým a kroutí u toho hlavičkou zastaví jí až když dostane tu pusu. To jí koutky povyskočí pobaveně nahoru. S pusama se s ním teda nepře.*</span> Arabsky? <span class="emote">*Řekne lehce překvapeně a mírně nad tím pokývne hlavičkou. Víc k tomu nedodáva. Spíš asi, že nečekala, že by se chtěl učit zrovna Arabsky. K té otázce k ní pokrčí ramínky.*</span> Hm. Anglicky. Mám pocit, že moje angličtina občas dře. <span class="emote">*Jo protože vůbec nemluví skoro úplně plyně anglicky, že.. U další otázky, tentokrát nové se zamračí, tak zamyšleně.*</span> Dostala jsem růži. Víc si ceněná přijít nemůžu. <span class="emote">*Vypadne z ní nakonec a k tomu dalšímu protočí zrakem.*</span> Já toho naopak iniciuju hodně! <span class="emote">*Začne mu tu skutečnost vyvracet, ale s pusou jí ty koutky zase povyskočí nahoru. a k otázce řekne.*</span>  Asi..Sherlocka Holmese. <span class="emote">*Odpoví a zase se začne natáčet k časopisu. Přelétne si ho pohledem a zamračí se.*</span> Jaká věc.. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Na tohle se ptát nebudu. To vím.//</span> <span class="emote">*Sekne se pěkně rychle. O něco déle na ten časopis kouká než zrak zabrouzdá k jiné otázce a s tím mrkne zpátky na Matea.*</span> Jak obvykle poznáš, že mě něco trápí? <span class="emote">*Optá se ho a přitom si ho přelétne pohledem.*</span> Já tak, že vypadáš smutně. Úplně hrozně moc ztrápeně. <span class="emote">*Poví k němu svojí odpověď a dál si ho přitom zkoumavě prohlíži. S tím, že se nahne a vlepí mu pusu na čelo.*</span> Nepůjdem? <span class="emote">*Špitne k němu a to se pomalu začne odtahovat. Vyleze na nohy a tu sukni si hezky upraví, aby nebyla nějak vyhrnutá nebo tak. Šmátne po růži a natáhne k Mateovi ruku, kdyby jí snad chtěl chytit a vyrazit s ní směr stan. Jo jinak chuděra se vydá opuštěná no.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 4:44</div>
+            </td>
+            <td class="content"><span class="emote">*Keď sa mu tak hezky uvelebí v tom jeho klíne, tak on nemôže byť nič iné ako spokojný, nie? Presne tú jeho spokojnosť i výraz jeho tváre prináša.*</span> Ne. A popcorn si nechám páčiť. <span class="emote">*Nad dortíkmi nakrčí noštek a pokrúti hlavou, než sa k nej poriadne natisne.*</span> Mal. Ale asi nie také jaké mávaš ty. <span class="emote">*A zasa zmlkne. Teda dokým jej tam nerozpráva tú svoju zombie apokalypsa v džungli realitu. Akurát nad tým jej krútením hlavy a otázkami nafúkne líčka a urazene sa pozrie niekde do strany, jak keby fakt očakával, žeby sa jej niečo také malo páčiť.*</span> No mohlo. Možno by to ovocie nereagovalo dobre na ľudí, chápeš. Tos nikdy nevidela zombie filmy? <span class="emote">*A k tomu druhému bodu ju za ten pás stisne a mierne s ňou skúsi zatriasť.*</span> Ale to by bolo z lásky! Inak, by som sa premenil a bolas by mŕtva aj ty, aj vostatní! <span class="emote">*To už ju ale nechá byť. Teda nie úplne. On ju furt okolo pasu objíma. Ale byť ju nechá. Len očkami skáče niekde dole, k časáku, možno k jej klínu a vlastne i tomu svojmu. To je fuk.*</span> Lektvary... <span class="emote">*Zamrmle si, ako keby sa tento fakt o slečne snažil zapamätať.*</span> Ja asi nikdy. <span class="emote">*Prehodí. Ako keby bolo úplne v poriadku, že mu nikdy nepríde jeho existencia zmysluplná. Ale nad tými jej lektvarmi sa fakt pousmeje! Než si odfrkne nad jej odpoveďou druhej otázky.*</span> No dovoľ, občas chybuješ ty. Ja si naopak myslím... <span class="emote">*A to jej vrazí pusinku niekde na krk. Takú letmú, len s perami. Cmuk a nič.*</span> Že sú to pusy. <span class="emote">*A uchechtne sa. Možno to zas tak seriózne nemyslí, no. Nad tým jazykom skrúti pery do strany a prehlási.*</span> Arabsky. Alebo Nemecky. <span class="emote">*Než zasa mrkne na ňu, očakávajúc snáď odpoveď i od nej. To pak mrkne k časáku a zasa nad ním nasvieti tým prútikom.*</span> Aké gestá by napomohli, aby si sa cítila ešte viac mnou cenená? <span class="emote">*A kútik mu poskočí dohora, obráti sa k nej.*</span> Keby si niekedy niečo iniciovala aj ty. <span class="emote">*A vloží jej ďalšiu rýchlu pusinku na líce, než sa nahne nad časák.*</span> Akú knihu čítaš neustále dookola? Na to moju odpoveď vieš. </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 4:28</div>
+            </td>
+            <td class="content"><span class="emote">*Když to celé jejich handrkovaní o tom, co tím myslí nebo naopak vůbec nemyslí, tak to už už se začne natahovat, že by asi něco řekla, když však se k ní začne natahovat, tak to ona spolupracuje. Květinu odloží bokem, jak by se bála, že by chudinka ještě nějaké takové pohyby nemusela přežít. Přesunout do klína s její pomocí se nechá. Nohy skrčí, tak aby se jí sedělo na něm o něco lépe. Koutky úst jí povyskočí nahoru. Obejmout se dál necháva a ruce stáhne nad jeho ruce, když jí začne objímat. To ho stiskne o něco pevněji, jak by ještě potřebovala ty týdny, kdy se ho nedotýkala. Lehce hlavičku od něho odtáhne s jeho slovy a mrkne se mu do obličeje.*</span> Ne? Zníš nějak jistě. Já bych si tím tak moc jistá nebyla. Třeba bys skončil s nacpanou pusou popcornem. <span class="emote">*A to se na něho ještě poušklíbne. K těm dortům nakrčí obočí k sobě.*</span> Tys..neměl nikdy? Ani na narozeniny? Žadný dort? <span class="emote">*Řekne, jak by pro ní něco takového bylo něco úplně nepochopitelného. K tomu koncertu ještě přikývne hlavou. Přitisknout se na sebe nechá a akorát ho sama lehce zmačkne. Mlčí po celou dobu jeho vypravění a její výrazi se mění pomalu po celou dobu jeho vypravění. Začína to jen mírným přimhouřením očiček a nechápavým zamrkání. U dalšího se jí obočí vraští k sobě. A úplně celá se zamračí u poslední věty jeho přiběhu. Chvíli doslova není schopná slova než se od něho mírně odtáhne a koukne se mu do tváře, jak by hledala nějaké fyzické znaky toho, jestli je blázen. Zpátky se natiskne a pokroutí nad tím hlavou.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//To je pěkná blbost.//</span> Co.. zaprvý. Jak by z mutovanýho ovoce se mohl stát zombík? Zombíci nejsou. Zadruhý. Zabít tě? Já bych tě nezabila! Kde tě to napadlo? <span class="emote">*Prohlasí a hnedka za tím zabrble nějakou otázku. K tomu iracionalnímu strachu kývne.*</span> Já nevím. Asi když vařím lektvary, tak si tak nejvíc připadám. <span class="emote">*Pokrčí nad tím mírně ramínky a víc k tomu nedodáva. U další otázky na něho mírně natočí zrak.*</span> Když uznáš, že si udělal chybu a omluvíš se. <span class="emote">*Řekne tam úplně na přimo bez žadnýho zadrhnutí v hlase. A teďka přijde na řadu ona se čtením. To se od něho mírně odtáhne a natočí se, tak aby na časopis viděla.*</span> Jakým jazykem by si chtěl umět plynule mluvit? </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 4:00</div>
+            </td>
+            <td class="content"><span class="emote">*Keď ona pokračuje v tom trvaní, že fakt myslela nič a žiadne nerestné myšlienky v tej svojej hlave nenesie, tak si odfrkne, pretočí trošku urazene očkami ale nechá to tak. Skoro.*</span> Tak spolu nič robiť nebudeme, no. Keď nemáš návrhy. <span class="emote">*Prehlási s akousi urazenou tóninou hlasu. On síce už zviera ten prútik a svieti ním, no stejnak ho prechytí len medzi prsty a siahne dlaňami o jej pás. Jedna dlaň z jednej, druhá z druhej a skúsi si slečnu pretiahnuť niekam do svojho klína, ak teda chudina spolupracuje. A ak fakticky spolupracuje, tak jej tvár nahne cez rameno a objíme ju tými rukami okolo toho pasu, než prútikom pokračuje v svietení na časák.*</span> Možno rušil. Ale určite by ti to rušenie nijako nevadilo. <span class="emote">*A nakloní svoju tváričku tak, aby tej jej venoval úsmev so zazubením.*</span> Je. <span class="emote">*Zahlási ešte sentimentálne k tej tématike jeho mamá, očkami k časáku, alebo k zemi.*</span> Ale niekedy bys mi tie dorty ukázať mohla... <span class="emote">*Šepne, ako keby predsa len svoju znalosť rozšíriť chcel. I keď na to sladké moc nie je.*</span> Nebola? <span class="emote">*Nadvihne obočie a nad pripomienkou Alexa sa zachechtá. No, to už ale padne tá otázka od nej na iný svet. On sa k nej skúsi trochu pritisnuť. Bradu ponechá na jej rameni a voľnou rukou, hoc ju má okolo nej, tak ňou začne akosi hýbať sem a tam - šak rozpráva príbeh, nie?*</span> Bola by budúcnosť. Alebo prítomnosť, to je fuk. Spoločnosť sa úplne rozpadla. Prečo? Jeden dôvod. Zombíci. Môže za nich Juan a jeho pokusy o mutovanie ovocia. Vieš, raz zmutoval ovocie ale keď ho zjedol človek, tak sa z neho stala chodiaca mŕtvola a- <span class="emote">*Usekne sa.*</span> Nikto nevieme kto prežil. Nevieme kto kde je. Som na výprave sám. Nájdem časom Juana. S tým si nejakú dobu kryjeme chrbát, sami dvaja... než na nás zaútočí celá kopa zombíkov. Sme obkľúčení, smrť sa blíži. A v tom nás zachráni César. Ten nás zavedie do chránenej časti džungle. Je to celé inak v džungli, jo. <span class="emote">*Dodá.*</span> Je tam Lucka, seš tam ty. A ja ťa objímem. A zvítam. Ale príde útok. César a Juan ma odhovárajú, aby som neriskoval svoj život pre tvoj. Ale riskujem. Vydám sa na výpravu. Nájsť ťa v džungli. Nájdem. Zvítame sa. <span class="emote">*Pretočí očami a potrasie dlaňou.*</span> Tam by bolo asi pár cicm- no, vieš. <span class="emote">*Preglgne.*</span> A jak ťa vediem späť, uhryzne ma zombík. Ja ťa síce dopravím späť, ale sám to nedokážem. Nikto o tom nevie, len ty. Nechceš sa ma vzdať. Ale ja nechcem abys ty alebo ostatní boli v nebezpečenstve. A tak ťa prosím abys ma zabila. Umriem v tvojich rukách. Koniec. <span class="emote">*To prehlási, jak keby to bola tá najromantickejšia vec, čo mohol vymyslieť. Dokonca sa pousmeje a pritúli sa k nej bližšie. Rukou klesne na jej pás, zasa a ľahko po ňom prejde prstíkmi.*</span> Iracio- nemyslím si tiež, žeby som mal iracionálnej strach. <span class="emote">*Tak tu sa zhodnú. On sa však zohne cez jej rameno zasa nad ten časák a začne čítať.*</span> Kedy cítiš, že tvoja existencia má vážne zmysel? Whoa, to je hlboké. <span class="emote">*Okomentuje, sám na to ale neodpovie. Možno čaká najprv na slečninu odpoveď.*</span> Čo si myslíš, že nám pomáha sa udobriť po hádkach? <span class="emote">*A mrkne zasa na ňu, alebo skôr teda na jej stranu tváre, keď sa jej hne cez rameno.*</span> Čo si myslíš? </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 3:45</div>
+            </td>
+            <td class="content"><span class="emote">*Si do něho dál nerýpe. Jen mu na to pokývne hlavičkou. By z něho stejně tím rýpaním nic nevydolovala, když si to nepamatuje, žejo. Jenže, když on v tom škadlením takhle pokračuje, tak to pokroutí hlavičkou.*</span> Chceš si sednout do temné místnosti a dělat..nic? Na sebe koukat? <span class="emote">*Párkrát na něho úplně nevinně zamrká, protože to je určitě to, čím chtěla říct, že to spolu nemají dělat na veřejnosti! Společené sezení v temné místnosti, ano. Když jim tam udělá hezky světýlko, tak se na něho spokojně usměje. Nad tím, že je to hezký jí koutky mírně povyskočí.*</span> Víš, jak bys ten film rušil, kdyby tě nebavil? To by bylo naprosto přišerný. <span class="emote">*Ještě vysvětlí svůj důvod, proč vlastně chce koukat na film, co by ho mohl bavit. K tomu, že jde jenom na vojnu se i tak zamračí.*</span> To je jedno. <span class="emote">*Špitne a nad jeho dalšími slovy jí mírně vyskočí koutky nahoru od radosti. A pokývne beze slov. I tak jde vidět, že se jí ulevilo. Dlaň na tváři tomu ještě pomůže. Nohy si stáhne k sobě a dá si je pod bradu. O ní si hezky opře hlavičku a kouká na něho. Tentokrát je to ona kdo na něho vrhne smutný pohled.*</span> Ach.. <span class="emote">*Tiše špitne a k berušce jí koutky vyskočí nahoru.*</span> Je to od ní hezký. <span class="emote">*Vypadne z ní a i když vypadá, že by k tomu měla víc slov, tak on se tváři, tak jak tváři. To ona do toho víc nerýpe.*</span> Já taky nejsem. <span class="emote">*Souhlasí s tím jezení sladkých. A to nechá být a raději se chytne otázky ohledně domácích zvířat.*</span> Neměla. Až později. <span class="emote">*Přikývne mu na ta slova. Co se týče druhé otázky tak to nakrčí nos nahoru.*</span> Já na koncerty nebyla. Počíta se, když Alex zahrál písničku před rodičema na kytaru? <span class="emote">*Řekne trochu nejistě. Odpoveď od něho žadnou neočekáva. Nahne se nad časák.*</span> Kdybysme se potkali v jiném světě, jaký by byl naš přiběh. <span class="emote">*Přečte nahlas a sekne se. Znova nakrčí nos nahoru.*</span> Já na tohle nevěřím. <span class="emote">*Poznamená neurčitě a lehce pokrčí ramínky. Druhá otázka nasleduje po chvíli.*</span> Jaký je tvůj nejvíc iracionální strach? Já má jenom oprávněný strachy ts! <span class="emote">*Prohlasí.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 3:17</div>
+            </td>
+            <td class="content"><span class="emote">*Nakrčí obočie a odfrkne si.*</span> Ne. Ja fakt neviem. <span class="emote">*Ale to si asi povšimne ten jej úškrn a odfrkne si. Takto ho škádliť. Radšej si určite užíva fakt, že sa ona necháva škádliť od neho späť. Pretože rukou ešte prejde po jej vláskoch a ten úsmev z tváre nad jej zašívaním sa do jeho ramena neprestáva.*</span> Škoda. Lebo sme to inak mohli skúsiť. A ísť niekam do súkromia. <span class="emote">*A uchechtne sa, než jej ešte poslednýkrát prejde po vláskoch. No, ale to on je už na zemi a drží v ruke ten časák od nej. Pozerá na ňu. Zasa mávne prútikom, keďže určité funkcie občas uniknú.*</span> Lumos. <span class="emote">*Ono nad ten časák musí vidieť, žeo. A to na ňu zmätene zažmurká.*</span> Moment, čo? <span class="emote">*A pousmeje sa. On určite túto odpoveď od nej nečakal.*</span> To je... hezké. <span class="emote">*A radšej sa presunie na tú druhú otázku. Predtým ale aby odpovedal on, tak počká na tú jej odpoveď a presne vtedy mu ten úsmev vymizne a mrkne na ňu akosi ľútostivo.*</span> Nejdem na vojnu. Len na výcvik. A to nejak prekecám mamku, či nevybaví, abych nešiel. <span class="emote">*Natiahne k nej prázdnu dlaň a skúsi jej prstíkmi len tak letmo prejsť po líčku, než tú ruku stiahne dolu a mlčanlivo na ňu pozerá pri tých jej otázkach. Vypočuje si aj tú jej odpoveď ohľadom Alexa, než mu kútik poskočí dohora.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//A že sa nemaj radi...//</span> Mamá. <span class="emote">*Usekne sa však. Ako keby sa mu moc kontext nechcel dodávať. Než sebou šupne trochu bližšie k nej a zavrtí sa v tom svojom sede.*</span> Uh, ségra je mi tiež blízka a aj padre. Ale mamá. Ségra má sesternicu a bratránka v jej veku. Baví sa s nimi, keď môže- hlavne so sesternicou. Ja moc kámošou nemal. Ale mamá za mňa furt bojovala. Nech sa s niekým bavím. A- <span class="emote">*Stisne pery k sebe.*</span> Ušila mi raz lienku, zo starých kusov látky? Furt ju mám. <span class="emote">*Preglgne. Tvár obráti k časáku. Ale nič nečíta, skôr sa pousmeje nad tou jej druhou otázkou.*</span> Ja moc dortov a koláčov nemal. A na sladké nie som... <span class="emote">*To už sa nad ten časák nahne on. Zasa sebou zavrtí, no tou prázdnou rukou zašmatrá niekde k dievčatinu kolenu, kde jej tú dlaň i nechá položenú.*</span> Malas nejaké domáce zvieratá ako malá? <span class="emote">*Šepne a obráti na ňu očká.*</span> Ja ne. Psa som mal až neskôr. <span class="emote">*A zasa sa skloní nad časák.*</span> Ked- Ne to ne. Som tvoj prvej kluk. <span class="emote">*Stisne pery k sebe, hoc to jeho uvažovanie je celkom nahlas.*</span> Aký je najlepší koncert na ktoroms bola? <span class="emote">*A to zvrášti obočie.*</span> Viem ti predom povedať, že odo mňa na toto odpoveď nečakaj.  <span class="effect spell">[Uživatel seslal kouzlo Lumos. Hrot hůlky začne vyzařovat světlo.]</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 2:54</div>
+            </td>
+            <td class="content"><span class="emote">*Z jeho slov nadšeně nevypada. Kdo by se tvářil nadšeně, když přitom, co ho dotýkate myslí na zlý test. Vyfoukne si vzduch z tvářiček a pokroutí nad tím hlavou.*</span> Jsem ti ten test připomněla? <span class="emote">*Povytáhne lehce obočí nahoru a na obličeji se jí objeví krátký ušklebek, protože ona určitě to nemyslí moc vážně, když má šanci vidět jeho zmatený výraz ve tváři. Úšklebek jí rychle přejde, když on naopak pokračuje v rýpaním do ní. Tvařičku si schováva dál do ramene a zavrtí s ní.*</span> Nic určitě není vůbec zajmavý. Je to nic. <span class="emote">*Začne k němu konstatovat dost nesouhlasně. To už je zase pryč a zpátky. Mrkne na trávu kde sedí a posadí se přimo naproti němu. Při jeho otázce se zatváři zamyšleně. Dokonce si lehce stiskne rty k sobě a k jeho slovům přikývne.*</span> U historickýho bys trpěl. A přece se s tebou nebudu dívat na něco co by tě nebavilo. Takže taky to Sci-fi. <span class="emote">*Zodpoví první otázku. Nad tou jí i koutky mírně vyskočí nahoru. Se druhou si zkousne ret. A lehce k jeho otázce se zatváři fakt nervozně.*</span> Teďka to budeš ty. Bojím se aby si nešel na vojnu. <span class="emote">*Špitne k němu tižším hlaskem a to už se nad časák natáhne ona.*</span> Jaký člen rodiny ti byl během dětství nejbližší? <span class="emote">*Položí otázku a těkne zrakem k němu.*</span> Můj asi Alex. Myslím, že nám to je před určeno si být blízko, když už jsme spolu strávili o několik měsícu déle než jiní. <span class="emote">*Zodpoví tu otázku nejdříve ona a pak zase mrkne do časáku a přečte.*</span> Kdyby si mohl mít za celý život jenom jeden koláč nebo dort, jaký by to byl? <span class="emote">*Optá se a zase mrkne směr Mateo.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 2:33</div>
+            </td>
+            <td class="content"><span class="emote">*Nakrčí noštek.*</span> A to nemohlo byť niečo iné dôvodom? Možno som si spomenul na nejakej zlej test. Neviem. Fakt neviem. <span class="emote">*Pokrčí nad tým ramenami. Tak moc nevie! A on teda, ako je už asi dané a potvrdené, klamať moc dobre vedieť nebude. A toto vraví s čistotou v hlásku a snáď i duši. Než sa teda na neho začne tak hrnúť. Kútiky úst mu zasa poskočia do akéhosi úškrnu, keď mu snáď v tej jeho vlasatej hhlave dopne, že jeho podšťuchnutie na slečnu zabralo. Rukou jej prejde po vláskoch. Dokonca si pár pramienkov obmotá okolo prstov na dlani.*</span> Jo, jasne. Nad ničím. <span class="emote">*Musí pokračovať. Samozrejme, že musí.*</span> Ale keby si sa s tým ničím chcela podeliť, mne to vadiť nebude. <span class="emote">*Ďalej do nej rýpe, než ju teda nechá uvoľniť sa z jeho ramena a zovretia dlane vláskov a proste ju prepustí a odprevadí pohľadom na tom úteku do stanu. To už si tam sklopí očká k zemi a usadí sa niekde do trávy pri stane do tureckého sadu, než jednu nohu skrčí v kolene a oprie sa o ňu rukami. Nadvihne zrak, až keď sa Sofía prirúti späť. To sa mu i úsmev zjaví na tvári, než sa premení v zmätenosť a mrkne na tie časáky.*</span> Také otázky... <span class="emote">*Pustí cez pery. Zoberie si jeden ten časopis do ruky a prejde si očkami stránku.*</span> Takjo... <span class="emote">*Siahne k prútiku ku kapse a mávne s ním.*</span> Lumos. <span class="emote">*Nad časák, pričom stisne očká bližšie k sebe a začne akosi opatrne čítať.*</span> Čo bys so mnou kukla radšej. Sci-fi alebo nejakú historickú drámu? <span class="emote">*Nakrčí noštek a rovno sa k nej obráti s nadvihnutým obočím.*</span> No, tu ti viem povedať, že za mňa je to sci-fi. <span class="emote">*I na jej odpoveď si počká, než zasa sklopí očká k časáku a pokračuje v tých otázkach.*</span> Desí ťa niečo ohľadom budúcnosti? </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 2:11</div>
+            </td>
+            <td class="content"><span class="emote">*Při tom tématu je ona úplně stejně vážná jako on. Ono to stejně vážný téma je, když právě kvůli tomu málem přišlo k rozchodu a zlomení dvou srdíček. *</span> Ale..však jsem tam byla jenom já. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//To myslel na někoho jinýho? Na tu černo vlasou??//</span> <span class="emote">*Stiskne rty k sobě a zrakem klesne níž, jak kdyby za žadnou cenu nechtěla, aby jí v tenhle moment viděl do očí.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Ne. Ne určitě ne. Neumí lhát. A říkal, že semnou na ní nemyslí. A..a ne. Nezměnilo se to.//</span> <span class="emote">*Lítostný pohled se jí drží do chvíle než do ní začne rýpat s tím držením rukou a celkově dotýkaní. Celá zrudne a hnedka přilepí na jeho rameno svojí tvář, kterou tam schová.*</span> Ne. To by vadit nemuselo. <span class="emote">*Vypadne z ní než se ještě rychle ohradí k jeho druhé větě.*</span> Nad ničím! <span class="emote">*Prohlasí rychle a hezky tu tváříčko tiskne do něho. Hlavičku neodtahuje a akorát se usměje nad jeho prsty v jejích vlasech. Ať se snaží sebe víc odtáhnout hlavu dozadu, tak jí holt do obličeje nemá šanci vidět. Leda, že by jí uhl ramenem a zničil jí skrýš.*</span> Jo. Přesně takhle divný. <span class="emote">*Vyfoukne ze sebe trochu vzduchu a dál se k němu tiskne, jak kdyby nechtěla, aby se od sebe někdy odlepili.*</span> To neumím vysvětlit.. <span class="emote">*Špitne a když jí je dán signál, že jo, tak to se o něco víc k němu přilepí a opatrně ho zmáčkne pevněji. Hnedka se od něho odlepí a vydá se do toho stanu. V tom nějaký čas zůstáva než výjde už s časáky v ruce. Ty drží o něco křečovitěji a postaví se přimo před Matea. Mlčky mrkne do časopisu a začne v něm listovat než nalistuje stránku s jistými otázkami. To k němu tak mírně natáhne.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 1:55</div>
+            </td>
+            <td class="content"><span class="emote">*Prikývne. Prikývne niekoľkokrát za sebe v poradí, hoc na tvári sa mu úsmev nijako nemihne. On je totiž akýsi vážny pritom. Až smutne vážny, keď tie svoje oči na ňu valí furt v tom nervóznom vyznení.*</span> Jasne, že som. Neviem, kedy som bol divnej ale určite to nebolo kvôli tebe. <span class="emote">*Dodá. On, naopak od nej, celkom rýchlym a istým hlasom. Než konečne mu jeden z kútikov ucukne dohora, do akéhosi úškrnu, keď tam od nej padne tá podmienka ich dotýkania sa.*</span> Takže ma verejne nebudeš ani držať za ruku? Alebo nad čím ty teraz uvažuješ... <span class="emote">*Si musí podšťuchnúť. Samozrejme. To by inak nebol on. S tým svojim priblblým výrazom tvári, keď už je všetko asi v cajku a rozchod sa dnes nekoná. Na to objatie sa k nej pritisne, pričom jej aj tú dlaň pustí a proste jednu obmotá do jej vláskov zozadu hlavy.*</span> Tak divné, jako, že si sa ma nedotýkala ty, celej čas? <span class="emote">*Nadvihne na ňu obočie a uhne hlavou trochu dozadu, aby jej do tej tváre i vidieť mohol. Ale zasa sa pritiahne bližšie.*</span> Časáky? Otázky? <span class="emote">*Vyjde z neho zmätene, ako keby si moc nebol istý čo slečna má na mysli. On asi také otázky v časákoch ešte nikdy nevidel, no. Ale hlavou kývne, tak snáď to je nejakej signál aby ich predsa len doniesla. Dokonca to držanie na jej hlave uvoľní, ak sa tak rozhodne.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 1:48</div>
+            </td>
+            <td class="content"><span class="emote">*Když celou její myšlenku toho, že nechce, aby se ho nějak dotýkala nebo se k němu přibližovala do větší blízkosti vyvratí, tak na něho zmateně zamrká, jak by absolutně nechápala, že jí to vyvrací. Chvíli na něho kouká, jak úplně šokem ochromená, když začne chytat její ruku, tak jí to mírně vzbudí. Těkne zrakem ke zvednuté ruce a doprovodí jí. A zase koukne na něho.*</span> Jseš si jistý? Nelžeš mi? Si byl minule divný.. <span class="emote">*Řekne trochu váhavějším hlasem, jak by si nebyla jistá, že to celé neříka jen tak. Koutky jí při ucítění její tváře povyskočí nahoru, spokojnost sama. Dokonce i ona k němu udělá krok dopředu. K jeho dalším sluvkům přikývne, tak lehce. Mírně jí koutky povyskočí nahoru, do úšklebku.*</span> Hmm. Hodiny bych vynechala. A veřejná místa. <span class="emote">*Po jeho dalších slovech stiskne rty k sobě. Udělá k němu ještě menší krok blíž a pak si ho prostě tou jednou rukou obejme. Ne moc silně, protože ona v té ruce stále drží růži. Ale tak jemně se na něho natiskne.*</span> Ne..já mám rada, když se mě dotýkaš. By bylo divný, kdyby ses mě nedotkl.. <span class="emote">*Špitne k němu. Jakmile zmíni tu barvu, tak to k němu tak mírně nakloní hlavičku.*</span> Já uhm..mám časáky. A tam jsou takový ty otázky..je můžu přinést. <span class="emote">*To řekne k němu s jistou nabídkou v hlase.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 1:32</div>
+            </td>
+            <td class="content"><span class="emote">*Tak on na ňu ďalej čučí. Nič iné mu stejnak asi moc neostáva, žeo. Len, keď príde to jej vysvetlenie tak sa zarazí a mykne tvárou trochu dozadu, než zvrášti obočie, i hneď pretvorí ten svoj výraz v zmätenie, či nejakú istú zúfalosť.*</span> Nie. Nie... to- ne. To som- ja som chcel. <span class="emote">*Vykokce zo seba, ako keby rozprával skôr, než by si tie svoje slová vôbec v hlave zoskladal dokopy do jedinej súvislej vety.*</span> Sofío. <span class="emote">*Šepne, než sa rýchlo natiahne k tej jej prázdnej ruke - tej kde nedrží tie ruže, žeo. A skúsi ju schytiť jednou dlaňou za zápästie a druhou za opačnú stranu dlane jej. Pritiahne ju k sebe. I krok bližšie k nej urobí, snáď aby nemusel tu jej ruku veľmi naťahovať. A priloží si, jej dlaň o svoje líčko. Dokonca sa o ňu oprie. Na moment privrie očká, než ich zasa otvorí a pozrie sa jej smerom.*</span> Ja chc-chcem abys sa ma dotýkala. Kedykoľvek. Kdekoľvek. Fakt. <span class="emote">*Vypustí zo seba celkom rýchlo, len očkami a tváričkou pritom trochu kývne, jak keby potrebovala ešte i túto dotvrďovaciu metódu.*</span> Ja sa bál, že šahám moc na teba. Že to je na teba... no skoro. Veď ja neviem ani tvoju obľúbenú farbu... <span class="emote">*Pustí cez pery, než sa zasa s privretými očkami ponorí líčkom do jej dlane - keď ju ešte furt tak drží.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 1:20</div>
+            </td>
+            <td class="content"><span class="emote">*Ona sama nevypadá o moc klidnější jak Mateo. Neustále střída pohledy mezi ním a pohledem do dáli. Jak by se nemohla rozhodnout kam koukat je vlastně lepší. A její rozhodnutí se na ní nějak neprokazuje a akorát dál těká. Nakonec s přichodem slovů zrak na něm zase hezky ukotví a kouká jenom na toho Matea a na nic jinýho.*</span> Jo - ale to protož- <span class="emote">*Zase přijde useknutí. Kdyby je někdo viděl tak by si beztak myslel, že neumí ani pořádně mluvit, když nedokončujou své věty nějak. Jeho slova si poslechne a to kývne.*</span> Jo - protože - protože ty si nechtěl. Já chtěla. Ale nechtěla jsem ti ublížit, tak jsem se tě nedotýkala. Uh..promiň, jestli jsem stála moc blízko. <span class="emote">*Tentokrát jsou to právě její oči zaputují k zemi. S jeho dalšími slovy, co nejsou dokončené, ale dokončit se dají poměrně snadno se zamračí. Začne rychle dost nesouhlasně vrtět hlavou.*</span> T-to teda ne! <span class="emote">*Prohlasí a už k němu dělá krok i s rukama, že by ho asi objala, ale nakonec nic, protože sebou trhne. Ustoupí o krok zase zpátky dozadu a ruce si skřiží na prsou, tak pevně, jak by jí to mělo pomoct ty ruce nenatahovat. Aspoň slovně řekne.*</span> Vůbec se mi nehnusíš..však jseš moc hezkej. <span class="emote">*Hlasem rychle začne klesat dolů, že jde jen o tichý šepot, tak aby to slyšelo jenom jeho ucho.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 1:09</div>
+            </td>
+            <td class="content"><span class="emote">*On sa s ňou ďalej na tom, či mu ďakovať má alebo nie neháda. Vlastne by to asi ani nemalo vcelku žiaden zmysel. Hádať sa na niečom tak sprostom a zbytočnom. I keď ono tie ich naťahovačky sú všetky tak trochu sprosté a zbytočné, nie? Nie, žeby to bolo nejako prekvapivé, keď sú to dvaja pubertiaci, ale stejnak. Takže on tam len stojí a s hlbokým nestálym dychom, ľahkým preglgnutím a očkami zabodnutými k zemi počúva tie jej slová. A presne kvôli nim zrak nadvihne a ten svoj dych skúsi aspoň trochu upokojiť, spomaliť.*</span> Nie? T- seš odtažitá. <span class="emote">*Prehlási niekedy zarovno s jej slovami. A díva sa na ňu. Tentoraz hej. Zvrášti obočie k sebe a ďalej ľahko predycháva, ako keby sa nevedel naladiť na normálnu notu dychu.*</span> Seš odtažitá. Si- seš mesiac minimálne odtažitá. A ani teraz ma nechytila za ruku. <span class="emote">*Stisne svoje pery k sebe a ľahko sa do nich zúbkami zahryzne. Zjavne so svojim zlozvykom neskoncoval.*</span> Som ti hnusn- <span class="emote">*Odfrkne si a rukou si zalezie niekde do svojich vláskov, pričom zasa tvár sklopí s tou všetkou svojou zmätenosťou a zúfalosťou k zemi. A len ďalej mlčí.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 0:59</div>
+            </td>
+            <td class="content"><span class="emote">*Těch oblčejú, co přichazejí dál si pomalu ani nemá šanci všimnout, protože ona místo toho, aby jeho tvář dál zkoumala se kouká někam do dálky na trávu, nebo aspoň na místo, kde by tak zhruba tráva být mohla, ona ta tma teďka asi bude trochu větší. Nad tím neděkovaním zavrtí hlavou.*</span> Budu. <span class="emote">*Namítne. A nezní tak, že by Mateo měl moc velkou moc její rozhodnutí o tom, jestli děkovat bude nebo ne změnit. Jenže to už je to téma u úplně něčeho jiného. Květinu si o něco pevněji sevře mezi prstíky a ten zrak upře na ní. K té poznámce, nebo spíše faktu, který se tu neodmisltelně děje, jen nechápavě zamrká. Ne k Mateovi. Ale do té růže na kterou kouká. Chvíli mlčí a asi by se do mluvení dala, kdyby se ještě nepokračovalo tím chápem. To už se probere. Přešplápne z nohy na nohu.*</span> Chápeš? Já nechápu. <span class="emote">*Řekne a zrak jí těkne zpět k němu. Přelétne si ho pohledem, jak by v jeho tváři mohla vyčíst, co on chápe a ona absolutně nechápe. Čtení obličeju jistě není její silná stránka, leda že by se na obličeji objevila odpověď, ale i tak na něho dál kouká. K tomu "prečo" si akorát polkne. Až teďka se dá do nějakého většího mluvení než jsou ty opravdu hodně krátké věty.*</span> Mateo..já vůbec nevím o čem mluvíš. Já se s tebou rozcházet nechci.. A nejsem odtažitá. Jen.. <span class="emote">*Větu nedokončí a místo toho pokračuje v koukani na něho. Rty tiskne k sobě.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 0:47</div>
+            </td>
+            <td class="content"><span class="emote">*On si toho jej oddialenia od jeho osoby samozrejme všimne, pričom po nej hodí ďalšej pohľad a jeho smutnej výraz, obočie a všetko sa prehĺbia viac jak by mohlo byť potrebné. Len ich rýchlo zasa usekne preč. Teda, dokým nepríde na to jeho darovanie kvetín. To sa na ňu uprene celkom díva a pri tom jej úsmeve mu samému kútiky trochu vyskočia dohora. Ako keby sa mu trochu uľavilo na duši. Čo je určite pekná zmena od toho jeho smútnenia.*</span> Neďakuj. <span class="emote">*Šepne.*</span> A jo... <span class="emote">*Sám sa trochu nad tým svojim nápadom sto ruží zasmeje, než ruky zastrčí do káps džínsov a hrnie sa to pri prechádzke v tichosti ďalej.*</span> No preto lebo... <span class="emote">*Stisne pery k sebe.*</span> Si odtažitá. <span class="emote">*Len na stotinu sekundy jej pritom mrkne k tvári, on si totiž stojí zjavne pevne za tým, že zem je teraz to najlepšie miesto kam sa pozerať. A stojí. Už stojí. A očkami poskakuje zasa k nej, pretože čo iné má robiť, keď ona mlčí. A to jej mlčanie jemu asi fakt moc dobre na duši nerobí. Jeho dych sa trochu zrýchli a to preskakovanie očkami tiež. Aj jeho postoj sa trochu pohne. Ruky vytiahne z káps a presunie ich niekde k sebe, ťahajúc prstami dlaní niekde za časti svojich krátkych rukávov.*</span> Chápem. <span class="emote">*Vyjde z neho cez pery s ľahkým prikývnutím. No nedíva sa na ňu, len urobí sám krok dozadu.*</span> Prečo? <span class="emote">*Šepne ešte, potiahne nosom a trochu tvárou mykne, ale ďalej len čučí do zeme.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 0:36</div>
+            </td>
+            <td class="content"><span class="emote">*Toho výrazu, co jí je věnovaný si jistě všimne, protože ona sice se oční kontakt přímo snaží úplně minimalizovat, hlavně, když jde o tu ruku, ale i přes to po něm často pokukuje, jak kdyby si nemohla pomoct. Lehce se nad tím vyrazem zatváři zmateně.*</span> <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Proč se tváří tak smutně? Já..já si stoupla moc blízko? A-asi jo. Vždyť jsem se ho nedotkla.//</span> <span class="emote">*Stiskne rty k sobě a lehce tak od něho ustoupí, jen tak mírně, že mezi nima udělá takovou půl metrovou mezeru. Zrakem k němu sklouzne na něco déle, když jí je podávana ta kytice. To jí koutky úst vyskočí nahoru. Vezme si jí od ní a začne si jí prohlížet. Do tváři se jí začne hrnout červená barva a věnuje mu široký úsměv.*</span> Děkuju. <span class="emote">*Vypadne z ní a nad těmi sto růžemi se tak sama pro sebe zasměje a přikývne.*</span> Myslím, že na sto růži velkou vázu nemáme.  <span class="emote">*Když on klesne zrakem k zemi, tak ona ho následuje a sama se taky do té země začne koukat. Nad tím odmítnutí se zamračí. Přitom se k němu nedíva.*</span> Proč? Nevidím důvod, proč bych odmítala procházku s tebou. <span class="emote">*Zakroutí nad jeho doměnkou hlavičkou do strany, jakože dost nesouhlasně. Pomalu sama začne spomalovat a jak zastaví, tak se zastaví i ona. Zrakem k němu sklouzne a jak z něho padají ta slova, tak mírne zamračení na jejím obličeji se začne prohlubovat víc a víc, až se jí vytvoří delší linie na čele. Až domluví, tak se zatváří úplně vyděšeně. A akorát na něho kouká. Aniž by z ní vypadlo jediný slovo. I když on tím zrakem kam si klesne, tak ona ho nenasleduje. Párkrát tu pusinku otevře, jak by se chystala něco říct ale stejně to skončí zpátky zavřenou pusou k sobě a žadnou hláskou.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">20. 12. 2025 0:24</div>
+            </td>
+            <td class="content"><span class="emote">*Keď mu tú ruku holčina nevezme, tak tváričku trochu natočí v jej smere a venuje jej akýsi smutnejší, až ľútostivejší pohľad, než tú svoju dlaň proste skloní dolu vedľa teba a šuchne niekde do kapsy džínsov, ako keby sa snažil od hanby schovať, že jej ju vôbec ponúkal. Spustí zasa tvár k zemi, s prehĺtnutím. Ono na cestu sa predsa len pozerať aspoň trochu musí... nie? Než pri tých svojich pomalých krokoch, obráti zasa tvár ľahko k nej a tentoraz jej podá aj tú kyticu ruží, než prútik odloží niekde do zadnej kapsy džínsov.*</span> Pre teba. Chcel som ich dať sto- ale nemal by som to asi kde skladovať. A ani ty. <span class="emote">*Vykokce zo seba, ukončujúc to celé menším úsmevom. To zasa tváričku odvráti k zemi s akýmsi čudným výrazom na tvári, než si zasa zúbkami vyhľadá peru a začne si do nej ľahko hrýzť.*</span> Jo? Ja sa bál... že odmietneš. Hele- <span class="emote">*Zasa preglgne. Preruší tým svoju prostú vetu a pri tej svojej chôdzi sa niekde kúsok ďalej od stanu, na polceste medzi jazerom a ním, pozastaví.*</span> Viem, že som asi niečo urobil- a neviem čo. Ale moc ma to mrzí. Nechcem abys... abys si sa so mnou rozchádzala. <span class="emote">*Vyhŕkne na ńu, jak keby toto bol presne cieľ ich prechádzky. Dokonca ľahko nadvihne jej smerom očká, než ich odvráti a zabodne kdesi bokom k zemi.*</span> </td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10873">
+            <td title="">
+                <div class="head"><div class="sender">Sofía Sánchez</div></div>
+                <div class="time">20. 12. 2025 0:10</div>
+            </td>
+            <td class="content"><span class="emote">*Hnedka právě za Mateem se to ze stanu vynořuje tato osúbka. Asi přesně ta osůbka, které má být věnovaná natahujcí ruka. Obleknutá je do bílých kratších šatů sahajcí někam lehce nad kolena, jen s tenýkmi ramínky. Na šaty nejsou celé bíle, protože mají na sobě malé vzory modrých kytiček po celý šatech. V podobném tmavě modrém odstínu má přes sebe opravdu tenoučký svetřík, co má rozepnutý, asi pro jistotu, kdyby v noci v létě, ještě hrozila zima. Vlasy má rozpuštěné a jen lehce zastrčené za ouška s tím, že jí pár pramínku tak různě polítava kolem obličeji při té chůzi. Obuté má na nohou černé balerínky na nižším podpadku, tak aby se jí stále chodilo v celku pohodlně i delší trasu než jenom k hradu. A ješté k tomu po povrchu kolem jezera. Ruce má puštěné kolem těla a očkama sjede směrem k té ruce. Na tu se chvíli jen tak lehce kouká a pak zrakem sklouzne ve směru jezera, asi se snažíci dělat, že jí absolutně nevidí. Taky se za ní nenatahuje. Zkousne si ret a lehce přidá do kroku, aby Matea dohnala o těch par kroků. Mrkne k němu až v moment, kdy promluví.*</span> Ne, to je v pohodě. Se s tebou ráda projdu. Je tu hezky. <span class="emote">*Hodí k němu krátky usměv a už zase se ohlédne k tomu jezeru.*</span></td>
+        </tr>
+    
+        <tr class="message" style="color: #2e8b57;" data-sender-id="10899">
+            <td title="">
+                <div class="head"><div class="sender">Mateo Benítez</div></div>
+                <div class="time">19. 12. 2025 23:57</div>
+            </td>
+            <td class="content"><span class="emote">*Len mlčky si to z útrob Castelobruxkého stanu, vykročí von na priestranstvá hradných pozemkov a okolia jazera, tento chalan. Jeho oblečenie nie je ničím špeciálne. Je asi také, ako sa na takého pubertálneho chalana patrí. Zelené triko, s krátkym rukávom, ktoré má niekde pri krku dve menšie biele gombíky. Jeden je rozopnutý, ten horný. Ten spodnejší nie, ten uschováva zapnutý, tak ako by asi byť aj mal. K tomu nesie ešte akési džínsy a rozšuchané staré tenisky. Nič viac, nič menej. Len v ruke si zviera prútik, pričom tou druhou si to šmatrá niekam dozadu, za seba. Ako keby očakával, že niekto možno tú jeho druhú prázdnu ruku uchytí. Zatiaľ čo očkami mávne k tej s prútikom - žltým vo farbe - a mierne si zamrmle.*</span> Orchideous. <span class="thought" style="color: hsla(146.45161290323, 50.27027027027%, 36.274509803922%, .8);">//Červené ruže.//</span> <span class="emote">*S akousi inkantačkou. To krokmi pokračuje niekam preč, otočkou a zabočením, okolo stanu. Jak keby mal v pláne prostú prechádzku.*</span> Prepáč, že- že ťa ťahám von. V noci. Keď je skúškové a- <span class="emote">*Stisne pery k sebe akýmsi šeptajúcim hláskom. Ku komu? Kto vie. Ale možno to bude venované tomu, komu je venovaná aj tá jeho prázdna ruka.*</span>   <span class="effect spell">[Uživatel seslal kouzlo Orchideous. Vyčaruje libovolnou kytici.]</span></td>
+        </tr>
+    
+        
+        
+        
+    </table>
+</body>
+</html>
