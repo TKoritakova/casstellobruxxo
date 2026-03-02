@@ -80,6 +80,9 @@ const Historie = () => (
         className='text-highlighter'>nabídli podporu i dalším školám</span>. Po odeznění nebezpečí se Castelobruxo
       vrátilo k otevřenému fungování v duchu 80. let a roku 2007 dojednalo novou podobu meziškolního turnaje.</p>
 
+    <Link className='game-archive-button with-arrow' to="/turnaj" target="_blank" rel="noopener noreferrer">Číst
+      více o průběhu turnaje</Link>
+
 
   </div>
 )
