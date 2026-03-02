@@ -432,6 +432,86 @@ const SoukromeHry = () => (
     <a className='game-archive-button' href="/casstellobruxxo/CasteloStan.html" target="_blank"
        rel="noopener noreferrer">Otevřít archiv</a>
 
+    <h2>Vyučování přemisťování</h2>
+    <hr />
+
+    <h3>Úvod do přemisťování a Fulmenův rituál</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 17. 10. 2025 (20:32 – 23:25) - říjen 2008</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Bastein Isaiah Mercier (profesor), Kamilla Bokorova, Luana Mariana Almeida Soares, Juan Miguel Santos Ramírez, Mateo Benítez, Catriel Ulises Condori, Maya Garcia-Berry, Ghuhloalan Zipporah Elazar</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Studenti Bradavic, Kruvalu a Castelobruxa se sešli na první hodině kurzu přemisťování pod vedením profesora Merciera, který je po teoretickém úvodu nečekaně vtáhl do historické iluze. Rozděleni do dvou skupin se ocitli v minulosti, kde měli za úkol vykonat krvavý Fulmenův rituál zahrnující obětování zvířat, což vyvolalo mezi studenty morální konflikty a vzájemné potyčky. Emoční vypětí vedlo k nekontrolovanému sesílání kouzel, mdlobám a zvracení, až musel profesor zasáhnout a iluzi ukončit proměnou zvířat v plyšáky. Po návratu do reality profesor udělil studentům lekci o povaze iluzí a nutnosti plnit úkoly i v nepříjemných situacích. Otřesení studenti z Castelobruxa a oslabená Maya byli následně doprovozeni do svých ubytování, zatímco kruvalské studentky byly propuštěny s omluvenkou za pozdní příchod na kolej.</p>
+
+    <a className='game-archive-button' href="/casstellobruxxo/archivy-soukrome/PrvniHodinaKP.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv</a>
+
+
+    <h2>Bradavické schodiště</h2>
+    <hr />
+
+    <h3>Nebezpečné lekce na schodech</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 28. 11. 2025 (15:35 – 18:47) - únor 2009</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Mateo Benítez, Cindy Emberly Dinklage</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Mateo z brazilského Castelobruxa se nejistě pokouší zdolat bradavické pohyblivé schodiště, když ho vyruší Cindy. Mezi dvojicí probíhá kousavý dialog plný vzájemných urážek, provokací a narážek na jejich předchozí setkání u jezera. Cindy se snaží Matea vyvést z míry a poučuje ho o tom, jak schody fungují, zatímco on se brání cynismem. Postupně se řeč stočí i k jejich společným známým a vztahovým dramatům. Nakonec se Cindy rozeběhne pryč a Mateo ji následuje, aby se ze schodiště dostal.</p>
+
+
+    <h3>Noční lovci a skákající prváci</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 31. 12. 2025 (02:25 – 04:25) - červen 2009</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Phoebe Lichten, Mateo Benítez, Aveline Parker</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Malá Phoebe si uprostřed noci krátí dlouhou chvíli tím, že se pokouší vybíhat schody po dvou, což vyvolá pozornost Matea, který se vydává za profesora. Do situace se vkládá Aveline, která si dvojici vyfotí na polaroid jako „důkazní materiál“ o jejich nočním toulání. Phoebe se následně dotazuje Matea na teorii ohledně zvěromágů a nakonec odchází spát, než ji chytí skutečný učitel. Aveline obviňuje Matea z členství v kultu a po krátké výměně názorů o křesťanství a zombiích rovněž mizí. Mateo, osamocen, nakonec odchází směrem k Velké síni.</p>
+
+
+    <a className='game-archive-button' href="/casstellobruxxo/archivy-soukrome/Schodiste.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv</a>
+
+
+    <h2>Akustická místnost</h2>
+    <hr />
+
+    <h3>Hudební setkání a kulturní výměna</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 30. 10. 2025 (16:59 – 19:17) - listopad 2008</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Juan Miguel Santos Ramírez, Fuji Yamamoto</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Juan náhodou objeví akustickou místnost a zanedlouho se k němu připojí Fuji z japonské školy. Společně probírají rozdíly mezi svými kulturami, zejména význam úklon a očního kontaktu, který je v Japonsku vnímán jako projev agrese. Fuji vysvětluje Juanovi přísný režim jejich studia a úctu k přírodě. Juan na oplátku popisuje uvolněnější atmosféru ve své škole a jejich zvyky při pozdravu. Nakonec se oba shodnou, že je čas na večeři a společně odcházejí do Velké síně.</p>
+
+    <h3>Noční zpověď a zjištění o zvukotěsnosti</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 3. 11. 2025 (19:17 – 23:37) - prosinec 2008</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Mateo Benítez, May Amelia Torchio</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Mateo se v místnosti schází s May, aby unikl myšlenkám na Sofíu, se kterou má komplikovaný vztah. May mu vypráví o svých aktivitách a postupně mezi nimi dochází k intimnímu sblížení a polibkům. Během rozhovoru May zdůrazňuje, že mu nemůže slíbit exkluzivní vztah a nechce nic závazného. Vzájemně si uzavírají dohodu o upřímnosti, pokud by se jeden z nich rozhodl „zůstat nepoučitelný“ ve svých citech k jiným lidem. Na závěr May prozrazuje Mateovi, že místnost je zvukotěsná, načež společně odcházejí.</p>
+
+    <h3>Bylinkové následky a hledání klidu</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 6. 11. 2025 (19:48) – 7. 11. 2025 (1:34) - prosinec 2008</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Charles Clayton, Luana Mariana Almeida Soares, Mateo Benítez</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Charles a Luana se náhodně potkávají v místnosti a zkoušejí hru na flétnu a klavír. Do jejich klidného večera vtrhne Mateo, který si Luaně nevybíravě stěžuje na účinky bylinného odvaru, po kterém v noci opakovaně spadl z postele. Po Charlesově odchodu se atmosféra uklidní a Luana s Mateem osamějí na gauči, kde probírají své vztahové problémy a neshody s přáteli. Mateo se Luaně omlouvá za svou hrubost a přiznává, že se cítí osamělý, protože jeho blízká kamarádka Lucka si od něj drží odstup. Hra končí pozdě v noci, kdy se Mateo s pomocí berlí a Luaniny přítomnosti vydává zpět do stanu.</p>
+
+    <a className='game-archive-button' href="/casstellobruxxo/archivy-soukrome/Akusticka.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv</a>
+
+    <h2>Akce u jezera</h2>
+    <hr />
+
+    <h3>Velikonoční stanování u Černého jezera</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 13. 12. 2025 (19:26) – 14. 12. 2025 (03:02) - duben 2009</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Tadeu Luce Costa (zástupce), Wayne Thatcher, Tara Moretti, Joshua J. Pérez, Phoebe Lichten, Elowen Aurora Thorne, Ivan Nikolaevich Vasiliev, Veronica Kiraz, Charles Clayton, Nikolai S. Ólíversson, Ghuhloalan Zipporah Elazar, Veronica Juliet Allen, Zuri Le Blanc, Grace Grant, Casey Cornish, Sofía Sánchez, Sofia Amarilis Perez, Eli Harold Vaughn, Thomas Severin Gibson, Elise Trevelyan, Kasiopea Altbauer, Chilli Odessa McByrne, Catriel Ulises Condori</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Studenti Bradavic a navštěvujících škol se sešli u černého jezera na společné stanování, které zahájili stavbou stanů (ručně i magicky) a zdobením jejich plachet. Během večera probíhaly aktivity jako běh s vajíčkem na lžičce, koleda nebo opékání buřtů u táboráku, přičemž došlo i k incidentu, kdy studenta Ivana stáhlo pod hladinu chapadlo jezerní sépie. Postupně se účastníci odebírali ke spánku, až u ohně zůstala jen poslední dvojice, Catriel a Ghuhloalan, kteří po dlouhém rozhovoru akci nad ránem ukončili odchodem do svých bydlišť.</p>
+
+    <a className='game-archive-button' href="/casstellobruxxo/archivy-soukrome/Prespavacka.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv</a>
+
+    <h2>Jarní jezero</h2>
+    <hr />
+
+    <h3>Noční rande a romantické otázky</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 19. 12. 2025 (23:57) – 20. 12. 2025 (05:36) - květen 2009</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Mateo Benítez, Sofía Sánchez</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Mateo pozve Sofíi na noční procházku k jezeru, aby si vyjasnili napětí, které mezi nimi panovalo kvůli pocitům odtažitosti. Po emocionálním vyznání a ujištění, že se rozcházet nechtějí, se společně usadí a pomocí otázek z časopisu se o sobě snaží dozvědět více. Rozebírají svá rodinná pouta, oblíbené žánry filmů i své strachy, včetně Mateovy bizarní představy o zombie apokalypse v džungli. Celá hra končí usmířením a společným odchodem do stanu.</p>
+
+    <h3>Tajná schůzka a nečekané návštěvy</h3>
+    <p><span className='text-highlighter'>Datum a čas:</span> 26. 12. 2025 (20:00) – 27. 12. 2025 (05:11) - červen 2009</p>
+    <p><span className='text-highlighter'>Účastníci:</span> Catriel Ulises Condori, Ghuhloalan Zipporah Elazar, Kamilla Bokorova, Carmilla Iris José</p>
+    <p><span className='text-highlighter'>Shrnutí:</span> Catriel a Ghuhloalan se scházejí u jezera k soukromému rozhovoru, který vyvrcholí polibkem, jenž je vzápětí přerušen náhlým příchodem Kamilly a profesorky José. Profesorka překvapivě studenty netrestá za porušení večerky, naopak s nimi chvíli přátelsky rozmlouvá a nabízí jim pochopení. Atmosféra na břehu je však po zbytek noci napjatá kvůli Kamillině provokativní přítomnosti a vzájemné nevraživosti mezi dívkami. Hra končí postupným odchodem všech zúčastněných, nejprve profesorky, poté rozhádaných studentek a nakonec i Catriela.</p>
+
+    <a className='game-archive-button' href="/casstellobruxxo/archivy-soukrome/PrepadeniUJezera.html" target="_blank"
+       rel="noopener noreferrer">Otevřít archiv</a>
+
+
 
 
 
