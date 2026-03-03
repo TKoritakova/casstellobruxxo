@@ -175,9 +175,11 @@ const NominovaniStudenti = () => (
     <hr/>
 
     <div className='face-cards-wrapper'>
-      <div className='student-face-card'>
-        <img src={Murhala} className='img-character'/>
-        <p><span className='text-highlighter'>Caetano Murhala</span></p>
+      <div className='seminar-face-card'>
+        <Link to="/caetano-murhala" target='_blank'>
+          <img src={Murhala} className='img-character'/>
+          <p><span className='text-highlighter'>Caetano Murhala</span></p>
+        </Link>
       </div>
       <div className='student-face-card'>
         <img src={Carmila} className='img-character'/>
