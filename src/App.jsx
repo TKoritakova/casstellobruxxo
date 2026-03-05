@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, Children} from 'react'
 import {Routes, Route, Link, useLocation} from 'react-router-dom'
 
 import './App.css'
@@ -58,7 +58,28 @@ import NominovaniStudenti from "./pages/turnaj/NominovaniStudenti.jsx";
 import Vysledky from "./pages/turnaj/Vysledky.jsx";
 import Seminare from "./pages/turnaj/Seminare.jsx";
 import SoukromeHry from './pages/turnaj/SoukromeHry.jsx'
+
 import InesSorayaCaro from './pages/postavy/InesSorayaCaro.jsx'
+import AlejandroSanchez from "./pages/postavy/AlejandroSanchez.jsx";
+import CatrielUlisesCondori from "./pages/postavy/CatrielUlisesCondori.jsx";
+import KiraSoraiaRodrigues from "./pages/postavy/KiraSoraiaRodrigues.jsx";
+import LuciaJulianaNavarro from "./pages/postavy/LuciaJulianaNavarro.jsx";
+import MelissaNayraDeLeon from "./pages/postavy/MellisaNayraDeLeon.jsx";
+import SofiaSanchez from "./pages/postavy/SofiaSanchez.jsx";
+import CesarJesusGimenezCastillero from "./pages/postavy/CesarJesusGimenezCastillero.jsx";
+import JuanMiguelSantosRamirez from "./pages/postavy/JuanMiguelSantosRamirez.jsx";
+import LuanCaetanno from "./pages/postavy/LuanCaetanno.jsx";
+import MateoBenitez from "./pages/postavy/MateoBenitez.jsx";
+import MikelAnccoDeLeon from "./pages/postavy/MikelAnccoDeLeon.jsx";
+import SofiaAmarilisPerez from "./pages/postavy/SofiaAmarilisPerez.jsx";
+import YaraMonteiro from "./pages/postavy/YaraMonteiro.jsx";
+import YaraQuetzalDoSol from "./pages/postavy/YaraQuetzalDoSol.jsx";
+import AlejandroNavarro from "./pages/postavy/AlejandroNavarro.jsx";
+import ChiaraAntoniaJose from "./pages/postavy/ChiaraAntoniaJose.jsx";
+import GabrielSebastianAlmeidaSoares from "./pages/postavy/GabrielSebastianAlmeidaSoares.jsx";
+import LuanaMarianaAlmeidaSoares from "./pages/postavy/LuanaMarianaAlmeidaSoares.jsx";
+import TristanYerayMoreno from "./pages/postavy/TristanYerayMoreno.jsx";
+import CaetanoMurhala from "./pages/postavy/CaetanoMurhala.jsx";
 
 
 function ScrollToTop() {
@@ -168,7 +189,29 @@ function App() {
           <Route path="/utrzky-z-bradavic" element={<SoukromeHry/>}/>
 
           <Route path="/ines-soraya-caro" element={<InesSorayaCaro/>}/>
+          <Route path="/alejandro-sanchez" element={<AlejandroSanchez/>}/>
+          <Route path="/catriel-ulises-condori" element={<CatrielUlisesCondori/>}/>
+          <Route path="/kira-soraia-rodrigues" element={<KiraSoraiaRodrigues/>}/>
+          <Route path="/lucia-juliana-navarro" element={<LuciaJulianaNavarro/>}/>
+          <Route path="/melissa-nayra-de-leon" element={<MelissaNayraDeLeon/>}/>
+          <Route path="/sofia-sanchez" element={<SofiaSanchez/>}/>
 
+          <Route path="/cesar-jesus-gimenez-castillero" element={<CesarJesusGimenezCastillero/>}/>
+          <Route path="/juan-miguel-santos-ramirez" element={<JuanMiguelSantosRamirez/>}/>
+          <Route path="/luan-caetanno" element={<LuanCaetanno/>}/>
+          <Route path="/mateo-benitez" element={<MateoBenitez/>}/>
+          <Route path="/mikel-ancco-de-leon" element={<MikelAnccoDeLeon/>}/>
+          <Route path="/sofia-amarilis-perez" element={<SofiaAmarilisPerez/>}/>
+          <Route path="/yara-monteiro" element={<YaraMonteiro/>}/>
+          <Route path="/yara-quetzal-do-sol" element={<YaraQuetzalDoSol/>}/>
+
+          <Route path="/alejandro-navarro" element={<AlejandroNavarro/>}/>
+          <Route path="/chiara-antonia-jose" element={<ChiaraAntoniaJose/>}/>
+          <Route path="/gabriel-sebastian-almeida-soares" element={<GabrielSebastianAlmeidaSoares/>}/>
+          <Route path="/luana-mariana-almeida-soares" element={<LuanaMarianaAlmeidaSoares/>}/>
+
+          <Route path="/tristan-yeray-moreno" element={<TristanYerayMoreno/>}/>
+          <Route path="/caetano-murhala" element={<CaetanoMurhala/>}/>
 
         </Routes>
       </main>
