@@ -1,31 +1,34 @@
 import React from 'react'
 
 
-
 const MateoBenitez = () => (
   <div>
-      <div className="main-header"><h1>Mateo Benítez</h1></div>
+    <div className="main-header"><h1>Mateo Benítez</h1></div>
+    {/* id = 10899 */}
 
-      <p><span className='text-highlighter'>Narozeniny:</span> 26. ledna 1992</p>
-      <p><span className='text-highlighter'>Původ:</span> Mudlorozený</p>
-      <p><span className='text-highlighter'>Národnost:</span> Kubánská</p>
-      <p><span className='text-highlighter'>Bydliště:</span> Santiago de Cuba</p>
-      <p><span className='text-highlighter'>Jazyky:</span> Španělština, haitská kreolština, angličtina, portugalština, francouzština a učí se latinsky</p>
+    <p><span className='text-highlighter'>Narozeniny:</span> 26. ledna 1992</p>
+    <p><span className='text-highlighter'>Původ:</span> Mudlorozený</p>
+    <p><span className='text-highlighter'>Národnost:</span> Kubánská</p>
+    <p><span className='text-highlighter'>Bydliště:</span> Santiago de Cuba</p>
+    <p><span className='text-highlighter'>Jazyky:</span> Španělština, haitská kreolština, angličtina, portugalština,
+      francouzština a učí se latinsky</p>
 
-      <hr />
-      <p><span className='text-highlighter'>Faceclaim:</span> Marcel Ruiz</p>
-      <p><span className='text-highlighter'>Výška:</span>179 cm</p>
-      <p><span className='text-highlighter'>Váha:</span> 68 kg</p>
-      <p><span className='text-highlighter'>Barva očí:</span> Hnědá</p>
-      <p><span className='text-highlighter'>Barva vlasů:</span> Hnědá</p>
+    <hr/>
+    <p><span className='text-highlighter'>Faceclaim:</span> Marcel Ruiz</p>
+    <p><span className='text-highlighter'>Výška:</span>179 cm</p>
+    <p><span className='text-highlighter'>Váha:</span> 68 kg</p>
+    <p><span className='text-highlighter'>Barva očí:</span> Hnědá</p>
+    <p><span className='text-highlighter'>Barva vlasů:</span> Hnědá</p>
 
-      <hr />
-      <p><span className='text-highlighter'>Kmen:</span> Nomphyrian (kyselý)</p>
-      <p><span className='text-highlighter'>Hlavní oborový předmět:</span> Obecná magizoologie</p>
-      <p><span className='text-highlighter'>Další předměty:</span> Magie obrany a útoku, magie běžného užití, lékouzelnictví, černomagičtí tvorové, chov a ochrana magických tvorů, přírodní magie, cizokrajné jedy a protijedy, astrologie a astronomie, herbální alchymie, historie amazonské magie, hudba a magie, jazyk a kultura kmenů, magická archeologie</p>
-      <p><span className='text-highlighter'>Patron:</span> Beruška</p>
-      <p><span className='text-highlighter'>Bubák:</span> Ztělesnění rozhodnutí se mezi kouzelnickým světem a rodinou</p>
-      <p><span className='text-highlighter'>Hůlka:</span> Kanárské dřevo s čumákem drsnochvosta</p>
+    <hr/>
+    <p><span className='text-highlighter'>Kmen:</span> Nomphyrian (kyselý)</p>
+    <p><span className='text-highlighter'>Hlavní oborový předmět:</span> Obecná magizoologie</p>
+    <p><span className='text-highlighter'>Další předměty:</span> Všechny kromě historie amazonské magie</p>
+    <p><span className='text-highlighter'>Téma závěrečné eseje:</span> Význam a rozdíly magického a nemagického hmyzu
+      pro oba světy</p>
+    <p><span className='text-highlighter'>Patron:</span> Beruška</p>
+    <p><span className='text-highlighter'>Bubák:</span> Ztělesnění rozhodnutí se mezi kouzelnickým světem a rodinou</p>
+    <p><span className='text-highlighter'>Hůlka:</span> Kanárské dřevo s čumákem drsnochvosta</p>
 
     <h2>Rodina</h2>
     <hr/>
@@ -123,7 +126,7 @@ const MateoBenitez = () => (
 
     <h2>Vzťahy</h2>
     <hr/>
-    <p><span className="text-highlighter">Najlepší kamaráti:</span></p>
+    <h3>Najlepší kamaráti</h3>
     <p><span className="text-highlighter">Lucia Juliana Navarro</span> – Najlepšia kamarátka a strážkyňa skoro všetkých
       jeho tajomstiev. Toľko veľa spoločného a predsa len tak málo. Drží nad ňou ochranársku ruku. Obdivuje ju. Nevie si
       predstaviť ju stratiť. A aj napriek tomu jej praje splnenie jej sna.</p>
@@ -134,12 +137,13 @@ const MateoBenitez = () => (
       bude pred štadiónom ľudí skandovať veci o kastrácii. Nesmierne si ho Mateo váži, ale predsa len sa mu bojí niekedy
       túto svoju jemnejšiu stránku osobnosti ukázať...</p>
 
-    <p><span className="text-highlighter">Holka (a bývalá šikanátorka):</span></p>
+
+    <h3>Holka (a bývalá šikanátorka)</h3>
     <p><span className="text-highlighter">Sofía Sánchez</span> – Keby tu mal byť opísaný celý ich komplikovaný vzťah,
       tak to zaberie niekoľko stránok. Najpodstatnejšie je snáď povedať, že napriek ich hrboľatej minulosti ju má rád. I
-      viac ako rád. <i>(On si ju raz vezme!!!)</i></p>
+      viac ako rád. <i>(On si ju raz veh3</i></p>
 
-    <p><span className="text-highlighter">Dobrí kamaráti:</span></p>
+    <h3>Dobrí kamaráti</h3>
     <p><span className="text-highlighter">Alex Sánchez</span> – Ku komu inému má chodiť hrať videohry?</p>
     <p><span className="text-highlighter">Catriel Ulises Condori</span> – Ako sa stali kamarátmi? Nikto nevie. Ako sa
       stále kamarátia? Nikto nevie. No, žiaľ to je to tajomstvo ich extrovertných stránok. Vrana k vrane sada a táto
@@ -167,7 +171,7 @@ const MateoBenitez = () => (
       nikto (ani on) nečakal, že si ho tak moc obľúbi. A cez tie večerné otužovačky v jazere, po záchranu, spoločnú
       výhru a objatia v turnaji… Mateo fakt ľutuje, že takého kamoša nemôže mať trochu bližšie k domovu.</p>
 
-    <p><span className="text-highlighter">Kamaráti:</span></p>
+    <h3>Kamaráti</h3>
     <p><span className="text-highlighter">Inés Soraya Caro</span> – Keby nebola v jeho očiach drbna, mal by ju radšej.
     </p>
     <p><span className="text-highlighter">Mikel Ancco de León</span> – Keď Mateo potrebuje byť introvert, môže byť
@@ -181,7 +185,7 @@ const MateoBenitez = () => (
     <p><span className="text-highlighter">Mattéo Severio Grossi</span> – Bromance číslo dva. Vymenili si oblečenie a
       tísli sa na koni, ak nie sú bros, tak neviem čo sú.</p>
 
-    <p><span className="text-highlighter">Známi:</span></p>
+    <h3>Známi</h3>
     <p><span className="text-highlighter">Kira Soraia Rodrigues</span> – Najlepšia kámoška Sofíe, fiflena a je si istý,
       že ho so Sofíou ohovárajú.</p>
     <p><span className="text-highlighter">Melissa Nayra de León</span> – Zná ju hlavne z videnia, keďže sú v rovnakom
@@ -198,7 +202,7 @@ const MateoBenitez = () => (
     <p><span className="text-highlighter">Fuji Yamamoto</span> – Mateo má rád chrobáky, on má rád chrobáky… možno keby
       sa viac pobavili, boli by aj kamoši.</p>
 
-    <p><span className="text-highlighter">Moc ich v láske nemá…</span></p>
+    <h3>Moc ich v láske nemá…</h3>
     <p><span className="text-highlighter">Alejandro Navarro</span> – Kedysi sa s ním bavil ale po škandále s Luanou a
       Katyou si nemyslí, že je to dobrý týpek.</p>
     <p><span className="text-highlighter">Thiago Burgos Diaz</span> – Chudák Mateo si občas vraví, že by chcel byť
