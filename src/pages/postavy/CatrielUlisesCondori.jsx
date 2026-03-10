@@ -11,7 +11,7 @@ const CatrielUlisesCondori = () => (
     <p><span className='text-highlighter'>Národnost:</span> Argentinská</p>
     <p><span className='text-highlighter'>Bydliště:</span> Salta, Argentina</p>
     <p><span className='text-highlighter'>Jazyky:</span> Plynně španělština, portugalština, angličtina, základně
-      italština, jižní kečuánština</p>
+      italština, kečuánština</p>
 
     <hr/>
     <p><span className='text-highlighter'>Faceclaim:</span> David Iacono</p>
