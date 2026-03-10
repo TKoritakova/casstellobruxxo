@@ -55,11 +55,11 @@ const CatrielUlisesCondori = () => (
 
     <h2>Povaha</h2>
     <hr/>
-    <p>Je takový ten typ <span class="text-highlighter">extroverta</span>, který vyloženě <span
-      class="text-highlighter">nepotřebuje být středem pozornosti</span>. Na tváři má většinu doby <span
-      class="text-highlighter">úsměv</span>, a to i přesto, že se neustále <span class="text-highlighter">vrhá do ne moc bezpečných situací</span>.
+    <p>Je takový ten typ <span className="text-highlighter">extroverta</span>, který vyloženě <span
+      className="text-highlighter">nepotřebuje být středem pozornosti</span>. Na tváři má většinu doby <span
+      className="text-highlighter">úsměv</span>, a to i přesto, že se neustále <span className="text-highlighter">vrhá do ne moc bezpečných situací</span>.
       Člověk by se u něj pomalu divil, že je pořád naživu. Mluví buď naprosto upřímně, a nebo naopak velmi <span
-        class="text-highlighter">ironicky</span>. A dávejte si bacha, co mu říkáte! Protože jestli mu ze srandy řeknete
+        className="text-highlighter">ironicky</span>. A dávejte si bacha, co mu říkáte! Protože jestli mu ze srandy řeknete
       nějakou blbost, on je to schopný fakt udělat.</p>
 
 
