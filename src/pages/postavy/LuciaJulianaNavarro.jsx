@@ -24,7 +24,7 @@ const LuciaJulianaNavarro = () => (
       <p><span className='text-highlighter'>Kmen:</span> Pawanunga (slaný)</p>
       <p><span className='text-highlighter'>Hlavní oborový předmět:</span> Magie obrany a útoku</p>
       <p><span className='text-highlighter'>Bubák:</span> Ztráta svého snu</p>
-      <p><span className='text-highlighter'>Hůlka:</span> Kaučukové dřevo s jádrem ze střeva kajmana</p>
+      <p><span className='text-highlighter'>Hůlka:</span> Kaučukové dřevo s jádrem z dračího zubu</p>
 
       <h2>Rodina</h2>
       <hr/>
