@@ -4,7 +4,7 @@ import React from 'react'
 const CatrielUlisesCondori = () => (
   <div>
     <div className="main-header"><h1>Catriel Ulises Condori</h1></div>
-    /*id = 10931
+    {/* id = 10931 */}
 
     <p><span className='text-highlighter'>Narozeniny:</span> 21. února 1993</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
@@ -25,8 +25,9 @@ const CatrielUlisesCondori = () => (
     <p><span className='text-highlighter'>Hlavní oborový předmět:</span> Lékouzelnictví</p>
     <p><span className='text-highlighter'>Další předměty:</span> Magie běžného užití, obecná magibotanika, aplikovaná
       magibotanika, cizokrajné jedy a protijedy, přírodní magie, rituální magie + všechny volitelné předměty</p>
-    <p><span className='text-highlighter'>Bubák:</span></p>
-    <p><span className='text-highlighter'>Hůlka:</span></p>
+    <p><span className='text-highlighter'>Bubák:</span> Jeho umírající blízcí, již mu vyčítají, co jim to udělal</p>
+    <p><span className='text-highlighter'>Hůlka:</span> Dřevo z quiny a jádrem z tykadla kovopláště</p>
+
 
     <h2>Rodina</h2>
     <hr/>
@@ -54,13 +55,13 @@ const CatrielUlisesCondori = () => (
 
     <h2>Povaha</h2>
     <hr/>
-    <p>Je takový podivín, který jde <span className="text-highlighter">do všeho po hlavě</span>. Občas má <span
-      className="text-highlighter">problém rozeznat ironii</span> (i když ji sám používá), díky čemuž můžou vzniknout
-      lehce trapné situace, ale z těch si těžkou hlavu opravdu nedělá. Bavit se dokáže téměř s kýmkoli, takže ho málokdy
-      potkáte samotného. Jedině, že se věnuje jeho samostudiu. Není na nikoho zbytečně zlej, prostě takovej <span
-        className="text-highlighter">pohodář</span>, možná jen občas <span
-        className="text-highlighter">až moc upřímný</span>. Ale i když může vypadat, že má fakt všechno na háku, tak mu
-      opravdu <span className="text-highlighter">záleží na jeho blízkých</span>!</p>
+    <p>Je takový ten typ <span class="text-highlighter">extroverta</span>, který vyloženě <span
+      class="text-highlighter">nepotřebuje být středem pozornosti</span>. Na tváři má většinu doby <span
+      class="text-highlighter">úsměv</span>, a to i přesto, že se neustále <span class="text-highlighter">vrhá do ne moc bezpečných situací</span>.
+      Člověk by se u něj pomalu divil, že je pořád naživu. Mluví buď naprosto upřímně, a nebo naopak velmi <span
+        class="text-highlighter">ironicky</span>. A dávejte si bacha, co mu říkáte! Protože jestli mu ze srandy řeknete
+      nějakou blbost, on je to schopný fakt udělat.</p>
+
 
   </div>
 )
