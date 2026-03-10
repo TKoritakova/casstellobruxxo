@@ -5,6 +5,8 @@ import React from 'react'
 const TristanYerayMoreno = () => (
   <div>
 
+    {/* id = 10927 */}
+
       <div className="main-header"><h1>Tristán Yeray Moreno</h1></div>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 5. prosince 1964</p>
