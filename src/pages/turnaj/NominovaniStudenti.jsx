@@ -181,9 +181,11 @@ const NominovaniStudenti = () => (
           <p><span className='text-highlighter'>Caetano Murhala</span></p>
         </Link>
       </div>
-      <div className='student-face-card'>
-        <img src={Carmila} className='img-character'/>
-        <p><span className='text-highlighter'>Carmila Iris José</span></p>
+      <div className='seminar-face-card'>
+        <Link to="/carmilla-iris-jose" target='_blank'>
+          <img src={Carmila} className='img-character'/>
+          <p><span className='text-highlighter'>Carmila Iris José</span></p>
+        </Link>
       </div>
       <div className='student-face-card'>
         <img src={Demetrio} className='img-character'/>

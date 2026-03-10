@@ -80,6 +80,7 @@ import GabrielSebastianAlmeidaSoares from "./pages/postavy/GabrielSebastianAlmei
 import LuanaMarianaAlmeidaSoares from "./pages/postavy/LuanaMarianaAlmeidaSoares.jsx";
 import TristanYerayMoreno from "./pages/postavy/TristanYerayMoreno.jsx";
 import CaetanoMurhala from "./pages/postavy/CaetanoMurhala.jsx";
+import CarmillaIrisJose from './pages/postavy/CarmillaIrisJose.jsx'
 
 
 function ScrollToTop() {
@@ -212,6 +213,7 @@ function App() {
 
           <Route path="/tristan-yeray-moreno" element={<TristanYerayMoreno/>}/>
           <Route path="/caetano-murhala" element={<CaetanoMurhala/>}/>
+          <Route path="/carmilla-iris-jose" element={<CarmillaIrisJose/>}/>
 
         </Routes>
       </main>
