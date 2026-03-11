@@ -11,7 +11,7 @@ const JuanMiguelSantosRamirez = () => (
     <p><span className='text-highlighter'>Národnost:</span> Mexická</p>
     <p><span className='text-highlighter'>Bydliště:</span> 850 C. 23 Sur, San Miguel de Cozumel, Quintana Roo, Mexico
     </p>
-    <p><span className='text-highlighter'>Jazyky:</span> plynule mluví španělsky, anglicky a náhuatlem, obstojně
+    <p><span className='text-highlighter'>Jazyky:</span> Plynule mluví španělsky, anglicky a náhuatlem, obstojně
       zvládá portugalštinu a dorozumí se i trochu guaraní a mayštinou</p>
 
     <hr/>
