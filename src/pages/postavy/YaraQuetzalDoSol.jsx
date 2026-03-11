@@ -38,21 +38,21 @@ const YaraQuetzalDoSol = () => (
     <h2>Další informace</h2>
     <hr/>
     <p>Vyrůstala poblíž pralesa, takže ji není Amazonie cizí a ráda se ukrývá před světem ve škole právě v
-      pralese. <span class="text-highlighter">Rostlinstvo</span> je na prvním místě a hlavně to magické. Má svůj
-      vlastní <span class="text-highlighter">přenosný skleník</span>, takový pidi, který je uvnitř zvětšený, ale zas né
+      pralese. <span className="text-highlighter">Rostlinstvo</span> je na prvním místě a hlavně to magické. Má svůj
+      vlastní <span className="text-highlighter">přenosný skleník</span>, takový pidi, který je uvnitř zvětšený, ale zas né
       moc extra. Zvláštností je to, že si s rostlinami vykládá, tedy ona na ně mluví, víc než na přátele. V kolektivu
-      působí víc <span class="text-highlighter">tiše</span>. Často spíš <span class="text-highlighter">poslouchá</span>,
-      ale má ráda <span class="text-highlighter">drby</span>. Je taková <span class="text-highlighter">přímá</span>,
+      působí víc <span className="text-highlighter">tiše</span>. Často spíš <span className="text-highlighter">poslouchá</span>,
+      ale má ráda <span className="text-highlighter">drby</span>. Je taková <span className="text-highlighter">přímá</span>,
       často řekne na rovinu, co si myslí. Někdy může budit dojem takové netykavky, že víc mluví s rostlinami než s
       lidmi.</p>
 
     <p>Zajímá se o veškeré rituály. Víc je jí blízký tenhle typ magie než hůlková magie, ale neznamená to, že by v ní
-      nějak zaostávala, ale přiklání se víc k té <span class="text-highlighter">rituální magii</span>. Což jde v ruce i
+      nějak zaostávala, ale přiklání se víc k té <span className="text-highlighter">rituální magii</span>. Což jde v ruce i
       s nějakými těmi ochrannými amulety. Hlavně do nich zapojuje rostliny, ale také veškeré <span
-        class="text-highlighter">přírodní materiály</span> i jako jsou minerály a šutry. Není ji cizí ani <span
-        class="text-highlighter">jasnovidectví</span> a po máme má nějaké malé nadání právě na tenhle obor. <span
-        class="text-highlighter">Nemá ráda zimu, sníh a násilí</span> na jakýchkoliv živých tvorech. <span
-        class="text-highlighter">Nejí maso ani ryby</span>.</p>
+        className="text-highlighter">přírodní materiály</span> i jako jsou minerály a šutry. Není ji cizí ani <span
+        className="text-highlighter">jasnovidectví</span> a po máme má nějaké malé nadání právě na tenhle obor. <span
+        className="text-highlighter">Nemá ráda zimu, sníh a násilí</span> na jakýchkoliv živých tvorech. <span
+        className="text-highlighter">Nejí maso ani ryby</span>.</p>
 
 
   </div>

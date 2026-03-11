@@ -170,6 +170,14 @@ header p {
    margin: 3px;
 }
 
+.img-in-text-big {
+    width: 27%;
+    border: solid 2px #2e8b57;
+    margin: 3px;
+}
+
+
+
 .img-in-text-left {
     float: left;
     margin-right: 15px;
@@ -724,7 +732,7 @@ color: #2e8b57;
     .main-nav a { font-size: 25px; margin-left: 15px; margin-right: 15px; }
     .second-nav a { font-size: 24px; padding: 4px 9px; margin: 7px; }
 
-    .img-character, .img-in-text, .img-spell, .green-box, .game-archive-button {
+    .img-character, .img-in-text, .img-in-text-big, .img-spell, .green-box, .game-archive-button {
         border-width: 3px;
     }
 

@@ -7,7 +7,7 @@ const CaetanoMurhala = () => (
     <div className="main-header"><h1>Caetano Murhala</h1></div>
     {/* id = 10926 */}
 
-    <p><span className='text-highlighter'>Narozeniny:</span> 17.8.1954</p>
+    <p><span className='text-highlighter'>Narozeniny:</span> 17. srpna 1954</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
     <p><span className='text-highlighter'>Národnost:</span> Brazilská</p>
     <p><span className='text-highlighter'>Bydliště:</span> Castelobruxo</p>

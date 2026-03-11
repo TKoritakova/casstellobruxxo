@@ -1,13 +1,19 @@
 import React from 'react'
 
+import tristan_01 from '../../img/medailonky/tristan_yeray_moreno_01.png';
+
 
 
 const TristanYerayMoreno = () => (
   <div>
 
+    {/* id = 10927 */}
       <div className="main-header"><h1>Tristán Yeray Moreno</h1></div>
 
-      <p><span className='text-highlighter'>Narozeniny:</span> 5. prosince 1964</p>
+    <img src={tristan_01} className='img-in-text-big img-in-text-right'/>
+
+
+    <p><span className='text-highlighter'>Narozeniny:</span> 5. prosince 1964</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>
       <p><span className='text-highlighter'>Národnost:</span> Peruánská</p>
       <p><span className='text-highlighter'>Bydliště:</span> Arequipa, Peru</p>
@@ -15,6 +21,7 @@ const TristanYerayMoreno = () => (
           základy jazyků amazonských kmenů</p>
 
       <hr/>
+
       <p><span className='text-highlighter'>Faceclaim:</span> Gerardo Celasco</p>
       <p><span className='text-highlighter'>Výška:</span> 189 cm</p>
       <p><span className='text-highlighter'>Váha:</span> 91 kg</p>
