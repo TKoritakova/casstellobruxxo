@@ -45,8 +45,7 @@ const MikelAnccoDeLeon = () => (
 
       <h2>Povaha</h2>
       <hr/>
-      <p>Typologicky je Mikel ukázkový <span className="text-highlighter">INFP</span>. Je to tichý a introspektivní
-          <span className="text-highlighter">pozorovatel</span>, který raději naslouchá, než aby se dral do středu dění.
+      <p>Typologicky je Mikel ukázkový <span className="text-highlighter">INFP</span>. Je to tichý a introspektivní <span className="text-highlighter">pozorovatel</span>, který raději naslouchá, než aby se dral do středu dění.
           Z velkých davů bývá nervózní a drží se spíše na okraji, ale rozhodně to není úplný samotář – <span
             className="text-highlighter">společnost má rád, jen prostě nepotřebuje být hlavní hvězdou</span>. Jakožto
           správný <span className="text-highlighter">snílek</span> se snadno ztratí ve vlastních myšlenkách nebo s

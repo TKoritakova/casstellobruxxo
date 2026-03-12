@@ -2,6 +2,8 @@ import React from 'react'
 
 import ines from '../../img/medailonky/ines_soraya_caro.jpg';
 
+import jaguarundi from '../../img/medailonky/jaguarundi.jpg';
+
 const InesSorayaCaro = () => (
   <div>
 
@@ -29,14 +31,9 @@ const InesSorayaCaro = () => (
     <p><span className='text-highlighter'>Bubák:</span> Netopýropiraňa –⁠⁠⁠⁠⁠⁠ piraňa s netopýřími křídly, která ji nahání</p>
     <p><span className='text-highlighter'>Hůlka:</span> Dřevo z ceiby s jádrem ze srsti zvonohlídka</p>
 
-
     <h2>Rodina</h2>
     <hr/>
-    <p>Byť je její příjmení Caro, patří do rozsáhlého peruánského bohatého rodu Morenů. Její větev rodiny zůstala i přes
-      to odlišné příjmení, které pochazí od jejího dědy (bábi byla Morenová), zůstala bydlet v tom Peru, tedy vyrostla
-      kompletně ve výchově Morenovic. Sama má teda rodiče, 'Ester Tamaru a Lucera Adonaye, co se věnují obchodování s
-      magickými předměty, a dva starší sourozence –⁠⁠⁠⁠⁠⁠ dvojčata Aziela Jonatána a Vanesu Noru, kteří jsou přesně o tři roky
-      starší a taktéž Castelo navštěvovali.</p>
+    <p>Byť je její příjmení Caro, patří do rozsáhlého peruánského bohatého rodu Morenů. Její větev rodiny zůstala i přes to odlišné příjmení, které pochazí od jejího dědy (bábi byla Morenová), zůstala bydlet v tom Peru, tedy vyrostla kompletně ve výchově Morenovic. Sama má teda rodiče, 'Ester Tamaru a Lucera Adonaye, co se věnují obchodování s magickými předměty, a dva starší sourozence –⁠⁠⁠⁠⁠⁠ dvojčata Aziela Jonatána a Vanesu Noru, kteří jsou přesně o tři roky starší a taktéž Castelo navštěvovali.</p>
 
 
     <h2>Studium</h2>
@@ -47,46 +44,39 @@ const InesSorayaCaro = () => (
     <p><span className='text-highlighter'>Vedlejší předměty:</span> V podstatě ji můžete potkat všude, ale hlavně se
       specializuje na aplikovanou magibotaniku, cizokrajné jedy a protijedy, přírodní magii a rituální magii</p>
 
-    <p><span className='text-highlighter'>Vedlejší volitelné předměty:</span> opět holka studuje tak všechno co ji
-      přijde pod ruku, ale zejména herbální alchymie, historie amazonské magie, magická archeologie</p>
+    <p><span className='text-highlighter'>Vedlejší volitelné předměty:</span> opět holka studuje tak všechno co ji přijde pod ruku, ale zejména herbální alchymie, historie amazonské magie, magická archeologie</p>
 
-    <p>Byť se tedy spíš specializuje směr květinky a výroba artefaktů, snaží se hodně získat všeobecný přehled, takže je
-      fakt všude. V hodinách není zrovna aktivní že by se hlásila že vše ví, byť toho ho má hodně nastudovaného dopředu.
-      Prostě se tím nemá potřebu chlubit, naopak, někdy se před vrstevníky snaží tvářit, že je hloupější než ve
-      skutečnosti je.</p>
+    <p>Byť se tedy spíš specializuje směr květinky a výroba artefaktů, snaží se hodně získat všeobecný přehled, takže je fakt všude. V hodinách není zrovna aktivní že by se hlásila že vše ví, byť toho ho má hodně nastudovaného dopředu. Prostě se tím nemá potřebu chlubit, naopak, někdy se před vrstevníky snaží tvářit, že je hloupější než ve skutečnosti je.</p>
 
     <h2>Povaha</h2>
     <hr/>
 
-    <p>S povahou je to lehce složitější, protože slečna vlastně téměř nikomu neukazuje svou pravou tvář, se jí povaha
-      zdánlivě mění dle toho, v jaké společnosti je. Před autoritama, profesorama a hlavně svou rodinou je slečinka se
-      způsobama, umí použít milion druhů příborů a je spíš taková tichá a nevýrazná –⁠⁠⁠⁠⁠⁠ hlavně aby si ji tihle lidi
-      nevšimli.</p>
+    <p>S povahou je to lehce složitější, protože slečna vlastně téměř nikomu neukazuje svou pravou tvář, se jí povaha zdánlivě mění dle toho, v jaké společnosti je. Před autoritama, profesorama a hlavně svou rodinou je slečinka se způsobama, umí použít milion druhů příborů a je spíš taková tichá a nevýrazná –⁠⁠⁠⁠⁠⁠ hlavně aby si ji tihle lidi nevšimli.</p>
 
-    <p>Spolužáci ji pak naopak znají spíš jako extrovertní buranku puberťačku. Hlučná, společenská (byť ve skutečnosti
-      má radši samotu a ticho), věčně má potřebu někoho drbat a být všude, kde se něco děje.</p>
+    <p>Spolužáci ji pak naopak znají spíš jako extrovertní buranku puberťačku. Hlučná, společenská (byť ve skutečnosti má radši samotu a ticho), věčně má potřebu někoho drbat a být všude, kde se něco děje.</p>
 
-    <p>Není vždycky úplně čestná, nemá problém s lhaním nebo... třeba podváděním svého kluka, dokud se baví. Hodně to
-      může vypadat, že zkrátka žije okamžikem a na budoucnost zdánlivě vůbec nemyslí, byť o samotě se teda budoucností
-      užírá skoro pořád, stejně jako do sebe cpe obsah všech knih, co jí přijdou pod ruku.</p>
+    <p>Není vždycky úplně čestná, nemá problém s lhaním nebo... třeba podváděním svého kluka, dokud se baví. Hodně to může vypadat, že zkrátka žije okamžikem a na budoucnost zdánlivě vůbec nemyslí, byť o samotě se teda budoucností užírá skoro pořád, stejně jako do sebe cpe obsah všech knih, co jí přijdou pod ruku.</p>
 
-    <p>Neštítí se špinavé práce –⁠⁠⁠⁠⁠⁠ doslova, hrabat se v hlíně je její záliba, ať už při přesazování kytek nebo hledání
-      historie pohřbené pod zemí. Žije hodně legendama a mýtama a je věřící, byť by to do ní jeden neřekl.</p>
+    <p>Neštítí se špinavé práce –⁠⁠⁠⁠⁠⁠ doslova, hrabat se v hlíně je její záliba, ať už při přesazování kytek nebo hledání historie pohřbené pod zemí. Žije hodně legendama a mýtama a je věřící, byť by to do ní jeden neřekl.</p>
 
     <h2>Vztahy</h2>
     <hr/>
 
-    <p><span className='text-highlighter'>Quintín Argimiro Merlo</span> –⁠⁠⁠⁠⁠⁠ přítel, co na školu trošku dlabe, tak zůstal
-      na škole. Jinak je s ním ta holka ve škole fakt hodně, věčně na něm sedí ve volném čase, při jídle, zkouší to i v
-      hodinách... Si vlastně myslím, že se jí prostě nelíbí obyčejné židle, tam si sedá málokdy. (FC: Aaron Dominguez)
+    <p><span className='text-highlighter'>Quintín Argimiro Merlo</span> –⁠⁠⁠⁠⁠⁠ přítel, co na školu trošku dlabe, tak zůstal na škole. Jinak je s ním ta holka ve škole fakt hodně, věčně na něm sedí ve volném čase, při jídle, zkouší to i v hodinách... Si vlastně myslím, že se jí prostě nelíbí obyčejné židle, tam si sedá málokdy. (FC: Aaron Dominguez)
     </p>
 
-    <p><span className='text-highlighter'>Sofia Amarilis Perez</span> –⁠⁠⁠⁠⁠⁠ nejka, tráví s ní obdobné množství času jako s
-      přítelem, jen s tím rozdílem, že na ni si nesedá. A možná, ale opravdu jenom možná a nikdy to nepřizná, má na ni
-      crush.</p>
+    <p><span className='text-highlighter'>Sofia Amarilis Perez</span> –⁠⁠⁠⁠⁠⁠ nejka, tráví s ní obdobné množství času jako s přítelem, jen s tím rozdílem, že na ni si nesedá. A možná, ale opravdu jenom možná a nikdy to nepřizná, má na ni crush.</p>
 
-    <p><span className='text-highlighter'>Luana Mariana Almeida Soares</span> –⁠⁠⁠⁠⁠⁠ druhá nejka z kmene, parťačka na
-      pomlouvání cizinců i domácích chlapců.</p>
+    <p><span className='text-highlighter'>Luana Mariana Almeida Soares</span> –⁠⁠⁠⁠⁠⁠ druhá nejka z kmene, parťačka na pomlouvání cizinců i domácích chlapců.</p>
+    
+    <h2>Schopnost zvěromagie</h2>
+    <hr />
+
+    <p>Inés je bytostně <span className="text-highlighter">spjatá s přírodou</span>, na kterou se ve studiu úzce specializuje. Zároveň v sobě ukrývá mysteriózní <span className="text-highlighter">duální osobnost</span>, takže pro nikoho nemůže být překvapením, že se rozhodla stát se zvěromágem. K dosažení tohoto cíle jí pomohla její obrovská <span className="text-highlighter">disciplína</span>, <span className="text-highlighter">sebekontrola</span> a hluboký zájem o <span className="text-highlighter">bylinkářství</span>, <span className="text-highlighter">lektvary</span> a <span className="text-highlighter">staré rituály</span>.</p>
+
+    <img src={jaguarundi} className='img-in-text img-in-text-right'/>
+
+    <p>Její zvěromážskou podobou je <span className="text-highlighter">jaguarundi</span>. Tento neobvyklý tvor dokonale vystihuje její vnitřní nastavení. Stejně jako Inés může působit <span className="text-highlighter">nenápadně</span>, ale podcenit ho by byla obrovská chyba. Ačkoliv se Inés svými schopnostmi vyloženě nechlubí, umí být v případě potřeby velmi <span className="text-highlighter">„nebezpečná“</span> – podobně jako jaguarundi, který je výborným lovcem a mistrem ve <span className="text-highlighter">vyhýbání se pastem</span>. Oba jsou navíc nesmírně <span className="text-highlighter">přizpůsobiví</span>. Tato divoká kočka obývající rozlehlý americký kontinent dokáže přežít v podstatě kdekoliv, stejně jako Inés střídá své tváře přesně podle toho, v jakém prostředí se zrovna nachází. Sdílejí také neobvyklý druh <span className="text-highlighter">inteligence</span>, <span className="text-highlighter">zvídavost</span> a tajnou <span className="text-highlighter">lásku k samotě</span>; ačkoliv je Inés mezi lidmi společenská a hlučná, dělá to spíše z pocitu očekávání okolí, zatímco její skutečné preference leží v klidu a samotě. Stejně jako jaguarundi tak trochu nezapadá do žádné tradiční škatulky kočkovitých šelem, i Inés je vlastně <span className="text-highlighter">skrytým outsiderem</span> – navenek je sice vždy součástí skupiny, ale protože se bojí ukázat své skutečné pocity, nikdy není její plnou součástí.</p>
 
 
   </div>
