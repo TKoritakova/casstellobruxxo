@@ -1,10 +1,13 @@
 import React from 'react'
 
-
+import kira from '../../img/medailonky/kira_soraia_rozrigues.jpg';
 
 const KiraSoraiaRodrigues = () => (
   <div>
       <div className="main-header"><h1>Kira Soraia Rodrigues</h1></div>
+      {/* id = 10880 */}
+
+      <img src={kira} className='img-in-text-big img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 17. listopadu 1992</p>
       <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

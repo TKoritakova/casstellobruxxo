@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import chiara from '../../img/medailonky/alejandro_navarro.jpg';
 
 const ChiaraAntoniaJose = () => (
   <div>

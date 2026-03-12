@@ -1,11 +1,14 @@
 import React from 'react'
 
+import kajetan from '../../img/medailonky/caetano_murhala.jpg';
 
 const CaetanoMurhala = () => (
   <div>
 
     <div className="main-header"><h1>Caetano Murhala</h1></div>
     {/* id = 10926 */}
+    
+    <img src={kajetan} className='img-in-text-big img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 17. srpna 1954</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
