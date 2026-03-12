@@ -26,7 +26,7 @@ const InesSorayaCaro = () => (
     <p><span className='text-highlighter'>Kmen:</span> Hořký</p>
     <p><span className='text-highlighter'>Hlavní oborový předmět:</span> Obecná magibotanika</p>
     <p><span className='text-highlighter'>Patron:</span> Černá labuť</p>
-    <p><span className='text-highlighter'>Bubák:</span> Netopýropiraňa - piraňa s netopýřími křídly, která ji nahání</p>
+    <p><span className='text-highlighter'>Bubák:</span> Netopýropiraňa –⁠⁠⁠⁠⁠⁠ piraňa s netopýřími křídly, která ji nahání</p>
     <p><span className='text-highlighter'>Hůlka:</span> Dřevo z ceiby s jádrem ze srsti zvonohlídka</p>
 
 
@@ -35,7 +35,7 @@ const InesSorayaCaro = () => (
     <p>Byť je její příjmení Caro, patří do rozsáhlého peruánského bohatého rodu Morenů. Její větev rodiny zůstala i přes
       to odlišné příjmení, které pochazí od jejího dědy (bábi byla Morenová), zůstala bydlet v tom Peru, tedy vyrostla
       kompletně ve výchově Morenovic. Sama má teda rodiče, 'Ester Tamaru a Lucera Adonaye, co se věnují obchodování s
-      magickými předměty, a dva starší sourozence - dvojčata Aziela Jonatána a Vanesu Noru, kteří jsou přesně o tři roky
+      magickými předměty, a dva starší sourozence –⁠⁠⁠⁠⁠⁠ dvojčata Aziela Jonatána a Vanesu Noru, kteří jsou přesně o tři roky
       starší a taktéž Castelo navštěvovali.</p>
 
 
@@ -60,7 +60,7 @@ const InesSorayaCaro = () => (
 
     <p>S povahou je to lehce složitější, protože slečna vlastně téměř nikomu neukazuje svou pravou tvář, se jí povaha
       zdánlivě mění dle toho, v jaké společnosti je. Před autoritama, profesorama a hlavně svou rodinou je slečinka se
-      způsobama, umí použít milion druhů příborů a je spíš taková tichá a nevýrazná - hlavně aby si ji tihle lidi
+      způsobama, umí použít milion druhů příborů a je spíš taková tichá a nevýrazná –⁠⁠⁠⁠⁠⁠ hlavně aby si ji tihle lidi
       nevšimli.</p>
 
     <p>Spolužáci ji pak naopak znají spíš jako extrovertní buranku puberťačku. Hlučná, společenská (byť ve skutečnosti
@@ -70,22 +70,22 @@ const InesSorayaCaro = () => (
       může vypadat, že zkrátka žije okamžikem a na budoucnost zdánlivě vůbec nemyslí, byť o samotě se teda budoucností
       užírá skoro pořád, stejně jako do sebe cpe obsah všech knih, co jí přijdou pod ruku.</p>
 
-    <p>Neštítí se špinavé práce - doslova, hrabat se v hlíně je její záliba, ať už při přesazování kytek nebo hledání
+    <p>Neštítí se špinavé práce –⁠⁠⁠⁠⁠⁠ doslova, hrabat se v hlíně je její záliba, ať už při přesazování kytek nebo hledání
       historie pohřbené pod zemí. Žije hodně legendama a mýtama a je věřící, byť by to do ní jeden neřekl.</p>
 
     <h2>Vztahy</h2>
     <hr/>
 
-    <p><span className='text-highlighter'>Quintín Argimiro Merlo</span> - přítel, co na školu trošku dlabe, tak zůstal
+    <p><span className='text-highlighter'>Quintín Argimiro Merlo</span> –⁠⁠⁠⁠⁠⁠ přítel, co na školu trošku dlabe, tak zůstal
       na škole. Jinak je s ním ta holka ve škole fakt hodně, věčně na něm sedí ve volném čase, při jídle, zkouší to i v
-      hodinách... Si vlastně myslím, že se jí prostě nelíbí obyčejné židle, tam si sedá málokdy. (FC: aaron dominguez)
+      hodinách... Si vlastně myslím, že se jí prostě nelíbí obyčejné židle, tam si sedá málokdy. (FC: Aaron Dominguez)
     </p>
 
-    <p><span className='text-highlighter'>Sofia Amarilis Perez</span> - nejka, tráví s ní obdobné množství času jako s
+    <p><span className='text-highlighter'>Sofia Amarilis Perez</span> –⁠⁠⁠⁠⁠⁠ nejka, tráví s ní obdobné množství času jako s
       přítelem, jen s tím rozdílem, že na ni si nesedá. A možná, ale opravdu jenom možná a nikdy to nepřizná, má na ni
       crush.</p>
 
-    <p><span className='text-highlighter'>Luana Mariana Almeida Soares</span> - druhá nejka z kmene, parťačka na
+    <p><span className='text-highlighter'>Luana Mariana Almeida Soares</span> –⁠⁠⁠⁠⁠⁠ druhá nejka z kmene, parťačka na
       pomlouvání cizinců i domácích chlapců.</p>
 
 
