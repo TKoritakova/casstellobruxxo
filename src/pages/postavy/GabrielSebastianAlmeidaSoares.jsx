@@ -1,10 +1,13 @@
 import React from 'react'
 
-import gabina from '../../img/medailonky/alejandro_navarro.jpg';
+import gabina from '../../img/medailonky/gabriel_almeida_soares.jpg';
 
 const GabrielSebastianAlmeidaSoares = () => (
   <div>
       <div className="main-header"><h1>Gabriel Sebastian Almeida Soares</h1></div>
+      {/* id = 10877 */}
+
+      <img src={gabina} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 7. dubna 1991</p>
       <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

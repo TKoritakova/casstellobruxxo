@@ -1,10 +1,13 @@
 import React from 'react'
 
-
+import lucia from '../../img/medailonky/lucia_navarro.jpg';
 
 const LuciaJulianaNavarro = () => (
   <div>
       <div className="main-header"><h1>Lucia Juliana Navarro</h1></div>
+      {/* id = 10900 */}
+
+      <img src={lucia} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 7. března 1993</p>
       <p><span className='text-highlighter'>Původ:</span> Mudlovský</p>

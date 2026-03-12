@@ -1,11 +1,14 @@
 import React from 'react'
 
-import chiara from '../../img/medailonky/alejandro_navarro.jpg';
+import chiara from '../../img/medailonky/chiara_antonia_jose.jpg';
 
 const ChiaraAntoniaJose = () => (
   <div>
 
       <div className="main-header"><h1>Chiara Antonia José</h1></div>
+      {/* id = 10894 */}
+
+      <img src={chiara} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 22. června 1991</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný/smíšený</p>

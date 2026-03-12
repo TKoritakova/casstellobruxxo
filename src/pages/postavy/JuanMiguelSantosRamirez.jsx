@@ -7,7 +7,7 @@ const JuanMiguelSantosRamirez = () => (
     <div className="main-header"><h1>Juan Miguel Santos Ramírez</h1></div>
     {/* id = 10889 */}
 
-    <img src={juan} className='img-in-text-big img-in-text-right'/>
+    <img src={juan} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 3. září 1991</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ines from '../../img/medailonky/ines_caro.jpg';
+import ines from '../../img/medailonky/ines_soraya_caro.jpg';
 
 const InesSorayaCaro = () => (
   <div>
@@ -8,18 +8,18 @@ const InesSorayaCaro = () => (
     <div className="main-header"><h1>Inés Soraya Caro</h1></div>
     {/* id = 11033 */}
 
-    <img src={ines} className='img-in-text img-in-text-right'/>
+    <img src={ines} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 16. února 1992</p>
-    <p><span className='text-highlighter'>Původ:</span> Čistokrevná</p>
-    <p><span className='text-highlighter'>Národnost:</span> Peru</p>
+    <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>
+    <p><span className='text-highlighter'>Národnost:</span> Peruánská</p>
     <p><span className='text-highlighter'>Bydliště:</span> Arequipa, Peru</p>
 
     <hr/>
     <p><span className='text-highlighter'>Faceclaim:</span> Alexxis Lemire</p>
     <p><span className='text-highlighter'>Výška:</span> 170 cm</p>
     <p><span className='text-highlighter'>Váha:</span> 59 kg</p>
-    <p><span className='text-highlighter'>Barva očí:</span> Hnědé</p>
+    <p><span className='text-highlighter'>Barva očí:</span> Hnědá</p>
     <p><span className='text-highlighter'>Barva vlasů:</span> Tmavě hnědá</p>
 
     <hr/>

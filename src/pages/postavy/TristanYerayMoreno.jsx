@@ -2,16 +2,13 @@ import React from 'react'
 
 import tristan_01 from '../../img/medailonky/tristan_yeray_moreno_01.png';
 
-
-
 const TristanYerayMoreno = () => (
   <div>
 
-    {/* id = 10927 */}
       <div className="main-header"><h1>Tristán Yeray Moreno</h1></div>
-
-    <img src={tristan_01} className='img-in-text-big img-in-text-right'/>
-
+      {/* id = 10927 */}
+      
+      <img src={tristan_01} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 5. prosince 1964</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>
@@ -30,7 +27,7 @@ const TristanYerayMoreno = () => (
 
       <hr/>
       <p><span className='text-highlighter'>Kmen</span> (během studia): Arashar (sladký)</p>
-      <p><span className='text-highlighter'>Hlavní předměty:</span> Rituální magie, herbální alchymie</p>
+      <p><span className='text-highlighter'>Vyučované předměty:</span> Rituální magie, herbální alchymie</p>
       <p><span className='text-highlighter'>Další aprobace:</span> Obecná magibotanika, aplikovaná magibotanika,
           lékouzelnictví, přírodní magie, cizokrajné jedy a protijedy, historie amazonské magie, jazyk a kultura kmenů
       </p>

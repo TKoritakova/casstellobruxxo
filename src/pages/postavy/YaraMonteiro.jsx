@@ -1,11 +1,14 @@
 import React from 'react'
 
-
+import yara_m from '../../img/medailonky/yara_monteiro.jpg';
 
 const YaraMonteiro = () => (
   <div>
 
       <div className="main-header"><h1>Yara Monteiro</h1></div>
+      {/* id = 10890 */}
+      
+      <img src={yara_m} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 10. června 1992</p>
       <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

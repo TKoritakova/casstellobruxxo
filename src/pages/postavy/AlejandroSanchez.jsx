@@ -2,14 +2,13 @@ import React from 'react'
 
 import alex from '../../img/medailonky/alejandro_sanchez.jpg';
 
-
 const AlejandroSanchez = () => (
   <div>
 
     <div className="main-header"><h1>Alejandro Sánchez</h1></div>
     {/* id = 10877 */}
 
-    <img src={alex} className='img-in-text img-in-text-right'/>
+    <img src={alex} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 28. dubna 1993</p>
     <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>

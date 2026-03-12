@@ -1,10 +1,13 @@
 import React from 'react'
 
-
+import lu from '../../img/medailonky/luana_mariana_almeida_soares_01.png';
 
 const LuanaMarianaAlmeidaSoares = () => (
   <div>
       <div className="main-header"><h1>Luana Mariana Almeida Soares</h1></div>
+      {/* id = 10947 */}
+
+      <img src={lu} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 7. dubna 1991</p>
       <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
