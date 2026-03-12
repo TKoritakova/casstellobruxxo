@@ -1,6 +1,6 @@
 import React from 'react'
 
-import kira from '../../img/medailonky/kira_soraia_rozrigues.jpg';
+import kira from '../../img/medailonky/kira_rodrigues.jpg';
 
 const KiraSoraiaRodrigues = () => (
   <div>
