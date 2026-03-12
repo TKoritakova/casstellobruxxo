@@ -8,7 +8,7 @@ const InesSorayaCaro = () => (
     <div className="main-header"><h1>Inés Soraya Caro</h1></div>
     {/* id = 11033 */}
 
-    <img src={ines} className='img-in-text-big img-in-text-right'/>
+    <img src={ines} className='img-in-text img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 16. února 1992</p>
     <p><span className='text-highlighter'>Původ:</span> Čistokrevná</p>

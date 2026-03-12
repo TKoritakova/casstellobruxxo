@@ -9,7 +9,7 @@ const AlejandroSanchez = () => (
     <div className="main-header"><h1>Alejandro Sánchez</h1></div>
     {/* id = 10877 */}
 
-    <img src={alex} className='img-in-text-big img-in-text-right'/>
+    <img src={alex} className='img-in-text img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 28. dubna 1993</p>
     <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>
