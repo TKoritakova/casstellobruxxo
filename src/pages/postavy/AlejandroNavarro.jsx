@@ -1,10 +1,13 @@
 import React from 'react'
 
-
+import jandro from '../../img/medailonky/alejandro_navarro.jpg';
 
 const AlejandroNavarro = () => (
   <div>
       <div className="main-header"><h1>Alejandro Navarro</h1></div>
+      {/* id = 11035 */}
+
+      <img src={jandro} className='img-in-text-big img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 12. prosince 1990</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>

@@ -1,5 +1,6 @@
 import React from 'react'
 
+import karamelka from '../../img/medailonky/alejandro_navarro.jpg';
 
 const CarmillaIrisJose = () => (
   <div>

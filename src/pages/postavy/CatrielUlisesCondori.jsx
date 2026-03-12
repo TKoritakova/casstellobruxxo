@@ -1,10 +1,14 @@
 import React from 'react'
 
+import cato from '../../img/medailonky/catriel_ulises_condori_01.jpg';
+
 
 const CatrielUlisesCondori = () => (
   <div>
     <div className="main-header"><h1>Catriel Ulises Condori</h1></div>
     {/* id = 10931 */}
+
+    <img src={cato} className='img-in-text-big img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 21. února 1993</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

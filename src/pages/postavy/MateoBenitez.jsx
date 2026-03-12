@@ -15,7 +15,7 @@ const MateoBenitez = () => (
 
     <hr/>
     <p><span className='text-highlighter'>Faceclaim:</span> Marcel Ruiz</p>
-    <p><span className='text-highlighter'>Výška:</span>179 cm</p>
+    <p><span className='text-highlighter'>Výška:</span> 179 cm</p>
     <p><span className='text-highlighter'>Váha:</span> 68 kg</p>
     <p><span className='text-highlighter'>Barva očí:</span> Hnědá</p>
     <p><span className='text-highlighter'>Barva vlasů:</span> Hnědá</p>
@@ -61,7 +61,8 @@ const MateoBenitez = () => (
     <p>So zvyškom rodiny to je striedavé. Ak už o rodine rozpráva, ten zvyšok spomenie, ale nikdy nie do detailu.
       Nechváli sa istým intímnym povolaním svojej tety, ani o pochybných striedavých povolaniach svojho strýka a len
       zriedka sa zmieni o svojej mŕtvej tete. Zverí sa s týmito vecami len nesmierne blízkym osobám…</p>
-    <p>Túži po vlastnej rodine. Jedného dňa v budúcnosti. Ale to je už trochu iná kapitola…</p>
+    <p><span
+      className="text-highlighter">Túži po vlastnej rodine</span>. Jedného dňa v budúcnosti. Ale to je už trochu iná kapitola…</p>
     <h2>Štúdium</h2>
     <hr/>
     <p>Nie je asi predmetu, ktorý neštuduje. <i>(S výnimkou histórie amazónskej mágie, ktorú jeden rok skúsil a následne
@@ -141,7 +142,7 @@ const MateoBenitez = () => (
     <h3>Holka (a bývalá šikanátorka)</h3>
     <p><span className="text-highlighter">Sofía Sánchez</span> – Keby tu mal byť opísaný celý ich komplikovaný vzťah,
       tak to zaberie niekoľko stránok. Najpodstatnejšie je snáď povedať, že napriek ich hrboľatej minulosti ju má rád. I
-      viac ako rád. <i>(On si ju raz veh3</i></p>
+      viac ako rád. <i>(On si ju raz vezme!)</i></p>
 
     <h3>Dobrí kamaráti</h3>
     <p><span className="text-highlighter">Alex Sánchez</span> – Ku komu inému má chodiť hrať videohry?</p>

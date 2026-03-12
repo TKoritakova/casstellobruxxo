@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import gabina from '../../img/medailonky/alejandro_navarro.jpg';
 
 const GabrielSebastianAlmeidaSoares = () => (
   <div>

@@ -1,17 +1,20 @@
 import React from 'react'
 
+import juan from '../../img/medailonky/juan_ramirez.jpg';
 
 const JuanMiguelSantosRamirez = () => (
   <div>
     <div className="main-header"><h1>Juan Miguel Santos Ramírez</h1></div>
     {/* id = 10889 */}
 
+    <img src={juan} className='img-in-text-big img-in-text-right'/>
+
     <p><span className='text-highlighter'>Narozeniny:</span> 3. září 1991</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
     <p><span className='text-highlighter'>Národnost:</span> Mexická</p>
     <p><span className='text-highlighter'>Bydliště:</span> 850 C. 23 Sur, San Miguel de Cozumel, Quintana Roo, Mexico
     </p>
-    <p><span className='text-highlighter'>Jazyky:</span> plynule mluví španělsky, anglicky a náhuatlem, obstojně
+    <p><span className='text-highlighter'>Jazyky:</span> Plynule mluví španělsky, anglicky a náhuatlem, obstojně
       zvládá portugalštinu a dorozumí se i trochu guaraní a mayštinou</p>
 
     <hr/>
