@@ -26,8 +26,7 @@ const LuanaMarianaAlmeidaSoares = () => (
       <hr/>
       <p><span className='text-highlighter'>Kmen:</span> Kuaraori (hořký)</p>
       <p><span className='text-highlighter'>Hlavní oborový předmět:</span> Magibotanika</p>
-      <p><span className='text-highlighter'>Další předměty:</span> aplikovaná magibotanika, přírodní magie, rituální
-          magie, chov a ochrana tvorů, herbální alchymie, jazyk a kultura kmenů, historie amazonské magie</p>
+      <p><span className='text-highlighter'>Další předměty:</span> Aplikovaná magibotanika, přírodní magie, rituální magie, chov a ochrana tvorů, herbální alchymie, jazyk a kultura kmenů, historie amazonské magie</p>
       <p><span className='text-highlighter'>Patron:</span> Neobjeven</p>
       <p><span className='text-highlighter'>Bubák:</span> Ona sama stará, vetchá, slabá, naprosto bezmocná</p>
       <p><span className='text-highlighter'>Hůlka:</span> Dřevo z lísky s jádrem z blány dračího srdce</p>
