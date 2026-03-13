@@ -2,6 +2,8 @@ import React from 'react'
 
 import chiara from '../../img/medailonky/chiara_antonia_jose.jpg';
 
+import rajka from '../../img/medailonky/bird_of_paradise.webp';
+
 const ChiaraAntoniaJose = () => (
   <div>
 
@@ -91,12 +93,15 @@ const ChiaraAntoniaJose = () => (
 
       <h2>Zvláštní znaky</h2>
       <hr/>
-      <p>Na jejím těle najdeme několik specifických <span className="text-highlighter">tetování</span>: králíčka na
-          pravé noze, dva malé delfínky na levé noze a malou hvězdičku kousek od klíční kosti. Na krku nosí
-          nápadný <span className="text-highlighter">řetízek s flakonkem</span> ve tvaru srdce, uvnitř kterého je nějaká
-          červená tekutina. Zvláštní vztah má ke svým vlasům. Jsou totiž složité na úpravu, a proto je vlastně nemá moc
-          ráda, což řeší tím, že v nich často nosí šátky. Z toho důvodu také nesnáší, když jí na vlasy kdokoliv sahá. Od
-          matky si díky nim vysloužila svou neoblíbenou <span className="text-highlighter">přezdívku Ovečka</span>.</p>
+      <p>Na jejím těle najdeme několik specifických <span className="text-highlighter">tetování</span>: králíčka na pravé noze, dva malé delfínky na levé noze a malou hvězdičku kousek od klíční kosti. Na krku nosí nápadný <span className="text-highlighter">řetízek s flakonkem</span> ve tvaru srdce, uvnitř kterého je nějaká červená tekutina. Zvláštní vztah má ke svým vlasům. Jsou totiž složité na úpravu, a proto je vlastně nemá moc ráda, což řeší tím, že v nich často nosí šátky. Z toho důvodu také nesnáší, když jí na vlasy kdokoliv sahá. Od matky si díky nim vysloužila svou neoblíbenou <span className="text-highlighter">přezdívku Ovečka</span>.</p>
+
+      <h2>Schopnost zvěromagie</h2>
+      <hr />
+      <p>Už od malička se <span className="text-highlighter">zajímá o ohrožené druhy</span> a její největší hnací silou je touha pomáhat jim tak, aby nemuseli žít zavření v rezervacích. Obrovskou inspirací je jí práce její matky, na kterou chce navázat a dokázat, že i zdánlivě nemožné věci se dají realizovat. Během svých sedmi let na škole se naplno věnovala všeobecné magizoologii a ochraně a chovu magických tvorů. Když během samostudia narazila na zvěromagii jako na způsob, jak <span className="text-highlighter">s tvory splynout a dostat se k nim co nejblíže</span>, aniž by z ní měli strach, neváhala ani vteřinu. Přesně to totiž byla ta správná zkouška pro její <span className="text-highlighter">odvahu</span>, <span className="text-highlighter">trpělivost</span> a <span className="text-highlighter">vytrvalost</span>.</p>
+
+    <img src={rajka} className='img-in-text img-in-text-right'/>
+
+      <p>Její zvěromážskou podobou se stala <span className="text-highlighter">rajka</span>. Chiara tohoto exotického ptáka nesmírně obdivuje a považuje ho za naprosto ideálního tvora pro dokonalé přilnutí k místní přírodě. Rajka jí umožňuje nenápadně se adaptovat v pralese a pozorovat ohrožené druhy v jejich přirozeném prostředí, aniž by byla hned odhalena. Koneckonců, kdo by taky podezříval ptáka?</p>
 
   </div>
 )
