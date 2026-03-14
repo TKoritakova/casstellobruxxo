@@ -1,14 +1,15 @@
 import React from 'react'
 
 import kajetan from '../../img/medailonky/caetano_murhala.jpg';
+import harpyje from '../../img/medailonky/caetano_murhala_02.jpg';
 
 const CaetanoMurhala = () => (
   <div>
 
     <div className="main-header"><h1>Caetano Murhala</h1></div>
     {/* id = 10926 */}
-    
-    <img src={kajetan} className='img-in-text-big img-in-text-right'/>
+
+    <img alt="Caetano Murhala" src={kajetan} className='img-in-text-big img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 17. srpna 1954</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
@@ -65,6 +66,36 @@ const CaetanoMurhala = () => (
       stejně tak na předávání svých vlastních <span className='text-highlighter'>zkušeností z praxe</span>. Dává hodně
       prostoru pro diskuzi nebo dotazy. Během toho všeho si ale udržuje respekt a profesionalitu. A to platí ještě o
       něco málo víc nyní – od začátku školního roku 2008/09 totiž zaujímá pozici <span className='text-highlighter'>zástupce školy</span>.
+    </p>
+
+    <h2>Schopnost zvěromagie</h2>
+    <hr/>
+    <p>Skutečnost, že se během studia hodně zabýval fungováním přírody, magickými tvory nebo rostlinami, ho dovedla k
+      myšlence, že by se mohl stát <span className='text-highlighter'>zvěromágem</span>. Touha nabýt této schopnosti
+      nepramenila z toho, že by chtěl mít větší moc či schopnosti, nebo že by si chtěl něco dokázat, ale z potřeby <span
+        className='text-highlighter'>trávit co nejvíce času v přírodě</span> – přirozeně a bez jejího narušování. Už
+      během svého studia si totiž uvědomoval, že lidská přítomnost, ať je sebeopatrnější, narušuje přirozené fungování
+      pralesa. Schopnost <span className='text-highlighter'>naplno s přírodou splynout</span> mu tak umožnila pozorovat
+      přírodu takovou, jaká opravdu je.
+    </p>
+
+    <img alt="harpyje pralesní" src={harpyje} className='img-in-text img-in-text-right'/>
+
+    <p>Jeho zvířecí podobou se stala majestátní <span className='text-highlighter'>harpyje pralesní</span>. Harpyje
+      je <span className='text-highlighter'>tichý a vytrvalý pozorovatel</span>, který z korun vysokých stromů dohlíží
+      na své teritorium – a když je potřeba zasáhnout, činí tak s velkou silou a dokonalou přesností. Stejně jako si
+      Caetano udržuje svůj respekt a <span className='text-highlighter'>přirozenou autoritu</span>. A raději než být
+      vždy součástí dění volí klidnější prostředí, kde může pozorovat své okolí. Mimo to i fakt, že je harpyje největším
+      jihoamerickým dravcem, odpovídá Caetanově <span className='text-highlighter'>statné postavě</span>.
+    </p>
+
+    <p>Během let strávených v mezinárodní organizaci mu ptačí podoba poskytla neuvěřitelnou <span
+      className='text-highlighter'>taktickou výhodu</span>. Ostrý zrak a schopnost nepozorovaně létat vysoko nad
+      korunami pralesa z něj dělaly postrach všech <span className='text-highlighter'>pytláků</span> a pašeráků zvířat.
+      Dnes pro něj proměna znamená mnohem víc než jen praktický nástroj. V podobě harpyje nachází <span
+        className='text-highlighter'>absolutní svobodu a únik</span>. Je to stav, kdy může vypnout tíživé lidské
+      starosti, odpoutat se od stínů z minulosti a věnovat se <span
+        className='text-highlighter'>čisté meditaci</span> vysoko v oblacích.
     </p>
 
     <h2>Povaha</h2>
