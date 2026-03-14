@@ -45,37 +45,37 @@ const NominovaniStudenti = () => (
     <h2>Pátý ročník</h2>
     <hr/>
     <div className='face-cards-wrapper'>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/alejandro-sanchez" target='_blank'>
           <img src={AlejandroS} className='img-character'/>
           <p><span className='text-highlighter'>Alejandro Sánchez</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/catriel-ulises-condori" target='_blank'>
           <img src={Catriel} className='img-character'/>
           <p><span className='text-highlighter'>Catriel Ulises Condori</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/kira-soraia-rodrigues" target='_blank'>
           <img src={Kira} className='img-character'/>
           <p><span className='text-highlighter'>Kira Soraia Rodrigues</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/lucia-juliana-navarro" target='_blank'>
           <img src={Lucia} className='img-character'/>
           <p><span className='text-highlighter'>Lucia Juliana Navarro</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/melissa-nayra-de-leon" target='_blank'>
           <img src={Melissa} className='img-character'/>
           <p><span className='text-highlighter'>Melissa Nayra de León</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/sofia-sanchez" target='_blank'>
           <img src={SofiaS} className='img-character'/>
           <p><span className='text-highlighter'>Sofía Sánchez</span></p>
@@ -86,55 +86,55 @@ const NominovaniStudenti = () => (
     <h2>Šestý ročník</h2>
     <hr/>
     <div className='face-cards-wrapper'>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/cesar-jesus-gimenez-castillero" target='_blank'>
           <img src={Cesar} className='img-character'/>
           <p><span className='text-highlighter'>César Jesus Giménez Castillero</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/ines-soraya-caro" target='_blank'>
           <img src={Ines} className='img-character'/>
           <p><span className='text-highlighter'>Inés Soraya Caro</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/juan-miguel-santos-ramirez" target='_blank'>
           <img src={Juan} className='img-character'/>
           <p><span className='text-highlighter'>Juan Miguel Santos Ramírez</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/luan-caetanno" target='_blank'>
           <img src={Luan} className='img-character'/>
           <p><span className='text-highlighter'>Luan Caetanno</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/mateo-benitez" target='_blank'>
           <img src={Mateo} className='img-character'/>
           <p><span className='text-highlighter'>Mateo Benítez</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/mikel-ancco-de-leon" target='_blank'>
           <img src={Mikkel} className='img-character'/>
           <p><span className='text-highlighter'>Mikel Ancco de León</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/sofia-amarilis-perez" target='_blank'>
           <img src={SofiaP} className='img-character'/>
           <p><span className='text-highlighter'>Sofia Amarilis Perez</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/yara-quetzal-do-sol" target='_blank'>
           <img src={YaraS} className='img-character'/>
           <p><span className='text-highlighter'>Yara Quetzal do Sol</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/yara-monteiro" target='_blank'>
           <img src={YaraM} className='img-character'/>
           <p><span className='text-highlighter'>Yara Monteiro</span></p>
@@ -145,25 +145,25 @@ const NominovaniStudenti = () => (
     <h2>Sedmý ročník</h2>
     <hr/>
     <div className='face-cards-wrapper'>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/alejandro-navarro" target='_blank'>
           <img src={AlejandroN} className='img-character'/>
           <p><span className='text-highlighter'>Alejandro Navarro</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/chiara-antonia-jose" target='_blank'>
           <img src={Chiara} className='img-character'/>
           <p><span className='text-highlighter'>Chiara Antonia José</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/gabriel-sebastian-almeida-soares" target='_blank'>
           <img src={Gabriel} className='img-character'/>
           <p><span className='text-highlighter'>Gabriel Sebastian Almeida Soares</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/luana-mariana-almeida-soares" target='_blank'>
           <img src={Luana} className='img-character'/>
           <p><span className='text-highlighter'>Luana Mariana Almeida Soares</span></p>
@@ -175,13 +175,13 @@ const NominovaniStudenti = () => (
     <hr/>
 
     <div className='face-cards-wrapper'>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/caetano-murhala" target='_blank'>
           <img src={Murhala} className='img-character'/>
           <p><span className='text-highlighter'>Caetano Murhala</span></p>
         </Link>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/carmilla-iris-jose" target='_blank'>
           <img src={Carmila} className='img-character'/>
           <p><span className='text-highlighter'>Carmila Iris José</span></p>
@@ -199,7 +199,7 @@ const NominovaniStudenti = () => (
         <img src={Jared} className='img-character'/>
         <p><span className='text-highlighter'>Jared Ilai Moreno</span></p>
       </div>
-      <div className='seminar-face-card'>
+      <div className='clickable-face-card'>
         <Link to="/tristan-yeray-moreno" target='_blank'>
           <img src={Tristan} className='img-character'/>
           <p><span className='text-highlighter'>Tristán Yeray Moreno</span></p>

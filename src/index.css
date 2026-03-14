@@ -315,7 +315,7 @@ h3 + img + p, h3 + p  {
     margin: 5px 0px;
 }
 
-.seminar-face-card {
+.clickable-face-card {
     width: 26%;
     display: flex;
     align-items: center;
@@ -324,24 +324,24 @@ h3 + img + p, h3 + p  {
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.seminar-face-card p {
+.clickable-face-card p {
     text-align: center;
     margin: 5px 0 10px;
     color: #4db380;
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-.seminar-face-card a {
+.clickable-face-card a {
     text-decoration: none;
     display: contents;
 }
 
-.seminar-face-card:hover {
+.clickable-face-card:hover {
     transform: translateY(-3px) scale(1.03);
     cursor: pointer;
 }
 
-.seminar-face-card:hover img {
+.clickable-face-card:hover img {
     filter: drop-shadow(0 0 12px rgba(77, 179, 128, 0.6)) brightness(1);
     border-color: #a0ff9d;
 }
@@ -634,7 +634,8 @@ color: #2e8b57;
         flex-wrap: wrap;
     }
 
-    .student-face-card {
+    .student-face-card,
+    .clickable-face-card {
         width: 35%;
     }
 
