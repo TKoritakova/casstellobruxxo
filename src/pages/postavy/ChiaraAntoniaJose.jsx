@@ -101,7 +101,7 @@ const ChiaraAntoniaJose = () => (
 
       <img src={rajka} className='img-in-text img-in-text-right'/>
 
-      <p>Její zvěromážskou podobou se stala <span className="text-highlighter">rajka</span>. Chiara tohoto exotického ptáka nesmírně obdivuje a považuje ho za naprosto ideálního tvora pro dokonalé přilnutí k místní přírodě. Rajka jí umožňuje nenápadně se adaptovat v pralese a pozorovat ohrožené druhy v jejich přirozeném prostředí, aniž by byla hned odhalena. Koneckonců, kdo by taky podezříval ptáka?</p>
+      <p>Její zvěromážskou podobou se stala <span className="text-highlighter">rajka</span>. Spojuje je <span className="text-highlighter">láska k tanci</span> a snaha si za každé příležitosti <span className="text-highlighter">získat pozornost</span>. Zatímco rajky se pyšní svými dlouhými ocasními pery, Chiara na obdiv s oblibou vystavuje své vlasy, které ráda zdobí nejrůznějšími šátky. Pojí je navíc i velmi podobný přístup k životu a <span className="text-highlighter">perfekcionismus</span> – obě jsou totiž ochotné investovat obrovské množství energie do toho, aby výsledek jejich snahy stál za to a všem ukázal, že jde o naprostou a nezpochybnitelnou kvalitu.</p>
 
   </div>
 )
