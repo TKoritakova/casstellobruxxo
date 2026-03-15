@@ -28,12 +28,6 @@ import Carmila from '../../img/postavy/carmila_iris_jose.png';
 import Demetrio from '../../img/postavy/demetrio_agamez.png';
 import Jared from '../../img/postavy/jared_ilai_moreno.png';
 import Tristan from '../../img/postavy/tristan_yeray_moreno.png';
-import Archeologie from "../../img/turnaj/seminare/archeologie.png";
-import Artefakty from "../../img/turnaj/seminare/artefakty.png";
-import Komunikace from "../../img/turnaj/seminare/komunikace.png";
-import Kanoe from "../../img/turnaj/seminare/kanoe.png";
-import Ritualka from "../../img/turnaj/seminare/ritualni_magie.png";
-import Zveromagie from "../../img/turnaj/seminare/zveromagie.png";
 
 const NominovaniStudenti = () => (
   <div>
