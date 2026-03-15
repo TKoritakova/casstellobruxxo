@@ -7,7 +7,7 @@ const KiraSoraiaRodrigues = () => (
       <div className="main-header"><h1>Kira Soraia Rodrigues</h1></div>
       {/* id = 10880 */}
 
-      <img src={kira} className='img-in-text img-in-text-right'/>
+      <img src={kira} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 17. listopadu 1992</p>
       <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

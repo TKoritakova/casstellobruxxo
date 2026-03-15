@@ -1,10 +1,13 @@
 import React from 'react'
 
-
+import mikel from '../../img/medailonky/mikel_de_leon.jpg';
 
 const MikelAnccoDeLeon = () => (
   <div>
       <div className="main-header"><h1>Mikel Ancco de León</h1></div>
+      {/* id = 10902 */}
+      
+      <img src={mikel} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 20. března 1992</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>
@@ -42,8 +45,7 @@ const MikelAnccoDeLeon = () => (
 
       <h2>Povaha</h2>
       <hr/>
-      <p>Typologicky je Mikel ukázkový <span className="text-highlighter">INFP</span>. Je to tichý a introspektivní
-          p<span className="text-highlighter">ozorovatel</span>, který raději naslouchá, než aby se dral do středu dění.
+      <p>Typologicky je Mikel ukázkový <span className="text-highlighter">INFP</span>. Je to tichý a introspektivní <span className="text-highlighter">pozorovatel</span>, který raději naslouchá, než aby se dral do středu dění.
           Z velkých davů bývá nervózní a drží se spíše na okraji, ale rozhodně to není úplný samotář – <span
             className="text-highlighter">společnost má rád, jen prostě nepotřebuje být hlavní hvězdou</span>. Jakožto
           správný <span className="text-highlighter">snílek</span> se snadno ztratí ve vlastních myšlenkách nebo s

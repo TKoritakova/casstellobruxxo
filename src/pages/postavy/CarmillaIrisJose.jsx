@@ -1,12 +1,14 @@
 import React from 'react'
 
-import karamelka from '../../img/medailonky/alejandro_navarro.jpg';
+import karamelka from '../../img/medailonky/carmilla_jose.jpg';
 
 const CarmillaIrisJose = () => (
   <div>
 
     <div className="main-header"><h1>Carmilla Iris José</h1></div>
     {/* id = 10929 */}
+
+    <img src={karamelka} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 3. února 1963</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

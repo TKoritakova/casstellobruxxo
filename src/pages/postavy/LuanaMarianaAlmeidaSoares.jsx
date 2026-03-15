@@ -1,10 +1,15 @@
 import React from 'react'
 
+import lu from '../../img/medailonky/luana_mariana_almeida_soares_01.png';
 
+import ocelot from '../../img/medailonky/ocelot_luana_02.jpg';
 
 const LuanaMarianaAlmeidaSoares = () => (
   <div>
       <div className="main-header"><h1>Luana Mariana Almeida Soares</h1></div>
+      {/* id = 10947 */}
+
+      <img src={lu} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 7. dubna 1991</p>
       <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
@@ -21,8 +26,7 @@ const LuanaMarianaAlmeidaSoares = () => (
       <hr/>
       <p><span className='text-highlighter'>Kmen:</span> Kuaraori (hořký)</p>
       <p><span className='text-highlighter'>Hlavní oborový předmět:</span> Magibotanika</p>
-      <p><span className='text-highlighter'>Další předměty:</span> aplikovaná magibotanika, přírodní magie, rituální
-          magie, chov a ochrana tvorů, herbální alchymie, jazyk a kultura kmenů, historie amazonské magie</p>
+      <p><span className='text-highlighter'>Další předměty:</span> Aplikovaná magibotanika, přírodní magie, rituální magie, chov a ochrana tvorů, herbální alchymie, jazyk a kultura kmenů, historie amazonské magie</p>
       <p><span className='text-highlighter'>Patron:</span> Neobjeven</p>
       <p><span className='text-highlighter'>Bubák:</span> Ona sama stará, vetchá, slabá, naprosto bezmocná</p>
       <p><span className='text-highlighter'>Hůlka:</span> Dřevo z lísky s jádrem z blány dračího srdce</p>
@@ -67,6 +71,15 @@ const LuanaMarianaAlmeidaSoares = () => (
           Společnost jí pak dělá její největší zvířecí láska – ocelotí kotě jménem Aurí, se kterým se baví i ve
           chvílích, kdy lidskou společnost vyloženě ignoruje. Naopak bytostně nesnáší cokoliv, co má šest a více nohou.
       </p>
+
+
+      <h2>Schopnost zvěromagie</h2>
+      <hr />
+      <p>Možná na první pohled nepůsobí jako úplně ideální kandidátka pro tak náročnou a precizní magii – mívá totiž problém se sebekontrolou a ve stresových situacích jedná mnohdy impulzivně. Právě to je ale ten hlavní důvod, proč ji zvěromágie tolik přitahuje. Nevnímá ji jako pouhou magickou výhodu, nýbrž jako složitou <span className="text-highlighter">osobní cestu</span>, jak v sobě najít rovnováhu, ukotvit se a lépe porozumět sobě i vlastním hranicím. Od dětství má velmi <span className="text-highlighter">blízko k přírodě</span>, a to ne v romantickém stylu „miluju zvířátka“, ale skrze mnohem hlubší respekt k jejím zákonitostem a přirozenému řádu. Jde u ní o instinktivní vnímání toho, kde má co své přesné místo. Ačkoliv má někdy problém toto vnímání plynule začlenit do normálního světa (i když se v tom postupně lepší), v jádru je nesmírně <span className="text-highlighter">cílevědomá</span> a <span className="text-highlighter">houževnatá</span>. Když jí na něčem skutečně záleží, dokáže v sobě najít <span className="text-highlighter">nečekanou trpělivost</span>, a proto celý tento proces uchopila jako obrovskou příležitost k osobnímu růstu a rozvoji.</p>
+
+      <img src={ocelot} className='img-in-text img-in-text-right'/>
+
+      <p>Její zvěromážskou podobou se stal <span className="text-highlighter">ocelot</span>. Tato šelma naprosto dokonale rezonuje s její bytostnou <span className="text-highlighter">potřebou prostoru, ticha a rovnováhy</span>. Ocelot je samotářské a teritoriální zvíře, které ale zároveň umí být velmi zvědavé a hravé. Dokáže fungovat nenápadně, ale přitom naprosto sebejistě – a přesně taková je i Luanina vnitřní dynamika. Většinu času je <span className="text-highlighter">klidná a vnímavá</span>, umí se mezi lidmi bez problémů zapojit, <span className="text-highlighter">bavit se i vtipkovat</span>, ale často ji to stojí mnohem víc energie, než dává navenek vůbec znát. Po takovém výkonu nutně potřebuje <span className="text-highlighter">čas jen sama pro sebe</span>, ideálně někde hluboko v přírodě, kde má svůj vlastní bezpečný prostor a může prostě jen „být“, bez jakéhokoliv tlaku a očekávání okolí. Ocelot tak naprosto přesně vystihuje její vnitřní rytmus: schopnost být pevnou součástí kolektivu, ale zároveň i tu nejhlubší potřebu klidu a nevyhnutelného návratu sama k sobě.</p>
 
 
   </div>

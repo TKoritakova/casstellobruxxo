@@ -1,9 +1,13 @@
 import React from 'react'
 
+import mel from '../../img/medailonky/melissa_de_leon.jpg';
 
 const MelissaNayraDeLeon = () => (
   <div>
     <div className="main-header"><h1>Melissa Nayra de León</h1></div>
+    {/* id = 10905 */}
+    
+    <img src={mel} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 31. prosince 1992</p>
     <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>

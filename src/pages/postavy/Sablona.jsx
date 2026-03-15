@@ -1,10 +1,14 @@
 import React from 'react'
 
+import JMENO OBRAZKU from '../../img/medailonky/NAZEV OBRAZKU VE SLOZCE';
 
 const Sablona = () => (
   <div>
 
     <div className="main-header"><h1>JMENO</h1></div>
+    {/* ID */}
+    
+    <img src={JMENO OBRAZKU} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span></p>
     <p><span className='text-highlighter'>Původ:</span></p>

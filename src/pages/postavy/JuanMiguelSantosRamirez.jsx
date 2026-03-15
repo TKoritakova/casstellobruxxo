@@ -2,12 +2,14 @@ import React from 'react'
 
 import juan from '../../img/medailonky/juan_ramirez.jpg';
 
+import sugar_glider from '../../img/medailonky/sugar_glider.jpg';
+
 const JuanMiguelSantosRamirez = () => (
   <div>
     <div className="main-header"><h1>Juan Miguel Santos Ramírez</h1></div>
     {/* id = 10889 */}
 
-    <img src={juan} className='img-in-text-big img-in-text-right'/>
+    <img src={juan} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 3. září 1991</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
@@ -33,8 +35,7 @@ const JuanMiguelSantosRamirez = () => (
       kmenů, hudba a magie</p>
     <p><span className='text-highlighter'>Patron:</span> Vakoveverka létavá</p>
     <p><span className='text-highlighter'>Bubák:</span> Obří pijavice</p>
-    <p><span className='text-highlighter'>Hůlka:</span> Dřevo z cypřiše s jádrem z drápu chupacabry, 11 palců, mírně
-      poddajná</p>
+    <p><span className='text-highlighter'>Hůlka:</span> Dřevo z cypřiše s jádrem z drápu chupacabry, 11 palců, mírně poddajná</p>
 
 
     <h2>Rodina</h2>
@@ -67,10 +68,15 @@ const JuanMiguelSantosRamirez = () => (
 
     <h2>Zájmy a zajímavosti</h2>
     <hr/>
-    <p>Ve studiu se specializuje na magibotaniku a jeho zájmy přesahují i do mudlovských oborů, jako je chemie,
-      biologie, genetika a bioinformatika. <span className="text-highlighter">Během nočních hodin často dělá nejrůznější pokusy</span> a
-      tvoří hybridy ovoce. Jeho patronem i zvěromážskou podobou je vakoveverka létavá. Trpí alergií na dýně a vrbu.
-    </p>
+    <p>Ve studiu se specializuje na magibotaniku a jeho zájmy přesahují i do mudlovských oborů, jako je chemie, biologie, genetika a bioinformatika. <span className="text-highlighter">Během nočních hodin často dělá nejrůznější pokusy</span> a tvoří hybridy ovoce. Jeho patronem i zvěromážskou podobou je vakoveverka létavá. Trpí alergií na dýně a vrbu.</p>
+
+    <h2>Schopnost zvěromagie</h2>
+    <hr />
+    <p>Juan má už od dětství velmi <span className="text-highlighter">blízko k přírodě</span>, což se odráží v jeho studiu magizoologie a péči o zachráněného pásovce či fenka. Ke zvířatům chová hlubokou úctu. Když se poprvé dozvěděl o zvěromagii, jeho ambiciózní a <span className="text-highlighter">cílevědomá povaha</span> se projevila naplno. Byl natolik motivovaný, že proces neváhal konzultovat s profesory i přátelskými kmeny a pokoušel se tak dlouho, dokud neuspěl.</p>
+
+    <img src={sugar_glider} className='img-in-text img-in-text-right'/>
+
+    <p>Jeho zvěromážskou podobou je <span className="text-highlighter">vakoveverka létavá</span>, což naprosto <span className="text-highlighter">dokonale odráží jeho fyzické předpoklady i osobnost</span>. Stejně jako tento drobný tvor je i Juan <span className="text-highlighter">hravý</span>, <span className="text-highlighter">mrštný</span> a má obrovskou slabost pro <span className="text-highlighter">adrenalin</span>, což dokazuje jeho vášeň pro parkour, šplh nebo surfování. Vakoveverky jsou navíc extrémně <span className="text-highlighter">kontaktní</span> a milují být na někom neustále „nalepené“ – a to naprosto přesně sedí k Juanově povaze, jelikož i on vyhledává společnost, dotyky a fyzickou přítomnost jiných lidí.</p>
 
   </div>
 )
