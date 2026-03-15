@@ -72,7 +72,8 @@ const MikelAnccoDeLeon = () => (
           otce) nebo si s kamarády zahraje <span className="text-highlighter">deskovky</span>. I když v nich moc
           nevyniká, baví ho u toho být s ostatními.</p>
 
-      Neoblíbené věci
+      <h2>Neoblíbené věci</h2>
+      <hr/>
       <p><span className="text-highlighter">Nesnáší svazující pravidla a přehnanou disciplínu</span>; věci si zkrátka
           potřebuje dělat po svém. Kromě kácení pralesů (což kromě těžařů nemá rád asi nikdo) ho <span
             className="text-highlighter">spolehlivě otrávíte zimou a chladem</span> – vždyť tam přece skoro nic
