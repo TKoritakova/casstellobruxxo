@@ -8,7 +8,7 @@ const CatrielUlisesCondori = () => (
     <div className="main-header"><h1>Catriel Ulises Condori</h1></div>
     {/* id = 10931 */}
 
-    <img src={cato} className='img-in-text-big img-in-text-right'/>
+    <img src={cato} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 21. února 1993</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>

@@ -1,10 +1,13 @@
 import React from 'react'
 
-import cesar from '../../img/medailonky/alejandro_navarro.jpg';
+import cesar from '../../img/medailonky/cesar_jesus_gimenez_castillero_02.jpg';
 
 const CesarJesusGimenezCastillero = () => (
   <div>
       <div className="main-header"><h1>César Jesus Giménez Castillero</h1></div>
+      {/* id = 10886 */}
+
+      <img src={cesar} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 11. září 1991</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>

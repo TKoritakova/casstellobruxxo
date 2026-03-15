@@ -1,10 +1,13 @@
 import React from 'react'
 
-
+import sofia from '../../img/medailonky/sofia_sanchez.jpg';
 
 const SofiaSanchez = () => (
   <div>
       <div className="main-header"><h1>Sofía Sánchez</h1></div>
+      {/* id = 10873 */}
+      
+      <img src={sofia} className='img-in-text-small img-in-text-right'/>
 
       <p><span className='text-highlighter'>Narozeniny:</span> 28. dubna 1993</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>

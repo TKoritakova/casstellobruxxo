@@ -164,18 +164,17 @@ header p {
 
 }
 
+.img-in-text-small {
+   width:20%;
+   border: solid 2px #2e8b57;
+   margin: 3px;
+}
+
 .img-in-text {
    width:23%;
    border: solid 2px #2e8b57;
    margin: 3px;
 }
-
-.img-in-text-big {
-    width: 27%;
-    border: solid 2px #2e8b57;
-    margin: 3px;
-}
-
 
 
 .img-in-text-left {

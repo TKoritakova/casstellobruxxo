@@ -2,16 +2,15 @@ import React from 'react'
 
 import tristan_01 from '../../img/medailonky/tristan_yeray_moreno_01.png';
 
-
+import toucan from '../../img/medailonky/toucan_tristan.jpg';
 
 const TristanYerayMoreno = () => (
   <div>
 
-    {/* id = 10927 */}
       <div className="main-header"><h1>Tristán Yeray Moreno</h1></div>
-
-    <img src={tristan_01} className='img-in-text-big img-in-text-right'/>
-
+      {/* id = 10927 */}
+      
+      <img src={tristan_01} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 5. prosince 1964</p>
       <p><span className='text-highlighter'>Původ:</span> Čistokrevný</p>
@@ -30,7 +29,7 @@ const TristanYerayMoreno = () => (
 
       <hr/>
       <p><span className='text-highlighter'>Kmen</span> (během studia): Arashar (sladký)</p>
-      <p><span className='text-highlighter'>Hlavní předměty:</span> Rituální magie, herbální alchymie</p>
+      <p><span className='text-highlighter'>Vyučované předměty:</span> Rituální magie, herbální alchymie</p>
       <p><span className='text-highlighter'>Další aprobace:</span> Obecná magibotanika, aplikovaná magibotanika,
           lékouzelnictví, přírodní magie, cizokrajné jedy a protijedy, historie amazonské magie, jazyk a kultura kmenů
       </p>
@@ -90,8 +89,7 @@ const TristanYerayMoreno = () => (
       <hr/>
       <p>Je to <span className="text-highlighter">vášnivý cestovatel</span> a právě cestování je spolu s <span
         className="text-highlighter">kávou</span> jeho velkou osobní závislostí. Černou kávu pak rád doplní
-          kvalitními <span className="text-highlighter">dýmkami a doutníky</span>, nebo si rád dopřeje <span
-            className="text-highlighter">drahé víno</span>. Z cestování, poznávání nových chutí a kultur a z toulek
+          kvalitními <span className="text-highlighter">dýmkami a doutníky</span>, nebo si rád dopřeje <span className="text-highlighter">drahé víno</span>. Z cestování, poznávání nových chutí a kultur a z toulek
           přírodou si pravidelně tvoří <span className="text-highlighter">terénní zápisky</span> a <span
             className="text-highlighter">cestovatelské deníky</span>. Ačkoliv to zní v přímém rozporu s jeho chaotickou
           povahou, sám přiznává, že by se bez těchto zápisků neobešel. Mezi jeho další zájmy patří <span
@@ -102,6 +100,14 @@ const TristanYerayMoreno = () => (
             className="text-highlighter">horolezectvím</span>, obdivováním <span className="text-highlighter">abstraktního umění</span> či <span
             className="text-highlighter">improvizovanými diskuzemi</span>. Při práci nezapomíná poslouchat <span
             className="text-highlighter">hudbu</span>.</p>
+      
+      <h2>Schopnost zvěromagie</h2>
+      <hr />
+      <p>Ačkoliv se ve společnosti jeví jako rozený extrovert, který hází jeden vtípek za druhým a dokáže se bezprostředně bavit naprosto s kýmkoliv, ve skutečnosti mnohem raději <span className="text-highlighter">vyhledává samotu</span>. Zbožňuje tiché toulky džunglí, kde může nerušeně pozorovat a <span className="text-highlighter">objevovat nové rostliny</span> – a pro některé vzácnější kousky si zkrátka potřebuje doletět. Zvěromágie ho lákala především proto, že mu nabízela jedinečnou možnost, jak <span className="text-highlighter">s přírodou dokonale splynout</span>, hlouběji jí <span className="text-highlighter">porozumět</span>, občas se skrýt před okolním světem a podívat se na něj <span className="text-highlighter">z úplně jiné perspektivy</span>. To, že na sebe vezme zrovna ptačí podobu, sice neměl stoprocentně jisté, ale vzhledem ke svému patronovi to tak nějak podvědomě předpokládal.</p>
+
+      <img src={toucan} className='img-in-text img-in-text-right'/>
+
+      <p>Jeho zvěromážskou podobou je <span className="text-highlighter">tukan žlutohrdlý</span>. Tento exotický pták naprosto dokonale odráží všechny vrstvy Tristánovy osobnosti. Tukani se nejčastěji pohybují vysoko v korunách stromů, což je mimochodem Tristánova oblíbená strategická pozice pro <span className="text-highlighter">tiché pozorování studentů</span>. Výrazné a pestré zbarvení peří skvěle symbolizuje jeho <span className="text-highlighter">zálibu v nápadném a elegantním oblékání</span>, zatímco dlouhý zobák trefně poukazuje na jeho <span className="text-highlighter">výřečnost</span> a vytříbený <span className="text-highlighter">cit pro ironii</span>. Z jeho ptačí formy přímo vyzařuje <span className="text-highlighter">přemýšlivost</span> a životní <span className="text-highlighter">nadhled</span>, který získává právě tím, že svět sleduje s odstupem a pěkně svrchu. V neposlední řadě to má i svůj hluboký mytologický přesah – tukani jsou často vnímáni jako poslové mezi světem lidí a duchů, což nádherně rezonuje s jeho <span className="text-highlighter">duchovní rolí</span> na škole a zálibou v šamanských rituálech.</p>
 
   </div>
 )
