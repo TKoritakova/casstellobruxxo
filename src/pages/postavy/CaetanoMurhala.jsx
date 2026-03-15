@@ -9,7 +9,7 @@ const CaetanoMurhala = () => (
     <div className="main-header"><h1>Caetano Murhala</h1></div>
     {/* id = 10926 */}
 
-    <img alt="Caetano Murhala" src={kajetan} className='img-in-text-big img-in-text-right'/>
+    <img alt="Caetano Murhala" src={kajetan} className='img-in-text-small img-in-text-right'/>
 
     <p><span className='text-highlighter'>Narozeniny:</span> 17. srpna 1954</p>
     <p><span className='text-highlighter'>Původ:</span> Smíšený</p>
