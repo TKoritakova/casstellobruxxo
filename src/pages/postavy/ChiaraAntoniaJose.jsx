@@ -7,7 +7,7 @@ import rajka from '../../img/medailonky/bird_of_paradise.webp';
 const ChiaraAntoniaJose = () => (
   <div>
 
-      <div className="main-header"><h1>Chiara Antonia José</h1></div>
+      <div className="main-header"><h1>Chiara</h1><h1>Antonia</h1><h1>José</h1></div>
       {/* id = 10894 */}
 
       <img src={chiara} className='img-in-text-small img-in-text-right'/>

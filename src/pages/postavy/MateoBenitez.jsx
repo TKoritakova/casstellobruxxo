@@ -4,7 +4,7 @@ import mateo from '../../img/medailonky/mateo_benitez.jpg';
 
 const MateoBenitez = () => (
   <div>
-    <div className="main-header"><h1>Mateo Benítez</h1></div>
+    <div className="main-header"><h1>Mateo</h1><h1>Benítez</h1></div>
     {/* id = 10899 */}
 
     <img src={mateo} className='img-in-text-small img-in-text-right'/>

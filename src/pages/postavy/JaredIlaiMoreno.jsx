@@ -7,7 +7,7 @@ import margay from '../../img/medailonky/margay_jared.jpg';
 const Sablona = () => (
   <div>
 
-    <div className="main-header"><h1>Jared Ilai Moreno</h1></div>
+    <div className="main-header"><h1>Jared</h1><h1>Ilai</h1><h1>Moreno</h1></div>
     {/* id = 10928 */}
     
     <img src={jared} className='img-in-text-small img-in-text-right'/>
@@ -26,12 +26,12 @@ const Sablona = () => (
     <p><span className='text-highlighter'>Barva vlasů:</span> Velmi tmavě hnědá</p>
 
     <hr/>
-    <p><span className='text-highlighter'>Kmen:</span> -</p>
-    <p><span className='text-highlighter'>Vyučované předměty:</span> Obecná magibotanika, Aplikovaná magibotanika</p>
-    <p><span className='text-highlighter'>Další aprobace:</span> -</p>
-    <p><span className='text-highlighter'>Patron:</span> -</p>
+    <p><span className='text-highlighter'>Kmen:</span> Kuaraori</p>
+    <p><span className='text-highlighter'>Vyučované předměty:</span> Obecná magibotanika, Cizokrajné jedy a protijedy, Přírodní magie</p>
+    <p><span className='text-highlighter'>Další aprobace:</span> Historie amazonské magie, Výroba magických artefaktů</p>
+    <p><span className='text-highlighter'>Patron:</span> Čimango falklandský</p>
     <p><span className='text-highlighter'>Bubák:</span> -</p>
-    <p><span className='text-highlighter'>Hůlka:</span> -</p>
+    <p><span className='text-highlighter'>Hůlka:</span> Dřevo z guayacánu s jádrem z tykadla kovopláště</p>
 
     <h2>Historie</h2>
     <hr />

@@ -7,7 +7,7 @@ import jaguarundi from '../../img/medailonky/jaguarundi.jpg';
 const InesSorayaCaro = () => (
   <div>
 
-    <div className="main-header"><h1>Inés Soraya Caro</h1></div>
+    <div className="main-header"><h1>Inés</h1><h1>Soraya</h1><h1>Caro</h1></div>
     {/* id = 11033 */}
 
     <img src={ines} className='img-in-text-small img-in-text-right'/>

@@ -5,7 +5,7 @@ import karamelka from '../../img/medailonky/carmilla_jose.jpg';
 const CarmillaIrisJose = () => (
   <div>
 
-    <div className="main-header"><h1>Carmilla Iris José</h1></div>
+    <div className="main-header"><h1>Carmilla</h1><h1>Iris</h1><h1>José</h1></div>
     {/* id = 10929 */}
 
     <img src={karamelka} className='img-in-text-small img-in-text-right'/>

@@ -6,7 +6,7 @@ import ocelot from '../../img/medailonky/ocelot_luana_02.jpg';
 
 const LuanaMarianaAlmeidaSoares = () => (
   <div>
-      <div className="main-header"><h1>Luana Mariana Almeida Soares</h1></div>
+      <div className="main-header"><h1>Luana</h1><h1>Mariana</h1><h1>Almeida</h1><h1>Soares</h1></div>
       {/* id = 10947 */}
 
       <img src={lu} className='img-in-text-small img-in-text-right'/>

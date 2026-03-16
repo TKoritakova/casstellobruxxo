@@ -4,7 +4,7 @@ import kira from '../../img/medailonky/kira_rodrigues.jpg';
 
 const KiraSoraiaRodrigues = () => (
   <div>
-      <div className="main-header"><h1>Kira Soraia Rodrigues</h1></div>
+      <div className="main-header"><h1>Kira</h1><h1>Soraia</h1><h1>Rodrigues</h1></div>
       {/* id = 10880 */}
 
       <img src={kira} className='img-in-text-small img-in-text-right'/>

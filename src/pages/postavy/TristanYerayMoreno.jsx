@@ -7,7 +7,7 @@ import toucan from '../../img/medailonky/toucan_tristan.jpg';
 const TristanYerayMoreno = () => (
   <div>
 
-      <div className="main-header"><h1>Tristán Yeray Moreno</h1></div>
+      <div className="main-header"><h1>Tristán</h1><h1>Yeray</h1><h1>Moreno</h1></div>
       {/* id = 10927 */}
       
       <img src={tristan_01} className='img-in-text-small img-in-text-right'/>
