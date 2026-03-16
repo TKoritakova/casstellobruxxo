@@ -6,7 +6,7 @@ import coral_snake from '../../img/medailonky/coral_snake_gabriel.jpg';
 
 const GabrielSebastianAlmeidaSoares = () => (
   <div>
-      <div className="main-header"><h1>Gabriel Sebastian Almeida Soares</h1></div>
+      <div className="main-header"><h1>Gabriel</h1><h1> Sebastian</h1><h1> Almeida</h1><h1> Soares</h1></div>
       {/* id = 10877 */}
 
       <img src={gabina} className='img-in-text-small img-in-text-right'/>

@@ -6,7 +6,7 @@ import sugar_glider from '../../img/medailonky/sugar_glider.jpg';
 
 const JuanMiguelSantosRamirez = () => (
   <div>
-    <div className="main-header"><h1>Juan Miguel Santos Ramírez</h1></div>
+    <div className="main-header"><h1>Juan</h1><h1>Miguel</h1><h1>Santos</h1><h1>Ramírez</h1></div>
     {/* id = 10889 */}
 
     <img src={juan} className='img-in-text-small img-in-text-right'/>

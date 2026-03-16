@@ -129,6 +129,11 @@ header p {
  
 }
 
+h1 + h1 {
+    margin-left:13px;
+}
+
+
 .main-header h1::first-letter {
     font-size: 63px;
     padding-right: 2px;

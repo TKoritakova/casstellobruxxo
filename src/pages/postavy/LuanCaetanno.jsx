@@ -5,7 +5,7 @@ import luan from '../../img/medailonky/luan_caetanno.jpg';
 const LuanCaetanno = () => (
   <div>
 
-      <div className="main-header"><h1>Luan Caetanno</h1></div>
+      <div className="main-header"><h1>Luan</h1><h1>Caetanno</h1></div>
       {/* id = 11036 */}
 
       <img src={luan} className='img-in-text-small img-in-text-right'/>

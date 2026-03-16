@@ -5,7 +5,7 @@ import yara_s from '../../img/medailonky/yara_do_sol.jpg';
 const YaraQuetzalDoSol = () => (
   <div>
 
-    <div className="main-header"><h1>Yara Quetzal do Sol</h1></div>
+    <div className="main-header"><h1>Yara</h1><h1>Quetzal do</h1><h1>Sol</h1></div>
     {/* id = 10901 */}
     
     <img src={yara_s} className='img-in-text-small img-in-text-right'/>

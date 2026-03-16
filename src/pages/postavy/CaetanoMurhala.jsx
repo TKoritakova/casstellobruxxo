@@ -6,7 +6,7 @@ import harpyje from '../../img/medailonky/caetano_murhala_02.jpg';
 const CaetanoMurhala = () => (
   <div>
 
-    <div className="main-header"><h1>Caetano Murhala</h1></div>
+    <div className="main-header"><h1>Caetano</h1><h1>Murhala</h1></div>
     {/* id = 10926 */}
 
     <img alt="Caetano Murhala" src={kajetan} className='img-in-text-small img-in-text-right'/>

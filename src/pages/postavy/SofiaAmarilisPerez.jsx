@@ -4,7 +4,7 @@ import sof from '../../img/medailonky/sofia_perez.jpg';
 
 const SofiaAmarilisPerez = () => (
   <div>
-      <div className="main-header"><h1>Sofia Amarilis Perez</h1></div>
+      <div className="main-header"><h1>Sofia</h1><h1>Amarilis</h1><h1>Perez</h1></div>
       {/* id = 10882 */}
       
       <img src={sof} className='img-in-text-small img-in-text-right'/>

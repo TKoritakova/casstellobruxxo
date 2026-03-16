@@ -5,7 +5,7 @@ import cato from '../../img/medailonky/catriel_ulises_condori_01.jpg';
 
 const CatrielUlisesCondori = () => (
   <div>
-    <div className="main-header"><h1>Catriel Ulises Condori</h1></div>
+    <div className="main-header"><h1>Catriel</h1><h1>Ulises</h1><h1>Condori</h1></div>
     {/* id = 10931 */}
 
     <img src={cato} className='img-in-text-small img-in-text-right'/>
