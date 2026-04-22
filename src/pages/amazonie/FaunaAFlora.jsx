@@ -35,6 +35,11 @@ const FaunaAFlora = () => (
     <Link className='game-archive-button with-arrow' to="/mytologie" target="_blank" rel="noopener noreferrer">Číst
       více o mytologii</Link>
 
+    <h2>Fauna</h2>
+    <hr />
+
+    <h3>Caipora</h3>
+
     <img src={caipora} className='img-in-text img-in-text-left'/>
 
     <p>Školní pozemky střeží Caipory – malí, chlupatí <span className='text-highlighter'>duchové džungle</span>,
@@ -50,6 +55,7 @@ const FaunaAFlora = () => (
       pohybu vrhají slabý magický třpyt.
     </p>
 
+    <h3>Kovoplášť obrovský</h3>
 
     <img src={kovoplast} className='img-in-text img-in-text-right'/>
 
@@ -67,6 +73,8 @@ const FaunaAFlora = () => (
       Sběr je však přísně
       regulován. Krovky se mohou získávat pouze z přirozeně uhynulých jedinců nebo z brouků odchovaných na
       specializovaných farmách v odlehlých částech Amazonie.</p>
+    
+    <h3>Krovkovec stínový</h3>
 
     <img src={krovkovec} className='img-in-text img-in-text-left'/>
 
@@ -92,6 +100,8 @@ const FaunaAFlora = () => (
       className='text-highlighter'>nevyžaduje zvláštní ochranu</span>, naopak jeho přítomnost zvyšuje
       ohrožení kovoplášťů obrovských. Studenti Castelobruxa jsou varováni, aby se v období rojení kovoplášťů k vodním
       plochám nepřibližovali – právě tehdy jsou krovkovci nejaktivnější a nejagresivnější.</p>
+    
+    <h3>Vřetenka krvavá</h3>
 
     <img src={vretenka} className='img-in-text img-in-text-right'/>
 
@@ -103,6 +113,8 @@ const FaunaAFlora = () => (
       je <span className='text-highlighter'>zavěsit nad místo spánku čerstvé listy posvátných stromů Xitapê</span>,
       jejichž vůni vřetenky nesnesou.
     </p>
+
+    <h3>Zvonohlídek pralesní</h3>
 
     <img src={zvonohlidek} className='img-in-text img-in-text-left'/>
 
@@ -120,6 +132,11 @@ const FaunaAFlora = () => (
       alespoň do chvíle, než se ozve cvakot kovopláště
       či šelest vřetenky.</p>
 
+    <h2>Flóra</h2>
+    <hr />
+
+    <h3>Guaracura</h3>
+
     <img src={guaracura} className='img-in-text img-in-text-right'/>
 
     <p>Jedná se o popínavou liánu s tmavě fialovými
@@ -130,6 +147,8 @@ const FaunaAFlora = () => (
       chrání okolí před nekontrolovaným působením magie. <span
         className='text-highlighter'>Během bouřek její květy září</span> jemným světlem, takže prales
       působí, jako by v něm svítily stovky malých lampionů.</p>
+
+    <h3>Papratka kajícná</h3>
 
     <img src={papratka} className='img-in-text img-in-text-left'/>
 
@@ -142,6 +161,8 @@ const FaunaAFlora = () => (
       meditačních
       zahradách, i přestože přecitlivělé exempláře občas spustí hromadné „záchvaty lítosti“ studentů.</p>
 
+    <h3>Luminora</h3>
+
     <img src={luminora} className='img-in-text img-in-text-right'/>
 
     <p>Jde o lišejník rostoucí
@@ -152,6 +173,8 @@ const FaunaAFlora = () => (
       Jeho využití je součástí
       výuky orientace v terénu. Studenti se učí lišejník „zklidnit“ a získat si jeho důvěru, aby se později v případě
       nouze stal jejich průvodcem.</p>
+
+    <h3>Šeptalka posměšná</h3>
 
     <img src={septalka} className='img-in-text img-in-text-left'/>
 
