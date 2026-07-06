@@ -191,8 +191,8 @@ const NominovaniStudenti = () => (
       </div>
       <div className='clickable-face-card'>
         <Link to="/jared-ilai-moreno" target='_blank'>
-        <img src={Jared} className='img-character'/>
-        <p><span className='text-highlighter'>Jared Ilai Moreno</span></p>
+          <img src={Jared} className='img-character'/>
+          <p><span className='text-highlighter'>Jared Ilai Moreno</span></p>
         </Link>
       </div>
       <div className='clickable-face-card'>
