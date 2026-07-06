@@ -44,7 +44,7 @@ const JuanMiguelSantosRamirez = () => (
       se rodina <span className="text-highlighter">třikrát stěhovala</span>, přičemž Juan vystřídal bydlení v Mexico
       City, Meridě a San Miguel de Cozumel. Před nástupem na Castelobruxo navštěvoval <span
         className="text-highlighter">mudlovskou školku i základní školu</span>. Má staršího bratra Rica, který
-      studuje v sedmém ročníku v kmeni Arashar, dvanáctiletou sestru Isabel, jež je v prvním ročníku Nomphyrianů, a
+      studuje v sedmém ročníku v kmeni Arashar, dvanáctiletou sestru Isabel, jež je v druhém ročníku Nomphyrianů, a
       pětiletého brášku Emanuela.</p>
 
     <h2>Vzhled</h2>
